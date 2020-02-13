@@ -1,0 +1,91 @@
+<configs>
+	
+	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
+	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
+	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">5</set>
+	
+<append xpath="/buffs">
+
+<buff name="HD Penthrox Injection" tags="drug" icon="ui_game_symbol_stealth">
+	<stack_type value="duration"/>
+	<duration value="120"/>
+	<effect_group>
+		<passive_effect name="LightMultiplier" operation="perc_subtract" value="0.9999" />
+		<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="0.9999"/>
+	</effect_group>
+</buff>
+
+<buff name="BuffGuppies" name_key="Guppies" description_key="You Have Contracted Guppies, You have 10 Minutes To Craft And Use The HD Guppy Test Kit Or your Infection Evolves into Syphilis-Z Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted Guppies"  icon="ui_game_symbol_Guppies" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="600"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffSyphilis-Z">
+			</triggered_effect>
+		</effect_group>
+	</buff>
+
+<buff name="BuffSyphilis-Z" name_key="Syphilis-Z" description_key="Shit!! You've Contracted Syphilis-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Syphilis-Z"  icon="ui_game_symbol_Syphilis-Z" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+		</effect_group>
+	</buff>
+	
+<!--  Valmar Stallionsden War3zuk EDIT -->
+	
+<buff name="buffIncendiaryRound" >
+	
+			<damage_type value="heat"/>
+		<stack_type value="replace"/><duration value="0"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="buffIncendiaryRoundDuration" operation="LT" value="16"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="16"/>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="16"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="buffIncendiaryRoundDuration" operation="LTE" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffIncendiaryRound"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="1,5,11,13">
+				<requirement name="EntityTagCompare" tags="player"/>
+			</passive_effect>
+
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="35"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="-15"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="!EntityTagCompare" tags="player"/>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="10,36,51,56">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="0"/></passive_effect>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="7.5,27,38.2,42">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="1"/></passive_effect>
+
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="5,18,25.5,28">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="2"/></passive_effect>
+
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="4.2,14.9,21.1,23.2">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="3"/></passive_effect>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="3.3,11.9,16.8,18.5">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="4"/></passive_effect>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="2.5,9,12.7,14">
+					<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="5"/></passive_effect>
+			</effect_group>
+		</buff>
+
+</append>
+</configs>

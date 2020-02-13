@@ -1,0 +1,461 @@
+<configs>
+	
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,9</set>
+	
+<append xpath="/lootcontainers">
+
+<lootcontainer id="130" size="10,9" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >
+	</lootcontainer>
+	
+<lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
+	</lootcontainer>
+	
+</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+		<item name="Ammo Supply 9mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 44Mag" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 762mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shotgun" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.01"/>
+		<item name="Ammo Supply DE50" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.01"/>
+		<item name="Food Supply Flare" count="1" prob="0.1"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.01"/>
+		<item name="HD Tactical AR Schematic" count="1" prob="0.005"/>
+		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.005"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Mods Schematic" count="1" prob="0.05"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob="0.005"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item name="Ammo Supply 9mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 44Mag" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 762mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shotgun" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.01"/>
+		<item name="Ammo Supply DE50" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.01"/>
+		<item name="HD Generator Schematic" count="1" prob="0.005"/>
+		<item name="Building Supply Flare" count="1" prob="0.005"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.005"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob="0.005"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob="0.005"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Mods Schematic" count="1" prob="0.05"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob="0.005"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		<item name="HD Forge Schematic" count="1" prob="0.005"/>
+		<item name="HD Wrench Schematic" count="1" prob="0.005"/>
+		<item name="HD Auger Schematic" count="1" prob="0.005"/>
+		<item name="HD Chainsaw Schematic" count="1" prob="0.005"/>
+		<item name="HD Generator Schematic" count="1" prob="0.005"/>
+		<item name="Building Supply Flare" count="1" prob="0.005"/>
+		<item name="HDPumpJackE Schematic" count="1" prob="0.005"/>
+		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
+		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
+		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>
+		<item name="HD PicsBench Schematic" count="1" prob="0.05"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
+		<item name="Ammo Supply 9mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 44Mag" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 762mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shotgun" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.01"/>
+		<item name="Ammo Supply DE50" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.01"/>
+		<item name="HD Forge Schematic" count="1" prob="0.005"/>
+		<item name="HD Wrench Schematic" count="1" prob="0.005"/>
+		<item name="HD Auger Schematic" count="1" prob="0.005"/>
+		<item name="HD Chainsaw Schematic" count="1" prob="0.005"/>
+		<item name="HD First Aid Kit Schematic" count="1" prob="0.005"/>
+		<item name="HD Generator Schematic" count="1" prob="0.005"/>
+		<item name="Ammo Supply Flare" count="1" prob="0.01"/>
+		<item name="Building Supply Flare" count="1" prob="0.01"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.01"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Mods Schematic" count="1" prob="0.05"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob="0.005"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item name="HD Tactical AR Schematic" count="1" prob="0.005"/>
+		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.005"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob="0.005"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Gloves Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Boots Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Legs Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Vest Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Helmet Schematic" count="1" prob="0.005"/>
+		<item name="Ammo Supply Flare" count="1" prob="0.1"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.1"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.1"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Mods Schematic" count="1" prob="0.05"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob="0.005"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
+		<item name="Ammo Supply 9mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 44Mag" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 762mm" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shotgun" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.01"/>
+		<item name="Ammo Supply DE50" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.01"/>
+		<item name="HD Tactical AR Schematic" count="1" prob="0.005"/>
+		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.005"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob="0.005"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob="0.005"/>
+		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Mods Schematic" count="1" prob="0.05"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob="0.005"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='53']" >
+		<item name="HD Forge Schematic" count="1" prob="0.05"/>
+		<item name="HD Wrench Schematic" count="1" prob="0.05"/>
+		<item name="HD Auger Schematic" count="1" prob="0.05"/>
+		<item name="HD Chainsaw Schematic" count="1" prob="0.05"/>
+		<item name="HD Generator Schematic" count="1" prob="0.05"/>
+		<item name="Building Supply Flare" count="1" prob="0.05"/>
+		<item name="HDPumpJackE Schematic" count="1" prob="0.05"/>
+		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
+		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
+		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>
+		<item name="HD PicsBench Schematic" count="1" prob="0.05"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+		<item name="Ammo Supply 9mm" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.2"/>
+		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
+		<item name="HD Tactical AR Schematic" count="1" prob="0.05"/>
+		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.05"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob="0.05"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob="0.05"/>
+		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.05"/>
+		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.05"/>
+		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.05"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Mods Schematic" count="1" prob="0.05"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob="0.005"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+		<item name="Ammo Supply 9mm" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
+		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="HD Military Gloves Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Boots Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Legs Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Vest Schematic" count="1" prob="0.005"/>
+		<item name="HD Military Helmet Schematic" count="1" prob="0.005"/>
+		<item name="Food Supply Flare" count="1" prob="0.1"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.1"/>
+		<item name="HD Tactical AR Schematic" count="1" prob="0.05"/>
+		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.05"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob="0.05"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob="0.05"/>
+		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.05"/>
+		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.05"/>
+		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.05"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Mods Schematic" count="1" prob="0.05"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob="0.005"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.005"/>
+		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='51']" >
+		<item name="HD First Aid Kit Schematic" count="1" prob="0.02"/>
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
+		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
+		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>
+		<item name="HD PicsBench Schematic" count="1" prob="0.05"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='96']" >
+		<item name="HD First Aid Kit Schematic" count="1" prob="0.01"/>
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
+		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
+		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>
+		<item name="HD PicsBench Schematic" count="1" prob="0.05"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='116']" >
+		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
+		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
+		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>
+		<item name="HD PicsBench Schematic" count="1" prob="0.05"/>
+	</append>
+		
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
+	
+<!-- Animal Bear -->
+<lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="medicalFirstAidKit" count="0,1" prob="0.001"/>
+<item name="bookHuntingJournalBears" count="1" prob="0.03"/>
+<item name="bookUrbanCombatAdrenalineRush" count="1" prob="0.001"/>
+<item name="bookWasteTreasuresHoney" count="1" prob="0.001"/>
+<item name="gunPumpShotgun" count="1" prob="0.001"/>
+<item name="ammoShotgunShell" count="10,30" prob="0.001"/>
+<item name="meleeToolChainsaw" count="1" prob="0.001"/>
+</lootcontainer>
+
+<!-- Animal ZombieBear -->
+<lootcontainer id="501" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="medicalFirstAidKit" count="0,1" prob="0.001"/>
+<item name="bookHuntingJournalBears" count="1" prob="0.001"/>
+<item name="bookUrbanCombatControlledBreathing" count="1" prob="0.001"/>
+<item name="bookWasteTreasuresDoors" count="1" prob="0.001"/>
+<item name="gunDoubleBarrelShotgun" count="1" prob="0.001"/>
+<item name="ammoShotgunSlug" count="10,30" prob="0.001"/>
+<item name="meleeToolAuger" count="1" prob="0.001"/>
+</lootcontainer>
+
+<!-- Animal Wolf -->
+<lootcontainer id="502" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="medicalFirstAidKit" count="0,1" prob="0.001"/>
+<item name="bookHuntingJournalWolves" count="1" prob="0.001"/>
+<item name="bookUrbanCombatSneaking" count="1" prob="0.001"/>
+<item name="bookWasteTreasuresWater" count="1" prob="0.001"/>
+<item name="gunHuntingRifle" count="1" prob="0.001"/>
+<item name="ammo762mmBulletBall" count="10,30" prob="0.001"/>
+<item name="meleeToolPickaxeSteel" count="1" prob="0.001"/>
+</lootcontainer>
+
+<!-- Animal Coyote -->
+<lootcontainer id="503" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="medicalFirstAidKit" count="0,1" prob="0.001"/>
+<item name="bookHuntingJournalCoyotes" count="1" prob="0.001"/>
+<item name="bookUrbanCombatRoomClearing" count="1" prob="0.001"/>
+<item name="bookWasteTreasuresSinks" count="1" prob="0.001"/>
+<item name="gunCrossbowIron" count="1" prob="0.001"/>
+<item name="ammoCrossbowBoltIron" count="10,30" prob="0.001"/>
+<item name="meleeToolShovelSteel" count="1" prob="0.001"/>
+</lootcontainer>
+
+<!-- Animal DireWolf -->
+<lootcontainer id="504" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="medicalFirstAidKit" count="0,1" prob="0.001"/>
+<item name="bookHuntingJournalDeer" count="1" prob="0.001"/>
+<item name="bookUrbanCombatLandMines" count="1" prob="0.001"/>
+<item name="bookWasteTreasuresCoffins" count="1" prob="0.001"/>
+<item name="gun44Magnum" count="1" prob="0.001"/>
+<item name="ammo44MagnumBulletBall" count="10,30" prob="0.001"/>
+<item name="meleeToolFireaxeIron" count="1" prob="0.001"/>
+</lootcontainer>
+
+<!-- Animal MountainLion -->
+<lootcontainer id="505" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="medicalFirstAidKit" count="0,1" prob="0.001"/>
+<item name="bookHuntingJournalMountainLions" count="1" prob="0.001"/>
+<item name="bookUrbanCombatLanding" count="1" prob="0.001"/>
+<item name="bookWasteTreasuresAcid" count="1" prob="0.001"/>
+<item name="gunBowCompound" count="1" prob="0.001"/>
+<item name="ammoCrossbowBoltSteelAP" count="10,30" prob="0.001"/>
+<item name="meleeToolClawHammer" count="1" prob="0.001"/>
+</lootcontainer>
+
+<!-- Animal Stag -->
+<lootcontainer id="506" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="resourceBone" count="3,5" prob="0.02"/>
+<item name="resourceLeather" count="3,5" prob="0.02"/>
+<item name="foodRawMeat" count="3,5" prob="0.03"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.03"/>
+</lootcontainer>
+
+<!-- Animal Rabbit -->
+<lootcontainer id="511" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="foodRawMeat" count="2,4" prob="0.03"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.03"/>
+</lootcontainer>
+
+<!-- Animal Chicken -->
+<lootcontainer id="512" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="foodEgg" count="4,8" prob="0.02"/>
+<item name="resourceFeather" count="5,10" prob="0.05"/>
+</lootcontainer>
+
+<!-- Animal Snake -->
+<lootcontainer id="513" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="foodRawMeat" count="1,2" prob="0.02"/>
+<item name="resourceAnimalFat" count="1,2" prob="0.02"/>
+</lootcontainer>
+
+<!-- Animal Boar -->
+<lootcontainer id="514" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="foodRawMeat" count="1,2" prob="0.02"/>
+<item name="resourceAnimalFat" count="1,2" prob="0.02"/>
+</lootcontainer>
+
+<!-- Animal Vulture -->
+<lootcontainer id="515" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<item name="resourceBone" count="1,2" prob="0.02"/>
+<item name="foodRottingFlesh" count="1,2" prob="0.02"/>
+</lootcontainer>
+
+<lootcontainer id="507" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="rareAutomotive" count="1,2" />
+	<item group="rareTools" count="1,2" />
+	<item group="toolParts" count="1,2" />
+	<item group="automotive" count="1,2" />
+	<item group="tools" count="1,2" />
+	<item group="minibikeParts" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="508" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="rareMedicine" count="1,2" />
+	<item group="medicine" count="1,2" />
+	<item group="rareOres" count="1,2" />
+	<item group="herbalRecipes" count="1,2" />
+	<item group="airdropMedicine" count="1,2" />
+	<item group="warmClothes" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="509" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="groupAmmoRegularGunslinger" count="1,2" />
+	<item group="groupAmmoAdvancedGunslinger" count="1,2" />
+	<item group="groupArmor_Light" count="1,2" />
+	<item group="groupWeaponsT3_Boomstick" count="1,2" />
+	<item group="groupWeaponsT3_Machinegunner" count="1,2" />
+	<item group="groupHeroChestLoot" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="510" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="cannedfood" count="1,2" />
+	<item group="coldfood" count="1,2" />
+	<item group="groupApparelClothes" count="1,2" />
+	<item group="shamwaySafeFiller" count="1,2" />
+	<item group="airdropMedicine" count="1,2" />
+	<item group="rareFoodDrink" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="517" count="4,8" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item name="resourceIronFragment" count="5,10" prob="0.05"/>
+	<item name="resourceBone" count="2,4" prob="0.005"/>
+	<item name="resourceNail" count="2,4" prob="0.005"/>
+	<item name="resourceWood" count="10,20" prob="0.005"/>
+	<item name="resourceCloth" count="2,4" prob="0.005"/>
+	<item name="resourceDuctTape" count="2,4" prob="0.005"/>
+	<item name="resourceGlue" count="1,2" prob="0.005"/>
+	<item name="resourceOil" count="1,2" prob="0.005"/>
+	<item name="resourceSpring" count="1,2" prob="0.005"/>
+	<item name="resourceScrapBrass" count="10,20" prob="0.005"/>
+	<item name="resourceCoal" count="10,20" prob="0.005"/>
+	<item name="resourceRockSmall" count="20,80" prob="0.005"/>
+	<item name="resourceClayLump" count="40,120" prob="0.005"/>
+	<item name="resourceOilShale" count="20,120" prob="0.005"/>
+	<item name="resourceCobblestones" count="40,120" prob="0.005"/>
+	<item name="resourceRadiator" count="1,2" prob="0.005"/>
+	<item name="resourceRockSmallBundle" count="1,1" prob="0.0005"/>
+	<item name="resourceWoodBundle" count="1,1" prob="0.005"/>
+	<item name="resourceIronFragmentBundle" count="1,1" prob="0.0005"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1,1" prob="0.0005"/>
+	<item name="resourceLeadBundle" count="1,1" prob="0.0005"/>
+	<item name="resourceCoalBundle" count="1,1" prob="0.0005"/>
+	<item name="resourceOilShaleBundle" count="1,1" prob="0.0005"/>
+	<item name="ammoGasCanBundle" count="1,1" prob="0.0005"/>
+	<item name="resourceSilverNugget" count="2,6" prob="0.0005"/>
+	<item name="resourceGoldNugget" count="2,6" prob="0.0005"/>
+	<item name="resourceRawDiamond" count="2,6" prob="0.0005"/>
+</lootcontainer>
+
+</insertAfter>
+</configs>

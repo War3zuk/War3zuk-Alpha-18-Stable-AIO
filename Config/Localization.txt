@@ -1,0 +1,479 @@
+Key,Source,Context,Changes,English
+
+HDW1866Desc,items,weapons,New,Winchester 1866 continued the trend towards chambering heavier rounds and had an all new and considerably stronger locking block action than the toggle link Model 1886 was a true American express rifle as it could be chambered in the more powerful black powder cartridges of the day such as the .45
+
+HDDSVDDesc,items,weapons,New,The Dragunov is a semi automatic gas operated rifle with a short stroke gas piston system that fires 762 rounds.
+
+HDGunBenchDesc,blocks,,,Build All Weapons And Parts In Here.
+
+HDWorkBenchDesc,blocks,,,Build All Tools And Parts In Here.
+
+HDPicsBenchDesc,blocks,,,Build All XXX Picture Frames And Parts In Here.
+
+HDAmmoBenchDesc,blocks,,,Build All Ammo Types In Here.
+
+HDDBarrelDesc,items,weapons,New,Modern double barreled shotguns often known as doubles are almost universally break open actions with the barrels tilting up at the rear to expose the breech ends of the barrels for unloading and reloading.
+
+HDM3AutoADesc,items,weapons,New,The M3 is an American 45 Caliber submachine gun adopted for United States Army Service.
+
+HDColtM1911SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Colts.
+HDDesertEagleSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Desert Eagles.
+HDMac10AutoSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Mac10 Auto.
+HDMossberg500SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD ShotGuns.
+HDArcticWarfareSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Arctic Warfare.
+HDDragunovSVDScopeDesc,items,,,Military Grade Scope that can be attached to the HD Dragunov SVD.
+HDDragunovSVDSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Dragunov SVD.
+
+HDColtM1911Silencer,items,Item,KgNone,HD Colt M1911 Silencer.
+HDDesertEagleSilencer,items,Item,KgNone,HD Desert Eagle Silencer.
+HDMac10AutoSilencer,items,Item,KgNone,HD Mac 10 Auto Silencer.
+HDMossberg500Silencer,items,Item,KgNone,HD Mossberg 500 Silencer.
+HDArcticWarfareSilencer,items,Item,KgNone,HD Arctic Warfare Silencer.
+HDDragunovSVDScope,items,Item,KgNone,HD Dragunov SVD Scope.
+HDDragunovSVDSilencer,items,Item,KgNone,HD Dragunov SVD Silencer.
+
+HD1911Desc,items,weapons,New,The M1911 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
+
+HD1911ADesc,items,weapons,New,The M1911A1 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
+
+HDFuelSDesc,Block,,,A Very Tough Fuel Tanker for storing Fuel.
+
+HDMac10ADesc,items,weapons,New,The Military Armament Corporation Model 10 officially abbreviated as M10 or M-10 and more commonly known as the MAC-10 is a compact blowback operated machine pistol It is chambered in either 45 ACP or 9mm.
+
+HDPumpJackE,items,Block,KgNone,HD Pump Jack,
+
+HDPumpJackF,items,Block,KgNone,HD Pump Jack,
+
+HDPJEDesc,Block,,,This Pump Jack Will Mine Resources Over Time & Deliver Them For Collection.\n\nLoot From Either The Front Or The Rear Of The Pump
+
+HDMegaVaultDesc,Block,,,A Very Tough Mega Vault for storing Items.
+
+HDTEx5Desc,items,,,Truck Lift = 5Widthx1Depthx6Length.\n\nThis Lift Will Go Up 5 Blocks From Ground Level When Placed.\n\nLift Is Also Lockable
+
+HDTEx10Desc,items,,,Truck Lift = 5Widthx1Depthx6Length.\n\nThis Lift Will Go Up 10 Blocks From Ground Level When Placed.\n\nLift Is Also Lockable
+
+HDSAK47Desc,items,,,The Hybrid AK47 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil.
+
+HDHK33HybridDesc,items,,,The Hybrid HK33 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil.
+
+HDKatanaDesc,items,,,HD Katana made from the Finest Steel Just kidding not really its probably Blunt.
+
+HDWakizashiDesc,items,,,HD Wakizashi made from the Finest Steel Just kidding not really its probably Blunt.
+
+HDJukeBoxReggaeOFF,items,Item,KgNone,HD JukeBox Reggae OFF,
+
+HDJukeBoxReggaeON,items,Item,KgNone,HD JukeBox Reggae ON,
+
+HDJukeBoxReggaeDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Miss Fatty.\n\nTrack 002 Hold Yuh.\n\nTrack 003 Rude Boy.\n\nTrack 004 Wine Slow.\n\nTrack 005 Help me.
+
+HDJukeBoxDubStepOFF,items,Item,KgNone,HD JukeBox DubStep OFF,
+
+HDJukeBoxDubStepON,items,Item,KgNone,HD JukeBox DubStep ON,
+
+HDJukeBoxDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 In My Mind.\n\nTrack 002 Feel Good.\n\nTrack 003 The Girl.\n\nTrack 004 Entropy.\n\nTrack 005 Ghosts N Stuff.
+
+HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed and manufactured by the British company Accuracy International It uses the .50 BGM Rounds And can be improved by adding points into the DeadEye Perk.
+
+HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
+
+HDWDDesc,blocks,Block Building,,This Dispenser that will fill Any Glass Jars you may have without the need for water.
+
+PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless you Engage them.
+
+PoisonVileDesc,items,,,A Key Ingredient in making the Penthrox Injection.
+
+HDGTKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+
+BulletINCDesc,items,,,Ammo designed to set your target on fire.
+
+BulletSHDesc,items,,,Ammo designed to Shock your target.
+
+HDGunOilDesc,itmes,,,HDGun Oil is required in the making of ALL specialised Repair kits.
+
+RepairKitHandGuns,items,Item,KgNone,HD RepairKit Hand Guns,
+RepairKitHandGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hand Guns.
+
+RepairKitAutomaticRifles,items,Item,KgNone,HD RepairKit Automatic Rifles,
+RepairKitAutomaticRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Automatic Guns.
+
+RepairKitShotGuns,items,Item,KgNone,HD RepairKit Shot Guns,
+RepairKitShotGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Shot Guns.
+
+RepairKitHuntingRifles,items,Item,KgNone,HD RepairKit Hunting Rifles,
+RepairKitHuntingRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hunting & Sniper Rifles.
+
+HDM134MBDesc,items,,,This is the Barrel part of the HD Minigun.
+
+HDM134MPDesc,items,,,This is the Housing & Parts of the HD Minigun.
+
+HDM134MMDesc,items,,,This is the Motor & other moving parts to the HD Minigun.
+
+HDFAKDesc,items,,,A More advanced version of the Medical Kit with Max Healing Also removes negative Buffs.
+
+HDLPDesc,items,Tools,New,Hd Lock Picks will allow you to Unlock Hidden Paintings as well as Upgrade broken Work Benches,Forges,Chemistry Stations & Cement Mixers.
+
+HDWrenchDesc,items,Tools,New,Crafted from the Finest Steel this BadBoi will be there for you Craft a better version by putting skill points into the Salvage Operations Perk.
+
+HDChainsawDesc,items,Tools,New,A High Quality Chainsaw for all your needs Craft a better version by putting skill points into the MotherLode Perk.
+
+HDAugerDesc,items,Tools,New,A High Quality Auger for all your needs Craft a better version by putting skill points into the MotherLode Perk.
+
+HDMASDesc,items,armor,New,The highest quality money can buy so these give less penalties place points into LightArmor to craft better versions.
+
+HDS12Desc,items,weapons,New,kick Ass And Chew Bubble Gum with this Militart Grade Pump Shotgun Place points into Boomstick to craft a better version.
+
+HDDEDesc,items,weapons,New,The Desert Eagle is a semi automatic handgun notable for chambering the largest centerfire cartridge of any magazine fed self loading pistol place points into Gunslinger to craft better version.
+
+HDM4A1CDesc,items,weapons,New,The M4A1 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use place points into MachineGunner to craft better versions.
+
+HDTARDesc,items,weapons,New,Manufactured with extensive use of aluminum alloys and synthetic materials. It is a semi-automatic version of the United States military M16 rifle place points into MachineGunner to craft better versions.
+
+Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax ammo !!
+
+WW5000Desc,items,tools,New,A simple tool for clearing weeds and collecting grass.
+
+FBDesc,items,resource,new,A Forged Brass Ingot is 1 of the ingredients of Congealed Metal.
+
+FTDesc,items,resource,new,A Forged Titanium Ingot is 1 of the ingredients of Congealed Metal.
+
+SPDesc,items,resource,new,Polished Steel Blocks withstand more and resist explosion damage x1.75 12k Health.
+
+TPDesc,items,resource,new,Polished Titanium Blocks withstand more and resist explosion damage x2.0 20k Health.
+
+CMDesc,items,resource,new,Congealed Metal is an amalgamation of Both Brass And Titanium used in high end polishes.
+
+HDForgeDesc,blocks,,,Used to smelt advanced metals like Brass And Titanium.
+
+DonnasFubarStewDesc,items,Food,New,Donnas Fubar Stew comes straight from the Heart & Warms your Balls as well as your Soul.
+
+DonnasFubarSteakDesc,items,Food,New,A Fubar Steak used in making the Fubar Stew.
+
+HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant.
+
+HDXDesc,items,,,Xcalibur the ONLY bashing tool you need early game.
+
+HDGDesc,items,,,Hd Genny requires 6 Hd Cells to power it up Produces a Billion BaGigga watts.
+
+HDMiniHDesc,items,,,A simple replacement for the early game Axe much better & more durable.
+
+BSFDesc,items,,,You have found a Building Supply Flare left click the ground when active to spawn the crate.
+
+HSFDesc,items,,,You have found a Health Supply Flare left click the ground when active to spawn the crate.
+
+ASFDesc,items,,,You have found a Ammo Supply Flare left click the ground when active to spawn the crate.
+
+FSFDesc,items,,,You have found a Food Supply Flare left click the ground when active to spawn the crate.
+
+HDEDescitems,,,Used in the creation of Shock Ammo.
+
+HDNFDesc,items,,,A self upgrading Wood Frame For Noobs goes from Wood to Rwood to Iron at 1k Health
+
+HDRDDesc,items,,,A Titanium Re-Enforced Rolling Door to secure you from those Brain Eating Morons.
+
+D9A10Desc,items,Ammo,New,Now that your 9mm Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP9A10Desc,items,Ammo,New,Now that your 9mm HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP9A10Desc,items,Ammo,New,Now that your 9mm AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D44MA10Desc,items,Ammo,New,Now that your 44Mag Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP44MA10Desc,items,Ammo,New,Now that your 44Mag HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP44MA10Desc,items,Ammo,New,Now that your 44Mag AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D762A10Desc,items,Ammo,New,Now that your 762 Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP762A10Desc,items,Ammo,New,Now that your 762 HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP762A10Desc,items,Ammo,New,Now that your 762 AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DDeagleR10Desc,items,Ammo,New,Now that your Desert Eagle Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D500AM10Desc,items,Ammo,New,Now that your 500 Auto Max Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DBA10Desc,items,Ammo,New,Now that your BlunderBuss Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSSA10Desc,items,Ammo,New,Now that your ShotGun Shell Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSSlugA10Desc,items,Ammo,New,Now that your ShotGun Slug Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSBreachSA10Desc,items,Ammo,New,Now that your ShotGun Breaching Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DMC10Desc,items,Ammo,New,Now that your Molotov Cocktail Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D45ACPR10Desc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D408Desc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D50BMGDesc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+ClassBuilderDesc,items,,,You have crafted your Class.\n\nOpen this item to recieve your starter pack.,,,,,
+
+45ACPRoundDesc,items,,,45 ACP Rounds are used in the M1911A as well as the HybridAK ACP
+
+DERoundDesc,items,,,Deagle Rounds are used in the HD Desert Eagle.
+
+50BMGRoundDesc,items,,,50 BMG Rounds are used in the HD Arctic Warfare.
+
+408RoundDesc,items,,,408 Rounds are used in the HD CheyTac M300.
+
+badZombieUMA,entityclasses,Entity,New,Zombie,,,,,
+badZombieMaleUMA,entityclasses,Entity,New,Zombie,,,,,
+badZombieAiden,entityclasses,Entity,New,Zombie Aiden,,,,,
+badZombieBob,entityclasses,Entity,New,Zombie Bob,,,,,
+badZombieCaitlin,entityclasses,Entity,New,Zombie Caitlin,,,,,
+badZombieCallie,entityclasses,Entity,New,Zombie Callie,,,,,
+badZombieChang,entityclasses,Entity,New,Zombie Chang,,,,,
+badZombieCharlotte,entityclasses,Entity,New,Zombie Charlotte,,,,,
+badZombieClint,entityclasses,Entity,New,Zombie Clint,,,,,
+badZombieEmma,entityclasses,Entity,New,Zombie Emma,,,,,
+badZombieGabrielle,entityclasses,Entity,New,Zombie Gabrielle,,,,,
+badZombieGrace,entityclasses,Entity,New,Zombie Grace,,,,,
+badZombieHank,entityclasses,Entity,New,Zombie Hank,,,,,
+badZombieHelen,entityclasses,Entity,New,Zombie Helen,,,,,
+badZombieHugh,entityclasses,Entity,New,Zombie Hugh,,,,,
+badZombieJack,entityclasses,Entity,New,Zombie Jack,,,,,
+badZombieJeff,entityclasses,Entity,New,Zombie Jeff,,,,,
+badZombieJimmy,entityclasses,Entity,New,Zombie Jimmy,,,,,
+badZombieJoel,entityclasses,Entity,New,Zombie Joel,,,,,
+badZombieMaria,entityclasses,Entity,New,Zombie Maria,,,,,
+badZombieMercura,entityclasses,Entity,New,Zombie Mercura,,,,,
+badZombieMiguel,entityclasses,Entity,New,Zombie Miguel,,,,,
+badZombieOfficeGirl,entityclasses,Entity,New,Zombie Office Girl,,,,,
+badZombieRayah,entityclasses,Entity,New,Zombie Rayah,,,,,
+badZombieRekt,entityclasses,Entity,New,Zombie Rekt,,,,,
+badZombieVince,entityclasses,Entity,New,Zombie Vince,,,,,
+badZombieWillie,entityclasses,Entity,New,Zombie Willie,,,,,
+badZombieBaby,entityclasses,Entity,New,Zombie Baby,,,,,
+badZombieBabyCrawler,entityclasses,Entity,New,Zombie Baby Crawler,,,,,
+valZombieClarice,entityclasses,Entity,New,Zombie Clarice,,,,,
+valZombieJane,entityclasses,Entity,New,Zombie Jane,,,,,
+valZombieLibrarian,entityclasses,Entity,New,Zombie Librarian,,,,,
+valZombieSurvivorFemale,entityclasses,Entity,New,Zombie Sherlene,,,,,
+valZombieVoodooFemale,entityclasses,Entity,New,Zombie Voodoo Lady,,,,,
+valZombieVoodooMale,entityclasses,Entity,New,Zombie Voodoo Man,,,,,
+valZombieDan,entityclasses,Entity,New,Zombie Dan,,,,,
+valZombieSurvivorMale,entityclasses,Entity,New,Zombie Survivor,,,,,
+valZombieKenny,entityclasses,Entity,New,Zombie Kenny,,,,,
+valZombieRavager,entityclasses,Entity,New,Zombie Ravager,,,,,
+valZombieNerd,entityclasses,Entity,New,Zombie Nerd,,,,,
+valZombieInmate,entityclasses,Entity,New,Zombie Inmate,,,,,
+valZombieInmateBlack,entityclasses,Entity,New,Zombie Inmate,,,,,
+valZombieChildFemale,entityclasses,Entity,New,Zombie Little Girl,,,,,
+valZombieChildMale,entityclasses,Entity,New,Zombie Little Boy,,,,,
+valZombieRanger,entityclasses,Entity,New,Zombie Ranger,,,,,
+valZombieScorchedRusher,entityclasses,Entity,New,Zombie Scorched Rusher,,,,,
+gupZombieMartha,entityclasses,Entity,New,Zombie Martha,,,,,
+gupZombieSally,entityclasses,Entity,New,Zombie Sally,,,,,
+gupZombieSunStroked,entityclasses,Entity,New,Zombie Sun Stroked,,,,,
+gupZombieSunStrokedCrawler,entityclasses,Entity,New,Zombie Sun Stroked Crawler,,,,,
+sanZombiePunk,entityclasses,Entity,New,Zombie Punk,,,,,
+sanZombieRioter,entityclasses,Entity,New,Zombie Rioter,,,,,
+sanZombieRocker,entityclasses,Entity,New,Zombie Rocker,,,,,
+sanZombieFemaleRocker,entityclasses,Entity,New,Zombie Rocker,,,,,
+sanZombieHermit,entityclasses,Entity,New,Zombie Hermit,,,,,
+sanZombieFrank,entityclasses,Entity,New,Zombie Frank,,,,,
+sanZombieBikerChick,entityclasses,Entity,New,Zombie Biker Babe,,,,,
+sanZombieInfectedSurvivor,entityclasses,Entity,New,Infected Survivor,,,,,
+sanZombieInfectedLady,entityclasses,Entity,New,Infected Lady,,,,,
+sanZombieNude,entityclasses,Entity,New,Nude Zombie,,,,,
+sanZombiePrisoner,entityclasses,Entity,New,Zombie Prisoner,,,,,
+sanZombieDriver,entityclasses,Entity,New,Zombie Driver,,,,,
+sanZombieFiend,entityclasses,Entity,New,Zombie Feind,,,,,
+sanZombieBanditSharpshooter,entityclasses,Entity,New,Zombie Sharpshooter,,,,,
+sanZombieHunterSven,entityclasses,Entity,New,Zombie Sven,,,,,
+sanZombiePsycho,entityclasses,Entity,New,Zombie Psycho,,,,,
+sanZombieKim,entityclasses,Entity,New,Zombie Kim,,,,,
+sanZombieVagrant,entityclasses,Entity,New,Zombie Vagrant,,,,,
+sanZombieCripple,entityclasses,Entity,New,Zombie Cripple,,,,,
+sanZombieBanditSavage,entityclasses,Entity,New,Zombie Savage,,,,,
+sanZombieBanditSentry,entityclasses,Entity,New,Zombie Sentry,,,,,
+sanZombieMitchHazmat,entityclasses,Entity,New,Zombie Mitch,,,,,
+sanZombieMarkHazmat,entityclasses,Entity,New,Zombie Mark,,,,,
+sanZombieClaireHazmat,entityclasses,Entity,New,Zombie Claire,,,,,
+sanZombieSueHazmat,entityclasses,Entity,New,Zombie Sue,,,,,
+sanZombieOldLady,entityclasses,Entity,New,Zombie Old Lady,,,,,
+sanZombieOldMan,entityclasses,Entity,New,Zombie Old Man,,,,,
+sanZombieEvilGranny,entityclasses,Entity,New,Zombie Granny,,,,,
+sanZombieSecurityGuard,entityclasses,Entity,New,Zombie Security Guard,,,,,
+sanZombieFrozen,entityclasses,Entity,New,Frozen Zombie,,,,,
+badZombieJethro,entityclasses,Entity,New,Zombie Jethro,,,,,
+badZombieSeryph,entityclasses,Entity,New,Zombie Seryph,,,,,
+badZombieSeryphSnow,entityclasses,Entity,New,Zombie Seryph,,,,,
+valZombieBigBitch,entityclasses,Entity,New,Zombie Bitch,,,,,
+valZombieLumberjack,entityclasses,Entity,New,Zombie Lumberjack,,,,,
+valZombieTrucker,entityclasses,Entity,New,Zombie Trucker,,,,,
+valZombieCharred,entityclasses,Entity,New,Zombie Charred,,,,,
+sanZombieCpl,entityclasses,Entity,New,Zombie Corporal,,,,,
+sanZombieHunter,entityclasses,Entity,New,Zombie Hunter,,,,,
+sanZombieBanditKiller,entityclasses,Entity,New,Zombie Bandit,,,,,
+sanZombieBloodmoon,entityclasses,Entity,New,Zombie Moon,,,,,
+sanZombieCannibalFemale,entityclasses,Entity,New,Cannibal,,,,,
+sanZombieCannibalMale,entityclasses,Entity,New,Cannibal,,,,,
+sanZombieFreak,entityclasses,Entity,New,Zombie Freak,,,,,
+badZombieBolivar,entityclasses,Entity,New,Zombie Bolivar,,,,,
+badZombieCur,entityclasses,Entity,New,Zombie Cur,,,,,
+badZombieSWATMale,entityclasses,Entity,New,SWAT Zombie,,,,,
+badZombieSWATFemale,entityclasses,Entity,New,SWAT Zombie,,,,,
+badZombieTallman,entityclasses,Entity,New,Zombie Tallman,,,,,
+valZombieRaveReaper,entityclasses,Entity,New,Zombie Rave,,,,,
+badZombieStripperMole,entityclasses,Entity,New,Zombie Stripper Mole,,,,,
+valZombieRegen,entityclasses,Entity,New,Zombie Regen,,,,,
+gupZombieBouncer,entityclasses,Entity,New,Zombie Bouncer,,,,,
+gupZombieBouncerCrawler,entityclasses,Entity,New,Zombie Bouncer Crawler,,,,,
+gupZombieSnowQueen,entityclasses,Entity,New,Zombie Snow Queen,,,,,
+sanZombieTrailerPark,entityclasses,Entity,New,Zombie Redneck,,,,,
+sanZombieBanditRaider,entityclasses,Entity,New,Zombie Bandit,,,,,
+sanZombieReaper,entityclasses,Entity,New,Zombie Reaper,,,,,
+sanZombieBanditLooter,entityclasses,Entity,New,Zombie Bandit,,,,,
+sanZombieCrazed,entityclasses,Entity,New,Zombie Crazed,,,,,
+bkSanta,entityclasses,Entity,New,Zombie Santa,,,,,
+sanZombieBodyBuilder,entityclasses,Entity,New,Zombie Body Builder,,,,,
+sanZombieBanditJuggernaut,entityclasses,Entity,New,Zombie Juggernaut,,,,,
+badZombieMord,entityclasses,Entity,New,Zombie Mord,,,,,
+sanZombieExperiment,entityclasses,Entity,New,Zombie Experimental,,,,,
+badZombieBabyBoomer,entityclasses,Entity,New,Zombie Baby Boomer,,,,,
+valZombieRavagerSpider,entityclasses,Entity,New,Spider Ravager,,,,,
+gupZombieClimber,entityclasses,Entity,New,Zombie Climber,,,,,
+sanZombieClown,entityclasses,Entity,New,Zombie Clown,,,,,
+badZombieWarlord,entityclasses,Entity,New,Zombie Warlord,,,,,
+badZombieSuicideMole,entityclasses,Entity,New,Suicide Mole,,,,,
+gupZombieBiff,entityclasses,Entity,New,Zombie Biff,,,,,
+valZombieBrute,entityclasses,Entity,New,Zombie Brute,,,,,
+valZombieBruteBoss,entityclasses,Entity,New,Zombie Brute Boss,,,,,
+badZombieAiden_Rager,entityclasses,Entity,New,Rager Aiden,,,,,
+badZombieBob_Rager,entityclasses,Entity,New,Rager Bob,,,,,
+badZombieCaitlin_Rager,entityclasses,Entity,New,Rager Caitlin,,,,,
+badZombieCallie_Rager,entityclasses,Entity,New,Rager Callie,,,,,
+badZombieChang_Rager,entityclasses,Entity,New,Rager Chang,,,,,
+badZombieCharlotte_Rager,entityclasses,Entity,New,Rager Charlotte,,,,,
+badZombieClint_Rager,entityclasses,Entity,New,Rager Clint,,,,,
+badZombieEmma_Rager,entityclasses,Entity,New,Rager Emma,,,,,
+badZombieGabrielle_Rager,entityclasses,Entity,New,Rager Gabe,,,,,
+badZombieGrace_Rager,entityclasses,Entity,New,Rager Grace,,,,,
+badZombieHank_Rager,entityclasses,Entity,New,Rager Hank,,,,,
+badZombieHelen_Rager,entityclasses,Entity,New,Rager Helen,,,,,
+badZombieHugh_Rager,entityclasses,Entity,New,Rager Hugh,,,,,
+badZombieJack_Rager,entityclasses,Entity,New,Rager Jack,,,,,
+badZombieJeff_Rager,entityclasses,Entity,New,Rager Jeff,,,,,
+badZombieJimmy_Rager,entityclasses,Entity,New,Rager Jimmy,,,,,
+badZombieJoel_Rager,entityclasses,Entity,New,Rager Joel,,,,,
+badZombieMaria_Rager,entityclasses,Entity,New,Rager Maria,,,,,
+badZombieMercura_Rager,entityclasses,Entity,New,Rager Mercura,,,,,
+badZombieMiguel_Rager,entityclasses,Entity,New,Rager Migel,,,,,
+badZombieOfficeGirl_Rager,entityclasses,Entity,New,Rager Office Lady,,,,,
+badZombieRayah_Rager,entityclasses,Entity,New,Rager Rayah,,,,,
+badZombieRekt_Rager,entityclasses,Entity,New,Rager Rekt,,,,,
+badZombieVince_Rager,entityclasses,Entity,New,Rager Vince,,,,,
+badZombieWillie_Rager,entityclasses,Entity,New,Rager Willie,,,,,
+badZombieBaby_Rager,entityclasses,Entity,New,Rager Baby,,,,,
+valZombieClarice_Rager,entityclasses,Entity,New,Rager Clarice,,,,,
+valZombieJane_Rager,entityclasses,Entity,New,Rager Jane,,,,,
+valZombieLibrarian_Rager,entityclasses,Entity,New,Rager Librarian,,,,,
+valZombieSurvivorFemale_Rager,entityclasses,Entity,New,Rager Survivor,,,,,
+valZombieVoodooFemale_Rager,entityclasses,Entity,New,Rager Voodoo Lady,,,,,
+valZombieVoodooMale_Rager,entityclasses,Entity,New,Rager Voodoo Man,,,,,
+valZombieDan_Rager,entityclasses,Entity,New,Rager Dan,,,,,
+valZombieSurvivorMale_Rager,entityclasses,Entity,New,Rager Survivor,,,,,
+valZombieKenny_Rager,entityclasses,Entity,New,Rager Kenny,,,,,
+valZombieRavager_Rager,entityclasses,Entity,New,Rager Ravager,,,,,
+valZombieNerd_Rager,entityclasses,Entity,New,Rager Nerd,,,,,
+valZombieInmate_Rager,entityclasses,Entity,New,Rager Inmate,,,,,
+valZombieInmateBlack_Rager,entityclasses,Entity,New,Rager Inmate,,,,,
+valZombieChildFemale_Rager,entityclasses,Entity,New,Rager Little Girl,,,,,
+valZombieChildMale_Rager,entityclasses,Entity,New,Rager Little Boy,,,,,
+valZombieRanger_Rager,entityclasses,Entity,New,Rager Ranger,,,,,
+valZombieScorchedRusher_Rager,entityclasses,Entity,New,Rager Rusher,,,,,
+gupZombieMartha_Rager,entityclasses,Entity,New,Rager Martha,,,,,
+gupZombieSally_Rager,entityclasses,Entity,New,Rager Sally,,,,,
+gupZombieSunStroked_Rager,entityclasses,Entity,New,Rager Sun Stroked,,,,,
+sanZombiePunk_Rager,entityclasses,Entity,New,Rager Punk,,,,,
+sanZombieRioter_Rager,entityclasses,Entity,New,Rager Rioter,,,,,
+sanZombieRocker_Rager,entityclasses,Entity,New,Rager Rocker,,,,,
+sanZombieFemaleRocker_Rager,entityclasses,Entity,New,Rager Rocker,,,,,
+sanZombieHermit_Rager,entityclasses,Entity,New,Rager Hermit,,,,,
+sanZombieFrank_Rager,entityclasses,Entity,New,Rager Frank,,,,,
+sanZombieBikerChick_Rager,entityclasses,Entity,New,Rager Biker Babe,,,,,
+sanZombieInfectedSurvivor_Rager,entityclasses,Entity,New,Rager Survivor,,,,,
+sanZombieInfectedLady_Rager,entityclasses,Entity,New,Rager Lady,,,,,
+sanZombieNude_Rager,entityclasses,Entity,New,Nude Rager,,,,,
+sanZombiePrisoner_Rager,entityclasses,Entity,New,Rager Prisoner,,,,,
+sanZombieDriver_Rager,entityclasses,Entity,New,Rager Driver,,,,,
+sanZombieFiend_Rager,entityclasses,Entity,New,Rager Fiend,,,,,
+sanZombieBanditSharpshooter_Rager,entityclasses,Entity,New,Rager Sharpshooter,,,,,
+sanZombieHunterSven_Rager,entityclasses,Entity,New,Rager Sven,,,,,
+sanZombiePsycho_Rager,entityclasses,Entity,New,Rager Psycho,,,,,
+sanZombieKim_Rager,entityclasses,Entity,New,Rager Kim,,,,,
+sanZombieVagrant_Rager,entityclasses,Entity,New,Rager Vagrant,,,,,
+sanZombieBanditSavage_Rager,entityclasses,Entity,New,Rager Bandit,,,,,
+sanZombieBanditSentry_Rager,entityclasses,Entity,New,Rager Bandit,,,,,
+sanZombieMitchHazmat_Rager,entityclasses,Entity,New,Rager Mitch,,,,,
+sanZombieMarkHazmat_Rager,entityclasses,Entity,New,Rager Mark,,,,,
+sanZombieClaireHazmat_Rager,entityclasses,Entity,New,Rager Claire,,,,,
+sanZombieSueHazmat_Rager,entityclasses,Entity,New,Rager Sue,,,,,
+sanZombieOldLady_Rager,entityclasses,Entity,New,Rager Old Lady,,,,,
+sanZombieOldMan_Rager,entityclasses,Entity,New,Rager Old Man,,,,,
+sanZombieEvilGranny_Rager,entityclasses,Entity,New,Rager Granny,,,,,
+sanZombieSecurityGuard_Rager,entityclasses,Entity,New,Rager Security Guard,,,,,
+sanZombieFrozen_Rager,entityclasses,Entity,New,Rager Frozen,,,,,
+badZombieJethro_Rager,entityclasses,Entity,New,Rager Jethro,,,,,
+badZombieSeryph_Rager,entityclasses,Entity,New,Rager Seryph,,,,,
+badZombieSeryphSnow_Rager,entityclasses,Entity,New,Rager Seryph,,,,,
+valZombieBigBitch_Rager,entityclasses,Entity,New,Rager Big Bitch,,,,,
+valZombieLumberjack_Rager,entityclasses,Entity,New,Rager Lumberjack,,,,,
+valZombieTrucker_Rager,entityclasses,Entity,New,Rager Trucker,,,,,
+valZombieCharred_Rager,entityclasses,Entity,New,Rager Charred,,,,,
+sanZombieCpl_Rager,entityclasses,Entity,New,Rager Corporal,,,,,
+sanZombieHunter_Rager,entityclasses,Entity,New,Rager Hunter,,,,,
+sanZombieBanditKiller_Rager,entityclasses,Entity,New,Rager Bandit,,,,,
+sanZombieBloodmoon_Rager,entityclasses,Entity,New,Rager Blood,,,,,
+sanZombieCannibalFemale_Rager,entityclasses,Entity,New,Rager Cannibal,,,,,
+sanZombieCannibalMale_Rager,entityclasses,Entity,New,Rager Cannibal,,,,,
+sanZombieFreak_Rager,entityclasses,Entity,New,Rager Freak,,,,,
+badZombieBolivar_Rager,entityclasses,Entity,New,Rager Bolivar,,,,,
+badZombieCur_Rager,entityclasses,Entity,New,Rager Cur,,,,,
+badZombieStripperMole_Rager,entityclasses,Entity,New,Rager Stripper Mole,,,,,
+badZombieSWATMale_Rager,entityclasses,Entity,New,SWAT Rager,,,,,
+badZombieSWATFemale_Rager,entityclasses,Entity,New,SWAT Rager,,,,,
+valZombieRaveReaper_Rager,entityclasses,Entity,New,Rager Rave,,,,,
+valZombieRegen_Rager,entityclasses,Entity,New,Rager Regen,,,,,
+gupZombieBouncer_Rager,entityclasses,Entity,New,Rager Bouncer,,,,,
+gupZombieSnowQueen_Rager,entityclasses,Entity,New,Rager Snow Queen,,,,,
+sanZombieTrailerPark_Rager,entityclasses,Entity,New,Rager Redneck,,,,,
+sanZombieBanditRaider_Rager,entityclasses,Entity,New,Rager Bandit,,,,,
+sanZombieReaper_Rager,entityclasses,Entity,New,Rager Reaper,,,,,
+sanZombieBanditLooter_Rager,entityclasses,Entity,New,Rager Bandit,,,,,
+bkSanta_Rager,entityclasses,Entity,New,Rager Santa,,,,,
+sanZombieBodyBuilder_Rager,entityclasses,Entity,New,Rager Body Builder,,,,,
+sanZombieBanditJuggernaut_Rager,entityclasses,Entity,New,Rager Juggernaut,,,,,
+sanZombieClown_Rager,entityclasses,Entity,New,Rager Clown,,,,,
+badZombieBabyBoomer_Rager,entityclasses,Entity,New,Rager Baby Boomer,,,,,
+valZombieRavagerSpider_Rager,entityclasses,Entity,New,Spider Rager Ravager,,,,,
+gupZombieClimber_Rager,entityclasses,Entity,New,Rager Climber,,,,,
+badZombieWarlord_Rager,entityclasses,Entity,New,Rager Warlord,,,,,
+badZombieSuicideMole_Rager,entityclasses,Entity,New,Rager Suicide Mole,,,,,
+gupZombieBiff_Rager,entityclasses,Entity,New,Rager Biff,,,,,
+valZombieBrute_Rager,entityclasses,Entity,New,Rager Brute,,,,,
+valZombieBruteBoss_Rager,entityclasses,Entity,New,Rager Brute Boss,,,,,
+badZombieBoe_Rager,entityclasses,Entity,New,Rager Boe,,,,,
+badZombieJoe_Rager,entityclasses,Entity,New,Rager Joe,,,,,
+badZombieYo_Rager,entityclasses,Entity,New,Rager Yo,,,,,
+badZombieSteve_Rager,entityclasses,Entity,New,Rager Steve,,,,,
+badZombieArlene_Rager,entityclasses,Entity,New,Rager Arlene,,,,,
+badZombieDarlene_Rager,entityclasses,Entity,New,Rager Darlene,,,,,
+badZombieMarlene_Rager,entityclasses,Entity,New,Rager Marlene,,,,,
+badZombieNurse_Rager,entityclasses,Entity,New,Rager Nurse,,,,,
+badZombieMaleHazmat_Rager,entityclasses,Entity,New,Rager Hazmat,,,,,
+badZombieUtilityWorker_Rager,entityclasses,Entity,New,Rager Utility Worker,,,,,
+badZombieSkateboarder_Rager,entityclasses,Entity,New,Rager Skateboarder,,,,,
+badZombieCheerleader_Rager,entityclasses,Entity,New,Rager Cheerleader,,,,,
+badZombieOldTimer_Rager,entityclasses,Entity,New,Rager Old Timer,,,,,
+badZombieMoe_Rager,entityclasses,Entity,New,Rager Moe,,,,,
+badZombieSnow_Rager,entityclasses,Entity,New,Rager Lumberjack,,,,,
+badZombieSpider_Rager,entityclasses,Entity,New,Rager Spider,,,,,
+badZombieBurnt_Rager,entityclasses,Entity,New,Rager Burnt,,,,,
+badZombieFarmer_Rager,entityclasses,Entity,New,Rager Farmer,,,,,
+badZombieStripper_Rager,entityclasses,Entity,New,Rager Stripper,,,,,
+badZombieSoldier_Rager,entityclasses,Entity,New,Rager Soldier,,,,,
+badZombieBiker_Rager,entityclasses,Entity,New,Rager Biker,,,,,
