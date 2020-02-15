@@ -1,4 +1,4 @@
-War3zuk Alpha 18 Stable AIO
+War3zuk-Alpha-18.2 B5 - AIO
 
 Updated v2.48 to 2.49
 

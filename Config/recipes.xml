@@ -317,10 +317,6 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="Deagle Round" count="50" craft_time = "0.5">
-	<ingredient name="Ammo Supply DE50" count="1"/>
-</recipe>
-
 <recipe name="Weed Wacker 5000" count="1"  craft_time = "10">
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceMechanicalParts" count="5"/>
@@ -586,6 +582,14 @@
 <recipe name="45 ACP Round" count="50" craft_time = "0.5">
 	<ingredient name="Ammo Supply 45 ACP" count="1"/>
 </recipe>
+
+<recipe name="Deagle Round" count="50" craft_time = "0.5">
+	<ingredient name="Ammo Supply DE50" count="1"/>
+</recipe>
+
+<recipe name="500 Auto Max" count="50">
+	<ingredient name="Ammo Supply 500 Auto Max" count="1"/>
+</recipe>
 		
 <recipe name="Fat Soaked Log Bundle" craft_time = "5" count="1000">
 	<ingredient name="drinkJarGrainAlcohol" count="2" />
@@ -700,10 +704,6 @@
 	<ingredient name="resourceBulletTip" count="2"/>
 	<ingredient name="resourceGunPowder" count="1"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
-</recipe>
-
-<recipe name="500 Auto Max" count="50">
-	<ingredient name="Ammo Supply 500 Auto Max" count="1"/>
 </recipe>
 
 <recipe name="Crop Plot" count="1" craft_time="10">
