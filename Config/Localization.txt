@@ -1,5 +1,9 @@
 Key,Source,Context,Changes,English
 
+HDBladeTrapDesc,blocks,,,Titanium Reenforced Blade Trap that requires its Polish to be repaired.
+
+HDDartTrapDesc,blocks,,,Titanium Reenforced Dart Trap that requires its Polish to be repaired.
+
 HDW1866Desc,items,weapons,New,Winchester 1866 continued the trend towards chambering heavier rounds and had an all new and considerably stronger locking block action than the toggle link Model 1886 was a true American express rifle as it could be chambered in the more powerful black powder cartridges of the day such as the .45
 
 HDDSVDDesc,items,weapons,New,The Dragunov is a semi automatic gas operated rifle with a short stroke gas piston system that fires 762 rounds.

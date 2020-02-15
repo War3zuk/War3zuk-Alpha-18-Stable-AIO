@@ -18,6 +18,88 @@
 	
 <append xpath="/blocks">
 	
+<block name="HD Blade Trap">
+	<property name="DescriptionKey" value="HDBladeTrapDesc"/>
+	<property name="CustomIcon" value="bladeTrap" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="BladeTrap"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering,bladeTrapSchematic"/>
+	<property name="Material" value="MTitaniumPolish"/>
+	<property name="Damage" value="30"/>
+	<property name="DamageReceived" value="5"/>
+	<property name="BreakingPercentage" value="0.5"/>
+	<property name="BrokenPercentage" value="0.25"/>
+	<property name="ImpactSound" value="bladetrap_impact"/>
+	<property name="StartSound" value="bladetrap_startup"/>
+	<property name="StopSound" value="bladetrap_stop"/>
+	<property name="RunningSound" value="bladetrap_fire_lp"/>
+	<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
+	<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
+	<property name="MaxDamage" value="20000"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="MultiBlockDim" value="3,1,3"/><property name="DisplayType" value="blockElectricalHardenedMulti"/>
+	<property name="ImposterExchange" value="imposterPlate" param1="111"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="RequiredPower" value="30"/>
+	<property name="Group" value="Tools/Traps,Science"/>
+	<property name="ActivationDistance" value="6"/>
+	<property class="RepairItems">
+		<property name="Titanium Polish" value="10"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="20,100" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="EconomicValue" value="444"/>
+	<property name="FilterTags" value="fdecor,felectrical,ftraps"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="HD Dart Trap">
+	<property name="DescriptionKey" value="HDDartTrapDesc"/>
+	<property name="CustomIcon" value="dartTrap" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Launcher"/>
+	<property name="DisplayType" value="blockElectricalHardened"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering,dartTrapSchematic"/>
+	<property name="Material" value="MTitaniumPolish"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Electrical/arrowTrapPrefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="PlaySound" value="darttrap_fire"/>
+	<property name="EndSound" value="darttrap_end"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="109"/>
+	<property name="BurstFireRate" value="0.5"/>
+	<property name="ShowTargeting" value="false"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="AmmoItem" value="ammoDartIron"/>
+	<property name="RequiredPower" value="20"/>
+	<property name="Group" value="Tools/Traps,Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="16"/>
+		<property name="resourceMechanicalParts" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="20,100" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="EconomicValue" value="220"/>
+	<property name="FilterTags" value="fdecor,felectrical,ftraps"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+	
 <block name="HD GunBench">
 	<property name="CustomIcon" value="HD GunBench" />
 	<property name="DescriptionKey" value="HDGunBenchDesc"/>

@@ -354,6 +354,8 @@
 			<property name="ScopeScale" value="0.5,0.5,0.5"/>
 			<property name="Sound_start" value="AWFireS"/>
 			<property name="Sound_loop" value="AWFireS"/>
+			<property name="Zoom_max_out" value="30"/>
+			<property name="Zoom_max_in" value="5"/>
 			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
 		</item_property_overrides>
 

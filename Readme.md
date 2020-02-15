@@ -1,5 +1,13 @@
 War3zuk-Alpha-18.2 B5 - AIO
 
+Updated v2.48 to 2.49
+
+Fixed HD Dragunov SVD Scope Custom Zoom x30
+Added HD Dragunov SVD Animations Fire, Idle, Reload
+Added HD Blade Trap (Unlocked Via Vanilla Schematic)
+Added HD Dart Trap (Unlocked Via Vanilla Schematic)
+Fixed HD Mods Schematic
+
 Updated v2.47 to 2.48
 
 Fixed HD Dragunov SVD Recipe
