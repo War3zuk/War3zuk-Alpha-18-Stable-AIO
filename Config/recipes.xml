@@ -239,18 +239,22 @@
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-<recipe name="HD Katana" count="1" craft_area="HD GunBench"  craft_time = "60" tags="perkDeepCuts">
+<recipe name="HD Shuriken Katana" count="1" craft_time = "60" tags="perkDeepCuts">
 	<ingredient name="resourceForgedSteel" count="35"/>
-	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="50"/>
-	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-<recipe name="HD Wakizashi" count="1" craft_area="HD GunBench"  craft_time = "60" tags="perkDeepCuts">
+<recipe name="HD Wakizashi Katana" count="1" craft_time = "60" tags="perkDeepCuts">
 	<ingredient name="resourceForgedSteel" count="35"/>
-	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="50"/>
-	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Dragon Katana" count="1" craft_time = "60" tags="perkDeepCuts">
+	<ingredient name="resourceForgedSteel" count="35"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
 <recipe name="45 ACP Round" count="1" craft_time = "1" craft_area="HD AmmoBench">

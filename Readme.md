@@ -1,5 +1,14 @@
 War3zuk-Alpha-18.2 B5 - AIO
 
+Updated v2.49 to 2.50
+
+Renamed Both Katanas (Made In Player Inventory)
+Added HD Dragon Katana (Made In Player Inventory)
+Fixed HD CheyTac M300 Durability
+Fixed HD Dragunov SVD Dmg
+Fixed HD Tactical AR Mag Size
+Adjusted Overall Dmg for the 7.62 Round
+
 Updated v2.48 to 2.49
 
 Fixed HD Dragunov SVD Scope Custom Zoom x30

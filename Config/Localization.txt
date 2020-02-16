@@ -60,9 +60,11 @@ HDSAK47Desc,items,,,The Hybrid AK47 has been Moddified to take the .45 ACP Round
 
 HDHK33HybridDesc,items,,,The Hybrid HK33 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil.
 
-HDKatanaDesc,items,,,HD Katana made from the Finest Steel Just kidding not really its probably Blunt.
+HDDragonDesc,items,,,HD Dragon Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
 
-HDWakizashiDesc,items,,,HD Wakizashi made from the Finest Steel Just kidding not really its probably Blunt.
+HDKatanaDesc,items,,,HD Shuriken Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
+
+HDWakizashiDesc,items,,,HD Wakizashi Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
 
 HDJukeBoxReggaeOFF,items,Item,KgNone,HD JukeBox Reggae OFF,
 
