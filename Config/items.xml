@@ -10,9 +10,9 @@
 	<set xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityDamage']/@value">82</set>
 	
 	
-	<set xpath="/items/item[@name='ammo762mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">52</set>
-	<set xpath="/items/item[@name='ammo762mmBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@value">68</set>
-	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">52</set>
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">72</set>
+	<set xpath="/items/item[@name='ammo762mmBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@value">75</set>
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">72</set>
 	
 	
 	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='EntityDamage']/@value">18</set>
@@ -1076,7 +1076,7 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".01,.01"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="850"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="65"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
@@ -1922,7 +1922,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="165"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="145"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="8"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="15"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
@@ -1950,7 +1950,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="2200,4400" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -2010,7 +2010,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="170"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="120"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="8"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="45"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
@@ -2160,7 +2160,7 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<effect_group name="Base Effects" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="100"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="90"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="15"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
@@ -3083,12 +3083,12 @@
 	</effect_group>
 </item>
 
-<item name="HD Katana">
-	<property name="CustomIcon" value="HD Katana" />
+<item name="HD Shuriken Katana">
+	<property name="CustomIcon" value="HD Shuriken Katana" />
 	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Katana.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Shuriken Katana.Prefab"/>
 	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -3168,12 +3168,12 @@
 	</effect_group>
 </item>
 
-<item name="HD Wakizashi">
-	<property name="CustomIcon" value="HD Wakizashi" />
+<item name="HD Wakizashi Katana">
+	<property name="CustomIcon" value="HD Wakizashi Katana" />
 	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Wakizashi.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Wakizashi Katana.Prefab"/>
 	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -3184,6 +3184,91 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="DescriptionKey" value="HDWakizashiDesc"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Damage_type" value="Slashing"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="machete_swinglight"/>
+		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
+		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".28"/>
+		<property name="GrazeEnd" value=".4"/>
+		<property name="SwingDegrees" value="80"/>
+		<property name="SwingAngle" value="130"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalslashorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Damage_type" value="Slashing"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="machete_swingheavy"/>
+		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
+		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="IsHorizontalSwing" value="true"/>
+		<property name="GrazeStart" value=".3"/>
+		<property name="GrazeEnd" value=".4"/>
+		<property name="SwingDegrees" value="80"/>
+		<property name="SwingAngle" value="-60"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalslashorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<effect_group name="meleeToolKnifeMachete">
+		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="4"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="35"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="0.1"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.4" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.3" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.4" tags="metal"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="50"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="12.6" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="288,673" tier="1,6" tags="perkDeepCuts"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<display_value name="dBleeding" value=".20"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="18.8" tags="secondary"/>
+	</effect_group>
+</item>
+
+<item name="HD Dragon Katana">
+	<property name="CustomIcon" value="HD Dragon Katana" />
+	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
+	<property name="DisplayType" value="meleeKnife"/>
+	<property name="HoldType" value="47"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Dragon Katana.Prefab"/>
+	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
+	<property name="RepairTools" value="resourceForgedSteel"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="DescriptionKey" value="HDDragonDesc"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Damage_type" value="Slashing"/>
