@@ -9,6 +9,12 @@ Fixed HD Dragunov SVD Dmg
 Fixed HD Tactical AR Mag Size
 Adjusted Overall Dmg for the 7.62 Round
 
+Added HD M4A1 Carbine (Hires PBR Model) Paid
+Added HD M4A1 Carbine Scope (Hires PBR Model) Paid
+Added HD M4A1 Carbine Animations Fire, Reload, Idle
+Aligned Usable Addons
+Added 256x256 Icons
+
 Updated v2.48 to 2.49
 
 Fixed HD Dragunov SVD Scope Custom Zoom x30

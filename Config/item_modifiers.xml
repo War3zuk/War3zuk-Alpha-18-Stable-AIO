@@ -352,8 +352,6 @@
 
 		<item_property_overrides name="HD Dragunov SVD">
 			<property name="ScopeScale" value="0.5,0.5,0.5"/>
-			<property name="Sound_start" value="AWFireS"/>
-			<property name="Sound_loop" value="AWFireS"/>
 			<property name="Zoom_max_out" value="30"/>
 			<property name="Zoom_max_in" value="5"/>
 			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
@@ -377,8 +375,8 @@
 		<property name="DropMeshfile" value="#@modfolder:Resources/HDDragunovSVDSilencer.unity3d?HDDragunovSVDSilencer.Prefab"/>
 		
 		<item_property_overrides name="HD Dragunov SVD">
-			<property name="Sound_start" value="AWFireS"/>
-			<property name="Sound_loop" value="AWFireS"/>
+			<property name="Sound_start" value="AKHybridFireS"/>
+			<property name="Sound_loop" value="AKHybridFireS"/>
 			<property name="BarrelScale" value="1,1,1"/>
 		</item_property_overrides>
 
@@ -397,6 +395,30 @@
 			<property name="EconomicValue" value="1000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDM4A1CarbineScope" installable_tags="HDM4A1" modifier_tags="scope" blocked_tags="shotgun" type="attachment">
+		<property name="CustomIcon" value="HD M4A1 Carbine Scope"/>
+		<property name="DescriptionKey" value="HDM4A1CarbineScopeDesc"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HDM4A1CarbineScope.unity3d?HDM4A1CarbineScope.Prefab"/>
+
+		<item_property_overrides name="HD M4A1 Carbine">
+			<property name="ScopeScale" value="0.5,0.5,0.5"/>
+			<property name="Zoom_max_out" value="30"/>
+			<property name="Zoom_max_in" value="10"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_subtract" value="0.6"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HDM4A1CarbineScope.unity3d?HDM4A1CarbineScope.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 	
 </append>

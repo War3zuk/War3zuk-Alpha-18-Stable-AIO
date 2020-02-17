@@ -76,6 +76,14 @@
 	<ingredient name="resourceSpring" count="5"/>
 	<ingredient name="HDGun Oil" count="5"/>
 </recipe>
+
+<recipe name="HDM4A1CarbineScope" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="3"/>
+</recipe>
 	
 <recipe name="HD Colt M1911" craft_area="HD GunBench" count="1" craft_time = "60" tags="perkGunslinger">
 	<ingredient name="resourceForgedIron" count="15"/>

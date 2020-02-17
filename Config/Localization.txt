@@ -27,6 +27,7 @@ HDMossberg500SilencerDesc,items,,,Military Grade Surpressor that can be attached
 HDArcticWarfareSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Arctic Warfare.
 HDDragunovSVDScopeDesc,items,,,Military Grade Scope that can be attached to the HD Dragunov SVD.
 HDDragunovSVDSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Dragunov SVD.
+HDM4A1CarbineScopeDesc,items,,,Military Grade Scope that can be attached to the HD M4A1 Carbine.
 
 HDColtM1911Silencer,items,Item,KgNone,HD Colt M1911 Silencer.
 HDDesertEagleSilencer,items,Item,KgNone,HD Desert Eagle Silencer.
@@ -35,6 +36,7 @@ HDMossberg500Silencer,items,Item,KgNone,HD Mossberg 500 Silencer.
 HDArcticWarfareSilencer,items,Item,KgNone,HD Arctic Warfare Silencer.
 HDDragunovSVDScope,items,Item,KgNone,HD Dragunov SVD Scope.
 HDDragunovSVDSilencer,items,Item,KgNone,HD Dragunov SVD Silencer.
+HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope.
 
 HD1911Desc,items,weapons,New,The M1911 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
 
