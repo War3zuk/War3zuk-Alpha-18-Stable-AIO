@@ -1,4 +1,41 @@
 <configs>
+
+<append xpath="/blocks/block[@name='cntGasPump']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="64"/>
+	<property name="Material" value="Mmetal_thin"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HDGasPump.unity3d?HDGasPump.Prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="Explosion">
+		<property name="ParticleIndex" value="4"/>
+		<property name="RadiusBlocks" value="5"/>
+		<property name="BlockDamage" value="5000"/>
+		<property name="RadiusEntities" value="3"/>
+		<property name="EntityDamage" value="150"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,7" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="2,4" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<property name="LPHardnessScale" value="0"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntVendingMachine2']">
+	<property name="Extends" value="cntVendingMachine2Broken"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Model" value="#@modfolder:Resources/HDVendingCoke.unity3d?HDVendingCoke.Prefab"/>
+	<property name="Class" value="VendingMachine"/>
+	<property name="TraderID" value="4"/>
+</append>
 	
 	<set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">1</set>
 	<set xpath="/blocks/block[@name='pouredRConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">2</set>

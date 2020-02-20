@@ -1,4 +1,4 @@
-Key,Source,Context,Changes,English
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate
 
 HDBladeTrapDesc,blocks,,,Titanium Reenforced Blade Trap that requires its Polish to be repaired.
 

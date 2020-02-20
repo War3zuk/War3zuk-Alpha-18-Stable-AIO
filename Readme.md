@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.2 B5 - AIO
 
+Updated v2.50 to 2.51
+
+Added MiniGun Parts Schematics To More Areas
+
 Updated v2.49 to 2.50
 
 Renamed Both Katanas (Made In Player Inventory)
