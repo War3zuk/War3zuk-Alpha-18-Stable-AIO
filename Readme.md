@@ -1,4 +1,4 @@
-War3zuk-Alpha-18.2 B5 - AIO
+War3zuk-Alpha-18.4 B3 - AIO
 
 Updated v2.50 to 2.51
 
@@ -20,6 +20,8 @@ Added HD Vulcan 50Bmg (Hires PBR Model) Paid
 Added HD Vulcan 50Bmg Animations Fire, Reload, Idle
 Added HD Vulcan 50Bmg Casing Eject
 Alined usable Attachments
+
+Added HD Penthrox Injector (Hires PBR Model) Paid
 
 Updated v2.49 to 2.50
 
