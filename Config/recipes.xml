@@ -202,14 +202,14 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD M134 MiniGun" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
-	<ingredient name="HD M134 MiniGun Barrel" count="6"/>
-	<ingredient name="HD M134 MiniGun Parts" count="1"/>
-	<ingredient name="HD M134 MiniGun Motor" count="1"/>
+<recipe name="HD Vulcan 9mm" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
+	<ingredient name="HD Vulcan 9mm Barrel" count="6"/>
+	<ingredient name="HD Vulcan 9mm Parts" count="1"/>
+	<ingredient name="HD Vulcan 9mm Motor" count="1"/>
 	<ingredient name="modDyeBlack" count="2"/>
 </recipe>
 
-<recipe name="HD M134 MiniGun Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
+<recipe name="HD Vulcan 9mm Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
 	<ingredient name="gunAk47Parts" count="5"/>
@@ -217,7 +217,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD M134 MiniGun Parts" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
+<recipe name="HD Vulcan 9mm Parts" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceMechanicalParts" count="100"/>
 	<ingredient name="resourceDuctTape" count="20"/>
@@ -225,12 +225,67 @@
 	<ingredient name="resourceSpring" count="20"/>
 </recipe>
 
-<recipe name="HD M134 MiniGun Motor" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkMachineGunner">
+<recipe name="HD Vulcan 9mm Motor" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceMechanicalParts" count="100"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="smallEngine" count="1"/>
 	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
+	<ingredient name="HD Vulcan 7.62mm Barrel" count="6"/>
+	<ingredient name="HD Vulcan 7.62mm Parts" count="1"/>
+	<ingredient name="HD Vulcan 7.62mm Motor" count="1"/>
+	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="gunAk47Parts" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Parts" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="40"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Motor" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="300"/>
+	<ingredient name="resourceMechanicalParts" count="60"/>
+	<ingredient name="gunAk47Parts" count="15"/>
+	<ingredient name="resourceScrapPolymers" count="60"/>
+	<ingredient name="resourceSpring" count="30"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Parts" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="40"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Motor" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceSpring" count="40"/>
 </recipe>
 	
 <recipe name="HD Auger" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="learnable,perkSalvageOperations">

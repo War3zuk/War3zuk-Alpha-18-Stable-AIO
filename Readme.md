@@ -2,7 +2,24 @@ War3zuk-Alpha-18.2 B5 - AIO
 
 Updated v2.50 to 2.51
 
-Added MiniGun Parts Schematics To More Areas
+Added ALL HD MiniGun Parts Schematics To More Areas
+
+Added HD Vulcan 9mm (Hires PBR Model) Paid
+Added HD Vulcan 9mm Animations Fire, Reload, Idle
+Added HD Vulcan 9mm Casing Eject
+Alined usable Attachments
+
+Added HD Vulcan 7.62mm Parts Schematics To More Areas
+Added HD Vulcan 7.62mm (Hires PBR Model) Paid
+Added HD Vulcan 7.62mm Animations Fire, Reload, Idle
+Added HD Vulcan 7.62mm Casing Eject
+Alined usable Attachments
+
+Added HD Vulcan 50Bmg Parts Schematics To More Areas
+Added HD Vulcan 50Bmg (Hires PBR Model) Paid
+Added HD Vulcan 50Bmg Animations Fire, Reload, Idle
+Added HD Vulcan 50Bmg Casing Eject
+Alined usable Attachments
 
 Updated v2.49 to 2.50
 

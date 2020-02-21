@@ -29,9 +29,15 @@
 		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.01"/>
 		<item name="Food Supply Flare" count="1" prob="0.1"/>
 		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.01"/>
-		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.005"/>
 		<item name="HD Tactical AR Schematic" count="1" prob="0.005"/>
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.005"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
@@ -60,9 +66,15 @@
 		<item name="HD Generator Schematic" count="1" prob="0.005"/>
 		<item name="Building Supply Flare" count="1" prob="0.005"/>
 		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.005"/>
-		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.005"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.005"/>
 		<item name="HD Mossberg 500 Schematic" count="1" prob="0.005"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
@@ -107,9 +119,15 @@
 		<item name="HD Auger Schematic" count="1" prob="0.005"/>
 		<item name="HD Chainsaw Schematic" count="1" prob="0.005"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.005"/>
 		<item name="HD Generator Schematic" count="1" prob="0.005"/>
 		<item name="Ammo Supply Flare" count="1" prob="0.01"/>
 		<item name="Building Supply Flare" count="1" prob="0.01"/>
@@ -140,9 +158,15 @@
 		<item name="Ammo Supply Flare" count="1" prob="0.1"/>
 		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.1"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.1"/>
-		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.005"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
 		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.005"/>
@@ -170,9 +194,15 @@
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.005"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.005"/>
 		<item name="HD Mossberg 500 Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.005"/>
-		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.005"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
@@ -217,9 +247,15 @@
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.05"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.05"/>
 		<item name="HD Mossberg 500 Schematic" count="1" prob="0.05"/>
-		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.05"/>
-		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.05"/>
-		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.005"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
@@ -254,9 +290,15 @@
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.05"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.05"/>
 		<item name="HD Mossberg 500 Schematic" count="1" prob="0.05"/>
-		<item name="HD M134 MiniGun Barrel Schematic" count="1" prob="0.05"/>
-		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.05"/>
-		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.05"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.005"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.005"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.005"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.005"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.005"/>
