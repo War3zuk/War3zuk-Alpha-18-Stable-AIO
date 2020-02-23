@@ -1,7 +1,11 @@
 <Khelldon>
-<!-- Khelldon - Bad Company UMA Zombies -->
+	
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+
 <remove xpath="/gamestages/spawner[@name='SleeperGSList']" />
+
 <append xpath="/gamestages">
+	
 		  <spawner name="SleeperGSList">
 			<gamestage stage="1">
 			  <spawn group="ZombiesTierGroup01" num="5" maxAlive="1" duration="1"/>
@@ -727,6 +731,8 @@
 			  <spawn group="ZombiesTierGroup07" num="97" maxAlive="256" duration="1"/>
 			</gamestage>
 		  </spawner>
+		  
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+		  
 </append>
-<!-- Khelldon - Bad Company UMA Zombies -->
 </Khelldon>

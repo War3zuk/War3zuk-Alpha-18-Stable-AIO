@@ -18,17 +18,17 @@
 </append>
 
 	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
-		<item name="Ammo Supply 9mm" count="2,4" prob="0.01"/>
-		<item name="Ammo Supply 44Mag" count="2,4" prob="0.01"/>
-		<item name="Ammo Supply 762mm" count="2,4" prob="0.01"/>
-		<item name="Ammo Supply Shotgun" count="2,4" prob="0.01"/>
-		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.01"/>
-		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.01"/>
-		<item name="Ammo Supply Shredder" count="1,2" prob="0.01"/>
-		<item name="Ammo Supply DE50" count="2,4" prob="0.01"/>
-		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.01"/>
-		<item name="Food Supply Flare" count="1" prob="0.1"/>
-		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.01"/>
+		<item name="Ammo Supply 9mm" count="2,4" prob="0.05"/>
+		<item name="Ammo Supply 44Mag" count="2,4" prob="0.05"/>
+		<item name="Ammo Supply 762mm" count="2,4" prob="0.05"/>
+		<item name="Ammo Supply Shotgun" count="2,4" prob="0.05"/>
+		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.05"/>
+		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.05"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.05"/>
+		<item name="Ammo Supply DE50" count="2,4" prob="0.05"/>
+		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.05"/>
+		<item name="Food Supply Flare" count="1" prob="0.2"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.05"/>
 		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.005"/>
 		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.005"/>
@@ -51,6 +51,7 @@
 		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.008"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
@@ -88,6 +89,7 @@
 		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.008"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
@@ -143,6 +145,7 @@
 		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.008"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
@@ -177,6 +180,7 @@
 		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.008"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
@@ -214,6 +218,7 @@
 		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.008"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='53']" >
@@ -267,6 +272,7 @@
 		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.008"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
@@ -310,11 +316,12 @@
 		<item name="HD Double Barrel Schematic" count="1" prob="0.005"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.005"/>
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.005"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.008"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='51']" >
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.02"/>
-		<item name="Health Supply Flare" count="1" prob="0.1"/>
+		<item name="Health Supply Flare" count="1" prob="0.5"/>
 		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
 		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
 		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>
@@ -323,7 +330,7 @@
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='96']" >
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.01"/>
-		<item name="Health Supply Flare" count="1" prob="0.1"/>
+		<item name="Health Supply Flare" count="1" prob="0.5"/>
 		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
 		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
 		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>
@@ -332,7 +339,7 @@
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='116']" >
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
-		<item name="Health Supply Flare" count="1" prob="0.1"/>
+		<item name="Health Supply Flare" count="1" prob="0.5"/>
 		<item name="HD GunBench Schematic" count="1" prob="0.05"/>
 		<item name="HD WorkBench Schematic" count="1" prob="0.05"/>
 		<item name="HD AmmoBench Schematic" count="1" prob="0.05"/>

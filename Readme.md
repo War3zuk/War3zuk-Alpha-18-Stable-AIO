@@ -1,5 +1,17 @@
 War3zuk-Alpha-18.4 B3 - AIO
 
+Updated v2.51 to 2.52
+
+Extra Z's Compatability Removal For RH (& Other OverHauls)
+
+HD Flame Thrower (Hires PBR Model) Paid
+HD Flame Thrower Schematic
+HD Flame Thrower 256x256 Incons
+
+Added Localization For The Following
+HD Mini Hatchet
+HD Tazas Hatchet
+
 Updated v2.50 to 2.51
 
 Added HD Vulcan 9mm Parts Schematics To More Areas

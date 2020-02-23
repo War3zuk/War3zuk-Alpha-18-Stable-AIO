@@ -35,7 +35,7 @@
 		<spawn maxcount="1" respawndelay="20" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
 	</append>
 	
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  -->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 
 <set xpath="/spawning/biome[@name='city']/spawn[@entitygroup='ZombiesAll']/@entitygroup">ZombiesTierGroup02</set>
 <set xpath="/spawning/biome[@name='city_wasteland']/spawn[@entitygroup='ZombiesAll']/@entitygroup">ZombiesTierGroup02</set>
@@ -46,6 +46,6 @@
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesAll']/@entitygroup">ZombiesTierGroup03</set>
 <set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='SnowZombies']/@entitygroup">ZombiesTierGroup01</set>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  -->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 
 </configs>

@@ -5,6 +5,20 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD Ground Mine" count="1" craft_area="HD WorkBench" craft_time = "30" >
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceGunPowder" count="10"/>
+	<ingredient name="resourceCandyTin" count="1"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="HD Breaching C4" count="1" craft_area="HD WorkBench" craft_time = "30" >
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceGunPowder" count="50"/>
+	<ingredient name="resourceCandyTin" count="1"/>
+	<ingredient name="resourceNail" count="100"/>
+</recipe>
+	
 <recipe name="HD Blade Trap" count="1" craft_area="HD WorkBench" craft_time = "100" tags="perkAdvancedEngineering,learnable">
 	<ingredient name="Titanium Polish" count="100"/>
 	<ingredient name="resourceForgedSteel" count="10"/>
@@ -200,6 +214,19 @@
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="25"/>
 	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Flame Thrower" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkMiner69r">
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Flame Fuel" count="100" craft_time = "10">
+	<ingredient name="ammoGasCan" count="200"/>
+	<ingredient name="resourceOilShale" count="10"/>
 </recipe>
 
 <recipe name="HD Vulcan 9mm" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">

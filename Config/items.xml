@@ -25,7 +25,7 @@
 	<set xpath="/items/item[@name='ammoRocketHE']/effect_group/passive_effect[@name='EntityDamage']/@value">210</set>
 	<set xpath="/items/item[@name='ammoRocketFrag']/effect_group/passive_effect[@name='EntityDamage']/@value">315</set>
 	
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  -->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 	
 <remove xpath="/items/item[@name='meleeHandMaster']"/>
 <remove xpath="/items/item[@name='meleeHandPlayer']"/>
@@ -66,7 +66,7 @@
 <remove xpath="/items/item[@name='meleeHandAnimalDireWolf']"/>
 <remove xpath="/items/item[@name='meleeHandBossGrace']"/>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  -->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 	
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Steel Polish</append>
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
@@ -214,17 +214,6 @@
 </append>
 	
 <append xpath="/items">
-	
-<item name="HDPumpJackE Schematic">
-	<property name="Extends" value="schematicMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="HDPumpJackE Schematic"/>
-	<property name="Unlocks" value="HDPumpJackE"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDPumpJackE" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="250"/>
-	</effect_group>
-</item>
 	
 <item name="drinkJarEmpty">
 	<property name="HoldType" value="3"/>
@@ -2300,6 +2289,99 @@
 	</effect_group>
 </item>
 
+<item name="HD Flame Thrower">
+		<property name="Tags" value="noSilencer,weapon,ranged,reloadPenalty,selfLoading"/>
+		<property name="DisplayType" value="rangedGun"/>
+		<property name="HoldType" value="60"/>
+		<property name="Meshfile" value="#@modfolder:Resources/HD Flame Thrower.unity3d?HD Flame Thrower.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+		<property name="CustomIcon" value="HD Flame Thrower"/>
+		<property name="DescriptionKey" value="HDFlameThrowerDesc"/>
+		<property name="Material" value="Msteel"/>
+		<property name="Weight" value="100"/>
+		<property name="CrosshairOnAim" value="true"/>
+		<property name="CrosshairUpAfterShot" value="false"/>
+		<property name="RepairTools" value="resourceRepairKit"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="SoundIdle" value="FThrowerStart"/>
+		<property name="SoundJammed" value="weapon_jam"/>
+		<property name="Sound_Sight_In" value="rifle_sight_in"/>
+		<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+		<property name="RepairExpMultiplier" value="10.8"/>
+		<property name="EconomicValue" value="2500"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property name="ShowQuality" value="true"/>
+		<property class="Action0">
+			<property name="Class" value="Ranged"/>
+			<property name="Magazine_items" value="HD Flame Fuel"/>
+			<property name="Sound_start" value="FThrowerFire"/>
+			<property name="Sound_repeat" value=""/>
+			<property name="Sound_empty" value="FThrowerIdle"/>
+			<property name="Sound_reload" value="Auger_Reload"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Zoom"/>
+				<property name="Zoom_max_out" value="55"/>
+				<property name="Zoom_max_in" value="55"/>
+				<property name="ScopeCameraOffset" value="0.000,0,0.065"/>
+				</property>
+			<effect_group name="Base Effects">
+		<passive_effect name="MaxRange" operation="base_set" value="15"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="10"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="300"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="3"/>
+		<passive_effect name="WalkSpeed" operation="base_set" value="0.75"/>
+		<passive_effect name="RunSpeed" operation="base_set" value="0.85"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".4"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.2"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.8"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.25"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".25"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.45"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".45"/>
+			<display_value name="dRecoil" value="1" />
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.2"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000,9000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,4"/>
+		<passive_effect name="ModSlots" operation="base_set" value="8,12" tier="5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+			
+		</effect_group>
+</item>
+
+<item name="HD Flame Fuel">
+	<property name="Extends" value="ammoGasCan"/>
+	<property name="DescriptionKey" value="HDFlameFuelDesc"/>
+	<property name="CustomIcon" value="HD Flame Fuel"/>
+	<property name="EconomicValue" value="55"/>
+	<property name="EconomicBundleSize" value="100"/>
+	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+	<effect_group name="Base Effects" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="10"/>
+		<passive_effect name="DismemberChance" operation="base_set" value="0" tags="head"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth,metal,stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="head"/>
+		
+		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffFlameThrower"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffFlameThrower"/>
+		
+		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+		
+	</effect_group>
+</item>
+
 <item name="50 BMG Round">
 	<property name="DescriptionKey" value="50BMGRoundDesc"/>
 	<property name="Extends" value="ammo44MagnumBulletBall"/>
@@ -2838,6 +2920,7 @@
 </item>
 
 <item name="HD Mini Hatchet">
+	<property name="DescriptionKey" value="HDMiniHatchetDesc"/>
 	<property name="Extends" value="meleeToolStoneAxe"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
@@ -2874,6 +2957,7 @@
 </item>
 
 <item name="HD Tazas Hatchet">
+	<property name="DescriptionKey" value="HDTazasHatchetDesc"/>
 	<property name="Extends" value="meleeToolStoneAxe"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
@@ -3727,7 +3811,7 @@
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/machetePrefab.prefab"/>
-	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
+	<property name="Material" value="Msteel"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="EconomicValue" value="100"/>
@@ -4685,6 +4769,28 @@
 	</effect_group>
 </item>
 
+<item name="HDPumpJackE Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HDPumpJackE Schematic"/>
+	<property name="Unlocks" value="HDPumpJackE"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDPumpJackE" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="250"/>
+	</effect_group>
+</item>
+
+<item name="HD Flame Thrower Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Flame Thrower Schematic"/>
+	<property name="Unlocks" value="HD Flame Thrower"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Flame Thrower" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+	</effect_group>
+</item>
+
 <item name="Building Supply Flare">
 	<property name="DescriptionKey" value="BSFDesc"/>
     <property name="CustomIcon" value="Building Flare" />
@@ -5308,6 +5414,8 @@
 <set xpath="/items/item[@name='gunMR10']/property[@name='RepairTools']/@value">RepairKitHuntingRifles</set>
 <set xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
 <set xpath="/items/item[@name='gunPumpShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
+
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 
 <insertAfter xpath="/items/item[@name='gunJunkTurret']" >
 <item name="meleeHandMaster">
@@ -6231,6 +6339,6 @@
 </item>
 </insertAfter>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  -->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 
 </configs>

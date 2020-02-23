@@ -322,7 +322,7 @@
 	<property name="LootListOnDeath" value="506"/>
 </append>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  -->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 
 <remove xpath="/entity_classes/entity_class[@name='zombieTemplateMale']"/>
 <remove xpath="/entity_classes/entity_class[@name='zombieWightFeral']"/>
@@ -4896,6 +4896,8 @@
 		  <entity_class name="badZombieBiker_Rager" extends="zombieBiker">			
 		  </entity_class>		  
 </insertAfter>
+
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
 
 <set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.20</set>
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>

@@ -1,4 +1,12 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate
+Key,Source,Context,Changes,English
+
+HDMiniHatchetDesc,items,,,Good Quality Hatchet. Add points into Miner69er to improve its Quality,
+
+HDTazasHatchetDesc,items,,,Good Quality Hatchet. Add points into Miner69er to improve its Quality,
+
+HDFlameThrowerDesc,items,,,State Of The Art firey Pew Pew Just ADD Petrol. Add points into Miner69er to improve its Quality,
+
+HDFlameFuelDesc,items,,,Advanced Fuel for the HD Flame Thrower.
 
 HDBladeTrapDesc,blocks,,,Titanium Reenforced Blade Trap that requires its Polish to be repaired.
 

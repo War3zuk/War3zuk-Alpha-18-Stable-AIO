@@ -17,7 +17,6 @@
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
 	<window name="windowToolsForge"/>
-<!--<window name="windowTools_HD Forge"/>-->
 	<window name="windowFuel"/>
 	<window name="WARwindowForgeInput"/>
 	<window name="windowOutput"/>

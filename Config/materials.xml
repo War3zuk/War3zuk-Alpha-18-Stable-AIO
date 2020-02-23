@@ -79,5 +79,17 @@
 	<property name="Experience" value="0"/>
 </material>
 
+<material id="MBreachingMine">
+	<property name="damage_category" value="stone"/>
+	<property name="surface_category" value="metal"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Experience" value="0"/>
+</material>
+
 </append>
 </configs>

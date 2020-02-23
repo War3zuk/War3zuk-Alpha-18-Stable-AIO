@@ -55,6 +55,72 @@
 	
 <append xpath="/blocks">
 	
+<block name="HD Ground Mine">
+	<property name="DescriptionKey" value="HDGroundMineDesc"/>
+	<property name="CustomIcon" value="HD Ground Mine" />
+	<property name="Class" value="Mine"/>
+	<property name="Tags" value="Mine"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="Material" value="MLandMine"/>
+	<property name="Mesh" value="models"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/HD Ground Mine.unity3d?HD Ground Mine.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Stacknumber" value="25"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="TriggerDelay" value="0.5"/>
+	<property name="TriggerSound" value="landmine_trigger"/>
+	<property name="Explosion.ParticleIndex" value="11"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="10"/>
+	<property name="Explosion.EntityDamage" value="500"/>
+	<property name="Explosion.DamageBonus.stone" value="0.1"/>
+	<property name="Explosion.DamageBonus.metal" value="0.1"/>
+	<property name="Explosion.DamageBonus.earth" value="0"/>
+	<property name="Explosion.DamageBonus.wood" value="0"/>
+	<property name="Explosion.DamageBonus.water" value="0"/>
+	<property name="CanPickup" value="false"/>
+	<property name="DropScale" value="1"/>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="EconomicValue" value="97"/>
+	<property name="FilterTags" value="fdecor,ftraps"/>
+	<property name="SortOrder1" value="70g0"/>
+</block>
+
+<block name="HD Breaching C4">
+	<property name="DescriptionKey" value="HDBreachingC4Desc"/>
+	<property name="CustomIcon" value="HD Breaching C4" />
+	<property name="Class" value="Mine"/>
+	<property name="Tags" value="Mine"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="Material" value="MBreachingMine"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/HD Breaching C4.unity3d?HD Breaching C4.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Stacknumber" value="25"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="TriggerDelay" value="5"/>
+	<property name="TriggerSound" value="Seconds"/>
+	<property name="Explosion.ParticleIndex" value="4"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="1"/>
+	<property name="Explosion.BlockDamage" value="2000"/>
+	<property name="Explosion.EntityDamage" value="50"/>
+	<property name="Explosion.DamageBonus.stone" value="1"/>
+	<property name="Explosion.DamageBonus.metal" value="1"/>
+	<property name="Explosion.DamageBonus.earth" value="1"/>
+	<property name="Explosion.DamageBonus.wood" value="1"/>
+	<property name="Explosion.DamageBonus.water" value="0"/>
+	<property name="CanPickup" value="false"/>
+	<property name="DropScale" value="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+	
 <block name="HD Blade Trap">
 	<property name="DescriptionKey" value="HDBladeTrapDesc"/>
 	<property name="CustomIcon" value="bladeTrap" />
