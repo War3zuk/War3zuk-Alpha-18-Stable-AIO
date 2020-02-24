@@ -1,8 +1,12 @@
 Key,Source,Context,Changes,English
 
-HDMiniHatchetDesc,items,,,Good Quality Hatchet. Add points into Miner69er to improve its Quality,
+HDGroundMineDesc,blocks,,,Player built Ground Mine for Defensive purposes.
 
-HDTazasHatchetDesc,items,,,Good Quality Hatchet. Add points into Miner69er to improve its Quality,
+HDBreachingC4Desc,items,,,Player Built Breaching C4 for when you just need to blow shit up.
+
+HDMiniHatchetDesc,items,,,Good Quality Starter Hatchet. Add points into Miner69er to improve its Quality,
+
+HDTazasHatchetDesc,items,,,Good Quality Taza Hatchet. Add points into Miner69er to improve its Quality,
 
 HDFlameThrowerDesc,items,,,State Of The Art firey Pew Pew Just ADD Petrol. Add points into Miner69er to improve its Quality,
 

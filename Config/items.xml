@@ -215,6 +215,54 @@
 	
 <append xpath="/items">
 	
+<item name="HD Breaching C4">
+	<property name="DescriptionKey" value="HDBreachingC4Desc"/>
+	<property name="CustomIcon" value="HD Breaching C4" />
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="62"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Breaching C4.unity3d?HD Breaching C4.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropScale" value="1.8"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="EconomicValue" value="41"/>
+	<property name="Weight" value="0"/>
+	<property name="Explosion.BlockTags" value="door,safes"/>
+	<property name="Explosion.DamageBonus.tags" value="38"/>
+	<property name="Explosion.ParticleIndex" value="4"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="2"/>
+	<property name="Explosion.BlockDamage" value="3000"/>
+	<property name="Explosion.EntityDamage" value="100"/>
+	<property name="Explosion.DamageBonus.stone" value="1"/>
+	<property name="Explosion.DamageBonus.metal" value="1"/>
+	<property name="Explosion.DamageBonus.earth" value="1"/>
+	<property name="Explosion.DamageBonus.wood" value="1"/>
+	<property name="Explosion.DamageBonus.water" value="0"/>
+	<property name="Explosion.BlastPower" value="20"/>
+	<property name="FuseStartOnDrop" value="true"/>
+	<property name="FuseTime" value="5"/>
+	<property name="StickPercent" value="1"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="SoundUnholster" value="charge_unholster"/>
+	<property name="SoundStick" value="Seconds"/>
+	<property name="SoundTick" value="charge_beep,.8"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<property name="Delay" value="1.2"/>
+		<property name="Throw_strength_default" value="15"/>
+		<property name="Max_strain_time" value="0"/>
+		<property name="Sound_start" value="charge_throw"/>
+	</property>
+	<property name="ThrowableDecoy" value="true"/>
+	<effect_group tiered="false">
+		<display_value name="dExRadius" value="5"/>
+		<display_value name="dFuseTime" value="5"/>
+	</effect_group>
+</item>
+	
 <item name="drinkJarEmpty">
 	<property name="HoldType" value="3"/>
 	<property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>

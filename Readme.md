@@ -11,6 +11,17 @@ HD Flame Thrower 256x256 Incons
 Added Localization For The Following
 HD Mini Hatchet
 HD Tazas Hatchet
+HD Ground Mine
+HD Breaching C4
+
+Fixed HD WeedWacker 5000 Exploit (Thanks Cirno321)
+
+HD Ground Mine (Hires PBR Model) Paid
+HD Breaching C4 (Hires PBR Model) Paid
+
+Replaced The Following Ingame Items (WIP)
+CntGasPump
+CntBrokenDrinksMachine
 
 Updated v2.50 to 2.51
 
