@@ -1,5 +1,19 @@
 War3zuk-Alpha-18.4 B3 - AIO
 
+Updated v2.52 to 2.53
+
+All Ammo Types Added To Findable Ammo Bags
+All Ammo Types Adjusted accordingly in Loot
+All Flares Added to multiple areas & adjusted in Loot
+
+Added 408 Round INC
+Added 408 Round SH
+Added 50 BMG INC
+Added 50 BMG SH
+
+Added Sickle Model to the HD Weed Wacker 5000
+Added Box Model to the HD Ammo Bags
+
 Updated v2.51 to 2.52
 
 Extra Z's Compatability Removal For RH (& Other OverHauls)
