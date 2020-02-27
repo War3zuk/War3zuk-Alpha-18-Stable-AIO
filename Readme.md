@@ -14,6 +14,9 @@ Added 50 BMG SH
 Added Sickle Model to the HD Weed Wacker 5000
 Added Box Model to the HD Ammo Bags
 
+All Loot Tables adjusted & Re-Blanced (WIP)
+Fixed Explosion RadiusBlocks (For Z's)
+
 Updated v2.51 to 2.52
 
 Extra Z's Compatability Removal For RH (& Other OverHauls)

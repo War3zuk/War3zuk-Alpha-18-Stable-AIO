@@ -127,12 +127,12 @@
 		<item name="Generic Ammo Supply">
 		<property name="CustomIcon" value="genericAmmoBox" />
 		<property name="DescriptionKey" value="genericAmmoBoxDesc"/>
-		<property name="Meshfile" value="#@modfolder:Resources/HD Storage Crate.unity3d?HD Storage Crate.Prefab"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Storage Crate.unity3d?HD Storage Crate.Prefab"/>
+		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="Material" value="Mwood"/>
 		<property name="EconomicValue" value="180"/>
 		<property name="HoldType" value="62"/>
-		<property name="Stacknumber" value="30000"/>
+		<property name="Stacknumber" value="25000"/>
 		<property class="Preview">
 		<property name="Zoom" value="28"/>
 		<property name="Pos" value="0,0"/>
