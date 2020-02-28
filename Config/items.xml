@@ -25,7 +25,7 @@
 	<set xpath="/items/item[@name='ammoRocketHE']/effect_group/passive_effect[@name='EntityDamage']/@value">210</set>
 	<set xpath="/items/item[@name='ammoRocketFrag']/effect_group/passive_effect[@name='EntityDamage']/@value">315</set>
 	
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
 <remove xpath="/items/item[@name='meleeHandMaster']"/>
 <remove xpath="/items/item[@name='meleeHandPlayer']"/>
@@ -66,7 +66,7 @@
 <remove xpath="/items/item[@name='meleeHandAnimalDireWolf']"/>
 <remove xpath="/items/item[@name='meleeHandBossGrace']"/>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Steel Polish</append>
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
@@ -1803,7 +1803,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
+		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,9mm Bullet INC,9mm Bullet SH"/>
 		<property name="Sound_start" value="M134Fire"/>
 		<property name="Sound_loop" value="M134Fire"/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -1883,7 +1883,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP"/>
+		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP,762Mag Bullet INC,762Mag Bullet SH"/>
 		<property name="Sound_start" value="M134Fire"/>
 		<property name="Sound_loop" value="M134Fire"/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -4135,6 +4135,26 @@
 			</effect_group>
 		</item>
 		
+<item name="45 ACP Round SH">
+	<property name="CustomIcon" value="45 Acp SH" />
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="EconomicValue" value="30"/>
+    <property name="Stacknumber" value="20000" /> 
+	  <property name="DescriptionKey" value="BulletSHDesc"/>
+	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="35"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffHDShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffHDShocked"/>
+				</triggered_effect>
+			</effect_group>
+		 </item>
+		
 <item name="50Mag Bullet SH">
 			 <property name="CustomIcon" value="50Mag Bullet SH" />
 		 <property name="Extends" value="Deagle Round"/>
@@ -4194,26 +4214,6 @@
 				</triggered_effect>
 			</effect_group>
 		 </item>
-
-<item name="45 ACP Round SH">
-	<property name="CustomIcon" value="45 Acp SH" />
-	<property name="Extends" value="ammo9mmBulletBall"/>
-	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
-	  <property name="DescriptionKey" value="BulletSHDesc"/>
-	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="35"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffHDShocked">
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffHDShocked"/>
-				</triggered_effect>
-			</effect_group>
-		 </item>
 		 
 <item name="408 Round SH">
 	<property name="CustomIcon" value="408 Round SH" />
@@ -4254,8 +4254,6 @@
 				</triggered_effect>
 			</effect_group>
 		 </item>
-
-<!--  Valmar Stallionsden War3zuk EDIT -->
 		 
 <item name="9mm Bullet INC">
 	<property name="CustomIcon" value="9mm Bullet INC" />
@@ -4306,6 +4304,31 @@
 				</triggered_effect>
 			</effect_group>
 		</item>
+		
+<item name="45 ACP Round INC">
+	<property name="CustomIcon" value="45 Acp INC" />
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="EconomicValue" value="30"/>
+    <property name="Stacknumber" value="20000" /> 
+	  <property name="DescriptionKey" value="BulletINCDesc"/>
+	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		 </item>
 		
 		 <item name="50Mag Bullet INC">
 			 <property name="CustomIcon" value="50Mag Bullet INC" />
@@ -4381,31 +4404,6 @@
 				</triggered_effect>
 			</effect_group>
 		</item>
-		
-<item name="45 ACP Round INC">
-	<property name="CustomIcon" value="45 Acp INC" />
-	<property name="Extends" value="ammo9mmBulletBall"/>
-	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
-	  <property name="DescriptionKey" value="BulletINCDesc"/>
-	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		 </item>
 		 
 <item name="408 Round INC">
 	<property name="CustomIcon" value="408 Round INC" />
@@ -4461,8 +4459,6 @@
      <property name="Extends" value="resourceBulletTip" />
      <property name="DescriptionKey" value="HollowTipDesc"/>
 </item>
-
-<!--  Valmar Stallionsden War3zuk EDIT -->
 
 <item name="HD Wrench Schematic">
 	<property name="Extends" value="schematicMaster"/>
@@ -5575,7 +5571,7 @@
 <set xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
 <set xpath="/items/item[@name='gunPumpShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
 <insertAfter xpath="/items/item[@name='gunJunkTurret']" >
 <item name="meleeHandMaster">
@@ -6499,6 +6495,6 @@
 </item>
 </insertAfter>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
 </configs>

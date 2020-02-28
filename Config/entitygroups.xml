@@ -200,7 +200,7 @@
 
 </append>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
 <append xpath="/entitygroups">
 		  <entitygroup name="ZombiesBCTier01">
@@ -2570,7 +2570,7 @@
 			<entity name="valZombieBruteBoss_Rager" prob="5.0"/>
 		  </entitygroup>
 		  
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 		  
 </append>
 </War3zuk>

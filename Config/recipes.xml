@@ -914,6 +914,20 @@
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
+<recipe name="408 Round SH" count="1"  craft_time = "0.2" craft_area="HD AmmoBench" >
+     <ingredient name="Hollow Tip" count="4" />
+	 <ingredient name="HD Electrolyte" count="4"/>
+     <ingredient name="resourceGunPowder" count="4"/>
+     <ingredient name="resourceBulletCasing" count="4"/>
+</recipe>
+
+<recipe name="50 BMG Round SH" count="1"  craft_time = "0.2" craft_area="HD AmmoBench" >
+     <ingredient name="Hollow Tip" count="5" />
+	 <ingredient name="HD Electrolyte" count="5"/>
+     <ingredient name="resourceGunPowder" count="10"/>
+     <ingredient name="resourceBulletCasing" count="4"/>
+</recipe>
+
 <recipe name="Hollow Tip" count="1"  craft_time = "0.5" craft_area="HD AmmoBench" >
      <ingredient name="resourceScrapLead" count="2"/>
 </recipe>
@@ -952,6 +966,18 @@
      <ingredient name="Hollow Tip" count="2" />
      <ingredient name="resourceGunPowder" count="2"/>
      <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="408 Round INC" count="1"  craft_time = "0.2" craft_area="HD AmmoBench" >
+     <ingredient name="Hollow Tip" count="4" />
+     <ingredient name="resourceGunPowder" count="4"/>
+     <ingredient name="resourceBulletCasing" count="4"/>
+</recipe>
+
+<recipe name="50 BMG Round INC" count="1"  craft_time = "0.2" craft_area="HD AmmoBench" >
+     <ingredient name="Hollow Tip" count="4" />
+     <ingredient name="resourceGunPowder" count="10"/>
+     <ingredient name="resourceBulletCasing" count="4"/>
 </recipe>
 
 <recipe name="HD Noob Frame" count="1" craft_time = "1" >

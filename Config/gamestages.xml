@@ -1,6 +1,6 @@
 <Khelldon>
 	
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
 <remove xpath="/gamestages/spawner[@name='SleeperGSList']" />
 
@@ -732,7 +732,7 @@
 			</gamestage>
 		  </spawner>
 		  
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 		  
 </append>
 </Khelldon>

@@ -1,6 +1,6 @@
 <War3zuk>
 	
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
 <append xpath="/archetypes">
 			<archetype name="ZombieAiden" male="true" hair_color="249,130,2" eye_color="101,111,145" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
@@ -16519,6 +16519,6 @@
 			</archetype>
 </append>
 
-<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's-->
+<!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
 </War3zuk>
