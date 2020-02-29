@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B3 - AIO
 
+Updated v2.53 to 2.54
+
+Fixed HD M3 Auto Perk
+
 Updated v2.52 to 2.53
 
 All Ammo Types Added To Findable Ammo Bags

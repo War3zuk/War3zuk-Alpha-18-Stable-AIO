@@ -838,7 +838,7 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
@@ -854,8 +854,8 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.6"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".8"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkGunslinger,9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkDeadEye,9mmGun"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye,9mmGun"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
