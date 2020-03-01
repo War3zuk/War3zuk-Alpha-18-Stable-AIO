@@ -1,8 +1,8 @@
 <configs>
 	
-	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">36</set>
-	<set xpath="/items/item[@name='ammo9mmBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@value">44</set>
-	<set xpath="/items/item[@name='ammo9mmBulletAP']/effect_group/passive_effect[@name='EntityDamage']/@value">35</set>
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">32</set>
+	<set xpath="/items/item[@name='ammo9mmBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@value">40</set>
+	<set xpath="/items/item[@name='ammo9mmBulletAP']/effect_group/passive_effect[@name='EntityDamage']/@value">31</set>
 	
 	
 	<set xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">70</set>
