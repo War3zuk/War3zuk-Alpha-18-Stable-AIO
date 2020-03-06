@@ -4,6 +4,10 @@ Updated v2.53 to 2.54
 
 Fixed HD M3 Auto Perk
 
+Loot Adjustment Ammo
+Loot Adjustment Schematics
+Loot Adjustment Benches
+
 Updated v2.52 to 2.53
 
 All Ammo Types Added To Findable Ammo Bags
