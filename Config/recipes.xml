@@ -291,6 +291,13 @@
 	<ingredient name="resourceSpring" count="20"/>
 </recipe>
 
+<recipe name="HD Vulcan 50Bmg" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
+	<ingredient name="HD Vulcan 50Bmg Barrel" count="6"/>
+	<ingredient name="HD Vulcan 50Bmg Parts" count="1"/>
+	<ingredient name="HD Vulcan 50Bmg Motor" count="1"/>
+	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
 <recipe name="HD Vulcan 50Bmg Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="300"/>
 	<ingredient name="resourceMechanicalParts" count="60"/>

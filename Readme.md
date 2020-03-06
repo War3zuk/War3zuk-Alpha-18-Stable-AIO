@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.54 to 2.55
+
+Fixed Recipe HD Vulcan 50Bmg
+
 Updated v2.53 to 2.54
 
 Fixed HD M3 Auto Perk
