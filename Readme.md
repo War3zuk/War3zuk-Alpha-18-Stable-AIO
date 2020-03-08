@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.56 to 2.57
+
+Fixed HD Schematics
+
 Updated v2.55 to 2.56
 
 Adjusted Loot

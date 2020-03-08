@@ -254,24 +254,30 @@
 </append>
 	
 <append xpath="/items">
-	
+
 <item name="schematicMaster">
+	<property name="DescriptionKey" value="schematicGeneralGroupDesc"/>
+	<property name="ItemTypeIcon" value="book"/>
+	<property name="AltItemTypeIcon" value="book_read"/>
+	<property name="CustomIcon" value="schematicMaster"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="Meshfile" value="Items/Misc/Book"/>
-	<property name="Material" value="Scrapped Schematics"/>
 	<property name="HoldType" value="21"/>
+	<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Scrapped Schematics"/>
 	<property name="Weight" value="5"/>
-	<property name="FuelValue" value="10"/>
-	<property name="Stacknumber" value="25000"/>
+	<property name="FuelValue" value="5"/>
+	<property name="Stacknumber" value="2500"/>
 	<property name="EconomicValue" value="250"/>
-	<property class="Action1">
-		<property name="Class" value="LearnRecipe"/>
-		<property name="Delay" value="1"/>
-		<property name="ActionExp" value="0"/>
-		<property name="ActionExpBonusMultiplier" value="0"/>
-		<property name="Sound_start" value="recipe_unlocked"/>
-	</property>
 	<property name="Group" value="Books"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="UseAnimation" value="false"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="read_mod"/>
+    <property name="Sound_in_head" value="true"/>
+  </property>
 </item>
 
 <item name="Scrapped Schematics Bundle">
