@@ -11,6 +11,16 @@
 	<set xpath="/materials/material[@id='MoreStone']/property[@name='MaxDamage']/@value">800</set>
 	
 <append xpath="/materials">
+
+<material id="Scrapped Schematics">
+	<property name="damage_category" value="cloth"/>
+	<property name="surface_category" value="cloth"/>
+	<property name="forge_category" value="Scrapped Schematics"/>
+	<property name="Hardness" type="float" value="0.1"/>
+	<property name="stepsound" value="wood"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
+</material>
 	
 <material id="Kryptonite">
 	<property name="damage_category" value="metal"/>

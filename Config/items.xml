@@ -255,9 +255,52 @@
 	
 <append xpath="/items">
 	
+<item name="schematicMaster">
+	<property name="CreativeMode" value="None"/>
+	<property name="Meshfile" value="Items/Misc/Book"/>
+	<property name="Material" value="Scrapped Schematics"/>
+	<property name="HoldType" value="21"/>
+	<property name="Weight" value="5"/>
+	<property name="FuelValue" value="10"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="250"/>
+	<property class="Action1">
+		<property name="Class" value="LearnRecipe"/>
+		<property name="Delay" value="1"/>
+		<property name="ActionExp" value="0"/>
+		<property name="ActionExpBonusMultiplier" value="0"/>
+		<property name="Sound_start" value="recipe_unlocked"/>
+	</property>
+	<property name="Group" value="Books"/>
+</item>
+
+<item name="Scrapped Schematics Bundle">
+	<property name="CustomIcon" value="Scrapped Schematics Bundle"/>
+	<property name="DescriptionKey" value="ScrappedSchematicsBundleDesc"/>
+	<property name="Meshfile" value="Items/Misc/paper"/>
+	<property name="HoldType" value="21"/>
+	<property name="Material" value="Scrapped Schematics"/>
+	<property name="Weight" value="5"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="FuelValue" value="0"/>
+	<property name="EconomicValue" value="1250"/>
+	<property name="Group" value="Books"/>
+	</item>
+	
+<item name="Scrapped Schematics">
+	<property name="DescriptionKey" value="ScrappedSchematicsDesc"/>
+	<property name="Meshfile" value="Items/Misc/paper"/>
+	<property name="HoldType" value="21"/>
+	<property name="Material" value="Scrapped Schematics"/>
+	<property name="Weight" value="5"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="FuelValue" value="0"/>
+	<property name="Group" value="Survival"/>
+	</item>
+	
 <item name="HD Breaching C4">
 	<property name="DescriptionKey" value="HDBreachingC4Desc"/>
-	<property name="CustomIcon" value="HD Breaching C4" />
+	<property name="CustomIcon" value="HD Breaching C4"/>
 	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
 	<property name="ItemTypeIcon" value="explosion"/>
 	<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
@@ -3139,21 +3182,21 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="UnlockedBy" value="perkYeahScience"/>
 	<property name="Material" value="MresourceScrapLeadLarge"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="1"/>
 	<property name="Weight" value="160"/>
-	<property name="EconomicValue" value="500"/>
+	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Resources,Chemicals"/>
 	<property name="DegradationBreaksAfter" value="false"/>
-	<property name="ShowQuality" value="true"/>
+	<property name="ShowQuality" value="false"/>
 	<property name="DescriptionKey" value="HDCellDesc"/>
 	<property class="Attributes">
-		<property name="DegradationMax" value="70000000,75000000"/>
-		<property name="BatteryMaxLoadInVolts" value="70000000, 75000000"/>
-		<property name="BatteryDischargeTimeInMinutes" value="70000000,75000000"/>
+		<property name="DegradationMax" value="10916,10922"/>
+		<property name="BatteryMaxLoadInVolts" value="10916, 10922"/>
+		<property name="BatteryDischargeTimeInMinutes" value="10916,10922"/>
 	</property>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="70000000,75000000" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="6000,60000" tier="1,6"/>
 	</effect_group>
 </item>
 

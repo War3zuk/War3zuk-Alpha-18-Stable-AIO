@@ -1681,7 +1681,6 @@
 </block>
 		
 <block name="HD Generator">
-	<property name="DescriptionKey" value="HDGDesc"/>
 	<property name="CustomIcon" value="HD Genny"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="BatteryBank"/>
@@ -1693,14 +1692,15 @@
 	<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> <property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="MaxPower" value="65500"/>
-	<property name="InputPerTick" value="10000"/>
-	<property name="ChargePerInput" value="20000"/>
-	<property name="OutputPerStack" value="60000"/>
-	<property name="OutputPerCharge" value="60000"/>
+	<property name="DescriptionKey" value="powerSourceDesc"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering,batterybankSchematic"/>
+	<property name="MaxPower" value="65535"/>
+	<property name="InputPerTick" value="1000"/>
+	<property name="ChargePerInput" value="1000"/>
+	<property name="OutputPerStack" value="10922"/>
+	<property name="OutputPerCharge" value="10922"/>
 	<property name="SlotItem" value="HD Cell"/>
 	<property name="Group" value="Science"/>
-	<property name="UnlockedBy" value="HD Generator Schematic"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="8"/>
 		<property name="resourceElectricParts" value="6"/>

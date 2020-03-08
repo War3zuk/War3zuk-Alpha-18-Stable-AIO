@@ -5,6 +5,14 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="Scrapped Schematics" count="1" tooltip="ttScrapVeggies" craft_time="0.5">
+	<wildcard_forge_category />
+</recipe>
+
+<recipe name="Scrapped Schematics Bundle" count="1" craft_time="0.5">
+	<ingredient name="Scrapped Schematics" count="5"/>
+</recipe>
+	
 <recipe name="HD Ground Mine" count="1" craft_area="HD WorkBench" craft_time = "30" >
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceGunPowder" count="10"/>
@@ -769,11 +777,11 @@
 </recipe>
 
 <recipe name="HD Cell" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
-	<ingredient name="resourceForgedSteel" count="20"/>
-	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="carBattery" count="4"/>
-	<ingredient name="resourceOil" count="10"/>
-	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="carBattery" count="5"/>
+	<ingredient name="resourceOil" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="100"/>
 </recipe>
 
 <recipe name="HD Generator" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
