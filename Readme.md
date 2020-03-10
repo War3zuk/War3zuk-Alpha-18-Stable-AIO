@@ -1,5 +1,10 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.57 to 2.58
+
+Fixed HD Chainsaw Code
+Fixed HD Auger Code
+
 Updated v2.56 to 2.57
 
 Fixed HD Schematics

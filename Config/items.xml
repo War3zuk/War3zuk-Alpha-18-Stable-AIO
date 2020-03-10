@@ -3335,7 +3335,9 @@
 		<property name="Sound_reload" value="AugerReload"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
 		<property name="SupportHarvesting" value="true"/>
-		<property name="DamageBonus.stone" value=".25"/>
+		<property name="DamageBonus.stone" value="1.1"/>
+		<property name="DamageBonus.wood" value="-.1"/>
+		<property name="DamageBonus.head" value="0.2"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 	</property>
 	<effect_group name="meleeToolAuger">
@@ -3406,7 +3408,9 @@
 		<property name="Sound_reload" value="ChainsawReload"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
 		<property name="SupportHarvesting" value="true"/>
-		<property name="DamageBonus.wood" value=".25"/>
+		<property name="DamageBonus.stone" value="-.1"/>
+		<property name="DamageBonus.wood" value="1.1"/>
+		<property name="DamageBonus.head" value="0.5"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 	</property>
 	<effect_group name="meleeToolChainsaw">
