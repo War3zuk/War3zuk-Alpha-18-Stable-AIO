@@ -2,8 +2,28 @@ War3zuk-Alpha-18.4 B4 - AIO
 
 Updated v2.57 to 2.58
 
-Fixed HD Chainsaw Code
-Fixed HD Auger Code
+Fixed HD Chainsaw Code (Approx 50% better than original)
+Fixed HD Auger Code (Approx 50% better than original)
+Fixed HD Mini Hatchet (Repair from Stone to 1 bar of forged iron)
+
+All Vanilla & HD Weapons Balanced & Checked
+
+Player Start Class System Fully Built
+(New Game Will Ovbiously Be Needed)
+HD Builder (5 Quests)
+HD Engineer (5 Quests)
+HD Farmer (5 Quests)
+HD Gunman (5 Quests) (HD Guns ONLY)
+HD Mechanic (5 Quests)
+HD Medic (5 Quests)
+Total Of 30 Quests Ranging From Very Easy Too Hard
+
+Player Start Class System README
+On starting the game Quests have been shortened down
+to Crafting your Bedroll & then Visiting the Trader
+On SPEAKING to the Trader your Quests will Activate
+A Level 6 Item will be given on completion of each
+PreReq Quest
 
 Updated v2.56 to 2.57
 

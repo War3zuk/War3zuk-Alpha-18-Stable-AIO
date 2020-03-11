@@ -1,27 +1,6 @@
 <configs>
 	
-	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">32</set>
-	<set xpath="/items/item[@name='ammo9mmBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@value">40</set>
-	<set xpath="/items/item[@name='ammo9mmBulletAP']/effect_group/passive_effect[@name='EntityDamage']/@value">31</set>
-	
-	
-	<set xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">70</set>
-	<set xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@value">85</set>
-	<set xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group/passive_effect[@name='EntityDamage']/@value">82</set>
-	
-	
-	<set xpath="/items/item[@name='ammo762mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">72</set>
-	<set xpath="/items/item[@name='ammo762mmBulletHP']/effect_group/passive_effect[@name='EntityDamage']/@value">75</set>
-	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group/passive_effect[@name='EntityDamage']/@value">72</set>
-	
-	
-	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='EntityDamage']/@value">18</set>
-	<set xpath="/items/item[@name='ammoShotgunSlug']/effect_group/passive_effect[@name='EntityDamage']/@value">115</set>
-	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='EntityDamage']/@value">110</set>
-	
 	<set xpath="/items/item[@name='ammoBlunderbuss']/effect_group/passive_effect[@name='EntityDamage']/@value">15</set>
-	
-	
 	<set xpath="/items/item[@name='ammoRocketHE']/effect_group/passive_effect[@name='EntityDamage']/@value">210</set>
 	<set xpath="/items/item[@name='ammoRocketFrag']/effect_group/passive_effect[@name='EntityDamage']/@value">315</set>
 	
@@ -254,6 +233,17 @@
 </append>
 	
 <append xpath="/items">
+	
+<item name="HD Class PreReq"> 
+	<property name="CustomIcon" value="HD Class PreReq"/>
+	<property name="Extends" value="questMaster"/>
+	<property class="Action0">
+	<property name="Class" value="Quest"/>
+	<property name="QuestGiven" value="HD Class PreReq"/>
+	<property name="Delay" value="0"/>
+	</property>			
+	<property name="Group" value="Special Items"/>			
+</item>
 
 <item name="schematicMaster">
 	<property name="DescriptionKey" value="schematicGeneralGroupDesc"/>
@@ -1285,6 +1275,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="1000"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="5"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1803,6 +1794,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="3"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2389,7 +2381,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="100"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="75"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="8"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="22"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="9"/>
@@ -3109,6 +3101,7 @@
 <item name="HD Mini Hatchet">
 	<property name="DescriptionKey" value="HDMiniHatchetDesc"/>
 	<property name="Extends" value="meleeToolStoneAxe"/>
+	<property name="RepairTools" value="resourceForgedIron"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD MiniHatchet.unity3d?HDMiniHatchet.Prefab"/>

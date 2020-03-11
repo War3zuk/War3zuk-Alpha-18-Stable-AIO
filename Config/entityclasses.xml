@@ -1,8 +1,8 @@
 <configs>
 	
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">keystoneBlock,Starter Class</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">keystoneBlock,Starter Class</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">keystoneBlock,Starter Class</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">Starter Class</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">Starter Class</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">Starter Class</set>
 	
 	<set xpath="/entity_classes/entity_class[contains(@name,'zombie') or contains(@name,'Zombie')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_set'][@value='1']/@value">1.5</set>
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalBear')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.0</set>
