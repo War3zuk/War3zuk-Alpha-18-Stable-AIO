@@ -1,5 +1,32 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.58 to 2.59
+
+Added Giant Rabbit Fire
+Added Giant Rabbit Radiated
+Added Giant Chicken Fire
+Added Giant Chicken Radiated
+Added Giant Snake Fire
+Added Giant Snake Radiated
+Added Giant Zombie Vulture Fire
+Added Giant Zombie Vulture Radiated
+Added Giant Boar Fire
+Added Giant Boar Radiated
+Added Giant Hound Fire
+Added Giant Hound Radiated
+
+HD INC Ammo Now Sets Zombie On Fire Till Death
+HD Flame Thrower Fuel Now Sets Zombies On Fire Till Death
+
+Trader Opening Time Set To 06:05am / 22:05pm
+Trader Items Re-Balanced
+ALL INC Ammo Added To Trader
+ALL SHOCK Ammo Added To Trader
+
+Balanced HD Guppy Test Kit Recipe
+Added Covid-19 Deadly Pathogen (Vultures)
+Added HD Covid-19 Test Kit Recipe
+
 Updated v2.57 to 2.58
 
 Fixed HD Chainsaw Code (Approx 50% better than original)

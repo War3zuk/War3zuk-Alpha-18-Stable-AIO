@@ -2501,13 +2501,8 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth,metal,stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="head"/>
-		
 		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffFlameThrower"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffFlameThrower"/>
-		
-		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-		
+		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
 	</effect_group>
 </item>
 
@@ -2797,7 +2792,7 @@
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150"/>
 	<property name="Group" value="Science,Medical,Basics"/>
-	<property name="DescriptionKey" value="HDGTKitDesc"/>
+	<property name="DescriptionKey" value="HDGuppyTestKitDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2805,7 +2800,32 @@
 		<property name="Sound_start" value="player_bandage"/>
 	</property>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffGuppies"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffGuppies"/>
+	</effect_group>
+</item>
+
+<item name="HD Covid-19 Test Kit">
+	<property name="CustomIcon" value="HD Covid-19 Test Kit" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medical"/>
+	<property name="HoldType" value="64"/>
+	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Stacknumber" value="2500"/>
+	<property name="FuelValue" value="1"/>
+	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Science,Medical,Basics"/>
+	<property name="DescriptionKey" value="HDCovid19TestKitDesc"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_bandage"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffCovid-19"/>
 	</effect_group>
 </item>
 
@@ -4306,200 +4326,208 @@
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
     <property name="Stacknumber" value="20000" /> 
-	  <property name="DescriptionKey" value="BulletINCDesc"/>
-	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+    <property name="DescriptionKey" value="BulletINCDesc"/>
+    <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+    <effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		 </item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		 
-		 <item name="44Mag Bullet INC">
-			 <property name="CustomIcon" value="44Mag Bullet INC" />
-		 <property name="Extends" value="ammo44MagnumBulletBall"/>
-		<property name="EconomicValue" value="50"/>
-		 <property name="Stacknumber" value="20000" /> 
-		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-		<property name="DescriptionKey" value="BulletINCDesc"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="35"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+<item name="44Mag Bullet INC">
+	<property name="CustomIcon" value="44Mag Bullet INC" />
+	<property name="Extends" value="ammo44MagnumBulletBall"/>
+	<property name="EconomicValue" value="50"/>
+	<property name="Stacknumber" value="20000" /> 
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<property name="DescriptionKey" value="BulletINCDesc"/>
+	<effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="35"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		</item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		
 <item name="45 ACP Round INC">
 	<property name="CustomIcon" value="45 Acp INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
-	  <property name="DescriptionKey" value="BulletINCDesc"/>
-	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+	<property name="Stacknumber" value="20000" /> 
+	<property name="DescriptionKey" value="BulletINCDesc"/>
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		 </item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		
-		 <item name="50Mag Bullet INC">
-			 <property name="CustomIcon" value="50Mag Bullet INC" />
-		 <property name="Extends" value="Deagle Round"/>
-		<property name="EconomicValue" value="60"/>
-		 <property name="Stacknumber" value="20000" /> 
-		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-		<property name="DescriptionKey" value="BulletINCDesc"/>
-       <effect_group name="Base Effects" tiered="false">
+<item name="50Mag Bullet INC">
+	 <property name="CustomIcon" value="50Mag Bullet INC" />
+	 <property name="Extends" value="Deagle Round"/>
+	<property name="EconomicValue" value="60"/>
+	<property name="Stacknumber" value="20000" /> 
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<property name="DescriptionKey" value="BulletINCDesc"/>
+	<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="40"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		</item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		
-		 <item name="500Mag Bullet INC">
-			 <property name="CustomIcon" value="500Mag Bullet INC" />
-		 <property name="Extends" value="Deagle Round"/>
-		<property name="EconomicValue" value="70"/>
-		 <property name="Stacknumber" value="20000" /> 
-		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-		<property name="DescriptionKey" value="BulletINCDesc"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="50"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+<item name="500Mag Bullet INC">
+	<property name="CustomIcon" value="500Mag Bullet INC" />
+	<property name="Extends" value="Deagle Round"/>
+	<property name="EconomicValue" value="70"/>
+	<property name="Stacknumber" value="20000" /> 
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<property name="DescriptionKey" value="BulletINCDesc"/>
+	<effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		</item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		
-  	<item name="762Mag Bullet INC">
-		<property name="CustomIcon" value="762Mag Bullet INC" />
-		<property name="Extends" value="ammo762mmBulletBall"/>
-		<property name="EconomicValue" value="80"/>
-		 <property name="Stacknumber" value="20000" /> 
-		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-		 <property name="DescriptionKey" value="BulletINCDesc"/>
-        <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="60"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+<item name="762Mag Bullet INC">
+	<property name="CustomIcon" value="762Mag Bullet INC" />
+	<property name="Extends" value="ammo762mmBulletBall"/>
+	<property name="EconomicValue" value="80"/>
+	<property name="Stacknumber" value="20000" /> 
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<property name="DescriptionKey" value="BulletINCDesc"/>
+	<effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="60"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		</item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		 
 <item name="408 Round INC">
 	<property name="CustomIcon" value="408 Round INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
     <property name="Stacknumber" value="20000" /> 
-	  <property name="DescriptionKey" value="BulletINCDesc"/>
-	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="65"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+	<property name="DescriptionKey" value="BulletINCDesc"/>
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="65"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		 </item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		 
 <item name="50 BMG Round INC">
 	<property name="CustomIcon" value="50 BMG Round INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
     <property name="Stacknumber" value="20000" /> 
-	  <property name="DescriptionKey" value="BulletINCDesc"/>
-	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
-       <effect_group name="Base Effects" tiered="false">
-				<passive_effect name="EntityDamage" operation="base_set" value="75"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+	<property name="DescriptionKey" value="BulletINCDesc"/>
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="75"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
-					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
+			<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+			</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIsOnFire" />
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
-				</triggered_effect>
-			</effect_group>
-		 </item>
+			</triggered_effect>
+		</effect_group>
+</item>
 		 
  <item name="Hollow Tip">
      <property name="Extends" value="resourceBulletTip" />
@@ -6328,7 +6356,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".99" tags="BuffGuppies"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffGuppies"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
 	</effect_group>
 </item>
@@ -6346,6 +6374,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".60" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffGuppies"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
 	</effect_group>
 </item>
@@ -6366,6 +6395,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".90" tags="BuffGuppies"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -6395,9 +6425,9 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="35"/>
 	<property class="Action0">
-		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Delay" value="0.7"/>
 		<property name="DamageEntity" value="8"/>
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,BuffCovid-19"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Vomit"/>
@@ -6413,7 +6443,6 @@
 	</property>
 	<effect_group name="meleeHandAnimalZombieVulture" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>  A16 .7,  50=1.2 -->
 		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
@@ -6421,10 +6450,10 @@
 		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
-
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/><!--InfectionRadiated-->
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffCovid-19"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/>
 	</effect_group>
 </item>
 </insertAfter>
@@ -6441,14 +6470,15 @@
 		<property name="FlyTime" value="6"/>
 		<property name="LifeTime" value="8"/>
 		<property name="CollisionRadius" value="0.5"/>
-		<property name="Buff" value="buffIllInfection0"/>
+		<property name="Buff" value="buffIllInfection0,BuffCovid-19"/>
 	</property>
 	<effect_group name="ammoProjectileVultureVomit" tiered="false">
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/><!--InfectionRadiated-->
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffCovid-19"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/>
 	</effect_group>
 </item>
 </insertAfter>

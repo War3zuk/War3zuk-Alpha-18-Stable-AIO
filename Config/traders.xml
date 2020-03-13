@@ -5,8 +5,8 @@
 	<set xpath="/traders/trader_info[@id='1']/@max_inventory">100</set>
 	<set xpath="/traders/trader_info[@id='1']/@min_items_swapped">50</set>
 	<set xpath="/traders/trader_info[@id='1']/@max_items_swapped">100</set>
- 	<set xpath="/traders/trader_info[@id='1']/@open_time">6:05</set>
-	<set xpath="/traders/trader_info[@id='1']/@close_time">21:05</set>
+ 	<set xpath="/traders/trader_info[@id='1']/@open_time">06:05</set>
+	<set xpath="/traders/trader_info[@id='1']/@close_time">22:05</set>
 	<set xpath="/traders/trader_info[@id='3']/@reset_interval">1</set>
 	<set xpath="/traders/trader_info[@id='3']/@allow_sell">true</set>
 	<set xpath="/traders/trader_info[@id='4']/@reset_interval">1</set>
@@ -19,39 +19,42 @@
 	<set xpath="/traders/trader_info[@id='5']/@allow_sell">true</set>
 	
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT1SecretStash']">
-	<item name="Deagle Round" count="100,200" prob="0.01"/>
-	<item name="500 Auto Max" count="100,200" prob="0.01"/>
-	<item name="9mm Bullet SH" count="100,200" prob="0.01"/>
-	<item name="44Mag Bullet SH" count="100,200" prob="0.01"/>
-	<item name="50Mag Bullet SH" count="100,200" prob="0.01"/>
-	<item name="500Mag Bullet SH" count="100,200" prob="0.01"/>
-	<item name="762Mag Bullet SH" count="100,200" prob="0.01"/>
+	<item name="9mm Bullet INC" count="25,50" prob="0.9"/>
+	<item name="45 ACP Round INC" count="25,50" prob="0.9"/>
+	<item name="44Mag Bullet INC" count="25,50" prob="0.8"/>
+	<item name="50Mag Bullet INC" count="25,50" prob="0.8"/>
+	<item name="500Mag Bullet INC" count="25,50" prob="0.7"/>
+	<item name="762Mag Bullet INC" count="25,50" prob="0.7"/>
+	<item name="408 Round INC" count="25,50" prob="0.6"/>
+	<item name="50 BMG Round INC" count="25,50" prob="0.5"/>
 </append>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT2SecretStash']">
-	<item name="9mm Bullet INC" count="50,100" prob="0.01"/>
-	<item name="44Mag Bullet INC" count="50,100" prob="0.01"/>
-	<item name="50Mag Bullet INC" count="50,100" prob="0.01"/>
-	<item name="500Mag Bullet INC" count="50,100" prob="0.01"/>
-	<item name="762Mag Bullet INC" count="50,100" prob="0.01"/>
-	<item name="HD Military Boots" count="50,100" prob="0.01"/>
+	<item name="9mm Bullet SH" count="25,50" prob="0.9"/>
+	<item name="45 ACP Round SH" count="25,50" prob="0.9"/>
+	<item name="44Mag Bullet SH" count="25,50" prob="0.8"/>
+	<item name="50Mag Bullet SH" count="25,50" prob="0.8"/>
+	<item name="500Mag Bullet SH" count="25,50" prob="0.7"/>
+	<item name="762Mag Bullet SH" count="25,50" prob="0.7"/>
+	<item name="408 Round SH" count="25,50" prob="0.6"/>
+	<item name="50 BMG Round SH" count="25,50" prob="0.5"/>
 </append>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT3SecretStash']">
-	<item name="HD First Aid Kit" count="1" prob="0.01"/>
+	<item name="HD Military Helmet" count="1" prob="0.5"/>
+	<item name="HD Military Vest" count="1" prob="0.5"/>
+	<item name="HD First Aid Kit" count="1" prob="0.5"/>
 </append>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT4SecretStash']">
-	<item name="HD Military Helmet" count="1" prob="0.01"/>
-	<item name="HD Military Vest" count="1" prob="0.01"/>
-	<item name="HD Military Gloves" count="1" prob="0.01"/>
-	<item name="HD Military Legs" count="1" prob="0.01"/>
-	<item name="HD Military Boots" count="1" prob="0.01"/>
+	<item name="HD Military Gloves" count="1" prob="0.5"/>
+	<item name="HD Military Legs" count="1" prob="0.5"/>
+	<item name="HD Military Boots" count="1" prob="0.5"/>
 </append>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT5SecretStash']">
-	<item name="HD Auger" count="1" prob="0.01"/>
-	<item name="HD Chainsaw" count="1" prob="0.01"/>
+	<item name="HD Auger" count="1" prob="0.3"/>
+	<item name="HD Chainsaw" count="1" prob="0.3"/>
 </append>
 	
 </config>

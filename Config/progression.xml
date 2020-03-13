@@ -4,7 +4,7 @@
 	<set xpath="/progression/perks/perk/effect_group/passive_effect[contains(@name, 'CraftingTier')]/@value">1,2,3,4,5</set>
 	
 	<set xpath="/progression/level/@skill_points_per_level">2</set>
-	<set xpath="/progression/level/@exp_to_level">6500</set>
+	<set xpath="/progression/level/@exp_to_level">7500</set>
 	
 	<set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='JunkTurretActiveRange']/@value">50,60,70,80,90,100</set>
 	<remove xpath="/progression/perks/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='JunkTurretActiveCount'][@level=5]"/>

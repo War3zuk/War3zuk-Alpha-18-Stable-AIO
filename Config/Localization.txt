@@ -102,7 +102,9 @@ PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless
 
 PoisonVileDesc,items,,,A Key Ingredient in making the Penthrox Injection.
 
-HDGTKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+HDGuppyTestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+
+HDCovid19TestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
 
 BulletINCDesc,items,,,Ammo designed to set your target on fire.
 

@@ -507,11 +507,18 @@
 </recipe>
 
 <recipe name="HD Guppy Test Kit" count="1" craft_time = "60">
-	<ingredient name="drugHerbalAntibiotics" count="1"/>
-	<ingredient name="drugAntibiotics" count="1"/>
-	<ingredient name="medicalFirstAidKit" count="1"/>
+	<ingredient name="drugHerbalAntibiotics" count="2"/>
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="medicalFirstAidKit" count="2"/>
 	<ingredient name="medicalFirstAidBandage" count="2"/>
 	<ingredient name="medicalBandage" count="2"/>
+</recipe>
+
+<recipe name="HD Covid-19 Test Kit" count="1" craft_time = "60">
+	<ingredient name="drugHerbalAntibiotics" count="2"/>
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="HD First Aid Kit" count="2"/>
+	<ingredient name="medicalBandage" count="10"/>
 </recipe>
 
 <recipe name="HDJukeBoxDubStepOFF" count="1" craft_time = "120">
