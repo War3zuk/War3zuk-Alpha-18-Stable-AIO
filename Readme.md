@@ -27,6 +27,8 @@ Balanced HD Guppy Test Kit Recipe
 Added Covid-19 Deadly Pathogen (Vultures)
 Added HD Covid-19 Test Kit Recipe
 
+Updated ALL First Aid Icons 256x256
+
 Updated v2.57 to 2.58
 
 Fixed HD Chainsaw Code (Approx 50% better than original)
