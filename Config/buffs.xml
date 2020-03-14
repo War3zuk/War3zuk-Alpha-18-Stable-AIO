@@ -15,17 +15,17 @@
 	</effect_group>
 </buff>
 
-<buff name="BuffGuppies" name_key="Guppies" description_key="You Have Contracted Guppies, You have 10 Minutes To Craft And Use The HD Guppy Test Kit Or your Infection Evolves into Syphilis-Z Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted Guppies"  icon="ui_game_symbol_Guppies" remove_on_death="true">
+<buff name="BuffHIV" name_key="HIV" description_key="You Have Contracted HIV From An Infected Stripper, You have 60 Minutes To Craft And Use The HD HIV Test Kit Or your Infection Evolves into AIDS Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted HIV"  icon="ui_game_symbol_HIV" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
-		<duration value="600"/>
+		<duration value="3600"/>
 		<effect_group>
-			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffSyphilis-Z">
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffAIDS">
 			</triggered_effect>
 		</effect_group>
 </buff>
 
-<buff name="BuffSyphilis-Z" name_key="Syphilis-Z" description_key="Shit!! You've Contracted Syphilis-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Syphilis-Z"  icon="ui_game_symbol_Syphilis-Z" remove_on_death="true">
+<buff name="BuffAIDS" name_key="AIDS" description_key="Shit!! You've Contracted AIDS, Only DEATH Awaits You Now." tooltip_key="You've Contracted AIDS"  icon="ui_game_symbol_DEATH" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="60"/>
@@ -34,7 +34,7 @@
 		</effect_group>
 </buff>
 
-<buff name="BuffCovid-19" name_key="Covid-19" description_key="You Have Contracted Covid-19, You have 60 Minutes To Craft And Use The HD Covid-19 Test Kit Or your Infection Evolves into WuHan-Z Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted Covid-19"  icon="ui_game_symbol_Covid-19" remove_on_death="true">
+<buff name="BuffCovid-19" name_key="Covid-19" description_key="You Have Contracted Covid-19 From An Infected Vulture, You have 60 Minutes To Craft And Use The HD Covid-19 Test Kit Or your Infection Evolves into WuHan-Z Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted Covid-19"  icon="ui_game_symbol_Covid-19" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="3600"/>
@@ -44,7 +44,26 @@
 		</effect_group>
 </buff>
 
-<buff name="BuffWuHan-Z" name_key="WuHan-Z" description_key="Shit!! You've Contracted WuHan-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted WuHan-Z"  icon="ui_game_symbol_WuHan-Z" remove_on_death="true">
+<buff name="BuffWuHan-Z" name_key="WuHan-Z" description_key="Shit!! You've Contracted WuHan-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted WuHan-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+		</effect_group>
+</buff>
+
+<buff name="BuffSARS" name_key="SARS" description_key="You Have Contracted SARS From An Infected Hazmat Worker, You have 60 Minutes To Craft And Use The HD SARS Test Kit Or your Infection Evolves into SARS-Z Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted SARS"  icon="ui_game_symbol_SARS" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="3600"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffSARS-Z">
+			</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BuffSARS-Z" name_key="SARS-Z" description_key="Shit!! You've Contracted SARS-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted SARS-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="60"/>

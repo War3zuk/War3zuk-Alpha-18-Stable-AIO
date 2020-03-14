@@ -1866,7 +1866,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-55"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-19"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
@@ -1946,7 +1946,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-40"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-29"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
@@ -2026,7 +2026,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="70"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-65"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-80"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
@@ -2779,8 +2779,8 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
-<item name="HD Guppy Test Kit">
-	<property name="CustomIcon" value="HD Guppy Test Kit" />
+<item name="HD HIV Test Kit">
+	<property name="CustomIcon" value="HD HIV Test Kit" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medical"/>
 	<property name="HoldType" value="64"/>
@@ -2792,7 +2792,7 @@
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150"/>
 	<property name="Group" value="Science,Medical,Basics"/>
-	<property name="DescriptionKey" value="HDGuppyTestKitDesc"/>
+	<property name="DescriptionKey" value="HDHIVTestKitDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2800,7 +2800,7 @@
 		<property name="Sound_start" value="player_bandage"/>
 	</property>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffGuppies"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffHIV"/>
 	</effect_group>
 </item>
 
@@ -2826,6 +2826,31 @@
 	</property>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffCovid-19"/>
+	</effect_group>
+</item>
+
+<item name="HD SARS Test Kit">
+	<property name="CustomIcon" value="HD SARS Test Kit" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medical"/>
+	<property name="HoldType" value="64"/>
+	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Stacknumber" value="2500"/>
+	<property name="FuelValue" value="1"/>
+	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Science,Medical,Basics"/>
+	<property name="DescriptionKey" value="HDSARSTestKitDesc"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_bandage"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffSARS"/>
 	</effect_group>
 </item>
 
@@ -6240,7 +6265,7 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1,BuffSARS"/>
 	</property>
 	<effect_group name="meleeHandZombieHazMat" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -6248,6 +6273,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSARS"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -6266,6 +6292,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSARS"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="200"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -6348,7 +6375,7 @@
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="8"/>
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1,BuffGuppies"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1,BuffHIV"/>
 	</property>
 	<effect_group name="meleeHandZombieStripper" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -6356,7 +6383,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffGuppies"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffHIV"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
 	</effect_group>
 </item>
@@ -6374,7 +6401,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".60" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffGuppies"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffHIV"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
 	</effect_group>
 </item>
@@ -6395,7 +6422,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".90" tags="BuffGuppies"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".90" tags="BuffHIV"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>

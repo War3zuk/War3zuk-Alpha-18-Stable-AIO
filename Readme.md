@@ -1,5 +1,13 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.59 to 2.60
+
+Added AIDS Deadly Pathogen (60m) Strippers
+Added SARS Deadly Pathogen (60m) Hazmats
+HD Vulcan Dmg Rebalanced For All 3
+
+Replaced Pathogen Icons 256x256
+
 Updated v2.58 to 2.59
 
 Added Giant Rabbit Fire
