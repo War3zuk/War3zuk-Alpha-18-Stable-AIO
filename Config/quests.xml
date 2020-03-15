@@ -390,7 +390,7 @@
 	<property name="shareable" value="false" />
 	
 		<objective type="ZombieKill" value="50" />
-		<requirement type="Group" id="requirementGroupWar3zuk" value="OR">
+		<requirement type="Group" id="requirementGroupHDPistols" value="OR">
 			<requirement type="Holding" id="HD Colt M1911" />
 			<requirement type="Holding" id="HD Colt M1911A" />
 			<requirement type="Holding" id="HD Desert Eagle" />
@@ -413,7 +413,7 @@
 	<property name="shareable" value="false" />
 	
 		<objective type="ZombieKill" value="60" />
-		<requirement type="Group" id="requirementGroupWar3zuk" value="OR">
+		<requirement type="Group" id="requirementGroupHDShotguns" value="OR">
 			<requirement type="Holding" id="HD Double Barrel" />
 			<requirement type="Holding" id="HD Mossberg 500" />
 			<requirement type="Holding" id="HD Spas 12" />
@@ -439,7 +439,7 @@
 	<property name="shareable" value="false" />
 	
 		<objective type="ZombieKill" value="70" />
-		<requirement type="Group" id="requirementGroupWar3zuk" value="OR">
+		<requirement type="Group" id="requirementGroupHDAutoRifles" value="OR">
 			<requirement type="Holding" id="HD HK33 Hybrid" />
 			<requirement type="Holding" id="HD AK Hybrid ACP" />
 			<requirement type="Holding" id="HD M4A1 Carbine" />
@@ -462,7 +462,7 @@
 	<property name="shareable" value="false" />
 		
 		<objective type="ZombieKill" value="80" />
-		<requirement type="Group" id="requirementGroupWar3zuk" value="OR">
+		<requirement type="Group" id="requirementGroupHDSniperRifles" value="OR">
 			<requirement type="Holding" id="HD Arctic Warfare" />
 			<requirement type="Holding" id="HD CheyTac M300" />
 			<requirement type="Holding" id="HD Dragunov SVD" />

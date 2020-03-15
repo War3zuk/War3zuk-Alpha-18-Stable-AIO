@@ -7,6 +7,7 @@ Added SARS Deadly Pathogen (60m) Hazmats
 HD Vulcan Dmg Rebalanced For All 3
 
 Replaced Pathogen Icons 256x256
+Fixed HD Quests Group Requirements
 
 Updated v2.58 to 2.59
 
