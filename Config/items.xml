@@ -2779,8 +2779,8 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
-<item name="HD HIV Test Kit">
-	<property name="CustomIcon" value="HD HIV Test Kit" />
+<item name="HD BrainPox Test Kit">
+	<property name="CustomIcon" value="HD BrainPox Test Kit" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medical"/>
 	<property name="HoldType" value="64"/>
@@ -2792,7 +2792,7 @@
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150"/>
 	<property name="Group" value="Science,Medical,Basics"/>
-	<property name="DescriptionKey" value="HDHIVTestKitDesc"/>
+	<property name="DescriptionKey" value="HDBrainPoxTestKitDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2800,12 +2800,12 @@
 		<property name="Sound_start" value="player_bandage"/>
 	</property>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffHIV"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffBrainPox"/>
 	</effect_group>
 </item>
 
-<item name="HD Covid-19 Test Kit">
-	<property name="CustomIcon" value="HD Covid-19 Test Kit" />
+<item name="HD Krytos Test Kit">
+	<property name="CustomIcon" value="HD Krytos Test Kit" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medical"/>
 	<property name="HoldType" value="64"/>
@@ -2817,7 +2817,7 @@
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Science,Medical,Basics"/>
-	<property name="DescriptionKey" value="HDCovid19TestKitDesc"/>
+	<property name="DescriptionKey" value="HDKrytosTestKitDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2825,12 +2825,12 @@
 		<property name="Sound_start" value="player_bandage"/>
 	</property>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffCovid-19"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffKrytos"/>
 	</effect_group>
 </item>
 
-<item name="HD SARS Test Kit">
-	<property name="CustomIcon" value="HD SARS Test Kit" />
+<item name="HD Spattergroit Test Kit">
+	<property name="CustomIcon" value="HD Spattergroit Test Kit" />
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medical"/>
 	<property name="HoldType" value="64"/>
@@ -2842,7 +2842,7 @@
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Science,Medical,Basics"/>
-	<property name="DescriptionKey" value="HDSARSTestKitDesc"/>
+	<property name="DescriptionKey" value="HDSpattergroitTestKitDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -2850,7 +2850,7 @@
 		<property name="Sound_start" value="player_bandage"/>
 	</property>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffSARS"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffSpattergroit"/>
 	</effect_group>
 </item>
 
@@ -6265,7 +6265,7 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1,BuffSARS"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1,BuffSpattergroit"/>
 	</property>
 	<effect_group name="meleeHandZombieHazMat" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -6273,7 +6273,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSARS"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSpattergroit"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -6292,7 +6292,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSARS"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSpattergroit"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="200"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -6375,7 +6375,7 @@
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="8"/>
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1,BuffHIV"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1,BuffBrainPox"/>
 	</property>
 	<effect_group name="meleeHandZombieStripper" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -6383,7 +6383,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffHIV"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
 	</effect_group>
 </item>
@@ -6401,7 +6401,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".60" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffHIV"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
 	</effect_group>
 </item>
@@ -6422,7 +6422,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".90" tags="BuffHIV"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".90" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -6454,7 +6454,7 @@
 	<property class="Action0">
 		<property name="Delay" value="0.7"/>
 		<property name="DamageEntity" value="8"/>
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,BuffCovid-19"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,BuffKrytos"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Vomit"/>
@@ -6479,7 +6479,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffCovid-19"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffKrytos"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/>
 	</effect_group>
 </item>
@@ -6497,14 +6497,14 @@
 		<property name="FlyTime" value="6"/>
 		<property name="LifeTime" value="8"/>
 		<property name="CollisionRadius" value="0.5"/>
-		<property name="Buff" value="buffIllInfection0,BuffCovid-19"/>
+		<property name="Buff" value="buffIllInfection0,BuffKrytos"/>
 	</property>
 	<effect_group name="ammoProjectileVultureVomit" tiered="false">
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffCovid-19"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffKrytos"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/>
 	</effect_group>
 </item>

@@ -1,13 +1,29 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.60 to 2.61
+
+Renamed All Viruses To Be More Game Friendly (LOL)
+
+Added BrainPox Deadly Pathogen (60m) Strippers
+Added BrainPox Test Kit Recipe
+Added Krytos Deadly Pathogen (60m) Vultures
+Added Krytos Test Kit Recipe
+Added Spattergroit Deadly Pathogen (60m) Hazmats
+Added Spattergroit Test Kit Recipe
+
 Updated v2.59 to 2.60
 
 Added AIDS Deadly Pathogen (60m) Strippers
+Added AIDS Test Kit Recipe
 Added SARS Deadly Pathogen (60m) Hazmats
+Added SARS Test Kit Recipe
 HD Vulcan Dmg Rebalanced For All 3
 
 Replaced Pathogen Icons 256x256
 Fixed HD Quests Group Requirements
+
+HD Auger 0 Bonus To Wood
+HD Chainsaw 0 Bonus To Stone
 
 Updated v2.58 to 2.59
 

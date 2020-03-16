@@ -5,7 +5,7 @@
 	
 <append xpath="/recipes">
 	
-<recipe name="Scrapped Schematics" count="1" tooltip="ttScrapVeggies" craft_time="0.5">
+<recipe name="Scrapped Schematics" count="1" craft_time="0.5">
 	<wildcard_forge_category />
 </recipe>
 
@@ -506,21 +506,21 @@
 	<ingredient name="resourceWood" count="50"/>
 </recipe>
 
-<recipe name="HD HIV Test Kit" count="1" craft_time = "60">
+<recipe name="HD BrainPox Test Kit" count="1" craft_time = "60">
 	<ingredient name="drugAntibiotics" count="2"/>
 	<ingredient name="HD First Aid Kit" count="1"/>
 	<ingredient name="medicalBandage" count="10"/>
 	<ingredient name="drugVitamins" count="2"/>
 </recipe>
 
-<recipe name="HD Covid-19 Test Kit" count="1" craft_time = "60">
+<recipe name="HD Krytos Test Kit" count="1" craft_time = "60">
 	<ingredient name="drugAntibiotics" count="2"/>
 	<ingredient name="HD First Aid Kit" count="1"/>
 	<ingredient name="medicalBandage" count="10"/>
 	<ingredient name="drugVitamins" count="2"/>
 </recipe>
 
-<recipe name="HD SARS Test Kit" count="1" craft_time = "60">
+<recipe name="HD Spattergroit Test Kit" count="1" craft_time = "60">
 	<ingredient name="drugAntibiotics" count="2"/>
 	<ingredient name="HD First Aid Kit" count="1"/>
 	<ingredient name="medicalBandage" count="10"/>

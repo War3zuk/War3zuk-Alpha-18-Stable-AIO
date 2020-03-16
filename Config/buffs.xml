@@ -15,17 +15,17 @@
 	</effect_group>
 </buff>
 
-<buff name="BuffHIV" name_key="HIV" description_key="You Have Contracted HIV From An Infected Stripper, You have 60 Minutes To Craft And Use The HD HIV Test Kit Or your Infection Evolves into AIDS Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted HIV"  icon="ui_game_symbol_HIV" remove_on_death="true">
+<buff name="BuffBrainPox" name_key="BrainPox" description_key="You Have Contracted BrainPox From An Infected Stripper, You have 60 Minutes To Craft And Use The HD BrainPox Test Kit Or your Infection Evolves into BrainPox Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted BrainPox"  icon="ui_game_symbol_BrainPox" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="3600"/>
 		<effect_group>
-			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffAIDS">
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffBrainPox-Z">
 			</triggered_effect>
 		</effect_group>
 </buff>
 
-<buff name="BuffAIDS" name_key="AIDS" description_key="Shit!! You've Contracted AIDS, Only DEATH Awaits You Now." tooltip_key="You've Contracted AIDS"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+<buff name="BuffBrainPox-Z" name_key="BrainPox-Z" description_key="Shit!! You've Contracted BrainPox-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted BrainPox-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="60"/>
@@ -34,17 +34,17 @@
 		</effect_group>
 </buff>
 
-<buff name="BuffCovid-19" name_key="Covid-19" description_key="You Have Contracted Covid-19 From An Infected Vulture, You have 60 Minutes To Craft And Use The HD Covid-19 Test Kit Or your Infection Evolves into WuHan-Z Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted Covid-19"  icon="ui_game_symbol_Covid-19" remove_on_death="true">
+<buff name="BuffKrytos" name_key="Krytos" description_key="You Have Contracted Krytos From An Infected Vulture, You have 60 Minutes To Craft And Use The HD Krytos Test Kit Or your Infection Evolves into Krytos-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted Krytos"  icon="ui_game_symbol_Krytos" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="3600"/>
 		<effect_group>
-			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffWuHan-Z">
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffKrytos-Z">
 			</triggered_effect>
 		</effect_group>
 </buff>
 
-<buff name="BuffWuHan-Z" name_key="WuHan-Z" description_key="Shit!! You've Contracted WuHan-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted WuHan-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+<buff name="BuffKrytos-Z" name_key="Krytos-Z" description_key="Shit!! You've Contracted Krytos-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Krytos-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="60"/>
@@ -53,17 +53,17 @@
 		</effect_group>
 </buff>
 
-<buff name="BuffSARS" name_key="SARS" description_key="You Have Contracted SARS From An Infected Hazmat Worker, You have 60 Minutes To Craft And Use The HD SARS Test Kit Or your Infection Evolves into SARS-Z Granting You A Further 60s Of Life." tooltip_key="Shit!! You've Contracted SARS"  icon="ui_game_symbol_SARS" remove_on_death="true">
+<buff name="BuffSpattergroit" name_key="Spattergroit" description_key="You Have Contracted Spattergroit From An Infected Hazmat Worker, You have 60 Minutes To Craft And Use The HD Spattergroit Test Kit Or your Infection Evolves into Spattergroit-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted Spattergroit"  icon="ui_game_symbol_Spattergroit" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="3600"/>
 		<effect_group>
-			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffSARS-Z">
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffSpattergroit-Z">
 			</triggered_effect>
 		</effect_group>
 </buff>
 
-<buff name="BuffSARS-Z" name_key="SARS-Z" description_key="Shit!! You've Contracted SARS-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted SARS-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+<buff name="BuffSpattergroit-Z" name_key="Spattergroit-Z" description_key="Shit!! You've Contracted Spattergroit-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Spattergroit-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="60"/>
