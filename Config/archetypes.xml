@@ -1,4 +1,4 @@
-<War3zuk>
+<archetypes>
 	
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
@@ -16517,8 +16517,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-</append>
 
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
-
-</War3zuk>
+</append>
+</archetypes>

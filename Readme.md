@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.61 to 2.62
+
+Tweaked Bad Zombie Spawns So Slightly Less Spawn During The Day
+
 Updated v2.60 to 2.61
 
 Renamed All Viruses To Be More Game Friendly (LOL)
