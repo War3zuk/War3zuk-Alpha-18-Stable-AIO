@@ -1103,7 +1103,7 @@
 	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="false"/>
+	<property name="HasRagdoll" value="true"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
@@ -1194,7 +1194,7 @@
 	<property name="ExperienceGain" value="550"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="TimeStayAfterDeath" value="30"/>
+	<property name="TimeStayAfterDeath" value="10"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
