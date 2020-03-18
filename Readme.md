@@ -3,6 +3,10 @@ War3zuk-Alpha-18.4 B4 - AIO
 Updated v2.61 to 2.62
 
 Tweaked Bad Zombie Spawns So Slightly Less Spawn During The Day
+Removed Extra RagDoll Affects Making Them Block Doors
+Added NO Falling Trees
+Added ReGrow Boulders
+Added ReGrow Vehicles
 
 Updated v2.60 to 2.61
 

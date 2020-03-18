@@ -1133,9 +1133,7 @@
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/>
 	<property class="FallLandBehavior">
 		<property name="None" data="weightmin=0.5"/>
-		<property name="Ragdoll" data="heightMin=2;weightMin=.2;weightMax=.4"/>
-		<property name="Stumble" data="heightMin=2.0;weightMin=0.2"/>
-		<property name="Boost" data="heightMin=2.0;weightMin=0.2"/>
+		<property name="Ragdoll" data="heightMin=1;weightMin=.1;weightMax=.2"/>
 	</property>
 	<property name="WalkType" value="7"/>
 	<property name="SoundRandomTime" value="30.0"/>

@@ -1,41 +1,4 @@
 <configs>
-
-<append xpath="/blocks/block[@name='cntGasPump']">
-	<property name="Class" value="Loot"/>
-	<property name="LootList" value="64"/>
-	<property name="Material" value="Mmetal_thin"/>
-	<property name="Shape" value="ModelEntity" />
-	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/HDGasPump.unity3d?HDGasPump.Prefab"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property class="Explosion">
-		<property name="ParticleIndex" value="4"/>
-		<property name="RadiusBlocks" value="5"/>
-		<property name="BlockDamage" value="5000"/>
-		<property name="RadiusEntities" value="3"/>
-		<property name="EntityDamage" value="150"/>
-	</property>
-	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-	<drop event="Harvest" name="resourceElectricParts" count="2,7" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="0,4" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceMechanicalParts" count="2,4" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<property name="LPHardnessScale" value="0"/>
-	<property name="EconomicValue" value="400"/>
-	<property name="FilterTags" value="floot,ffurniture"/>
-</append>
-
-<append xpath="/blocks/block[@name='cntVendingMachine2']">
-	<property name="Extends" value="cntVendingMachine2Broken"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HDVendingCoke.unity3d?HDVendingCoke.Prefab"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="TraderID" value="4"/>
-</append>
 	
 	<set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">1</set>
 	<set xpath="/blocks/block[@name='pouredRConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">2</set>
@@ -1887,6 +1850,442 @@
 	<property name="SortOrder2" value="0400"/>
 </block>
 
+<block name="WARcarRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MTitaniumPolish"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="50,100" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="carsRandomHelper" />
+	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+
+<block name="WARbusShuttleRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MTitaniumPolish"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusShuttle" />
+	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+
+<block name="WARbusCityRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MTitaniumPolish"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusCity" />
+	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+	
+<block name="WARbusSchoolRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MTitaniumPolish"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusSchool" />
+	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+	
+<block name="WARbusSchoolShortRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MTitaniumPolish"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusSchoolShort" />
+	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+	
+<block name="WARarmyTruckClosedRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MTitaniumPolish"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntArmyTruckClosed" />
+	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+
+<block name="WAR Rock Boulder Master">
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MTitaniumPolish"/>
+    <property name="Shape" value="New"/>
+    <property name="Texture" value="175"/>
+    <property name="Mesh" value="cutoutmoveable"/>
+    <property name="Model" value="rock01"/>
+    <property name="OnlySimpleRotations" value="true"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      <drop event="Destroy" name="resourceRockSmall" count="1"/>
+    <property name="Map.Color" value="120,120,120"/>
+    <property name="FilterTags" value="foutdoor"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="rockResource"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</block>
+    
+<block name="WAR Rock Boulder 1">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+</block>
+	
+<block name="WAR Rock Boulder 2">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="PlantGrowing.Next" value="rockResource02"/>
+    <property name="CustomIcon" value="rockResource"/>
+</block>
+    
+<block name="WAR Rock Boulder 3">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="BigDecorationRadius" value="3"/>
+    <property name="IsDistantDecoration" value="false"/>
+    <property name="Model" value="Entities/Resources/rock_resource_broke2Prefab"/>
+    <property name="ModelOffset" value="0,0,0"/>
+    <property name="DisplayType" value="blockHardenedMulti" />
+    <property name="MultiBlockDim" value="3,2,3"/>
+    <property name="PassThroughDamage" value="true"/>
+</block>
+
+<block name="WAR Rock Boulder 4">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder 3"/>
+    <property name="PlantGrowing.Next" value="rockResource02"/>
+    <property name="CustomIcon" value="rockResource02Broke2"/>
+</block>
+    
+<block name="WAR Iron Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreIronBoulder"/>
+    <property name="CustomIcon" value="oreIronBoulder"/>
+</block>
+
+<block name="WAR Lead Boulder">
+    <property name="CreativeMode" value="Dev"/>
+  	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreLeadBoulder"/>
+    <property name="CustomIcon" value="oreLeadBoulder"/>
+</block>
+	
+<block name="WAR Coal Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreCoalBoulder"/>
+    <property name="CustomIcon" value="oreCoalBoulder"/>
+</block>
+	
+<block name="WAR Potassium Nitrate Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="orePotassiumNitrateBoulder"/>
+    <property name="CustomIcon" value="orePotassiumNitrateBoulder"/>
+</block>
+	
+<block name="WAR Shale Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreShaleBoulder"/>
+    <property name="CustomIcon" value="oreShaleBoulder"/>
+</block>
+
+</append>
+
+<append xpath="/blocks/block[@name='cntCar03SedanDamage2Master']"> 
+	<property name="DowngradeBlock" value="WARcarRespawner"/>
+</append>
+	
+<append xpath="/blocks/block[@name='cntBusSchool']"> 
+	<property name="DowngradeBlock" value="WARbusSchoolRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBusSchoolShort']"> 
+	<property name="DowngradeBlock" value="WARbusSchoolShortRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBusShuttle']"> 
+	<property name="DowngradeBlock" value="WARbusShuttleRespawner"/>
+</append>
+	
+<append xpath="/blocks/block[@name='cntBusCity']"> 
+	<property name="DowngradeBlock" value="WARbusCityRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntArmyTruckClosed']"> 
+	<property name="DowngradeBlock" value="WARarmyTruckClosedRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='rockResourceBroke2']">
+    <property name="DowngradeBlock" value="WAR Rock Boulder 1"/>
+</append>
+	
+<append xpath="/blocks/block[@name='rockResource02Broke2']">
+    <property name="DowngradeBlock" value="WAR Rock Boulder 2"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreIronBoulder']">
+    <property name="DowngradeBlock" value="WAR Iron Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreLeadBoulder']">
+    <property name="DowngradeBlock" value="WAR Lead Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreCoalBoulder']">
+    <property name="DowngradeBlock" value="WAR Coal Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='orePotassiumNitrateBoulder']">
+    <property name="DowngradeBlock" value="WAR Potassium Nitrate Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreShaleBoulder']">
+    <property name="DowngradeBlock" value="WAR Shale Boulder"/>
+</append>
+
+<append xpath="/blocks/block[@name='treePlantedMountainPine1m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedMountainPine12m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedMountainPine19m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedMountainPine27m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedMountainPine41m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedOak1m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedOak08m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedOak16m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedOak27m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedOak41m']">
+	<property name="FallOver" value="false" />
+</append>	
+	
+<append xpath="/blocks/block[@name='treeMountainPine12m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeMountainPine19m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeMountainPine27m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeMountainPine31m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeMountainPine41m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeMountainPine48m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeMountainPineDry21m']">
+	<property name="FallOver" value="false" />
+</append>	
+	
+<append xpath="/blocks/block[@name='treeBurntMaple01']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeBurntMaple02']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeBurntMaple03']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeOakSml01']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeOakMed01']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeOakMed02']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeOakLrg01']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeFirLrg01']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeWinterEverGreen']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeWinterPine13m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeWinterPine19m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeWinterPine28m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlainsTree']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlainsTree2']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeDeadPineLeaf']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeSnowyDeadBush']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeAzalea']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeJuniper4m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeDeadTree01']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treeDeadTree02']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedWinterPine1m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedWinterPine6m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedWinterPine13m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedWinterPine19m']">
+	<property name="FallOver" value="false" />
+</append>
+	
+<append xpath="/blocks/block[@name='treePlantedWinterPine28m']">
+	<property name="FallOver" value="false" />
 </append>
 	
 <append xpath="/blocks/block[@name='bedroll']">
@@ -1903,6 +2302,43 @@
 
 <append xpath="/blocks/block[@name='ladderSteel']">
 	<property name="MovementFactor" value="1.2"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntGasPump']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="64"/>
+	<property name="Material" value="Mmetal_thin"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HDGasPump.unity3d?HDGasPump.Prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="Explosion">
+		<property name="ParticleIndex" value="4"/>
+		<property name="RadiusBlocks" value="5"/>
+		<property name="BlockDamage" value="5000"/>
+		<property name="RadiusEntities" value="3"/>
+		<property name="EntityDamage" value="150"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,7" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="2,4" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<property name="LPHardnessScale" value="0"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntVendingMachine2']">
+	<property name="Extends" value="cntVendingMachine2Broken"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Model" value="#@modfolder:Resources/HDVendingCoke.unity3d?HDVendingCoke.Prefab"/>
+	<property name="Class" value="VendingMachine"/>
+	<property name="TraderID" value="4"/>
 </append>
 	
 <append xpath="/blocks/block[@name='steelMaster']">
