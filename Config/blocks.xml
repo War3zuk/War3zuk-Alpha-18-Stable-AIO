@@ -1864,7 +1864,7 @@
 		<drop event="Destroy" name="resourceScrapPolymers" count="50,100" tag="oreWoodHarvest"/>	
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="carsRandomHelper" />
-	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -1884,7 +1884,7 @@
 		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="cntBusShuttle" />
-	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -1904,7 +1904,7 @@
 		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="cntBusCity" />
-	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -1924,7 +1924,7 @@
 		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="cntBusSchool" />
-	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -1944,7 +1944,7 @@
 		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="cntBusSchoolShort" />
-	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
@@ -1964,7 +1964,7 @@
 		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="PlantGrowing.Next" value="cntArmyTruckClosed" />
-	<property name="PlantGrowing.GrowthRate" value="1" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
 	<property name="PlantGrowing.FertileLevel" value="0" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 </block>
