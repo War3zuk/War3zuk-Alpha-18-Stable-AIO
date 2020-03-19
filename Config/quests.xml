@@ -673,8 +673,9 @@
 		
 		<reward type="Exp" value="1000" />
 		<reward type="SkillPoints" value="1" />
-		<reward type="Item" id="HD First Aid Kit" value="10" />
-		<reward type="Item" id="HD Guppy Test Kit" value="5" />
+		<reward type="Item" id="HD HD BrainPox Test Kit" value="2" />
+		<reward type="Item" id="HD Spattergroit Test Kit" value="2" />
+		<reward type="Item" id="HD Krytos Test Kit" value="2" />
 </quest>
 
 <quest id="Trader Location">

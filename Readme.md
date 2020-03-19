@@ -1,5 +1,10 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.63 to 2.64
+
+Fixed Medic L5 Quest Reward
+Added War3zuk ReGrow Safes
+
 Updated v2.62 to 2.63
 
 Fixed Vehicle Respawn Timer 240 (4 RealTimeHours)
