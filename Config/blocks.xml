@@ -2074,7 +2074,7 @@
     <property name="CreativeMode" value="None"/>
     <property name="ImposterDontBlock" value="true"/>
     <property name="IsTerrainDecoration" value="true"/>
-    <property name="Material" value="MstainlessSteel"/>
+    <property name="Material" value="MTitaniumPolish"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="Pole1m_cap"/>
 	<property name="Texture" value="598"/>

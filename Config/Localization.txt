@@ -1,5 +1,19 @@
 Key,Source,Context,Changes,English
 
+HDMacheteDesc,items,,,Extra Sharp & Serrated for cleaner Kills.
+
+HDCheyTacM300Desc,items,,,The CheyTac Intervention is an American bolt action sniper rifle manufactured by CheyTac LLC. Which can also be classified as an anti materiel rifle. It is fed by a 7 round detachable single stack magazine.
+
+HDVulcan9mmDesc,items,,,The HD Vulcan 9mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDVulcan762mmDesc,items,,,The HD Vulcan 7.62mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDVulcan50BmgDesc,items,,,The HD Vulcan 50mm Bmg is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDM500Desc,items,,,The Mossberg 500 is a series of pump action shotguns manufactured by Mossberg And Sons.
+
+HDElectrolyteDesc,items,,,HD Electrolyte is made using Batteries & is used in the production of Shock Ammo
+
 HDGroundMineDesc,blocks,,,Player built Ground Mine for Defensive purposes.
 
 HDBreachingC4Desc,items,,,Player Built Breaching C4 for when you just need to blow shit up.

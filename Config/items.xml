@@ -279,7 +279,7 @@
 	<property name="Weight" value="5"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="FuelValue" value="0"/>
-	<property name="EconomicValue" value="1250"/>
+	<property name="EconomicValue" value="1850"/>
 	<property name="Group" value="Books"/>
 	</item>
 	
@@ -1824,6 +1824,7 @@
 </item>
 
 <item name="HD Vulcan 9mm">
+	<property name="DescriptionKey" value="HDVulcan9mmDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 9mm"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
@@ -1904,6 +1905,7 @@
 </item>
 
 <item name="HD Vulcan 7.62mm">
+	<property name="DescriptionKey" value="HDVulcan762mmDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 7.62mm"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
@@ -1984,6 +1986,7 @@
 </item>
 
 <item name="HD Vulcan 50Bmg">
+	<property name="DescriptionKey" value="HDVulcan50BmgDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 50Bmg"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
@@ -2745,9 +2748,13 @@
 		<property name="SwingAngle" value="180"/>
 	</property>
 	<property class="Action1">
-		<property name="Class" value="DynamicMelee"/>
-		<property name="Sound_start" value="swoosh"/>
-		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="Class" value="Repair"/>
+		<property name="Delay" value=".73"/>
+		<property name="Repair_amount" value="1000"/>
+		<property name="Upgrade_hit_offset" value="-5"/>
+		<property name="Repair_action_sound" value="nailgun_fire"/>
+		<property name="Upgrade_action_sound" value="nailgun_fire"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
 	</property>
 	<effect_group name="meleeToolWrench">
 		<passive_effect name="EntityDamage" operation="base_set" value="25"/>
@@ -3258,7 +3265,7 @@
 	<property name="Group" value="Resources,Chemicals"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="ShowQuality" value="false"/>
-	<property name="DescriptionKey" value="HDEDesc"/>
+	<property name="DescriptionKey" value="HDElectrolyteDesc"/>
 </item>
 
 	<item name="Adv Junk Turret">
@@ -3529,6 +3536,7 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="UnlockedBy" value="meleeToolKnifeMacheteSchematic"/>
 	<property name="ShowQuality" value="true"/>
+	<property name="DescriptionKey" value="HDMacheteDesc"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Damage_type" value="Slashing"/>

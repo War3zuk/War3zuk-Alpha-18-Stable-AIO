@@ -1,5 +1,19 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.64 to 2.65
+
+Added Localizations For The Following Items
+
+HD Electrolyte
+HD Mossberg 500
+HD Vulcan 9mm
+HD Vulcan 7.62mm
+HD Vulcan 50mm Bmg
+HD CheyTac M300
+
+Fixed Scrapped Schematics Bundle Price
+Fixed HD Wrench (Now Upgrades With Right Click)
+
 Updated v2.63 to 2.64
 
 Fixed Medic L5 Quest Reward
