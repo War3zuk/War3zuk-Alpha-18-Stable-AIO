@@ -3,7 +3,7 @@
 <append xpath="/entitygroups">
 	
 <entitygroup name="Giant Animals" >
-		<entity name="invisibleAnimal" prob="7" />
+		<entity name="invisibleAnimal" prob="10" />
 		<entity name="Giant Rabbit" prob="0.4"/>
 		<entity name="Giant Rabbit Fire" prob="0.4"/>
 		<entity name="Giant Rabbit RAD" prob="0.4"/>
@@ -25,44 +25,44 @@
 </entitygroup>
 
 <entitygroup name="AnimalsSmall">
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.3"/>
+		<entity name="animalBoar" prob="0.4"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.4"/>
 </entitygroup>
 
 <entitygroup name="AnimalsFarm">
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.3"/>
+		<entity name="animalBoar" prob="0.4"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.4"/>
 </entitygroup>
 
 <entitygroup name="AnimalsDesert">
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.3"/>
+		<entity name="animalBoar" prob="0.4"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.4"/>
 </entitygroup>
 
 <entitygroup name="FriendlyAnimalsDesert">
-		<entity name="invisibleAnimal" prob="7"/>
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.3"/>
+		<entity name="invisibleAnimal" prob="10"/>
+		<entity name="animalBoar" prob="0.4"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.4"/>
 </entitygroup>
 	
 <entitygroup name="FriendlyAnimalsBurntForest">
-		<entity name="invisibleAnimal" prob="7"/>
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.3"/>
+		<entity name="invisibleAnimal" prob="10"/>
+		<entity name="animalBoar" prob="0.4"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.4"/>
 </entitygroup>
 
 <entitygroup name="FriendlyAnimalsPlains">
-		<entity name="invisibleAnimal" prob="7"/>
+		<entity name="invisibleAnimal" prob="10"/>
 		<entity name="animalStag" />
 		<entity name="animalDoe" />
-		<entity name="animalBoar" prob="0.2"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.3"/>
+		<entity name="animalBoar" prob="0.4"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.4"/>
 </entitygroup>
 
 <entitygroup name="AnimalsAll" >
@@ -82,7 +82,7 @@
 </entitygroup>
 
 <entitygroup name="FriendlyAnimalsSnow">
-		<entity name="invisibleAnimal" prob="7"/>
+		<entity name="invisibleAnimal" prob="10"/>
 		<entity name="Giant Rabbit" prob="0.4"/>
 		<entity name="Giant Chicken" prob="0.3"/>
 		<entity name="Giant Boar" prob="0.2"/>

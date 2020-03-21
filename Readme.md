@@ -1,5 +1,18 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.65 to 2.66
+
+Fixed HD Auger / Chainsaw Description
+Fixed ReGrow Safes Timer
+Fixed HD Auger Perk (Miner69er)
+Fixed HD Chainsaw Perk (Miner69er)
+Balanced Custom Repair Kits Recipe
+Adjusted Pathogen Kits Trader Price
+Adjusted Donnas Fubar Stew Health Values
+Added Donnas Fubar Stew Schematic
+Added DD1GGs Sham And Tuna Pie
+Added DD1GGs Sham And Tuna Pie Schematic
+
 Updated v2.64 to 2.65
 
 Added Localizations For The Following Items

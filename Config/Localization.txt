@@ -1,5 +1,7 @@
 Key,Source,Context,Changes,English
 
+DD1GGsShamTunaPieDesc,items,,,DD1GGs Sham And Tuna Pie Will keep you Zombie killin for Hours. A BIG thanks for being the 1st to Stream my OverHaul.
+
 HDMacheteDesc,items,,,Extra Sharp & Serrated for cleaner Kills.
 
 HDCheyTacM300Desc,items,,,The CheyTac Intervention is an American bolt action sniper rifle manufactured by CheyTac LLC. Which can also be classified as an anti materiel rifle. It is fed by a 7 round detachable single stack magazine.
@@ -116,11 +118,11 @@ PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless
 
 PoisonVileDesc,items,,,A Key Ingredient in making the Penthrox Injection.
 
-HDBrainPoxTestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+HDBrainPoxTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
 
-HDKrytosTestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+HDKrytosTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
 
-HDSpattergroitTestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+HDSpattergroitTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
 
 BulletINCDesc,items,,,Ammo designed to set your target on fire.
 
@@ -152,9 +154,9 @@ HDLPDesc,items,Tools,New,Hd Lock Picks will allow you to Unlock Hidden Paintings
 
 HDWrenchDesc,items,Tools,New,Crafted from the Finest Steel this BadBoi will be there for you Craft a better version by putting skill points into the Salvage Operations Perk.
 
-HDChainsawDesc,items,Tools,New,A High Quality Chainsaw for all your needs Craft a better version by putting skill points into the MotherLode Perk.
+HDChainsawDesc,items,Tools,New,The HD ChainSaw will do 50% more Damage than the vanilla version Improve it by putting skill points into the perkMiner69r.
 
-HDAugerDesc,items,Tools,New,A High Quality Auger for all your needs Craft a better version by putting skill points into the MotherLode Perk.
+HDAugerDesc,items,Tools,New,The HD Auger will do 50% more Damage than the vanilla version Improve it by putting skill points into the perkMiner69r.
 
 HDMASDesc,items,armor,New,The highest quality money can buy so these give less penalties place points into LightArmor to craft better versions.
 

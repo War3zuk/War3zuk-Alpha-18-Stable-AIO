@@ -2822,7 +2822,7 @@
 	<property name="Stacknumber" value="2500"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
-	<property name="EconomicValue" value="250"/>
+	<property name="EconomicValue" value="150"/>
 	<property name="Group" value="Science,Medical,Basics"/>
 	<property name="DescriptionKey" value="HDKrytosTestKitDesc"/>
 	<property class="Action0">
@@ -2847,7 +2847,7 @@
 	<property name="Stacknumber" value="2500"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
-	<property name="EconomicValue" value="250"/>
+	<property name="EconomicValue" value="150"/>
 	<property name="Group" value="Science,Medical,Basics"/>
 	<property name="DescriptionKey" value="HDSpattergroitTestKitDesc"/>
 	<property class="Action0">
@@ -2868,7 +2868,7 @@
 	<property name="Extends" value="medicalFirstAidKit" param1="DescriptionKey"/>
 	<property name="Tags" value="csScience"/>
 	<property name="Group" value="Science"/>
-	<property name="EconomicValue" value="500" />
+	<property name="EconomicValue" value="150" />
 	<property name="UnlockedBy" value="HD First Aid Kit Schematic"/>
 	<property name="Stacknumber" value="500"/>
 	<property name="DescriptionKey" value="HDFAKDesc"/>
@@ -4066,8 +4066,8 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="20000"/>
-	<property name="EconomicValue" value="150"/>
-	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="Donnas Fubar Stew Schematic"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -4109,11 +4109,50 @@
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="65"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".05"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".02"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+
+<item name="DD1GGs Sham And Tuna Pie">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="DD1GGsShamTunaPieDesc"/>
+	<property name="CustomIcon" value="DD1GGs Sham And Tuna Pie"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="DD1GGs Sham And Tuna Pie Schematic"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+		<display_value name="dFortitude" value="1"/>
+		<display_value name="dDuration" value="603"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffShamChowderDuration" operation="add" value="603"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffShamChowderDuration" operation="set" value="1803">
+			<requirement name="CVarCompare" cvar="$buffShamChowderDuration" operation="GT" value="1803"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffShamChowder"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".02"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
 			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
@@ -5051,6 +5090,28 @@
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Flame Thrower" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+	</effect_group>
+</item>
+
+<item name="Donnas Fubar Stew Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Donnas Fubar Stew Schematic"/>
+	<property name="Unlocks" value="Donnas Fubar Stew"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Donnas Fubar Stew" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="DD1GGs Sham And Tuna Pie Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="DD1GGs Sham And Tuna Pie Schematic"/>
+	<property name="Unlocks" value="DD1GGs Sham And Tuna Pie"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="DD1GGs Sham And Tuna Pie" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
 	</effect_group>
 </item>
 

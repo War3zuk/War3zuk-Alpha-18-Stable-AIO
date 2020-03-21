@@ -537,6 +537,8 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.3"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.3"/>
 		<item name="Food Supply Flare" count="1" prob="0.3"/>
+		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.2"/>
+		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='96']" >
@@ -546,6 +548,8 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.3"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.3"/>
 		<item name="Health Supply Flare" count="1" prob="0.3"/>
+		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.2"/>
+		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='116']" >
@@ -555,6 +559,8 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.3"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.3"/>
 		<item name="Food Supply Flare" count="1" prob="0.3"/>
+		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.2"/>
+		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.2"/>
 	</append>
 		
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">

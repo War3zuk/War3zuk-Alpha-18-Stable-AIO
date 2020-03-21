@@ -2082,7 +2082,7 @@
 	<property name="DescriptionKey" value="cntGunSafeDesc"/>
     <property name="Class" value="PlantGrowing"/>
     <property name="PlantGrowing.Next" value="cntGunSafeInsecure"/>
-    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.GrowthRate" value="420"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="0"/>
     <property name="PlantGrowing.LightLevelGrow" value="0"/>

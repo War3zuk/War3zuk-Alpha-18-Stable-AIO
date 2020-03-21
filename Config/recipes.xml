@@ -330,14 +330,14 @@
 	<ingredient name="resourceSpring" count="40"/>
 </recipe>
 	
-<recipe name="HD Auger" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="learnable,perkSalvageOperations">
+<recipe name="HD Auger" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="learnable,perkMiner69r">
 	<ingredient name="meleeToolAuger" count="1"/>
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceRepairKit" count="10"/>
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-<recipe name="HD Chainsaw" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="learnable,perkSalvageOperations">
+<recipe name="HD Chainsaw" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="learnable,perkMiner69r">
 	<ingredient name="meleeToolChainsaw" count="1"/>
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceRepairKit" count="10"/>
@@ -886,7 +886,7 @@
 	<ingredient name="resourceWood" count="10"/>
 </recipe>
 
-<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot" >
+<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
 	<ingredient name="Donnas Fubar Steak" count="1"/>
 	<ingredient name="foodCanSham" count="1"/>
 	<ingredient name="foodCanPasta" count="1"/>
@@ -894,10 +894,17 @@
 	<ingredient name="foodCanTuna" count="1"/>
 </recipe>
 		
-<recipe name="Donnas Fubar Steak" count="1" craft_time="2" craft_area="campfire" craft_tool="toolCookingPot" >
-	<ingredient name="foodRawMeat" count="1"/>
+<recipe name="Donnas Fubar Steak" count="1" craft_time="2" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="foodRawMeat" count="2"/>
 	<ingredient name="resourceBone" count="1"/>
 	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="DD1GGs Sham And Tuna Pie" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodCanSham" count="2"/>
+	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="foodCanTuna" count="2"/>
 </recipe>
 
 <recipe name="9mm Bullet SH" count="2"  craft_time = "0.5" craft_area="HD AmmoBench" >
@@ -1025,34 +1032,34 @@
 </recipe>
 
 <recipe name="RepairKitHandGuns" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
-	<ingredient name="gunPistolParts" count="1"/>
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunPistolParts" count="2"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceCloth" count="2"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
-	<ingredient name="gunAk47Parts" count="1"/>
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunAk47Parts" count="2"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceCloth" count="2"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitShotGuns" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
-	<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunDoubleBarrelShotgunParts" count="2"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceCloth" count="2"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitHuntingRifles" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
-	<ingredient name="gunHuntingRifleParts" count="1"/>
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunHuntingRifleParts" count="2"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceCloth" count="2"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
