@@ -12,7 +12,7 @@
 	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='cinderBlocks03']" />
 
     <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
-        <decoration type="block" blockname="plantedAloe3Harvest" prob="0.005"/>
+        <decoration type="block" blockname="plantedAloe3Harvest" prob="0.003"/>
     </append>
 	
     <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
@@ -22,5 +22,5 @@
     <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
         <decoration type="block" blockname="plantedYucca3Harvest" prob="0.001"/>
     </append>
-	
+
 </War3zuk>
