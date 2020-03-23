@@ -3066,14 +3066,13 @@
 	<property name="HoldType" value="33"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HDXcalibur.Prefab"/>
 	<property name="CustomIcon" value="HDXcalibur"/>
-	<property name="Material" value="Mstone"/>
-	<property name="RepairTools" value="resourceRockSmall"/>
+	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
+	<property name="RepairTools" value="resourceForgedIron"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
-	<property name="SoundDestroy" value="wooddestroy1"/>
-	<property name="FuelValue" value="100"/>
-	<property name="EconomicValue" value="175"/>
-	<property name="SellableToTrader" value="false"/>
+	<property name="SoundDestroy" value="metaldestroy1"/>
+	<property name="FuelValue" value="250"/>
+	<property name="EconomicValue" value="550"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
@@ -3087,7 +3086,7 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="160"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="stonehitorganic"/>
+			<property name="Override0" value="organic" param1="metalsolidhitorganic"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
@@ -3105,26 +3104,28 @@
 		<property name="SwingDegrees" value="110"/>
 		<property name="SwingAngle" value="90"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="stonehitorganic"/>
+			<property name="Override0" value="organic" param1="metalsolidhitorganic"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
 		</property>
 	</property>
-	<effect_group name="meleeToolSledgehammerStone">
-		<passive_effect name="EntityDamage" operation="base_set" value="20.0"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="10.0"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="40"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="15.8" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="55,112" tier="1,6" tags="perkSkullCrusher"/>
+	<effect_group name="meleeToolSledgehammerSteel">
+		<passive_effect name="EntityDamage" operation="base_set" value="40.0"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="65"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="35"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1207,1581" tier="1,6" tags="perkSkullCrusher"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSkullCrusher"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.6"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".1" tags="primary"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
@@ -3132,9 +3133,8 @@
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="GrazeDamageMultiplier" operation="base_set" value=".1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="31.6" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="55.2" tags="secondary"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
 	</effect_group>
 </item>
@@ -3268,7 +3268,7 @@
 	<property name="DescriptionKey" value="HDElectrolyteDesc"/>
 </item>
 
-	<item name="Adv Junk Turret">
+<item name="HD Junk Turret 9mm">
 	<property name="Tags" value="turret,weapon,ranged,reloadPenalty,attIntellect,perkTurrets,canHaveCosmetic"/>
 	<property name="CustomIcon" value="Adv Junk Turret" />
 	<property name="DisplayType" value="rangedGun"/>
@@ -3282,7 +3282,7 @@
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="Stacknumber" value="1"/>
-	<property name="EconomicValue" value="1200"/>
+	<property name="EconomicValue" value="950"/>
 	<property name="SellableToTrader" value="true"/>
 	<property name="RequiredPower" value="15"/>
 	<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic"/>
@@ -3292,8 +3292,8 @@
 		<property name="Delay" value=".8"/>
 		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
 		<property name="Reload_time" value="3.9"/>
-		<property name="Sound_start" value="Pistol_Fire"/>
-		<property name="Sound_repeat" value=""/>
+		<property name="Sound_start" value="M1911Fire"/>
+		<property name="Sound_repeat" value="M1911Fire"/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Sound_reload" value="m60_reload"/>
@@ -3320,13 +3320,13 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkTurrets"/>
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.1,.1"/>
-		<passive_effect name="MagazineSize" operation="perc_add" value="-.2,.2"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.1,.1"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="110.0"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="20.0"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
-		<passive_effect name="MagazineSize" operation="base_add" value="2,10" tier="2,6"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
+		<passive_effect name="MagazineSize" operation="base_add" value="1,1" tier="2,6"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
@@ -3347,7 +3347,169 @@
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 	</effect_group>
-	</item>
+</item>
+
+<item name="HD Junk Turret 762mm">
+	<property name="Tags" value="turret,weapon,ranged,reloadPenalty,attIntellect,perkTurrets,canHaveCosmetic"/>
+	<property name="CustomIcon" value="Adv Junk Turret" />
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="67"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+	<property name="HandMeshfile" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurretHeld_Prefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+	<property name="Material" value="MJunkTurretParts"/> <property name="Weight" value="4"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="950"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="RequiredPower" value="15"/>
+	<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".8"/>
+		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP"/>
+		<property name="Reload_time" value="3.9"/>
+		<property name="Sound_start" value="M4A1Fire"/>
+		<property name="Sound_repeat" value="M4A1Fire"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="m60_reload"/>
+		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+		<property name="ScopeOffset" value="0,0,0"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="SpawnTurret"/>
+		<property name="Turret" value="turretJunk"/>
+	</property>
+	<effect_group name="gunJunkTurret">
+		<passive_effect name="MaxRange" operation="base_set" value="15"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
+		<passive_effect name="BlockRange" operation="base_set" value="2.5"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="25.0"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkTurrets"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkTurrets"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.1,.1"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.1,.1"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="20.0"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="40"/>
+		<passive_effect name="MagazineSize" operation="base_add" value="1,1" tier="2,6"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.13"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="3"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1"/>
+		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,600" tier="1,6" tags="perkTurrets"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+	</effect_group>
+</item>
+
+<item name="HD Junk Turret 50mm">
+	<property name="Tags" value="turret,weapon,ranged,reloadPenalty,attIntellect,perkTurrets,canHaveCosmetic"/>
+	<property name="CustomIcon" value="Adv Junk Turret" />
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="67"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+	<property name="HandMeshfile" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurretHeld_Prefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+	<property name="Material" value="MJunkTurretParts"/> <property name="Weight" value="4"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="950"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="RequiredPower" value="15"/>
+	<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".8"/>
+		<property name="Magazine_items" value="50 BMG Round"/>
+		<property name="Reload_time" value="3.9"/>
+		<property name="Sound_start" value="AWFire"/>
+		<property name="Sound_repeat" value="AWFire"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="m60_reload"/>
+		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+		<property name="ScopeOffset" value="0,0,0"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="SpawnTurret"/>
+		<property name="Turret" value="turretJunk"/>
+	</property>
+	<effect_group name="gunJunkTurret">
+		<passive_effect name="MaxRange" operation="base_set" value="15"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
+		<passive_effect name="BlockRange" operation="base_set" value="2.5"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="30.0"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkTurrets"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkTurrets"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.1,.1"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.1,.1"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="20.0"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
+		<passive_effect name="MagazineSize" operation="base_add" value="1,1" tier="2,6"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.13"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="3"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1"/>
+		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,600" tier="1,6" tags="perkTurrets"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+	</effect_group>
+</item>
 
 <item name="HD Auger">
 	<property name="DescriptionKey" value="HDAugerDesc"/>
@@ -4151,6 +4313,39 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffShamChowderDuration" operation="set" value="1803">
 			<requirement name="CVarCompare" cvar="$buffShamChowderDuration" operation="GT" value="1803"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffShamChowder"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".02"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+
+<item name="BR1NXls HotPot Pizza Stew">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="BR1NXlsHotPotStewDesc"/>
+	<property name="CustomIcon" value="BR1NXls HotPot Pizza Stew"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="BR1NXls HotPot Pizza Stew Schematic"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".02"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
@@ -5115,6 +5310,17 @@
 	</effect_group>
 </item>
 
+<item name="BR1NXls HotPot Pizza Stew Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="BR1NXls HotPot Pizza Stew Schematic"/>
+	<property name="Unlocks" value="BR1NXls HotPot Pizza Stew"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="BR1NXls HotPot Pizza Stew" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
 <item name="Building Supply Flare">
 	<property name="DescriptionKey" value="BSFDesc"/>
     <property name="CustomIcon" value="Building Flare" />
@@ -5885,7 +6091,7 @@
 	</property>
 	<effect_group name="meleeHandZombie01" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="10"/> <!-- this passive is ignored so using the old notation! -->
+		<passive_effect name="EntityDamage" operation="base_set" value="20"/> <!-- this passive is ignored so using the old notation! -->
 		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
@@ -5894,7 +6100,7 @@
 		<!-- If the  buffInfectionCatch  buff makes it past buff resistance, this value is added to the  infectionCounter,  increasing infection level -->
 		<!-- Buckets are: -->
 		<!--InfectionRegular--><!--InfectionFeral--><!--InfectionRadiated--><!--InfectionSpecial-->
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/><!--InfectionRegular-->
 	</effect_group>
 </item>
 </insertAfter>
@@ -5903,7 +6109,7 @@
 	<property name="Extends" value="meleeHandZombie01"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="10"/>
+		<property name="DamageEntity" value="15"/>
 		</property>
 	<effect_group name="meleeHandZombieFeral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -5911,7 +6117,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="50"/><!--InfectionFeral-->
 	</effect_group>
 </item>
 </insertAfter>
@@ -5921,7 +6127,7 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="24"/>
 	<property class="Action0">
-		<property name="Delay" value="2.0"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Delay" value="1.1"/> <!-- obsolete if rounds per minute exists -->
 		<property name="Buff" value="buffLegSprained,buffIllInfection0"/>
 	</property>
 	<effect_group name="meleeHandZombie02" tiered="false">
@@ -5929,10 +6135,10 @@
 		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="30"/>  A16 2 -->
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" target_tags="walker,player" buff="buffLegSprained">
 			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
-			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="30"/>
 		</triggered_effect>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/><!--InfectionRegular-->
 	</effect_group>
 </item>
 </insertAfter>

@@ -822,12 +822,37 @@
 	<ingredient name="carBattery" count="1"/>
 </recipe>
 	
-<recipe name="Adv Junk Turret" count="1" craft_time = "30" tags="perkTurrets">
+<recipe name="HD Junk Turret 9mm" count="1" craft_time = "60" craft_area="HD WorkBench" tags="learnable,perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
 	<ingredient name="gunJunkTurretParts" count="5"/>
-	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
-	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunJunkTurretParts,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="HD Junk Turret 762mm" count="1" craft_time = "100" craft_area="HD WorkBench" tags="learnable,perkTurrets">
+	<ingredient name="gunJunkTurret" count="1"/>
+	<ingredient name="gunJunkTurretParts" count="10"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunJunkTurretParts,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="HD Junk Turret 50mm" count="1" craft_time = "120" craft_area="HD WorkBench" tags="learnable,perkTurrets">
+	<ingredient name="gunJunkTurret" count="1"/>
+	<ingredient name="gunJunkTurretParts" count="20"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="resourceScrapPolymers" count="40"/>
+	<ingredient name="resourceSpring" count="40"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunJunkTurretParts,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
 </recipe>
 
 <recipe name="500 Auto Max" count="2" craft_time = "1" craft_area="HD AmmoBench">
@@ -905,6 +930,14 @@
 	<ingredient name="foodCanSham" count="2"/>
 	<ingredient name="resourceBone" count="10"/>
 	<ingredient name="foodCanTuna" count="2"/>
+</recipe>
+
+<recipe name="BR1NXls HotPot Pizza Stew" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodHoney" count="1"/>
+	<ingredient name="foodCanDogfood" count="1"/>
+	<ingredient name="foodCanBeef" count="1"/>
 </recipe>
 
 <recipe name="9mm Bullet SH" count="2"  craft_time = "0.5" craft_area="HD AmmoBench" >

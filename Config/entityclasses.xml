@@ -1107,7 +1107,7 @@
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
-	<property name="Mass" value="170"/>
+	<property name="Mass" value="270"/>
 	<property name="Weight" value="70"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="Faction" value="undead"/>
@@ -1165,9 +1165,9 @@
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
-	<property name="PainResistPerHit" value=".45"/>
-	<property name="MaxViewAngle" value="180"/>
-	<property name="SightRange" value="30"/>
+	<property name="PainResistPerHit" value=".55"/>
+	<property name="MaxViewAngle" value="270"/>
+	<property name="SightRange" value="40"/>
 	<property name="SightLightThreshold" value="-2,150"/>
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/>
 	<property name="SleeperWakeupSightDetectionMax" value="340,480"/>
@@ -1176,25 +1176,25 @@
 	<property name="SleeperNoiseSenseThreshold" value="3,8"/>
 	<property name="SleeperNoiseWakeThreshold" value="9,12"/>
 	<property name="SleeperSmellSenseThreshold" value="20,50"/>
-	<property name="SoundSleeperSenseChance" value=".5"/>
+	<property name="SoundSleeperSenseChance" value=".8"/>
 	<property name="SleeperSmellWakeThreshold" value="40,100"/>
 	<property name="NoiseAlertThreshold" value="30"/>
 	<property name="SmellAlertThreshold" value="40"/>
 	<property name="MaxTurnSpeed" value="250"/>
-	<property name="MoveSpeed" value="0.08"/>
-	<property name="MoveSpeedAggro" value="0.2, 1.25"/>
-	<property name="MoveSpeedPanic" value="0.55"/>
+	<property name="MoveSpeed" value="1"/>
+	<property name="MoveSpeedAggro" value="0.80, 1.55"/>
+	<property name="MoveSpeedPanic" value="0.95"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<property name="HandItem" value="meleeHandZombie01"/>
 	<property name="HandItemCrawler" value="meleeHandZombie02"/>
-	<property name="AttackTimeoutDay" value="1.5"/>
-	<property name="AttackTimeoutNight" value="1.1"/>
+	<property name="AttackTimeoutDay" value="1.1"/>
+	<property name="AttackTimeoutNight" value="1.0"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
-	<property name="ExperienceGain" value="550"/>
+	<property name="ExperienceGain" value="450"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="TimeStayAfterDeath" value="10"/>
+	<property name="TimeStayAfterDeath" value="20"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>

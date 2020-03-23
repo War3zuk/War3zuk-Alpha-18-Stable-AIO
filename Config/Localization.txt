@@ -1,5 +1,7 @@
 Key,Source,Context,Changes,English
 
+BR1NXlsHotPotStewDesc,items,,,BR1NXls HotPot Stew Brings you a Carb Hit Fit for any Zombie Slayer. A BIG thanks for Streaming my OverHaul.
+
 DD1GGsShamTunaPieDesc,items,,,DD1GGs Sham And Tuna Pie Will keep you Zombie killin for Hours. A BIG thanks for being the 1st to Stream my OverHaul.
 
 HDMacheteDesc,items,,,Extra Sharp & Serrated for cleaner Kills.

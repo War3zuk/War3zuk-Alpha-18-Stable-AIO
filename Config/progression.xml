@@ -11,10 +11,10 @@
 	
 	<insertAfter xpath="/progression/perks/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='JunkTurretActiveRange']">
 		<passive_effect level="1" name="JunkTurretActiveCount" operation="base_set" value="0"/>
-		<passive_effect level="2" name="JunkTurretActiveCount" operation="base_set" value="1"/>
-		<passive_effect level="3" name="JunkTurretActiveCount" operation="base_set" value="2"/>
-		<passive_effect level="4" name="JunkTurretActiveCount" operation="base_set" value="3"/>
-		<passive_effect level="5" name="JunkTurretActiveCount" operation="base_set" value="5"/>
+		<passive_effect level="2" name="JunkTurretActiveCount" operation="base_set" value="0"/>
+		<passive_effect level="3" name="JunkTurretActiveCount" operation="base_set" value="0"/>
+		<passive_effect level="4" name="JunkTurretActiveCount" operation="base_set" value="0"/>
+		<passive_effect level="5" name="JunkTurretActiveCount" operation="base_set" value="1"/>
 	</insertAfter>
 		
 </configs>

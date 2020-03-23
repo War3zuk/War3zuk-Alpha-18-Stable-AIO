@@ -1,5 +1,17 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.66 to 2.67
+
+Fixed HD Xcalibur Code
+Added BR1NXls HotPot Pizza Stew
+Added BR1NXls HotPot Pizza Stew Schematic
+Removed Adv Junk Turret
+Added HD Junk Turret 9mm (Max 2 At L5 Turrets)
+Added HD Junk Turret 762mm (Balanced Slower ROF)
+Added HD Junk Turret 50mm (Damage Balanced Offset)
+Adjusted ZombieMasterTemplate
+Adjusted ZombieMeleeHandTemplate
+
 Updated v2.65 to 2.66
 
 Fixed HD Auger / Chainsaw Description

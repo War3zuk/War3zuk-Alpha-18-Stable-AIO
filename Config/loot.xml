@@ -31,6 +31,8 @@
 		<item name="Ammo Supply 408 Round" count="1,2" prob="0.3"/>
 		<item name="Ammo Supply 50 BMG Round" count="1,2" prob="0.3"/>
 		<item name="Food Supply Flare" count="1" prob="0.3"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob="0.05"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob="0.05"/>
 		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.2"/>
 		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.2"/>
 		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.2"/>
