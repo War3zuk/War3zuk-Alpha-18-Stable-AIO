@@ -150,6 +150,9 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.4"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.4"/>
 		<item name="Health Supply Flare" count="1" prob="0.3"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
@@ -382,6 +385,9 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.4"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.4"/>
 		<item name="Building Supply Flare" count="1" prob="0.3"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='60']" >
@@ -400,6 +406,9 @@
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='64']" >
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.2"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >

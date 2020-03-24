@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.68 to 2.69
+
+Fixed Schematics In Loot For New Items
+
 Updated v2.67 to 2.68
 
 Added HD BR1NXlS Booper (Hires Model)
