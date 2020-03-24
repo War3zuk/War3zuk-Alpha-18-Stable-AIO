@@ -156,7 +156,6 @@
 	<property name="HeatMapFrequency" value="100"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
-
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="HD GunBench"/>
@@ -165,7 +164,6 @@
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>
 	<property name="WorkstationJournalTip" value="workbenchTip"/>
-
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="30"/>
 		<property name="resourceMechanicalParts" value="30"/>
@@ -210,9 +208,10 @@
 	<property name="Stacknumber" value="1"/>
 
 	<property class="Workstation">
-		<property name="Modules" value="output"/>
+		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="HD WorkBench"/>
 	</property>
+	
 	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>

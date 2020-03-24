@@ -471,7 +471,9 @@
 		
 		<reward type="Exp" value="10000" />
 		<reward type="SkillPoints" value="1" />
-		<reward type="Item" id="HD Winchester 1866" value="6" />
+		<reward type="Item" id="HD Dragunov SVD" value="6" />
+		<reward type="Item" id="HDDragunovSVDScope" value="1" />
+		<reward type="Item" id="HDDragunovSVDSilencer" value="1" />
 </quest>
 
 <quest id="HD Mechanic PreReq 1">

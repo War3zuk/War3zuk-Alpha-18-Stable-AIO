@@ -46,6 +46,7 @@
 	<window name="WARwindowCraftingQueue"/>
 	<window name="windowOutput" />
 	<window name="windowNonPagingHeader" />
+	<window name="windowToolsHD WorkBench" />
 	</window_group>
 	
 <window_group name="workstation_HD PicsBench" controller="XUiC_WorkstationWindowGroup">

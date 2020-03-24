@@ -438,7 +438,7 @@
 	<ingredient name="medicalFirstAidKit" count="1"/>
 </recipe>
 
-<recipe name="HD Military Vest" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+<recipe name="HD Military Vest" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -446,7 +446,7 @@
 	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 	
-<recipe name="HD Military Gloves" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+<recipe name="HD Military Gloves" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -454,7 +454,7 @@
 	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 		
-<recipe name="HD Military Legs" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+<recipe name="HD Military Legs" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -462,7 +462,7 @@
 	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 	
-<recipe name="HD Military Boots" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+<recipe name="HD Military Boots" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -470,7 +470,7 @@
 	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 	
-<recipe name="HD Military Helmet" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+<recipe name="HD Military Helmet" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -541,18 +541,46 @@
 	<ingredient name="resourceNail" count="40"/>
 </recipe>
 
-<recipe name="HD Truck Elevator x5" craft_area="HD WorkBench" count="1" craft_time = "240" tags="perkGunslinger">
+<recipe name="HD Truck Elevator x5" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time = "240">
 	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Truck Elevator x10" craft_area="HD WorkBench" count="1" craft_time = "240" tags="perkGunslinger">
+<recipe name="HD Truck Elevator x10" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time = "240">
 	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HDToolAndDieSet" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDCarbonSewingKit" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HDCncMachine" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="40"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD BR1NXlS Booper" count="1" craft_time = "120" craft_area="HD WorkBench" tags="learnable,perkSkullCrusher">
+	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceWood" count="50"/>
 </recipe>
 
 <recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "8" craft_tool="toolCookingPot">
@@ -1094,6 +1122,70 @@
 	<ingredient name="resourceSpring" count="1"/>
 	<ingredient name="resourceCloth" count="2"/>
 	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="gunPistolParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunHuntingRifleParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunDoubleBarrelShotgunParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunRocketLauncherParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunJunkTurretParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="armorMilitarySetParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="armorSteelSetParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="meleeToolChainsawParts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
 </recipe>
 
 <recipe name="Class Builder"> <ingredient name="Starter Class" count="1"/></recipe>

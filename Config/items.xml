@@ -2509,6 +2509,138 @@
 	</effect_group>
 </item>
 
+<item name="HD BR1NXlS Booper">
+	<property name="DescriptionKey" value="HDBR1NXlSBooperDesc"/>
+	<property name="CustomIcon" value="HD BR1NXlS Booper"/>
+	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,perkElectrocutioner,attStrength,perkSkullCrusher,canHaveCosmetic"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="HoldType" value="33"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD BR1NXlS Booper.unity3d?HD BR1NXlS Booper.Prefab"/>
+	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
+	<property name="RepairTools" value="resourceForgedSteel"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="metaldestroy1"/>
+	<property name="FuelValue" value="250"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="UnlockedBy" value="meleeToolSledgehammerSteelSchematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="sledge_swinglight"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="Sound_start" value="stunbaton_swingheavy"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".515"/>
+		<property name="GrazeEnd" value=".52"/>
+		<property name="SwingDegrees" value="65"/>
+		<property name="SwingAngle" value="160"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalsolidhitorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="sledge_swingheavy"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".515"/>
+		<property name="GrazeEnd" value=".52"/>
+		<property name="SwingDegrees" value="110"/>
+		<property name="SwingAngle" value="90"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalsolidhitorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<effect_group name="meleeToolSledgehammerSteel">
+		<passive_effect name="EntityDamage" operation="base_set" value="55.1"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="70"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="35"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="30.5" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="207,581" tier="1,6" tags="perkSkullCrusher"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSkullCrusher"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.6"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+		<passive_effect name="DismemberChance" operation="base_add" value=".1" tags="primary"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allToolsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="oreWoodHarvest"/>
+		
+        <effect_group name="Base Effects" tiered="false">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffShocked"/>
+				</triggered_effect>
+			</effect_group>
+		
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="RemovePart" part="Sparks">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="10">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="1">
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="4"/>
+			<requirement name="IsPrimaryAttack"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="2">
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="4"/>
+			<requirement name="IsSecondaryAttack"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit1">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit2">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="2"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit3">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit4">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.20" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.20" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="40.0" tags="secondary"/>
+		<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
+	</effect_group>
+</item>
+
 <item name="500 Auto Max">
 	<property name="Extends" value="ammo762mmBulletBall"/>
 	<property name="CustomIcon" value="500 AM"/>
@@ -4075,6 +4207,48 @@
 	</effect_group>
 </item>
 
+<item name="HDToolAndDieSet">
+	<property name="UnlockedBy" value="HD Tool And Die Set Schematic"/>
+	<property name="DescriptionKey" value="HDToolAndDieSetDesc"/>
+	<property name="CustomIcon" value="HD Tool And Die Set"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="30"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
+<item name="HDCarbonSewingKit">
+	<property name="UnlockedBy" value="HD Carbon Sewing Kit Schematic"/>
+	<property name="DescriptionKey" value="HDCarbonSewingKitDesc"/>
+	<property name="CustomIcon" value="HD Carbon Sewing Kit"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="30"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
+<item name="HDCncMachine">
+	<property name="UnlockedBy" value="HD Cnc Machine Schematic"/>
+	<property name="DescriptionKey" value="HDCncMachineDesc"/>
+	<property name="CustomIcon" value="HD Cnc Machine"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="30"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
 <item name="HD Penthrox Injection">
 	<property name="DescriptionKey" value="PenthroxDesc"/>
 	<property name="DisplayType" value="medical"/>
@@ -5317,6 +5491,51 @@
 	<property name="Unlocks" value="BR1NXls HotPot Pizza Stew"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="BR1NXls HotPot Pizza Stew" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="HD Tool And Die Set Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Tool And Die Set Schematic"/>
+	<property name="Unlocks" value="HDToolAndDieSet"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDToolAndDieSet" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="5000"/>
+	</effect_group>
+</item>
+
+<item name="HD Carbon Sewing Kit Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Carbon Sewing Kit Schematic"/>
+	<property name="Unlocks" value="HDCarbonSewingKit"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCarbonSewingKit" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="5000"/>
+	</effect_group>
+</item>
+
+<item name="HD Cnc Machine Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Cnc Machine Schematic"/>
+	<property name="Unlocks" value="HDCncMachine"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCncMachine" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="5000"/>
+	</effect_group>
+</item>
+
+<item name="meleeToolSledgehammerSteelSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="meleeToolSledgehammerSteel"/>
+	<property name="Unlocks" value="meleeToolSledgehammerSteel"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSledgehammerSteel" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD BR1NXlS Booper" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
 	</effect_group>
 </item>

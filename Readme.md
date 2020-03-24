@@ -1,5 +1,24 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.67 to 2.68
+
+Added HD BR1NXlS Booper (Hires Model)
+Edited Quest GunMan Rewards
+Adjusted HD Truck Elevator Recipe
+Adjusted HD Military Recipes
+
+Added HD Cnc Machine
+Added HD Cnc Machine Schematic
+Added HD Cnc Machine Icons 256x256
+
+Added HD Tool & Die Set
+Added HD Tool & Die Set Schematic
+Added Added HD Tool & Die Set Icons 256x256
+
+Added HD Carbon Sewing Kit
+Added HD Carbon Sewing Kit Schematic
+Added HD Carbon Sewing Kit Icons 256x256
+
 Updated v2.66 to 2.67
 
 Fixed HD Xcalibur Code

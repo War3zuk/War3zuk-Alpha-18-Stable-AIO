@@ -1,5 +1,19 @@
 Key,Source,Context,Changes,English
 
+HDCncMachine,items,Item,KgNone,HD Cnc Machine,
+
+HDCarbonSewingKit,items,Item,KgNone,HD Carbon Sewing Kit,
+
+HDToolAndDieSet,items,Item,KgNone,HD Tool And Die Set,
+
+HDCncMachineDesc,items,,,The HD Cnc Machine Is placed into the HD WorkBench so that the Gun Parts can be crafted from a selection of Materials.
+
+HDCarbonSewingKitDesc,items,,,The HD Carbon Sewing Kit Is placed into the HD WorkBench so that the HD Military Gear can be crafted from a selection of Materials.
+
+HDToolAndDieSetDesc,items,,,The HD Tool And Die Set Is placed into the HD WorkBench so that the HD Truck Elevators can be crafted from a selection of Materials.
+
+HDBR1NXlSBooperDesc,items,,,Fuck Some Shit Up With The Hammer To End All Apocalyptic Zombie Infestations.
+
 BR1NXlsHotPotStewDesc,items,,,BR1NXls HotPot Stew Brings you a Carb Hit Fit for any Zombie Slayer. A BIG thanks for Streaming my OverHaul.
 
 DD1GGsShamTunaPieDesc,items,,,DD1GGs Sham And Tuna Pie Will keep you Zombie killin for Hours. A BIG thanks for being the 1st to Stream my OverHaul.

@@ -5,6 +5,14 @@
 	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">5</set>
 	
 <append xpath="/buffs">
+	
+<buff name="buffBandolier" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="0"/>
+	<effect_group>
+		<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".1"/>
+	</effect_group>
+</buff>
 
 <buff name="HD Penthrox Injection" tags="drug" icon="ui_game_symbol_stealth">
 	<stack_type value="duration"/>
