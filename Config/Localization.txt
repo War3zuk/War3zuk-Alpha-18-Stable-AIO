@@ -1,5 +1,11 @@
 Key,Source,Context,Changes,English
 
+LoversPizzaDesc,items,,,Perfectly Prepared To Be Enjoyed While Killing Zombies & Twitching The Night Away.
+
+JamesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.
+
+MichellesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.
+
 HDCncMachine,items,Item,KgNone,HD Cnc Machine,
 
 HDCarbonSewingKit,items,Item,KgNone,HD Carbon Sewing Kit,

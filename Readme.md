@@ -1,5 +1,19 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.69 to 2.70
+
+Added HardenedChest To The ReGrow Code
+Adjusted All ReGrow Timers To 360m (6 RTH)
+Adjusted MinerBook To 300 Dmg (was 10,000)
+Adjusted HD Vulcan 9mm Recipe (3 Barrels)
+Adjusted HD Vulcan 7.62 Recipe (4 Barrels)
+Fixed Vanilla Z's Crawl Speed (Thanks PlebsquadGames)
+Adjusted FeralTemplate from .45 To .65
+Updated drinkCanMegaCrush Icon 256x256 Monster Drink
+Added Lovers Pizza
+Added James Ingredients
+Added Michelles Ingredients
+
 Updated v2.68 to 2.69
 
 Fixed Schematics In Loot For New Items

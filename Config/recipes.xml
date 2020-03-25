@@ -238,7 +238,7 @@
 </recipe>
 
 <recipe name="HD Vulcan 9mm" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
-	<ingredient name="HD Vulcan 9mm Barrel" count="6"/>
+	<ingredient name="HD Vulcan 9mm Barrel" count="3"/>
 	<ingredient name="HD Vulcan 9mm Parts" count="1"/>
 	<ingredient name="HD Vulcan 9mm Motor" count="1"/>
 	<ingredient name="modDyeBlack" count="2"/>
@@ -269,7 +269,7 @@
 </recipe>
 
 <recipe name="HD Vulcan 7.62mm" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
-	<ingredient name="HD Vulcan 7.62mm Barrel" count="6"/>
+	<ingredient name="HD Vulcan 7.62mm Barrel" count="4"/>
 	<ingredient name="HD Vulcan 7.62mm Parts" count="1"/>
 	<ingredient name="HD Vulcan 7.62mm Motor" count="1"/>
 	<ingredient name="modDyeBlack" count="2"/>
@@ -966,6 +966,25 @@
 	<ingredient name="foodHoney" count="1"/>
 	<ingredient name="foodCanDogfood" count="1"/>
 	<ingredient name="foodCanBeef" count="1"/>
+</recipe>
+
+<recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+	<ingredient name="James Ingredients" count="1"/>
+	<ingredient name="Michelles Ingredients" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="James Ingredients" count="1" craft_time="2" >
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="foodHoney" count="1"/>
+	<ingredient name="foodCanBeef" count="1"/>
+</recipe>
+
+<recipe name="Michelles Ingredients" count="1" craft_time="2" >
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCornBread" count="1"/>
 </recipe>
 
 <recipe name="9mm Bullet SH" count="2"  craft_time = "0.5" craft_area="HD AmmoBench" >
