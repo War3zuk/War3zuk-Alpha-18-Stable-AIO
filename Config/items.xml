@@ -104,7 +104,7 @@
 	
 <append xpath="/items">
 		<item name="Generic Ammo Supply">
-		<property name="CustomIcon" value="genericAmmoBox" />
+		<property name="CustomIcon" value="Generic Orig" />
 		<property name="DescriptionKey" value="genericAmmoBoxDesc"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
@@ -375,7 +375,7 @@
 
 <item name="HD Colt M1911">
 	<property name="DescriptionKey" value="HD1911Desc"/>
-	<property name="Tags" value="M1911,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="M1911,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="CustomIcon" value="HD Colt M1911"/>
@@ -425,12 +425,12 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="wood"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".17,.17"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
@@ -461,7 +461,7 @@
 	
 <item name="HD Colt M1911A">
 	<property name="DescriptionKey" value="HD1911ADesc"/>
-	<property name="Tags" value="M1911,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="M1911,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="CustomIcon" value="HD Colt M1911A"/>
@@ -511,7 +511,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="wood"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -547,7 +547,7 @@
 
 <item name="HD Desert Eagle Punisher">
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="DesertEagle,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="DesertEagle,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HD Desert Eagle Punisher.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -638,7 +638,7 @@
 
 <item name="HD Desert Eagle">
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="DesertEagle,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="DesertEagle,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HD Desert Eagle.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -729,7 +729,7 @@
 <item name="HD Mac10 Auto">
 	<property name="DescriptionKey" value="HDMac10ADesc"/>
 	<property name="CustomIcon" value="HD Mac10 Auto"/>
-	<property name="Tags" value="Mac10,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkMachineGunner,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="Mac10,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HD Mac10 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -751,7 +751,6 @@
 	<property name="EconomicValue" value="850"/>
 	<property name="UnlockedBy" value="HD Mac10 Auto Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
@@ -770,7 +769,6 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value=".0000,-.0250,.0000"/>
 	</property>
-
 	<effect_group name="gunPistol">
 		<passive_effect name="MaxRange" operation="base_set" value="55"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
@@ -779,7 +777,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="650"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="25"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -817,7 +815,7 @@
 <item name="HD M3 Auto">
 	<property name="DescriptionKey" value="HDM3AutoADesc"/>
 	<property name="CustomIcon" value="HD M3 Auto"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="6"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M3 Auto.unity3d?HD M3 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -868,7 +866,7 @@
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="750"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="25"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -905,7 +903,7 @@
 <item name="HD HK33 Hybrid">
 	<property name="DescriptionKey" value="HDHK33HybridDesc"/>
 	<property name="CustomIcon" value="HD HK33 Hybrid"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD HK33 Hybrid.unity3d?HD HK33 Hybrid.Prefab"/>
@@ -956,7 +954,7 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".05,.08"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="400"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.8"/>
@@ -985,7 +983,7 @@
 <item name="HD AK Hybrid ACP">
 	<property name="DescriptionKey" value="HDSAK47Desc"/>
 	<property name="CustomIcon" value="HD AK Hybrid ACP"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD AK Hybrid ACP.unity3d?HD AK Hybrid ACP.Prefab"/>
@@ -1036,7 +1034,7 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".05,.08"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="400"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.8"/>
@@ -1064,7 +1062,7 @@
 
 <item name="HD M4A1 Carbine">
 	<property name="DescriptionKey" value="HDM4A1CDesc"/>
-	<property name="Tags" value="HDM4A1,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="HDM4A1,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="CustomIcon" value="HD M4A1 Carbine"/>
@@ -1116,7 +1114,7 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".01,.01"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="850"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
@@ -1145,7 +1143,7 @@
 <item name="HD Tactical AR">
 	<property name="DescriptionKey" value="HDTARDesc"/>
 	<property name="CustomIcon" value="HD Tactical AR"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?HD Tactical AR.Prefab"/>
@@ -1221,7 +1219,7 @@
 <item name="HD Double Barrel">
 	<property name="DescriptionKey" value="HDDBarrelDesc"/>
 	<property name="CustomIcon" value="HD Double Barrel"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,doubleBarrel,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,sideAttachments,stock,bottomAttachments,attStrength,doubleBarrel,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Double Barrel.unity3d?HD Double Barrel.Prefab"/>
@@ -1305,7 +1303,7 @@
 
 <item name="HD Spas 12">
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -1359,7 +1357,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1391,7 +1389,7 @@
 <item name="HD Spas 12 Street">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Street"/>
@@ -1446,7 +1444,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1478,7 +1476,7 @@
 <item name="HD Spas 12 USA">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 USA"/>
@@ -1533,7 +1531,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1565,7 +1563,7 @@
 <item name="HD Spas 12 Alien">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Alien"/>
@@ -1620,7 +1618,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1652,7 +1650,7 @@
 <item name="HD Spas 12 Irish">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Irish"/>
@@ -1707,7 +1705,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1739,7 +1737,7 @@
 <item name="HD Mossberg 500">
 	<property name="CustomIcon" value="HD Mossberg 500"/>
 	<property name="DescriptionKey" value="HDM500Desc"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HD Mossberg 500.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -1793,7 +1791,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="3"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
@@ -1826,7 +1824,7 @@
 <item name="HD Vulcan 9mm">
 	<property name="DescriptionKey" value="HDVulcan9mmDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 9mm"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="60"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Vulcan 9mm.unity3d?HD Vulcan 9mm.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -1878,7 +1876,7 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".08,.08"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="550"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="175"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="150"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1907,7 +1905,7 @@
 <item name="HD Vulcan 7.62mm">
 	<property name="DescriptionKey" value="HDVulcan762mmDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 7.62mm"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="60"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M134 MiniGun.unity3d?HD M134 MiniGun.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -1959,7 +1957,7 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".08,.08"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="600"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1100"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="150"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="300"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1988,7 +1986,7 @@
 <item name="HD Vulcan 50Bmg">
 	<property name="DescriptionKey" value="HDVulcan50BmgDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 50Bmg"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="60"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Vulcan 50Bmg.unity3d?HD Vulcan 50Bmg.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2040,7 +2038,7 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value=".08,.08"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="750"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1200"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="100"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="450"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2069,7 +2067,7 @@
 <item name="HD Arctic Warfare">
 	<property name="DescriptionKey" value="HDAWarDesc"/>
 	<property name="CustomIcon" value="HD Arctic Warfare"/>
-	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HD Arctic Warfare.Prefab"/>
@@ -2121,7 +2119,7 @@
 		<passive_effect name="EntityDamage" operation="base_add" value="8"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="5"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2158,7 +2156,7 @@
 <item name="HD CheyTac M300">
 	<property name="DescriptionKey" value="HDCheyTacM300Desc"/>
 	<property name="CustomIcon" value="HD CheyTac M300"/>
-	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD CheyTac M300.unity3d?HD CheyTac M300.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2210,7 +2208,7 @@
 		<passive_effect name="EntityDamage" operation="base_add" value="15"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2247,7 +2245,7 @@
 <item name="HD Dragunov SVD">
 	<property name="DescriptionKey" value="HDDSVDDesc"/>
 	<property name="CustomIcon" value="HD Dragunov SVD"/>
-	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HD Dragunov SVD.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2298,7 +2296,7 @@
 		<passive_effect name="EntityDamage" operation="base_add" value="45"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="12"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2335,7 +2333,7 @@
 <item name="HD Winchester 1866">
 	<property name="DescriptionKey" value="HDW1866Desc"/>
 	<property name="CustomIcon" value="HD Winchester 1866"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,mediumTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,mediumTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Winchester 1866.unity3d?HD Winchester 1866.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2387,7 +2385,7 @@
 		<passive_effect name="EntityDamage" operation="base_add" value="22"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="9"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2463,7 +2461,7 @@
 		<passive_effect name="EntityDamage" operation="base_add" value="10"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="300"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="3"/>
 		<passive_effect name="WalkSpeed" operation="base_set" value="0.75"/>
 		<passive_effect name="RunSpeed" operation="base_set" value="0.85"/>

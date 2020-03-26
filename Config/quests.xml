@@ -570,7 +570,7 @@
 		<objective type="Craft" id="vehicle4x4TruckAccessories" value="1" phase="1" />
 		<objective type="Craft" id="vehicle4x4TruckPlaceable" value="1" phase="2" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="10000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HD Wrench" value="6" />
 </quest>
@@ -673,7 +673,7 @@
 		<objective type="FetchKeep" id="medicalFirstAidKit" value="5" phase="1" />
 		<objective type="Craft" id="HD First Aid Kit" value="5" phase="2" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="PreReq 5" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HD HD BrainPox Test Kit" value="2" />
 		<reward type="Item" id="HD Spattergroit Test Kit" value="2" />

@@ -1,5 +1,27 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.70 to 2.71
+
+Removed Perk ReloadSpeed Multiplier From ALL HD Guns
+Adjusted HD Spas 12 (All Types) Mag Size = 10 (8)
+Adjusted HD Mossberg 500 Mag Size = 8 (6)
+Adjusted HD Arctic Warfare Mag Size = 8 (5)
+Adjusted HD CheyTac M300 Mag Size = 10 (6)
+Adjusted HD Dragunov SVD Mag Size = 12 (6)
+Adjusted HD Winchester 1866 Mag Size =8 (9)
+Adjusted HD Flame Thrower Mag Size = 500 (300)
+Adjusted HD Vulcan 9mm Mag Size = 150 (175)
+Adjusted HD Vulcan 7.62mm Mag Size = 300 (150)
+Adjusted HD Vulcan 50Bmg Mag Size = 450 (100)
+Adjusted HD M4A1 Carbine Mag Size = 45 (50)
+Adjusted HD AK Hybrid ACP Mag Size = 45 (35)
+Adjusted HD HK33 Hybrid Mag Size = 45 (35)
+Adjusted HD M3 Auto Mag Size = 50 (25)
+Adjusted HD Mac10 Auto Mag Size = 50 (25)
+Adjusted HD Colt M1911A Mag Size = 10 (8)
+Adjusted HD Colt M1911 Mag Size = 8 (6)
+Fixed GenericAmmoBox Icon
+
 Updated v2.69 to 2.70
 
 Added HardenedChest To The ReGrow Code
