@@ -581,6 +581,10 @@
 	
 <lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
 </lootcontainer>
+
+</append>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 	
 <!-- Animal Bear -->
 <lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
@@ -698,6 +702,72 @@
 <item name="resourceBone" count="1,2" prob="0.5"/>
 <item name="foodRottingFlesh" count="1,2" prob="0.5"/>
 </lootcontainer>
+
+<lootcontainer id="507" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="rareAutomotive" count="1,2" />
+	<item group="rareTools" count="1,2" />
+	<item group="toolParts" count="1,2" />
+	<item group="automotive" count="1,2" />
+	<item group="tools" count="1,2" />
+	<item group="minibikeParts" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="508" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="rareMedicine" count="1,2" />
+	<item group="medicine" count="1,2" />
+	<item group="rareOres" count="1,2" />
+	<item group="herbalRecipes" count="1,2" />
+	<item group="airdropMedicine" count="1,2" />
+	<item group="warmClothes" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="509" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="groupAmmoRegularGunslinger" count="1,2" />
+	<item group="groupAmmoAdvancedGunslinger" count="1,2" />
+	<item group="groupArmor_Light" count="1,2" />
+	<item group="groupWeaponsT3_Boomstick" count="1,2" />
+	<item group="groupWeaponsT3_Machinegunner" count="1,2" />
+	<item group="groupHeroChestLoot" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="510" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="cannedfood" count="1,2" />
+	<item group="coldfood" count="1,2" />
+	<item group="groupApparelClothes" count="1,2" />
+	<item group="shamwaySafeFiller" count="1,2" />
+	<item group="airdropMedicine" count="1,2" />
+	<item group="rareFoodDrink" count="1,2" />
+</lootcontainer>
+
+<lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item name="resourceIronFragment" count="5,10" prob="0.2"/>
+	<item name="resourceBone" count="2,4" prob="0.05"/>
+	<item name="resourceNail" count="2,4" prob="0.05"/>
+	<item name="resourceWood" count="10,20" prob="0.05"/>
+	<item name="resourceCloth" count="2,4" prob="0.05"/>
+	<item name="resourceDuctTape" count="2,4" prob="0.05"/>
+	<item name="resourceGlue" count="1,2" prob="0.05"/>
+	<item name="resourceOil" count="1,2" prob="0.05"/>
+	<item name="resourceSpring" count="1,2" prob="0.05"/>
+	<item name="resourceScrapBrass" count="10,20" prob="0.05"/>
+	<item name="resourceCoal" count="10,20" prob="0.05"/>
+	<item name="resourceRockSmall" count="20,80" prob="0.05"/>
+	<item name="resourceClayLump" count="40,120" prob="0.05"/>
+	<item name="resourceOilShale" count="20,120" prob="0.05"/>
+	<item name="resourceCobblestones" count="40,120" prob="0.05"/>
+	<item name="resourceRadiator" count="1,2" prob="0.05"/>
+	<item name="resourceRockSmallBundle" count="1,1" prob="0.005"/>
+	<item name="resourceWoodBundle" count="1,1" prob="0.005"/>
+	<item name="resourceIronFragmentBundle" count="1,1" prob="0.005"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1,1" prob="0.005"/>
+	<item name="resourceLeadBundle" count="1,1" prob="0.005"/>
+	<item name="resourceCoalBundle" count="1,1" prob="0.005"/>
+	<item name="resourceOilShaleBundle" count="1,1" prob="0.005"/>
+	<item name="ammoGasCanBundle" count="1,1" prob="0.005"/>
+	<item name="resourceSilverNugget" count="2,6" prob="0.005"/>
+	<item name="resourceGoldNugget" count="2,6" prob="0.005"/>
+	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
+</lootcontainer>
 	
-</append>
+</insertAfter>
 </configs>
