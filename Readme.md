@@ -26,6 +26,8 @@ Removed StartKits From Player Menu
 Adjusted 408 & 50mm Rounds Recipe
 Fixed HD AK Hybrid ACP Recipe (MachineGunner)
 Fixed HD HK33 Hybrid Recipe (MachineGunner)
+Fixed Lootable Animals
+Fixed ZombieTemplate Code
 
 Added HD Grinder Addon (HD AmmoBench) GunPowder
 Added HD Grinder Schematic

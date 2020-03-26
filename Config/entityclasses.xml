@@ -967,34 +967,6 @@
 
 </append>
 
-<append xpath="/entity_classes/entity_class[@name='animalBear']">
-	<property name="LootListOnDeath" value="500"/>
-</append>
-
-<append xpath="/entity_classes/entity_class[@name='animalZombieBear']">
-	<property name="LootListOnDeath" value="501"/>
-</append>
-
-<append xpath="/entity_classes/entity_class[@name='animalWolf']">
-	<property name="LootListOnDeath" value="502"/>
-</append>
-
-<append xpath="/entity_classes/entity_class[@name='animalCoyote']">
-	<property name="LootListOnDeath" value="503"/>
-</append>
-
-<append xpath="/entity_classes/entity_class[@name='animalDireWolf']">
-	<property name="LootListOnDeath" value="504"/>
-</append>
-
-<append xpath="/entity_classes/entity_class[@name='animalMountainLion']">
-	<property name="LootListOnDeath" value="505"/>
-</append>
-
-<append xpath="/entity_classes/entity_class[@name='animalStag']">
-	<property name="LootListOnDeath" value="506"/>
-</append>
-
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
 <remove xpath="/entity_classes/entity_class[@name='zombieTemplateMale']"/>
@@ -5576,5 +5548,33 @@
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
 
 <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]"> <passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/></append>
+
+<append xpath="/entity_classes/entity_class[@name='animalBear']">
+	<property name="LootListOnDeath" value="500"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalZombieBear']">
+	<property name="LootListOnDeath" value="501"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalWolf']">
+	<property name="LootListOnDeath" value="502"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalCoyote']">
+	<property name="LootListOnDeath" value="503"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalDireWolf']">
+	<property name="LootListOnDeath" value="504"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalMountainLion']">
+	<property name="LootListOnDeath" value="505"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalStag']">
+	<property name="LootListOnDeath" value="506"/>
+</append>
   
 </configs>

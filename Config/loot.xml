@@ -6,16 +6,6 @@
 	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,9</set>
-	
-<append xpath="/lootcontainers">
-
-<lootcontainer id="130" size="10,9" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >
-	</lootcontainer>
-	
-<lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
-	</lootcontainer>
-	
-</append>
 
 	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.3"/>
@@ -583,178 +573,131 @@
 		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.2"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 	</append>
-		
-<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
+
+<append xpath="/lootcontainers">
+
+<lootcontainer id="130" size="10,9" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >
+</lootcontainer>
+	
+<lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
+</lootcontainer>
 	
 <!-- Animal Bear -->
 <lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob="0.2"/>
-<item name="bookHuntingJournalBears" count="1" prob="0.3"/>
-<item name="bookUrbanCombatAdrenalineRush" count="1" prob="0.2"/>
-<item name="bookWasteTreasuresHoney" count="1" prob="0.2"/>
-<item name="gunPumpShotgun" count="1" prob="0.01"/>
-<item name="ammoShotgunShell" count="10,30" prob="0.2"/>
-<item name="meleeToolChainsaw" count="1" prob="0.2"/>
+<item name="medicalFirstAidKit" count="0,1" prob="0.1"/>
+<item name="bookHuntingJournalBears" count="1" prob="0.2"/>
+<item name="bookUrbanCombatAdrenalineRush" count="1" prob="0.1"/>
+<item name="bookWasteTreasuresHoney" count="1" prob="0.1"/>
+<item name="gunPumpShotgun" count="1" prob="0.1"/>
+<item name="ammoShotgunShell" count="10,30" prob="0.1"/>
+<item name="meleeToolChainsaw" count="1" prob="0.1"/>
+<item name="foodRawMeat" count="2,4" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal ZombieBear -->
 <lootcontainer id="501" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob="0.2"/>
-<item name="bookHuntingJournalBears" count="1" prob="0.2"/>
-<item name="bookUrbanCombatControlledBreathing" count="1" prob="0.2"/>
-<item name="bookWasteTreasuresDoors" count="1" prob="0.2"/>
-<item name="gunDoubleBarrelShotgun" count="1" prob="0.2"/>
-<item name="ammoShotgunSlug" count="10,30" prob="0.2"/>
-<item name="meleeToolAuger" count="1" prob="0.2"/>
+<item name="medicalFirstAidKit" count="0,1" prob="0.1"/>
+<item name="bookHuntingJournalBears" count="1" prob="0.1"/>
+<item name="bookUrbanCombatControlledBreathing" count="1" prob="0.1"/>
+<item name="bookWasteTreasuresDoors" count="1" prob="0.1"/>
+<item name="gunDoubleBarrelShotgun" count="1" prob="0.1"/>
+<item name="ammoShotgunSlug" count="10,30" prob="0.1"/>
+<item name="meleeToolAuger" count="1" prob="0.1"/>
+<item name="foodRawMeat" count="2,4" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Wolf -->
 <lootcontainer id="502" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob="0.2"/>
-<item name="bookHuntingJournalWolves" count="1" prob="0.2"/>
-<item name="bookUrbanCombatSneaking" count="1" prob="0.2"/>
-<item name="bookWasteTreasuresWater" count="1" prob="0.2"/>
-<item name="gunHuntingRifle" count="1" prob="0.01"/>
-<item name="ammo762mmBulletBall" count="10,30" prob="0.2"/>
-<item name="meleeToolPickaxeSteel" count="1" prob="0.2"/>
+<item name="medicalFirstAidKit" count="0,1" prob="0.1"/>
+<item name="bookHuntingJournalWolves" count="1" prob="0.1"/>
+<item name="bookUrbanCombatSneaking" count="1" prob="0.1"/>
+<item name="bookWasteTreasuresWater" count="1" prob="0.1"/>
+<item name="gunHuntingRifle" count="1" prob="0.1"/>
+<item name="ammo762mmBulletBall" count="10,30" prob="0.1"/>
+<item name="meleeToolPickaxeSteel" count="1" prob="0.1"/>
+<item name="foodRawMeat" count="2,4" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Coyote -->
 <lootcontainer id="503" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob="0.2"/>
-<item name="bookHuntingJournalCoyotes" count="1" prob="0.2"/>
-<item name="bookUrbanCombatRoomClearing" count="1" prob="0.2"/>
-<item name="bookWasteTreasuresSinks" count="1" prob="0.2"/>
-<item name="gunCrossbowIron" count="1" prob="0.2"/>
-<item name="ammoCrossbowBoltIron" count="10,30" prob="0.2"/>
-<item name="meleeToolShovelSteel" count="1" prob="0.2"/>
+<item name="medicalFirstAidKit" count="0,1" prob="0.1"/>
+<item name="bookHuntingJournalCoyotes" count="1" prob="0.1"/>
+<item name="bookUrbanCombatRoomClearing" count="1" prob="0.1"/>
+<item name="bookWasteTreasuresSinks" count="1" prob="0.1"/>
+<item name="gunCrossbowIron" count="1" prob="0.1"/>
+<item name="ammoCrossbowBoltIron" count="10,30" prob="0.1"/>
+<item name="meleeToolShovelSteel" count="1" prob="0.1"/>
+<item name="foodRawMeat" count="2,4" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal DireWolf -->
 <lootcontainer id="504" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob="0.2"/>
-<item name="bookHuntingJournalDeer" count="1" prob="0.2"/>
-<item name="bookUrbanCombatLandMines" count="1" prob="0.2"/>
-<item name="bookWasteTreasuresCoffins" count="1" prob="0.2"/>
-<item name="gun44Magnum" count="1" prob="0.2"/>
-<item name="ammo44MagnumBulletBall" count="10,30" prob="0.2"/>
-<item name="meleeToolFireaxeIron" count="1" prob="0.2"/>
+<item name="medicalFirstAidKit" count="0,1" prob="0.1"/>
+<item name="bookHuntingJournalDeer" count="1" prob="0.1"/>
+<item name="bookUrbanCombatLandMines" count="1" prob="0.1"/>
+<item name="bookWasteTreasuresCoffins" count="1" prob="0.1"/>
+<item name="gun44Magnum" count="1" prob="0.1"/>
+<item name="ammo44MagnumBulletBall" count="10,30" prob="0.1"/>
+<item name="meleeToolFireaxeIron" count="1" prob="0.1"/>
+<item name="foodRawMeat" count="2,4" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal MountainLion -->
 <lootcontainer id="505" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob="0.2"/>
-<item name="bookHuntingJournalMountainLions" count="1" prob="0.2"/>
-<item name="bookUrbanCombatLanding" count="1" prob="0.2"/>
-<item name="bookWasteTreasuresAcid" count="1" prob="0.2"/>
-<item name="gunBowCompound" count="1" prob="0.2"/>
-<item name="ammoCrossbowBoltSteelAP" count="10,30" prob="0.2"/>
-<item name="meleeToolClawHammer" count="1" prob="0.2"/>
+<item name="medicalFirstAidKit" count="0,1" prob="0.1"/>
+<item name="bookHuntingJournalMountainLions" count="1" prob="0.1"/>
+<item name="bookUrbanCombatLanding" count="1" prob="0.1"/>
+<item name="bookWasteTreasuresAcid" count="1" prob="0.1"/>
+<item name="gunBowCompound" count="1" prob="0.1"/>
+<item name="ammoCrossbowBoltSteelAP" count="10,30" prob="0.1"/>
+<item name="meleeToolClawHammer" count="1" prob="0.1"/>
+<item name="foodRawMeat" count="2,4" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Stag -->
 <lootcontainer id="506" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="resourceBone" count="3,5" prob="0.2"/>
-<item name="resourceLeather" count="3,5" prob="0.2"/>
-<item name="foodRawMeat" count="3,5" prob="0.3"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.3"/>
+<item name="resourceBone" count="3,5" prob="0.5"/>
+<item name="resourceLeather" count="3,5" prob="0.5"/>
+<item name="foodRawMeat" count="3,5" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Rabbit -->
 <lootcontainer id="511" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="foodRawMeat" count="2,4" prob="0.3"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.3"/>
+<item name="foodRawMeat" count="2,4" prob="0.5"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Chicken -->
 <lootcontainer id="512" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="foodEgg" count="4,8" prob="0.2"/>
-<item name="resourceFeather" count="5,10" prob="0.2"/>
+<item name="foodEgg" count="4,8" prob="0.5"/>
+<item name="resourceFeather" count="5,10" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Snake -->
 <lootcontainer id="513" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="foodRawMeat" count="1,2" prob="0.2"/>
-<item name="resourceAnimalFat" count="1,2" prob="0.2"/>
+<item name="foodRawMeat" count="1,2" prob="0.5"/>
+<item name="resourceAnimalFat" count="1,2" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Boar -->
 <lootcontainer id="514" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="foodRawMeat" count="1,2" prob="0.2"/>
-<item name="resourceAnimalFat" count="1,2" prob="0.2"/>
+<item name="foodRawMeat" count="1,2" prob="0.5"/>
+<item name="resourceAnimalFat" count="1,2" prob="0.5"/>
+<item name="resourceBone" count="3,5" prob="0.5"/>
 </lootcontainer>
 
 <!-- Animal Vulture -->
 <lootcontainer id="515" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="resourceBone" count="1,2" prob="0.2"/>
-<item name="foodRottingFlesh" count="1,2" prob="0.2"/>
+<item name="resourceBone" count="1,2" prob="0.5"/>
+<item name="foodRottingFlesh" count="1,2" prob="0.5"/>
 </lootcontainer>
-
-<lootcontainer id="507" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="rareAutomotive" count="1,2" />
-	<item group="rareTools" count="1,2" />
-	<item group="toolParts" count="1,2" />
-	<item group="automotive" count="1,2" />
-	<item group="tools" count="1,2" />
-	<item group="minibikeParts" count="1,2" />
-</lootcontainer>
-
-<lootcontainer id="508" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="rareMedicine" count="1,2" />
-	<item group="medicine" count="1,2" />
-	<item group="rareOres" count="1,2" />
-	<item group="herbalRecipes" count="1,2" />
-	<item group="airdropMedicine" count="1,2" />
-	<item group="warmClothes" count="1,2" />
-</lootcontainer>
-
-<lootcontainer id="509" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="groupAmmoRegularGunslinger" count="1,2" />
-	<item group="groupAmmoAdvancedGunslinger" count="1,2" />
-	<item group="groupArmor_Light" count="1,2" />
-	<item group="groupWeaponsT3_Boomstick" count="1,2" />
-	<item group="groupWeaponsT3_Machinegunner" count="1,2" />
-	<item group="groupHeroChestLoot" count="1,2" />
-</lootcontainer>
-
-<lootcontainer id="510" count="5" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="cannedfood" count="1,2" />
-	<item group="coldfood" count="1,2" />
-	<item group="groupApparelClothes" count="1,2" />
-	<item group="shamwaySafeFiller" count="1,2" />
-	<item group="airdropMedicine" count="1,2" />
-	<item group="rareFoodDrink" count="1,2" />
-</lootcontainer>
-
-<lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
-	<item name="resourceIronFragment" count="5,10" prob="0.2"/>
-	<item name="resourceBone" count="2,4" prob="0.05"/>
-	<item name="resourceNail" count="2,4" prob="0.05"/>
-	<item name="resourceWood" count="10,20" prob="0.05"/>
-	<item name="resourceCloth" count="2,4" prob="0.05"/>
-	<item name="resourceDuctTape" count="2,4" prob="0.05"/>
-	<item name="resourceGlue" count="1,2" prob="0.05"/>
-	<item name="resourceOil" count="1,2" prob="0.05"/>
-	<item name="resourceSpring" count="1,2" prob="0.05"/>
-	<item name="resourceScrapBrass" count="10,20" prob="0.05"/>
-	<item name="resourceCoal" count="10,20" prob="0.05"/>
-	<item name="resourceRockSmall" count="20,80" prob="0.05"/>
-	<item name="resourceClayLump" count="40,120" prob="0.05"/>
-	<item name="resourceOilShale" count="20,120" prob="0.05"/>
-	<item name="resourceCobblestones" count="40,120" prob="0.05"/>
-	<item name="resourceRadiator" count="1,2" prob="0.05"/>
-	<item name="resourceRockSmallBundle" count="1,1" prob="0.005"/>
-	<item name="resourceWoodBundle" count="1,1" prob="0.005"/>
-	<item name="resourceIronFragmentBundle" count="1,1" prob="0.005"/>
-	<item name="resourcePotassiumNitratePowderBundle" count="1,1" prob="0.005"/>
-	<item name="resourceLeadBundle" count="1,1" prob="0.005"/>
-	<item name="resourceCoalBundle" count="1,1" prob="0.005"/>
-	<item name="resourceOilShaleBundle" count="1,1" prob="0.005"/>
-	<item name="ammoGasCanBundle" count="1,1" prob="0.005"/>
-	<item name="resourceSilverNugget" count="2,6" prob="0.005"/>
-	<item name="resourceGoldNugget" count="2,6" prob="0.005"/>
-	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
-</lootcontainer>
-
-</insertAfter>
+	
+</append>
 </configs>
