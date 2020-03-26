@@ -1165,8 +1165,8 @@
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
-	<property name="PainResistPerHit" value=".55"/>
-	<property name="MaxViewAngle" value="270"/>
+	<property name="PainResistPerHit" value=".50"/>
+	<property name="MaxViewAngle" value="180"/>
 	<property name="SightRange" value="40"/>
 	<property name="SightLightThreshold" value="-2,150"/>
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/>
@@ -1181,7 +1181,7 @@
 	<property name="NoiseAlertThreshold" value="30"/>
 	<property name="SmellAlertThreshold" value="40"/>
 	<property name="MaxTurnSpeed" value="250"/>
-	<property name="MoveSpeed" value=".5, 1.0"/>
+	<property name="MoveSpeed" value=".5"/>
 	<property name="MoveSpeedAggro" value="0.60, 1.35"/>
 	<property name="MoveSpeedPanic" value="0.75"/>
 	<property name="CanClimbLadders" value="true"/>
@@ -1311,7 +1311,7 @@
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
 	<property name="PainResistPerHit" value=".25"/><!-- Feral -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="MoveSpeedAggro" value="0.5, 1.35"/>
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
@@ -1425,7 +1425,7 @@
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
 	<property name="PainResistPerHit" value=".25"/><!-- Feral -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="MoveSpeedAggro" value="0.5, 1.35"/>
 
 	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 
@@ -1490,7 +1490,7 @@
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
 	<property name="PainResistPerHit" value=".25"/><!-- Feral -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="MoveSpeedAggro" value="0.5, 1.35"/>
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
@@ -2736,7 +2736,7 @@
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".5"/><!-- Radiated -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="MoveSpeedAggro" value="0.5, 1.35"/>
 
 	<property name="HandItem" value="meleeHandZombieWorkerFeral"/>
 
