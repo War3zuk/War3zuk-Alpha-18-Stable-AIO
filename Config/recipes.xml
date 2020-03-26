@@ -1207,6 +1207,14 @@
 	<ingredient name="HDGun Oil" count="2"/>
 </recipe>
 
+<recipe name="gunAk47Parts" count="1" craft_tool="HDCncMachine" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
 <recipe name="Class Builder"> <ingredient name="Starter Class" count="1"/></recipe>
 <recipe name="Class Engineer"> <ingredient name="Starter Class" count="1"/></recipe>
 <recipe name="Class Farmer"> <ingredient name="Starter Class" count="1"/></recipe>
