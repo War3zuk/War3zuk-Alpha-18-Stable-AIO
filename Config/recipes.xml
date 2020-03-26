@@ -145,7 +145,7 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
-<recipe name="HD AK Hybrid ACP" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkGunslinger">
+<recipe name="HD AK Hybrid ACP" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -153,7 +153,7 @@
 	<ingredient name="gunAk47Parts" count="20"/>
 </recipe>
 
-<recipe name="HD HK33 Hybrid" craft_area="HD GunBench" count="1" craft_time = "150" tags="learnable,perkDeadEye">
+<recipe name="HD HK33 Hybrid" craft_area="HD GunBench" count="1" craft_time = "150" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
@@ -570,6 +570,13 @@
 </recipe>
 
 <recipe name="HDCncMachine" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="40"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HDGrinder" count="1" craft_time = "30" tags="learnable">
 	<ingredient name="resourceForgedSteel" count="50"/>
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="40"/>
@@ -1213,6 +1220,11 @@
 	<ingredient name="Forged Titanium" count="2"/>
 	<ingredient name="resourceCloth" count="2"/>
 	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="resourceGunPowder" count="1" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="0.5">
+	<ingredient name="resourceCoal" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
 </recipe>
 
 <recipe name="Class Builder"> <ingredient name="Starter Class" count="1"/></recipe>

@@ -4247,6 +4247,20 @@
 	<property name="Group" value="Tools/Traps"/>
 </item>
 
+<item name="HDGrinder">
+	<property name="UnlockedBy" value="HD Grinder Schematic"/>
+	<property name="DescriptionKey" value="HDGrinderDesc"/>
+	<property name="CustomIcon" value="HD Grinder"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="30"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
 <item name="HD Penthrox Injection">
 	<property name="DescriptionKey" value="PenthroxDesc"/>
 	<property name="DisplayType" value="medical"/>
@@ -5619,6 +5633,17 @@
 	<property name="Unlocks" value="HDCncMachine"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCncMachine" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="5000"/>
+	</effect_group>
+</item>
+
+<item name="HD Grinder Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Grinder Schematic"/>
+	<property name="Unlocks" value="HDGrinder"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGrinder" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="5000"/>
 	</effect_group>
 </item>

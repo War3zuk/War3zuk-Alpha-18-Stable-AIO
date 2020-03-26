@@ -390,6 +390,7 @@
 		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
 		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
+		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='60']" >
@@ -405,6 +406,7 @@
 		<item name="HD PicsBench Schematic" count="1" prob="0.4"/>
 		<item name="Ammo Supply Flare" count="1" prob="0.3"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
+		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='64']" >
@@ -413,6 +415,7 @@
 		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
 		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
+		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >

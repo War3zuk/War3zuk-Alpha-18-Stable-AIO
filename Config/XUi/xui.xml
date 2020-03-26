@@ -63,6 +63,7 @@
 	<window name="WARwindowCraftingQueue"/>
 	<window name="windowOutput" />
 	<window name="windowNonPagingHeader" />
+	<window name="windowToolsHD AmmoBench" />
 	</window_group>
 
 </append>

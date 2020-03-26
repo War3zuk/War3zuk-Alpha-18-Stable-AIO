@@ -1,5 +1,9 @@
 Key,Source,Context,Changes,English
 
+HDGrinder,items,Item,KgNone,HD Grinder,
+
+HDGrinderDesc,items,,,Add this to the HD AmmoBench To Grind Specialized items.
+
 LoversPizzaDesc,items,,,Perfectly Prepared To Be Enjoyed While Killing Zombies & Twitching The Night Away.
 
 JamesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.

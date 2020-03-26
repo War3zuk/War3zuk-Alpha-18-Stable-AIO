@@ -24,6 +24,12 @@ Adjusted HD Colt M1911 Mag Size = 8 (6)
 Fixed GenericAmmoBox Icon
 Removed StartKits From Player Menu
 Adjusted 408 & 50mm Rounds Recipe
+Fixed HD AK Hybrid ACP Recipe (MachineGunner)
+Fixed HD HK33 Hybrid Recipe (MachineGunner)
+
+Added HD Grinder Addon (HD AmmoBench) GunPowder
+Added HD Grinder Schematic
+Added HD Icons 256x256
 
 Updated v2.69 to 2.70
 

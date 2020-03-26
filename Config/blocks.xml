@@ -313,7 +313,7 @@
 	<property name="Stacknumber" value="1"/>
 
 	<property class="Workstation">
-		<property name="Modules" value="output"/>
+		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="HD AmmoBench"/>
 	</property>
 	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
