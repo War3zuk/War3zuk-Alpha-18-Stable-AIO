@@ -375,15 +375,15 @@
 </recipe>
 
 <recipe name="50 BMG Round" count="2" craft_time = "2" craft_area="HD AmmoBench">
-	<ingredient name="resourceBulletTip" count="5"/>
-	<ingredient name="resourceGunPowder" count="10"/>
-	<ingredient name="resourceBulletCasing" count="5"/>
+	<ingredient name="resourceBulletTip" count="3"/>
+	<ingredient name="resourceGunPowder" count="6"/>
+	<ingredient name="resourceBulletCasing" count="3"/>
 </recipe>
 
 <recipe name="408 Round" count="2" craft_time = "2" craft_area="HD AmmoBench">
-	<ingredient name="resourceBulletTip" count="4"/>
-	<ingredient name="resourceGunPowder" count="8"/>
-	<ingredient name="resourceBulletCasing" count="4"/>
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="5"/>
+	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
 <recipe name="HD Arctic Warfare" craft_area="HD GunBench" count="1" craft_time = "200" tags="learnable,perkDeadEye">

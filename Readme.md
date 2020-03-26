@@ -22,6 +22,8 @@ Adjusted HD Mac10 Auto Mag Size = 50 (25)
 Adjusted HD Colt M1911A Mag Size = 10 (8)
 Adjusted HD Colt M1911 Mag Size = 8 (6)
 Fixed GenericAmmoBox Icon
+Removed StartKits From Player Menu
+Adjusted 408 & 50mm Rounds Recipe
 
 Updated v2.69 to 2.70
 

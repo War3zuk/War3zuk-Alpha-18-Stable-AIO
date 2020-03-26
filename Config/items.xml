@@ -5979,8 +5979,8 @@
 </item>
 
 <item name="Starter Class">
-	<property name="DisplayInfo" value="Name" />
 	<property name="CreativeMode"     value="None"/>
+	<property name="DisplayInfo" value="Name" />
 	<property name="HoldType"         value="21"/>
 	<property name="Meshfile"         value="Items/Misc/bookPrefab"/>
 	<property name="DropMeshfile"     value="Items/Misc/sack_droppedPrefab"/>
@@ -5993,6 +5993,7 @@
 </item>
 
 <item name="Class Builder">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Builder"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6013,6 +6014,7 @@
 </item>
 
 <item name="Class Engineer">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Engineer"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6033,6 +6035,7 @@
 </item>
 
 <item name="Class Farmer">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Farmer"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6053,6 +6056,7 @@
 </item>
 
 <item name="Class Gunman">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Gunman"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6073,6 +6077,7 @@
 </item>
 
 <item name="Class Hunter">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Hunter"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6093,6 +6098,7 @@
 </item>
 
 <item name="Class Mechanic">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Mechanic"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6113,6 +6119,7 @@
 </item>
 
 <item name="Class Medic">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Medic"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6133,6 +6140,7 @@
 </item>
 
 <item name="Class Miner">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Miner"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
@@ -6153,6 +6161,7 @@
 </item>
 
 <item name="Class Rifleman">
+	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Rifleman"/>
 	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
