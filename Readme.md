@@ -2,6 +2,7 @@ War3zuk-Alpha-18.4 B4 - AIO
 
 Updated v2.70 to 2.71
 
+Tweaked HD M1911 & M1911A Fire Animations
 Removed Perk ReloadSpeed Multiplier From ALL HD Guns
 Adjusted HD Spas 12 (All Types) Mag Size = 10 (8)
 Adjusted HD Mossberg 500 Mag Size = 8 (6)
