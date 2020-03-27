@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.71 to 2.72
+
+Fixed LootList
+
 Updated v2.70 to 2.71
 
 Tweaked HD M1911 & M1911A Fire Animations

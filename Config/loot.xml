@@ -146,49 +146,6 @@
 		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 	</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
-		<item name="Ammo Supply Shredder" count="1,2" prob="0.3"/>
-		<item name="Ammo Supply 9mm" count="1,2" prob="0.7"/>
-		<item name="Ammo Supply 44Mag" count="1,2" prob="0.6"/>
-		<item name="Ammo Supply 45 ACP" count="1,2" prob="0.6"/>
-		<item name="Ammo Supply DE50" count="1,2" prob="0.5"/>
-		<item name="Ammo Supply 500 Auto Max" count="1,2" prob="0.5"/>
-		<item name="Ammo Supply 762mm" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply Shotgun" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply ShotgunSlug" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply Breach Slug" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply 408 Round" count="1,2" prob="0.3"/>
-		<item name="Ammo Supply 50 BMG Round" count="1,2" prob="0.3"/>
-		<item name="HD Forge Schematic" count="1" prob="0.2"/>
-		<item name="HD Wrench Schematic" count="1" prob="0.2"/>
-		<item name="HD Auger Schematic" count="1" prob="0.2"/>
-		<item name="HD Chainsaw Schematic" count="1" prob="0.2"/>
-		<item name="HD First Aid Kit Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.2"/>
-		<item name="HD Generator Schematic" count="1" prob="0.2"/>
-		<item name="HD Spas 12 Schematic" count="1" prob="0.2"/>
-		<item name="HD Arctic Warfare Schematic" count="1" prob="0.2"/>
-		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.2"/>
-		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.2"/>
-		<item name="HD Mac10 Auto Schematic" count="1" prob="0.2"/>
-		<item name="HD Mods Schematic" count="1" prob="0.2"/>
-		<item name="HD CheyTac M300 Schematic" count="1" prob="0.2"/>
-		<item name="HD M3 Auto Schematic" count="1" prob="0.2"/>
-		<item name="HD Double Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Winchester 1866 Schematic" count="1" prob="0.2"/>
-		<item name="HD Dragunov SVD Schematic" count="1" prob="0.2"/>
-		<item name="HD Flame Thrower Schematic" count="1" prob="0.2"/>
-		<item name="Food Supply Flare" count="1" prob="0.3"/>
-	</append>
-	
 	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.3"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.7"/>
@@ -584,7 +541,7 @@
 
 </append>
 
-<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
 	
 <!-- Animal Bear -->
 <lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
