@@ -994,6 +994,17 @@
 	<ingredient name="foodCornBread" count="1"/>
 </recipe>
 
+<recipe name="HD Knife" craft_time = "30" count="10" >
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+</recipe>
+
+<recipe name="HDNailGunBolt" craft_time = "0.5" count="1">
+	<ingredient name="resourceScrapIron" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+
 <recipe name="9mm Bullet SH" count="2"  craft_time = "0.5" craft_area="HD AmmoBench" >
      <ingredient name="Hollow Tip" count="2" />
 	 <ingredient name="HD Electrolyte" count="2"/>

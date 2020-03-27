@@ -4,6 +4,8 @@
 	<set xpath="/items/item[@name='ammoRocketHE']/effect_group/passive_effect[@name='EntityDamage']/@value">210</set>
 	<set xpath="/items/item[@name='ammoRocketFrag']/effect_group/passive_effect[@name='EntityDamage']/@value">315</set>
 	
+	<append xpath="/items/item[@name='gunToolNailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,HDNailGunBolt</append>
+	
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
 <remove xpath="/items/item[@name='meleeHandMaster']"/>
@@ -233,6 +235,124 @@
 </append>
 	
 <append xpath="/items">
+
+<item name="HD Knife">
+	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
+	<property name="DisplayType" value="meleeKnife"/>
+	<property name="DescriptionKey" value="HDKnifeDesc"/>
+	<property name="CustomIcon" value="HD Throwing Knife"/>
+	<property name="HoldType" value="36"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Throwing Knife.unity3d?HD Throwing Knife.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="MmeleeThrownSpearSteel"/>
+	<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="FuelValue" value="150"/>
+	<property name="EconomicValue" value="110"/>
+	<property name="EconomicBundleSize" value="100"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="IsSticky" value="true"/>
+	<property name="StickyOffset" value=".15"/>
+	<property name="StickyColliderUp" value="1"/>
+	<property name="StickyColliderRadius" value=".1"/>
+	<property name="StickyColliderLength" value="2"/>
+	<property name="StickyForwardDirection" value="0,0,1"/>
+	<property name="Stacknumber" value="10"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="spear_fire"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".32"/>
+		<property name="SwingDegrees" value="10"/>
+		<property name="SwingAngle" value="20"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalstaborganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<property class="Action1">
+		<requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="20.1"/>
+		<property name="Class" value="ThrownWeapon"/>
+		<property name="Hitmask_override" value="Bullet"/>
+		<property name="Delay" value="0.1"/>
+		<property name="Throw_strength_default" value="18"/>
+		<property name="Throw_strength_max" value="18"/>
+		<property name="Max_strain_time" value="0.1"/>
+		<property name="Sound_start" value="spear_throw"/>
+		<property name="Explosion.ParticleIndex" value="0"/>
+		<property name="FlyTime" value="0"/>
+		<property name="Gravity" value="-0.0"/>
+		<property name="LifeTime" value="60"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalstaborganic"/>
+		</property>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="65.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20.0" tags="primary"/>
+		<passive_effect name="MaxRange" operation="base_set" value="3.2"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+	</effect_group>
+</item>
+
+<item name="HDNailGunBolt">
+	<property name="DescriptionKey" value="HDNailGunBoltDesc"/>
+	<property name="CustomIcon" value="HD Nail Gun Bolt"/>
+	<property name="Extends" value="ammoCrossbowBoltIron"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltSteelPrefab.prefab"/>
+	<property name="EconomicValue" value="57"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="IsSticky" value="true"/>
+	<property name="StickyOffset" value=".1"/>
+	<property name="StickyColliderUp" value="2"/>
+	<property name="StickyColliderRadius" value=".05"/>
+	<property name="StickyColliderLength" value=".75"/>
+	<effect_group name="ammoCrossbowBoltSteelAP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="45"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="6"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+		<display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="BlockDamage" operation="perc_set" value=".1" tags="wood"/>
+		<passive_effect name="BlockDamage" operation="perc_set" value="0" tags="earth,metal,cloth"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="82.5"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
+	</effect_group>
+</item>
 	
 <item name="HD Class PreReq"> 
 	<property name="CustomIcon" value="HD Class PreReq"/>

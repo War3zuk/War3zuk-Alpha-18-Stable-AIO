@@ -1,5 +1,11 @@
 Key,Source,Context,Changes,English
 
+HDNailGunBolt,items,Item,KgNone,HD Nail Gun Bolt,
+
+HDNailGunBoltDesc,items,,,Your a Builder. Your out of Ammo. No problems Load These Bad Boys Up And Kick Ass You Gimpy Builder YOU.
+
+HDKnifeDesc,items,,,Throwing Knifes can be used as distraction or a weapon.
+
 HDGrinder,items,Item,KgNone,HD Grinder,
 
 HDGrinderDesc,items,,,Add this to the HD AmmoBench To Grind Specialized items.
