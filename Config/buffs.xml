@@ -6,6 +6,23 @@
 	
 <append xpath="/buffs">
 	
+<buff name="buffMREInfectionAddCure" name_key="buff Infection Add Cure" hidden="true" icon="ui_game_symbol_pills">
+	<stack_type value="ignore"/>
+	<duration value=".1"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="multiply" value="@$infectionMaxDuration"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="divide" value="300"/>
+
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$infectionCureCounter" operation="add" value="@$buffInfectionAddCurePerc"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="set" value="0"/>
+
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$infectionCureCounter" operation="set" value="@$infectionMaxDuration">
+			<requirement name="CVarCompare" cvar="$infectionCureCounter" operation="GT" value="@$infectionMaxDuration"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInfectionMain"/>
+	</effect_group>
+</buff>
+	
 <buff name="buffBandolier" hidden="true">
 	<stack_type value="ignore"/>
 	<duration value="0"/>

@@ -6,6 +6,9 @@ Added HD Knifes (Can Be Thrown & Picked Up)
 Added HDNailGunBolts (Vanilla NailGun) SteelDmg
 Fixed Plane Loot Drops
 Fixed Medic PreReq5 XP
+Added MRE Military Rations
+Added Military Purify Tablets
+Added Military BUFF For MRE
 
 Updated v2.71 to 2.72
 

@@ -235,6 +235,49 @@
 </append>
 	
 <append xpath="/items">
+	
+<item name="MRE Military Ration">
+	<property name="DescriptionKey" value="MREMilitaryRationDesc"/>
+	<property name="CustomIcon" value="MRE Military Ration"/>
+	<property name="Tags" value="medical"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodCureInfection"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="80"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="Group" value="Science,CFChemicals,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dCureInfection" value=".01"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="3"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffMREInfectionAddCure"/>
+	</effect_group>
+</item>
+
+<item name="Military Purify Tablets">
+	<property name="DescriptionKey" value="MilitaryTabletsDesc"/>
+	<property name="CustomIcon" value="Military Purify Tablets"/>
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medicalVitamins"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="80"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="Group" value="Science,CFChemicals,Medical"/>
+</item>
 
 <item name="HD Knife">
 	<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>

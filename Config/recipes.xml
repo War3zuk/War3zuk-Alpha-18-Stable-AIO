@@ -5,6 +5,16 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="drinkJarBoiledWater" count="1" craft_time="10">
+    <ingredient name="Military Purify Tablets" count="6" />
+    <ingredient name="drinkJarRiverWater" count="1" />
+</recipe>
+	
+<recipe name="drinkJarPureMineralWater" count="1" craft_time="5">
+    <ingredient name="Military Purify Tablets" count="3" />
+    <ingredient name="drinkJarBoiledWater" count="1" />
+</recipe>
+	
 <recipe name="Scrapped Schematics" count="1" craft_time="0.5">
 	<wildcard_forge_category />
 </recipe>
