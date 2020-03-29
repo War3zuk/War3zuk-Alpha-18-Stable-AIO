@@ -1120,17 +1120,17 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.8"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.8"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".10"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".15"/>
 		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.1"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.5"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".2"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".6"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value=".2"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".4"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.1"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.5"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1250,1550" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
@@ -1200,17 +1200,17 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.8"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.8"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".10"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".15"/>
 		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.1"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.5"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".2"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".6"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value=".2"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".4"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.1"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.5"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1250,1550" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
@@ -1280,17 +1280,17 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="850"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".4"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.1"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.3"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0.5"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0.5"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0.5"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0.5"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0.1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".15"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.5"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="2250,4550" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
@@ -1360,17 +1360,17 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="850"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".4"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.1"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.3"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0.5"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0.5"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0.5"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0.5"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0.1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".15"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.5"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="2500,5500" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>

@@ -32,6 +32,8 @@ Added Obonjan Deadly Pathogen (Nurses) 60m Timer
 Added Obonjan HD Test Kit For Removal Of Pathogen
 Added Obonjan Icons 256x256
 
+Incremental Spread Fixed On The Autos
+
 Updated v2.72 to 2.73
 
 Added HD Knifes (Can Be Thrown & Picked Up)
