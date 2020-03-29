@@ -1,5 +1,13 @@
 Key,Source,Context,Changes,English
 
+HDBulletPress,items,Item,KgNone,HD Bullet Press,
+
+HDBulletPressDesc,items,,,Add this Item to the HD AmmoBench To allow for the Production Of Ammo.
+
+HDBulletTumblerDesc,items,,,Add this Item to the HD AmmoBench To allow for the Dismantling Of Ammo.
+
+HDBulletTumbler,items,Item,KgNone,HD Bullet Tumbler,
+
 HDNailGunBolt,items,Item,KgNone,HD Nail Gun Bolt,
 
 HDNailGunBoltDesc,items,,,Your a Builder. Your out of Ammo. No problems Load These Bad Boys Up And Kick Ass You Gimpy Builder YOU.
@@ -8,7 +16,7 @@ HDKnifeDesc,items,,,Throwing Knifes can be used as distraction or a weapon.
 
 HDGrinder,items,Item,KgNone,HD Grinder,
 
-HDGrinderDesc,items,,,Add this to the HD AmmoBench To Grind Specialized items.
+HDGrinderDesc,items,,,Add this to the HD AmmoBench To Grind Specialized items Like GunPowder.
 
 LoversPizzaDesc,items,,,Perfectly Prepared To Be Enjoyed While Killing Zombies & Twitching The Night Away.
 
@@ -149,6 +157,8 @@ HDWDDesc,blocks,Block Building,,This Dispenser that will fill Any Glass Jars you
 PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless you Engage them.
 
 PoisonVileDesc,items,,,A Key Ingredient in making the Penthrox Injection.
+
+HDObonjanTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
 
 HDBrainPoxTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
 

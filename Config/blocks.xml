@@ -1,7 +1,7 @@
 <configs>
 	
-	<set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">1</set>
-	<set xpath="/blocks/block[@name='pouredRConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">2</set>
+	<set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">2</set>
+	<set xpath="/blocks/block[@name='pouredRConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">4</set>
 	
 	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">15</set>
 	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">20</set>
@@ -10,10 +10,10 @@
 	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">35</set>
 	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">40</set>
 	
-	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">45</set>
+	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">50</set>
 	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@name">resourceIronFragment</set>
 
-	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">45</set>
+	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">50</set>
 	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@name">resourceIronFragment</set>
 	
 <append xpath="/blocks">
@@ -206,17 +206,14 @@
 	<property name="HeatMapFrequency" value="100"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
-
 	<property class="Workstation">
 		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="HD WorkBench"/>
 	</property>
-	
 	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>
 	<property name="WorkstationJournalTip" value="workbenchTip"/>
-
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="30"/>
 		<property name="resourceMechanicalParts" value="30"/>
@@ -259,7 +256,6 @@
 	<property name="HeatMapFrequency" value="100"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
-
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="HD PicsBench"/>
@@ -268,7 +264,6 @@
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>
 	<property name="WorkstationJournalTip" value="workbenchTip"/>
-
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="30"/>
 		<property name="resourceMechanicalParts" value="30"/>
@@ -311,7 +306,6 @@
 	<property name="HeatMapFrequency" value="100"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
-
 	<property class="Workstation">
 		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="HD AmmoBench"/>
@@ -320,7 +314,6 @@
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>
 	<property name="WorkstationJournalTip" value="workbenchTip"/>
-
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="30"/>
 		<property name="resourceMechanicalParts" value="30"/>
@@ -2355,6 +2348,25 @@
 
 <append xpath="/blocks/block[@name='ladderSteel']">
 	<property name="MovementFactor" value="1.2"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeStump']">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="LootList" value="518"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="BigDecorationRadius" value="3"/>
+	<property name="IsPlant" value="true"/>
+	<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest"/>
+	<drop event="Destroy" name="foodHoney" count="1" prob=".5"/>
+	<drop event="Destroy" name="HDNailGunBolt" count="5,10" prob=".1"/>
+	<drop event="Destroy" name="Food Supply Flare" count="1" prob=".1"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
 </append>
 
 <append xpath="/blocks/block[@name='cntGasPump']">

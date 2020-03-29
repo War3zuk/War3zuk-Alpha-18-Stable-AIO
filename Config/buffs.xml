@@ -97,6 +97,25 @@
 		</effect_group>
 </buff>
 
+<buff name="BuffObonjan" name_key="Obonjan" description_key="You Have Contracted Obonjan From An Infected Nurse, You have 60 Minutes To Craft And Use The HD Obonjan Test Kit Or your Infection Evolves into Obonjan-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted Obonjan"  icon="ui_game_symbol_Obonjan" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="3600"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffObonjan-Z">
+			</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BuffObonjan-Z" name_key="Obonjan-Z" description_key="Shit!! You've Contracted Obonjan-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Obonjan-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+		</effect_group>
+</buff>
+
 <buff name="buffEmbers" hidden="true">
 		<stack_type value="ignore" />
 		<effect_group>

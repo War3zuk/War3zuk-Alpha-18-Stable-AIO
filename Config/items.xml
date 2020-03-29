@@ -5,6 +5,7 @@
 	<set xpath="/items/item[@name='ammoRocketFrag']/effect_group/passive_effect[@name='EntityDamage']/@value">315</set>
 	
 	<append xpath="/items/item[@name='gunToolNailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,HDNailGunBolt</append>
+	<set xpath="/items/item[@name='gunSMG5']/property[@name='Material']/@value">MMachineGunParts</set>
 	
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
@@ -337,9 +338,9 @@
 		</property>
 	</property>
 	<effect_group tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="65.5"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="45.5"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="5"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="20.0" tags="primary"/>
 		<passive_effect name="MaxRange" operation="base_set" value="3.2"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
@@ -3097,10 +3098,19 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
-		<property name="Sound_start" value="player_bandage"/>
+		<property name="Sound_start" value="player_firstAidKit"/>
 	</property>
 	<effect_group tiered="false">
+		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffBrainPox"/>
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
+		<display_value name="foodHealthAmount" value="30"/>
+		
 	</effect_group>
 </item>
 
@@ -3122,10 +3132,19 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
-		<property name="Sound_start" value="player_bandage"/>
+		<property name="Sound_start" value="player_firstAidKit"/>
 	</property>
 	<effect_group tiered="false">
+		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffKrytos"/>
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
+		<display_value name="foodHealthAmount" value="30"/>
+		
 	</effect_group>
 </item>
 
@@ -3147,10 +3166,53 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
-		<property name="Sound_start" value="player_bandage"/>
+		<property name="Sound_start" value="player_firstAidKit"/>
 	</property>
 	<effect_group tiered="false">
+		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffSpattergroit"/>
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
+		<display_value name="foodHealthAmount" value="30"/>
+		
+	</effect_group>
+</item>
+
+<item name="HD Obonjan Test Kit">
+	<property name="CustomIcon" value="HD Obonjan Test Kit" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medical"/>
+	<property name="HoldType" value="64"/>
+	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Stacknumber" value="2500"/>
+	<property name="FuelValue" value="1"/>
+	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="150"/>
+	<property name="Group" value="Science,Medical,Basics"/>
+	<property name="DescriptionKey" value="HDObonjanTestKitDesc"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_firstAidKit"/>
+	</property>
+	<effect_group tiered="false">
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffObonjan"/>
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
+		<display_value name="foodHealthAmount" value="30"/>
+		
 	</effect_group>
 </item>
 
@@ -4414,6 +4476,34 @@
 	<property name="UnlockedBy" value="HD Grinder Schematic"/>
 	<property name="DescriptionKey" value="HDGrinderDesc"/>
 	<property name="CustomIcon" value="HD Grinder"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="30"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
+<item name="HDBulletTumbler">
+	<property name="UnlockedBy" value="HD Bullet Tumbler Schematic"/>
+	<property name="DescriptionKey" value="HDBulletTumblerDesc"/>
+	<property name="CustomIcon" value="HD Bullet Tumbler"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="30"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
+<item name="HDBulletPress">
+	<property name="UnlockedBy" value="HD Bullet Press Schematic"/>
+	<property name="DescriptionKey" value="HDBulletPressDesc"/>
+	<property name="CustomIcon" value="HD Bullet Press"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -5811,6 +5901,28 @@
 	</effect_group>
 </item>
 
+<item name="HD Bullet Tumbler Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Bullet Tumbler Schematic"/>
+	<property name="Unlocks" value="HDBulletTumbler"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDBulletTumbler" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="5000"/>
+	</effect_group>
+</item>
+
+<item name="HD Bullet Press Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Bullet Press Schematic"/>
+	<property name="Unlocks" value="HDBulletPress"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDBulletPress" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="5000"/>
+	</effect_group>
+</item>
+
 <item name="meleeToolSledgehammerSteelSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -6613,16 +6725,44 @@
 	</property>
 	<effect_group name="meleeHandZombie01" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="20"/> <!-- this passive is ignored so using the old notation! -->
-		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<passive_effect name="EntityDamage" operation="base_set" value="20"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/>
+	</effect_group>
+</item>
 
-		<!-- If the  buffInfectionCatch  buff makes it past buff resistance, this value is added to the  infectionCounter,  increasing infection level -->
-		<!-- Buckets are: -->
-		<!--InfectionRegular--><!--InfectionFeral--><!--InfectionRadiated--><!--InfectionSpecial-->
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/><!--InfectionRegular-->
+<item name="meleeHandZombieNurse">
+	<property name="Extends" value="meleeHandMaster1"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01,BuffObonjan"/>
+	</property>
+	<effect_group name="meleeHandZombie01" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffObonjan"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieNurseFeral">
+	<property name="Extends" value="meleeHandMaster1"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="15"/>
+		</property>
+	<effect_group name="meleeHandZombieFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffObonjan"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="50"/>
 	</effect_group>
 </item>
 </insertAfter>

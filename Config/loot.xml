@@ -1,7 +1,5 @@
 <configs>
 	
-	<remove xpath="/lootcontainers/lootcontainer[@id='35']"></remove>
-	
 	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,12</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,9</set>
@@ -194,6 +192,8 @@
 		<item name="Building Supply Flare" count="1" prob="0.3"/>
 		<item name="MRE Military Ration" count="0,1" prob="0.2"/>
 		<item name="Military Purify Tablets" count="2,4" prob="0.3"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
@@ -342,6 +342,7 @@
 		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='60']" >
@@ -414,6 +415,8 @@
 	<append xpath="/lootcontainers/lootcontainer[@id='83']" >
 		<item name="MRE Military Ration" count="0,1" prob="0.2"/>
 		<item name="Military Purify Tablets" count="2,4" prob="0.3"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='95']" >
@@ -541,25 +544,14 @@
 	</append>
 
 <append xpath="/lootcontainers">
-
 <lootcontainer id="130" size="10,9" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >
 </lootcontainer>
-	
-<lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
-</lootcontainer>
-
 </append>
 
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='34']">
-
-<lootcontainer id="35" count="0,2" size="6,2" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="qualBaseTemplate">
-	<item group="sportingGoods" count="1,2" prob="0.1"/>
-	<item name="foodHoney" count="1,2" prob="0.2"/>
-	<item group="cannedfood" count="1,2" prob="0.2"/>
-	<item group="rareMedicine" count="1,2" prob="0.1"/>
+<append xpath="/lootcontainers">
+<lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
 </lootcontainer>
-
-</insertAfter>
+</append>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
 	

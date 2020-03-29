@@ -1,5 +1,37 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.73 to 2.74
+
+Adjusted SMG5 (Now Scraps To AKparts As It Should)
+Added Full UIDisplay To HD Forge When Crafting
+Adjusted Concrete Drying Time Slightly
+Adjusted IronFragment Amount To 50 Per Fragment
+
+Added HD Bullet Tumbler (HD AmmoBench Addon)
+Added HD Bullet Tumbler Schematic
+Added HD Bullet Tumbler 256x256 Icons
+
+Added HD Bullet Press (HD AmmoBench Addon)
+Added HD Bullet Press Schematic
+Added HD Bullet Press 256x256 Icons
+
+Adjusted HD Electrolyte Recipe
+Adjusted HollowTip Recipe
+
+Adjusted WalkSpeed Slightly
+Adjusted RunSpeed Slightly
+Adjusted CrouchSpeed Slightly
+
+Adjusted TreeStump Loot
+Added BothTypes Of Demolisher Drop Boss Loot 10% Chance
+Adjusted ZombieTemplate Weight
+Adjusted HD Knife Dmg Slightly
+Enlarged HD Wrench
+
+Added Obonjan Deadly Pathogen (Nurses) 60m Timer
+Added Obonjan HD Test Kit For Removal Of Pathogen
+Added Obonjan Icons 256x256
+
 Updated v2.72 to 2.73
 
 Added HD Knifes (Can Be Thrown & Picked Up)

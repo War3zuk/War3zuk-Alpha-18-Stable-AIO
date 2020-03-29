@@ -15,9 +15,9 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">105</set>
 	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='TimeStayAfterDeath']/@value">3600</set>
 	
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CrouchSpeed']/@value">1.1</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WalkSpeed']/@value">1.2</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='RunSpeed']/@value">1.3</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CrouchSpeed']/@value">1.0</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WalkSpeed']/@value">1.1</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='RunSpeed']/@value">1.2</set>
 
 <append xpath="/entity_classes">
 	
@@ -188,6 +188,7 @@
 	<property name="StompsSpikes" value="false"/>
 	<property name="ExplodeDelay" value="5"/>
 	<property name="ExplodeHealthThreshold" value="0"/>
+	<property name="LootList" value="73" />
 	<property name="SoundExplodeWarn" value="demolitionzexplodewarning"/>
 	<property name="SoundTick" value="demolitionz_beep,.5,.9"/>
 	<property name="ExperienceGain" value="1000"/>
@@ -236,6 +237,7 @@
 	<property name="StompsSpikes" value="false"/>
 	<property name="ExplodeDelay" value="5"/>
 	<property name="ExplodeHealthThreshold" value="0"/>
+	<property name="LootList" value="73" />
 	<property name="SoundExplodeWarn" value="demolitionzexplodewarning"/>
 	<property name="SoundTick" value="demolitionz_beep,.5,.9"/>
 	<property name="ExperienceGain" value="1000"/>
@@ -1080,7 +1082,7 @@
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
 	<property name="Mass" value="270"/>
-	<property name="Weight" value="70"/>
+	<property name="Weight" value="175"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="Faction" value="undead"/>
 	<property name="Tags" value="entity,zombie"/>
@@ -2358,7 +2360,7 @@
 	<property name="AIPathCostScale" value=".5, .65"/>
 
 	<!-- Gameplay -->
-	<property name="HandItem" value="meleeHandZombie01"/>
+	<property name="HandItem" value="meleeHandZombieNurse"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2376,7 +2378,7 @@
 	<property name="PainResistPerHit" value=".25"/><!-- Feral -->
 	<property name="MoveSpeedAggro" value=".06, 1.20"/>
 
-	<property name="HandItem" value="meleeHandZombieFeral"/>
+	<property name="HandItem" value="meleeHandZombieNurseFeral"/>
 
 	<property name="ExperienceGain" value="700"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
