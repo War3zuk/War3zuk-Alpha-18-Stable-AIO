@@ -27,7 +27,7 @@ Added HD Cnc HandGuns (HD GunBench Addon)
 Added HD Cnc HandGuns Schematic
 Added HD Cnc HandGuns 256x256 Icons
 
-(Now Required To Craft HD Automatics)
+(Now Required To Craft HD Automatics & HD Shotguns)
 Added HD Cnc Automatics (HD GunBench Addon)
 Added HD Cnc Automatics Schematic
 Added HD Cnc Automatics 256x256 Icons
