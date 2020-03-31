@@ -45,6 +45,9 @@ Fixed HD Junk Turret 9mm Schematic
 Fixed HD Junk Turret 7.62mm Schematic
 Fixed HD Junk Turret 50mm Schematic
 
+Fixed Desert Eagle Punisher Reload Animation
+Fixed Desert Eagle Fire Animation
+
 Updated v2.73 to 2.74
 
 Adjusted SMG5 (Now Scraps To AKparts As It Should)
