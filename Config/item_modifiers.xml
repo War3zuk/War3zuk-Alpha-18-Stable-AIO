@@ -74,8 +74,8 @@
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD CheyTac M300">
-			<property name="Sound_start" value="CheyM300FireS"/>
-			<property name="Sound_loop" value="CheyM300FireS"/>
+			<property name="Sound_start" value="CheyTacF"/>
+			<property name="Sound_loop" value="CheyTacF"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Winchester 1866">
@@ -84,8 +84,8 @@
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Dragunov SVD">
-			<property name="Sound_start" value="CheyM300FireS"/>
-			<property name="Sound_loop" value="CheyM300FireS"/>
+			<property name="Sound_start" value="DEALTFire01"/>
+			<property name="Sound_loop" value="DEALTFire01"/>
 		</item_property_overrides>
 		
 	</append>
@@ -322,8 +322,8 @@
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD CheyTac M300">
-			<property name="Sound_start" value="CheyM300FireS"/>
-			<property name="Sound_loop" value="CheyM300FireS"/>
+			<property name="Sound_start" value="CheyTacF"/>
+			<property name="Sound_loop" value="CheyTacF"/>
 			<property name="BarrelScale" value="1,1,1.5"/>
 		</item_property_overrides>
 
@@ -375,8 +375,8 @@
 		<property name="DropMeshfile" value="#@modfolder:Resources/HDDragunovSVDSilencer.unity3d?HDDragunovSVDSilencer.Prefab"/>
 		
 		<item_property_overrides name="HD Dragunov SVD">
-			<property name="Sound_start" value="AKHybridFireS"/>
-			<property name="Sound_loop" value="AKHybridFireS"/>
+			<property name="Sound_start" value="DEALTFire01"/>
+			<property name="Sound_loop" value="DEALTFire01"/>
 			<property name="BarrelScale" value="1,1,1"/>
 		</item_property_overrides>
 

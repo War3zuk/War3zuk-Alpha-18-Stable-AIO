@@ -1,5 +1,46 @@
 Key,Source,Context,Changes,English
 
+ClassBuilderDesc,items,,,medicalBandage.resourceRepairKit.drinkJarPureMineralWater.foodCanBeef.resourceScrapIronBundle.resourceWoodBundle.resourceRockSmallBundle.gunToolNailgun.resourceNail.meleeToolClawHammer.meleeToolSledgehammerSteel.meleeToolFireaxeSteel.woodFrameBlockVariantHelper.gunPistol.ammo9mmBulletBall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HDCncHandGuns,items,Item,KgNone,HD Cnc HandGuns,
+
+HDCncAutomatics,items,Item,KgNone,HD Cnc Automatics,
+
+HDCncRifles,items,Item,KgNone,HD Cnc Rifles,
+
+HDCncHandGunsDesc,items,,,Add this Item to the HD GunBench To allow for the Production Of HD HandGuns.
+
+HDCncAutomaticsDesc,items,,,Add this Item to the HD GunBench To allow for the Production Of HD Automatics.
+
+HDCncRiflesDesc,items,,,Add this Item to the HD GunBench To allow for the Production Of HD Sniper Rifles.
+
+HDGunPowderBundle,items,Item,KgNone,HD GunPowder Bundle,
+
+HDammoGasCanBundle,items,Item,KgNone,HD ammoGasCan Bundle,
+
+HDGeneratorDesc,blocks,,,This Thing will power a City. Use the HD Cells to power.
+
 HDBulletPress,items,Item,KgNone,HD Bullet Press,
 
 HDBulletPressDesc,items,,,Add this Item to the HD AmmoBench To allow for the Production Of Ammo.
@@ -24,13 +65,13 @@ JamesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.
 
 MichellesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.
 
-HDCncMachine,items,Item,KgNone,HD Cnc Machine,
+HDWelder,items,Item,KgNone,HD Welder,
 
 HDCarbonSewingKit,items,Item,KgNone,HD Carbon Sewing Kit,
 
 HDToolAndDieSet,items,Item,KgNone,HD Tool And Die Set,
 
-HDCncMachineDesc,items,,,The HD Cnc Machine Is placed into the HD WorkBench so that the Gun Parts can be crafted from a selection of Materials.
+HDWelderDesc,items,,,The HD Welder Is placed into the HD WorkBench so that the HD Truck Elevators can be crafted from a selection of Materials.
 
 HDCarbonSewingKitDesc,items,,,The HD Carbon Sewing Kit Is placed into the HD WorkBench so that the HD Military Gear can be crafted from a selection of Materials.
 
@@ -92,18 +133,28 @@ HDColtM1911SilencerDesc,items,,,Military Grade Surpressor that can be attached t
 HDDesertEagleSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Desert Eagles.
 HDMac10AutoSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Mac10 Auto.
 HDMossberg500SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD ShotGuns.
-HDArcticWarfareSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Arctic Warfare.
+HDArcticWarfareSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Arctic Warfare or the HD CheyTac M300.
+
 HDDragunovSVDScopeDesc,items,,,Military Grade Scope that can be attached to the HD Dragunov SVD.
+
 HDDragunovSVDSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Dragunov SVD.
+
 HDM4A1CarbineScopeDesc,items,,,Military Grade Scope that can be attached to the HD M4A1 Carbine.
 
 HDColtM1911Silencer,items,Item,KgNone,HD Colt M1911 Silencer.
+
 HDDesertEagleSilencer,items,Item,KgNone,HD Desert Eagle Silencer.
+
 HDMac10AutoSilencer,items,Item,KgNone,HD Mac 10 Auto Silencer.
+
 HDMossberg500Silencer,items,Item,KgNone,HD Mossberg 500 Silencer.
+
 HDArcticWarfareSilencer,items,Item,KgNone,HD Arctic Warfare Silencer.
+
 HDDragunovSVDScope,items,Item,KgNone,HD Dragunov SVD Scope.
+
 HDDragunovSVDSilencer,items,Item,KgNone,HD Dragunov SVD Silencer.
+
 HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope.
 
 HD1911Desc,items,weapons,New,The M1911 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
@@ -152,7 +203,7 @@ HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed 
 
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
 
-HDWDDesc,blocks,Block Building,,This Dispenser that will fill Any Glass Jars you may have without the need for water.
+HDWorkingDispenserDesc,blocks,Block Building,,Place your Empty Jars in an active Slot on your HotBar & fill the same as from a River or Pool with the Left Click while facing it.
 
 PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless you Engage them.
 
@@ -230,11 +281,9 @@ DonnasFubarStewDesc,items,Food,New,Donnas Fubar Stew comes straight from the Hea
 
 DonnasFubarSteakDesc,items,Food,New,A Fubar Steak used in making the Fubar Stew.
 
-HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant.
+HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Cells.
 
 HDXDesc,items,,,Xcalibur the ONLY bashing tool you need early game.
-
-HDGDesc,items,,,Hd Genny requires 6 Hd Cells to power it up Produces a Billion BaGigga watts.
 
 HDMiniHDesc,items,,,A simple replacement for the early game Axe much better & more durable.
 

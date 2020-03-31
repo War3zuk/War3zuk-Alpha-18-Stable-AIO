@@ -177,7 +177,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
@@ -227,7 +227,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
@@ -277,7 +277,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
@@ -327,7 +327,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
@@ -558,7 +558,7 @@
 	
 <block name="HD Working Dispenser">
 	<property name="CustomIcon" value="HD Working Dispenser"/>
-	<property name="DescriptionKey" value="HDWDDesc"/>
+	<property name="DescriptionKey" value="HDWorkingDispenserDesc"/>
 	<property name="Material" value="Mmetal_thin"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
@@ -1639,7 +1639,7 @@
 	<property name="CustomIcon" value="HD Genny"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="BatteryBank"/>
-	<property name="Material" value="Mmetal_weak"/>
+	<property name="Material" value="MstainlessSteel"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
@@ -1647,8 +1647,8 @@
 	<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> <property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="DescriptionKey" value="powerSourceDesc"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,batterybankSchematic"/>
+	<property name="DescriptionKey" value="HDGeneratorDesc"/>
+	<property name="UnlockedBy" value="HD Generator Schematic"/>
 	<property name="MaxPower" value="65535"/>
 	<property name="InputPerTick" value="1000"/>
 	<property name="ChargePerInput" value="1000"/>
@@ -1657,21 +1657,21 @@
 	<property name="SlotItem" value="HD Cell"/>
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
-		<property name="resourceForgedIron" value="8"/>
-		<property name="resourceElectricParts" value="6"/>
-		<property name="resourceElectricParts" value="2"/>
+		<property name="resourceForgedIron" value="10"/>
+		<property name="resourceElectricParts" value="4"/>
+		<property name="resourceElectricParts" value="4"/>
 		<property name="resourceScrapPolymers" value="4"/>
 	</property>
 	<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-	<drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="2,3" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.6" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,4" prob="0.6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,4" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property name="Stacknumber" value="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="EconomicValue" value="400"/>
 	<property name="FilterTags" value="fdecor,felectrical"/>
 	<property name="SortOrder1" value="70a0"/>

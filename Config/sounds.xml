@@ -327,11 +327,23 @@
 		<MaxRepeatRate value="0.001"/>
 </SoundDataNode>
 
-<SoundDataNode name="CheyM300FireS"> 
+<SoundDataNode name="CheyM300FireS">
 	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
 	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 		<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="25"/>
 		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?CheyM300FireS"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+</SoundDataNode>
+
+<SoundDataNode name="CheyTacF">
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="25"/>
+		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?CheyTacF"/>
 		<LocalCrouchVolumeScale value="0.5"/> 
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="1"/> 
@@ -344,6 +356,18 @@
 	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 		<Noise ID="5" range="150" volume="500" time="3" heat_map_strength="0.5" heat_map_time="25"/>
 		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?SVDFire"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+</SoundDataNode>
+
+<SoundDataNode name="LapuaF"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="150" volume="500" time="3" heat_map_strength="0.5" heat_map_time="25"/>
+		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?LapuaF"/>
 		<LocalCrouchVolumeScale value="0.5"/> 
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="1"/> 

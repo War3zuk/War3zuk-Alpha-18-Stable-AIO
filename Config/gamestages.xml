@@ -23,37 +23,37 @@
 			  <spawn group="ZombiesTierGroup01" num="20" maxAlive="8" duration="1"/>
 			</gamestage>
 			<gamestage stage="125">
-			  <spawn group="ZombiesTierGroup01" num="20" maxAlive="10" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="20" maxAlive="10" duration="1"/>
 			</gamestage>
 			<gamestage stage="150">
-			  <spawn group="ZombiesTierGroup01" num="21" maxAlive="12" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="21" maxAlive="12" duration="1"/>
 			</gamestage>
 			<gamestage stage="175">
-			  <spawn group="ZombiesTierGroup01" num="21" maxAlive="14" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="21" maxAlive="14" duration="1"/>
 			</gamestage>
 			<gamestage stage="200">
-			  <spawn group="ZombiesTierGroup01" num="21" maxAlive="16" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="21" maxAlive="16" duration="1"/>
 			</gamestage>
 			<gamestage stage="225">
-			  <spawn group="ZombiesTierGroup01" num="22" maxAlive="18" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="22" maxAlive="18" duration="1"/>
 			</gamestage>
 			<gamestage stage="250">
-			  <spawn group="ZombiesTierGroup01" num="22" maxAlive="20" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="22" maxAlive="20" duration="1"/>
 			</gamestage>
 			<gamestage stage="275">
-			  <spawn group="ZombiesTierGroup01" num="22" maxAlive="22" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="22" maxAlive="22" duration="1"/>
 			</gamestage>
 			<gamestage stage="300">
-			  <spawn group="ZombiesTierGroup01" num="23" maxAlive="24" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="23" maxAlive="24" duration="1"/>
 			</gamestage>
 			<gamestage stage="325">
-			  <spawn group="ZombiesTierGroup01" num="23" maxAlive="26" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="23" maxAlive="26" duration="1"/>
 			</gamestage>
 			<gamestage stage="350">
-			  <spawn group="ZombiesTierGroup01" num="23" maxAlive="28" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="23" maxAlive="28" duration="1"/>
 			</gamestage>
 			<gamestage stage="375">
-			  <spawn group="ZombiesTierGroup01" num="24" maxAlive="30" duration="1"/>
+			  <spawn group="ZombiesTierGroup02" num="24" maxAlive="30" duration="1"/>
 			</gamestage>
 			<gamestage stage="400">
 			  <spawn group="ZombiesTierGroup02" num="24" maxAlive="32" duration="1"/>

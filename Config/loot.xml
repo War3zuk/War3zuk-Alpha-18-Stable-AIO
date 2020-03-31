@@ -140,10 +140,16 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.4"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.4"/>
 		<item name="Health Supply Flare" count="1" prob="0.3"/>
+		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
 		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
+		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
+		<item name="HD Welder Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
@@ -192,8 +198,15 @@
 		<item name="Building Supply Flare" count="1" prob="0.3"/>
 		<item name="MRE Military Ration" count="0,1" prob="0.2"/>
 		<item name="Military Purify Tablets" count="2,4" prob="0.3"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
+		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
 		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
 		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
+		<item name="HD Welder Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
@@ -337,12 +350,16 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.4"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.4"/>
 		<item name="Building Supply Flare" count="1" prob="0.3"/>
+		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
 		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
 		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
+		<item name="HD Welder Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='60']" >
@@ -358,16 +375,29 @@
 		<item name="HD PicsBench Schematic" count="1" prob="0.4"/>
 		<item name="Ammo Supply Flare" count="1" prob="0.3"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
 		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
+		<item name="HD Welder Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='64']" >
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.2"/>
+		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
 		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc Machine Schematic" count="1" prob="0.2"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
 		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
+		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
+		<item name="HD Welder Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
@@ -415,8 +445,15 @@
 	<append xpath="/lootcontainers/lootcontainer[@id='83']" >
 		<item name="MRE Military Ration" count="0,1" prob="0.2"/>
 		<item name="Military Purify Tablets" count="2,4" prob="0.3"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
+		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
 		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
 		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
+		<item name="HD Welder Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='95']" >

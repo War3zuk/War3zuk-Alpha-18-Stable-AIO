@@ -1,5 +1,50 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.74 to 2.75
+
+Added HDGunPowderBundle (HD AmmoBench)
+Added HDammoGasCanBundle (HD AmmoBench)
+Adjusted Autos Firing
+Adjusted Shotties Firing
+Adjusted Vulcans Firing
+Reduced The Recipe Cost For HD BR1NXlS Booper
+Reduced The Recipe Cost For ALL Bench Addons
+Reduced The Recipe Cost For HD Mega Vault
+Updated HD Working Dispenser Description
+Updated HD Generator Description
+PickUp Timer Reduced To 5s For ALL HD Benches
+Adjusted HD Dragunov SVD Fire Sound
+Adjusted HD Dragunov SVD Surpressor Sound
+Adjusted HD CheyTac M300 Surpressor Sound
+Fixed Quest Typo Medic 5
+
+Added HD Welder (HD WorkBench Addon) Replaces HD Cnc
+Added HD Welder Schematic
+Added HD Welder 256x256 Icons
+
+(Now Required To Craft HD HandGuns)
+Added HD Cnc HandGuns (HD GunBench Addon)
+Added HD Cnc HandGuns Schematic
+Added HD Cnc HandGuns 256x256 Icons
+
+(Now Required To Craft HD Automatics)
+Added HD Cnc Automatics (HD GunBench Addon)
+Added HD Cnc Automatics Schematic
+Added HD Cnc Automatics 256x256 Icons
+
+(Now Required To Craft HD Sniper Rifles)
+Added HD Cnc Rifles (HD GunBench Addon)
+Added HD Cnc Rifles Schematic
+Added HD Cnc Rifles 256x256 Icons
+
+Adjusted ALL Hd Benches OutPut Window to 10
+To Match Crafting Que
+
+Re-Balanced Remaining Recipes
+Fixed HD Junk Turret 9mm Schematic
+Fixed HD Junk Turret 7.62mm Schematic
+Fixed HD Junk Turret 50mm Schematic
+
 Updated v2.73 to 2.74
 
 Adjusted SMG5 (Now Scraps To AKparts As It Should)
