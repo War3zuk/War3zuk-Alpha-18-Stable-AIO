@@ -1018,6 +1018,12 @@
 	<ingredient name="resourceScrapPolymers" count="2"/>
 </recipe>
 
+<recipe name="HD Power Relay Block" count="1" craft_area="HD WorkBench" craft_time = "10">
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapIron" count="20"/>
+</recipe>
+
 <recipe name="45 ACP Round" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
 	<ingredient name="resourceBulletTip" count="1"/>
 	<ingredient name="resourceGunPowder" count="2"/>

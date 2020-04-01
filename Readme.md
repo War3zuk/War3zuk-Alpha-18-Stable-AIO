@@ -8,6 +8,7 @@ Adjusted BUFFObonjan Pathogen To 10% Instead Of 50% Chance
 Adjusted BUFFSpattergroit Pathogen To 10% Instead Of 50% Chance
 Adjusted HD Mini Hatchet XML (Bonus Metal)
 Adjusted HD Tazas Hatchet XML (Bonus Stone)
+Added HD Power Relay Block
 
 Updated v2.74 to 2.75
 
