@@ -853,11 +853,11 @@
 </recipe>
 
 <recipe name="HD Cell" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
-	<ingredient name="resourceForgedSteel" count="100"/>
-	<ingredient name="resourceDuctTape" count="20"/>
-	<ingredient name="carBattery" count="5"/>
-	<ingredient name="resourceOil" count="20"/>
-	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="carBattery" count="4"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
 </recipe>
 
 <recipe name="HD Generator" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
