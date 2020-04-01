@@ -2,7 +2,7 @@
 	
 	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
 	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
-	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">5</set>
+	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">3</set>
 	
 <append xpath="/buffs">
 	
@@ -27,7 +27,7 @@
 	<stack_type value="ignore"/>
 	<duration value="0"/>
 	<effect_group>
-		<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".1"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".01"/>
 	</effect_group>
 </buff>
 

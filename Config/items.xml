@@ -784,8 +784,8 @@
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="125"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -870,12 +870,12 @@
 		<property name="ScopeCameraOffset" value="-.0005,-.000,-.0010"/>
 	</property>
 	<effect_group name="gun44Magnum">
-		<passive_effect name="MaxRange" operation="base_set" value="50"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
+		<passive_effect name="MaxRange" operation="base_set" value="55"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="125"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
@@ -3537,29 +3537,26 @@
 		<property name="Sound_start" value="swoosh"/>
 		</property>
 	<effect_group name="meleeToolStoneAxeTazas">
-		<passive_effect name="MaxRange" operation="base_set" value="1.2"/>
-		<passive_effect name="BlockRange" operation="base_set" value="2"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="1.5"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="20"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value=".15,.15" tags="perkMiner69r"/>
-		<passive_effect name="AttacksPerMinute" operation="perc_add" value=".05,.05"/>
-		<passive_effect name="StaminaLoss" operation="perc_add" value=".05,.05"/>
-		<display_value name="dBlockRepairAmount" value="150"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="100"/>
-		<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".85" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".33" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="1.5" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,3000" tier="1,6" tags="perkMiner69r"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="5.5" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1175,1200" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3"/>
+
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<display_value name="dBlockRepairAmount" value="750"/>
+		<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.33" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.3" tags="metal"/>
 	</effect_group>
 </item>
 
@@ -3574,29 +3571,32 @@
 		<property name="Sound_start" value="swoosh"/>
 		</property>
 	<effect_group name="meleeToolStoneAxeTazas">
-		<passive_effect name="MaxRange" operation="base_set" value="1.2"/>
-		<passive_effect name="BlockRange" operation="base_set" value="2"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="5"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="10"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value=".15,.15" tags="perkMiner69r"/>
-		<passive_effect name="AttacksPerMinute" operation="perc_add" value=".05,.05"/>
-		<passive_effect name="StaminaLoss" operation="perc_add" value=".05,.05"/>
-		<display_value name="dBlockRepairAmount" value="150"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>
-		<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".55" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".23" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="metal"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="1.5" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,3000" tier="1,6" tags="perkMiner69r"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="15"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="40"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="5.1" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1180,1250" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3"/>
+
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
+
+		<display_value name="dBlockRepairAmount" value="150"/>
+		<passive_effect name="HarvestCount" operation="base_set" value=".6" tags="butcherHarvest"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.13" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 	</effect_group>
 </item>
 
@@ -6854,7 +6854,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffObonjan"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffObonjan"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/>
 	</effect_group>
 </item>
@@ -6870,7 +6870,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffObonjan"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffObonjan"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="50"/>
 	</effect_group>
 </item>
@@ -7317,9 +7317,9 @@
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".90" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSpattergroit"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffSpattergroit"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -7338,7 +7338,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffSpattergroit"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffSpattergroit"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="200"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -7429,7 +7429,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffBrainPox"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
 	</effect_group>
 </item>
@@ -7447,7 +7447,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".60" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".70" tags="BuffBrainPox"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
 	</effect_group>
 </item>
@@ -7468,7 +7468,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".90" tags="BuffBrainPox"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -7525,7 +7525,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffKrytos"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffKrytos"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/>
 	</effect_group>
 </item>
@@ -7550,7 +7550,7 @@
 		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="BuffKrytos"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffKrytos"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/>
 	</effect_group>
 </item>

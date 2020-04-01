@@ -1,5 +1,14 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.75 to 2.76
+
+Adjusted BUFFBrainPox Pathogen To 10% Instead Of 50% Chance
+Adjusted BUFFKrytos Pathogen To 10% Instead Of 50% Chance
+Adjusted BUFFObonjan Pathogen To 10% Instead Of 50% Chance
+Adjusted BUFFSpattergroit Pathogen To 10% Instead Of 50% Chance
+Adjusted HD Mini Hatchet XML (Bonus Metal)
+Adjusted HD Tazas Hatchet XML (Bonus Stone)
+
 Updated v2.74 to 2.75
 
 Added HDGunPowderBundle (HD AmmoBench)
