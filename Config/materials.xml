@@ -99,7 +99,7 @@
 	<property name="stability_glue" value="20"/>
 	<property name="Mass" type="int" value="5"/>
 	<property name="StabilitySupport" value="true"/>
-	<property name="MaxDamage" value="5"/>
+	<property name="MaxDamage" value="1000"/>
 	<property name="Experience" value="0"/>
 </material>
 

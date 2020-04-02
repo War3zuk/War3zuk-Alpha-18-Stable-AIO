@@ -10,6 +10,14 @@ Adjusted HD Mini Hatchet XML (Bonus Metal)
 Adjusted HD Tazas Hatchet XML (Bonus Stone)
 Added HD Power Relay Block
 Adjusted HD Cell Recipe
+Updated HD Electrolyte Recipe (HD WorkBench)
+Updated HD Electrolyte Description
+Adjusted MBreachingMine Max Damage
+HD Blade Trap Unlocks With Vanilla Schematic
+HD Dart Trap Unlocks With Vanilla Schematic
+Fixed HD BR1NXlS Booper Crafted On Player
+Adjusted HD BR1NXlS Booper Recipe (Reduced Steel Added Baton)
+Adjusted HD Xcalibur Attributes
 
 Updated v2.74 to 2.75
 

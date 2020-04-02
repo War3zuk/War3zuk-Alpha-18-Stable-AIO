@@ -3436,7 +3436,7 @@
 
 <item name="HD Xcalibur">
 	<property name="DescriptionKey" value="HDXDesc"/>
-	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,attStrength,perkSkullCrusher,canHaveCosmetic"/>
+	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,perkElectrocutioner,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="33"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HDXcalibur.Prefab"/>
@@ -3486,11 +3486,11 @@
 		</property>
 	</property>
 	<effect_group name="meleeToolSledgehammerSteel">
-		<passive_effect name="EntityDamage" operation="base_set" value="40.0"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="65"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="35"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="20" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1207,1581" tier="1,6" tags="perkSkullCrusher"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="35.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="60"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="45"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20.5" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="207,581" tier="1,6" tags="perkSkullCrusher"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSkullCrusher"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.6"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
@@ -3502,14 +3502,64 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allToolsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="oreWoodHarvest"/>
+		
+        <effect_group name="Base Effects" tiered="false">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffShocked"/>
+				</triggered_effect>
+			</effect_group>
+		
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="RemovePart" part="Sparks">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="10">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="1">
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="4"/>
+			<requirement name="IsPrimaryAttack"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="2">
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="4"/>
+			<requirement name="IsSecondaryAttack"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit1">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit2">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="2"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit3">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit4">
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
+		</triggered_effect>
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="55.2" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.20" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.20" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="40.0" tags="secondary"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
 	</effect_group>
 </item>

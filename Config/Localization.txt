@@ -1,28 +1,5 @@
 Key,Source,Context,Changes,English
 
-ClassBuilderDesc,items,,,medicalBandage.resourceRepairKit.drinkJarPureMineralWater.foodCanBeef.resourceScrapIronBundle.resourceWoodBundle.resourceRockSmallBundle.gunToolNailgun.resourceNail.meleeToolClawHammer.meleeToolSledgehammerSteel.meleeToolFireaxeSteel.woodFrameBlockVariantHelper.gunPistol.ammo9mmBulletBall
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 HDCncHandGuns,items,Item,KgNone,HD Cnc HandGuns,
 
 HDCncAutomatics,items,Item,KgNone,HD Cnc Automatics,
@@ -95,7 +72,7 @@ HDVulcan50BmgDesc,items,,,The HD Vulcan 50mm Bmg is a Fast firing Multibarreled 
 
 HDM500Desc,items,,,The Mossberg 500 is a series of pump action shotguns manufactured by Mossberg And Sons.
 
-HDElectrolyteDesc,items,,,HD Electrolyte is made using Batteries & is used in the production of Shock Ammo
+HDElectrolyteDesc,items,,,HD Electrolyte is made using Batteries & is used in the production of Shock Ammo And is made in the HD WorkBench.
 
 HDGroundMineDesc,blocks,,,Player built Ground Mine for Defensive purposes.
 

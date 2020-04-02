@@ -60,7 +60,7 @@
 	<property name="CustomIcon" value="bladeTrap" />
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="BladeTrap"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,bladeTrapSchematic"/>
+	<property name="UnlockedBy" value="bladeTrapSchematic"/>
 	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Damage" value="30"/>
 	<property name="DamageReceived" value="5"/>
@@ -104,7 +104,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Launcher"/>
 	<property name="DisplayType" value="blockElectricalHardened"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,dartTrapSchematic"/>
+	<property name="UnlockedBy" value="dartTrapSchematic"/>
 	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
