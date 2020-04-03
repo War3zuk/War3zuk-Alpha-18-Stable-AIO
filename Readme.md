@@ -15,6 +15,8 @@ Added Repair Kit Kevlar Armor (Repairs All Military Armor)
 Added Repair Kit Iron Tools (Repairs All Forged Iron Tools)
 Added Repair Kit Steel Tools (Repairs All Forged Steel Tools)
 
+Removed ALL Tools From Starter Classes
+
 Updated v2.75 to 2.76
 
 Adjusted BUFFBrainPox Pathogen To 10% Instead Of 50% Chance

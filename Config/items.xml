@@ -6836,8 +6836,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,gunToolNailgun,resourceNail,meleeToolClawHammer,meleeToolSledgehammerSteel,meleeToolFireaxeSteel,woodFrameBlockVariantHelper,gunPistol,ammo9mmBulletBall"/>
-		<property name="Create_item_count" value="5,5,5,5,2,2,2,1,100,1,1,1,200,1,200"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,resourceNail,woodFrameBlockVariantHelper,gunPistol,ammo9mmBulletBall"/>
+		<property name="Create_item_count" value="5,5,5,5,2,2,2,100,200,1,200"/>
 	</property>
 </item>
 
@@ -6857,8 +6857,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,meleeToolWireTool,meleeToolKnifeMachete,meleeToolWrench,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
-		<property name="Create_item_count" value="5,5,5,5,1,150,100,1,1,1,1,1000,25,1,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
+		<property name="Create_item_count" value="5,5,5,5,1,150,100,1,1000,25,1,1"/>
 	</property>
 </item>
 
@@ -6878,8 +6878,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAuger,meleeToolAugerSchematic,meleeToolKnifeMachete,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
-		<property name="Create_item_count" value="1,150,1,150,10,10,2,2,1,1,1,20,1,1,1,1"/>
+		<property name="Create_item" value="gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
+		<property name="Create_item_count" value="1,150,1,150,10,10,2,2,1,20,1,1,1,1"/>
 	</property>
 </item>
 
@@ -6899,8 +6899,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitaryGloves,armorMilitaryHelmet,armorMilitaryBoots,armorMilitaryLegs,armorMilitaryVest,armorMilitarySetParts,gunSMG5,ammo9mmBulletHP,gunSMG5Schematic"/>
-		<property name="Create_item_count" value="5,5,5,5,5,1,1,1,1,1,40,1,250,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitarySetParts,gunSMG5,ammo9mmBulletHP,gunSMG5Schematic"/>
+		<property name="Create_item_count" value="5,5,5,5,5,40,1,250,1"/>
 	</property>
 </item>
 
@@ -6920,8 +6920,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,meleeToolKnifeMachete,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
-		<property name="Create_item_count" value="5,5,5,5,10,1,1,1,150,1,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
+		<property name="Create_item_count" value="5,5,5,5,10,1,1,150,1,1"/>
 	</property>
 </item>
 
@@ -6941,8 +6941,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeToolKnifeMachete,meleeToolKnifeMacheteSchematic,meleeToolWrench,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
-		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,20,1,150,1,1,1,1,1,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeToolKnifeMacheteSchematic,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,20,1,150,1,1,1,1,1,1"/>
 	</property>
 </item>
 
@@ -6983,8 +6983,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,armorMiningHelmet,modArmorHelmetLight,forge,meleeToolPickaxeSteel,resourceForgedIron,resourceForgedSteel,forgeSchematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,gunPumpShotgun,ammoShotgunShell,"/>
-		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,1,1,1,100,100,1,1,1,1,1,1,150"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,armorMiningHelmet,resourceForgedIron,resourceForgedSteel,forgeSchematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,gunPumpShotgun,ammoShotgunShell,"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,100,100,1,1,1,1,1,1,150"/>
 	</property>
 </item>
 
@@ -7004,8 +7004,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,armorIronGloves,armorIronHelmet,armorIronBoots,armorIronLegs,armorIronChest,armorIronSetSchematic,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletHP"/>
-		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,1,1,1,1,150,1,1,150"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletHP"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,150,1,1,150"/>
 	</property>
 </item>
 
