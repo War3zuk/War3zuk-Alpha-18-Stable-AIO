@@ -177,13 +177,13 @@
 	<property name="SoundFootstepModifier" value="bear_footstep"/>
 	<property name="HandItem" value="meleeHandZombieDemolisherArson"/>
 	<property name="SizeScale" value="2"/>
-	<property name="JumpMaxDistance" value="1, 1"/>
+	<property name="JumpMaxDistance" value="2, 4"/>
 	<property name="PainResistPerHit" value=".5"/>
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
-	<property name="Explosion.BlockDamage" value="0"/>
-	<property name="Explosion.EntityDamage" value="1000"/>
+	<property name="Explosion.BlockDamage" value="1000"/>
+	<property name="Explosion.EntityDamage" value="2000"/>
 	<property name="Explosion.DamageBonus.earth" value=".1"/>
 	<property name="StompsSpikes" value="false"/>
 	<property name="ExplodeDelay" value="5"/>
@@ -226,13 +226,13 @@
 	<property name="SoundFootstepModifier" value="bear_footstep"/>
 	<property name="HandItem" value="meleeHandZombieDemolisherArson"/>
 	<property name="SizeScale" value="2"/>
-	<property name="JumpMaxDistance" value="1, 1"/>
+	<property name="JumpMaxDistance" value="2, 4"/>
 	<property name="PainResistPerHit" value=".5"/>
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
-	<property name="Explosion.BlockDamage" value="0"/>
-	<property name="Explosion.EntityDamage" value="1000"/>
+	<property name="Explosion.BlockDamage" value="1000"/>
+	<property name="Explosion.EntityDamage" value="2000"/>
 	<property name="Explosion.DamageBonus.earth" value=".1"/>
 	<property name="StompsSpikes" value="false"/>
 	<property name="ExplodeDelay" value="5"/>

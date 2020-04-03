@@ -7,6 +7,7 @@ Add HD Scrap Iron PickAxe (PBR Custom Bought Model)
 Add HD Scrap Iron Shovel (PBR Custom Bought Model)
 Add HD Scrap Iron Club (PBR Custom Bought Model)
 Add HD Scrap Iron Shiv (PBR Custom Bought Model)
+Adjusted Zombie Hordes Slightly (WIP)
 
 Updated v2.75 to 2.76
 
