@@ -1,5 +1,17 @@
 Key,Source,Context,Changes,English
 
+HDScrapIronAxe,items,Item,KgNone,HD Scrap Iron Axe,
+
+HDScrapIronPickAxe,items,Item,KgNone,HD Scrap Iron Pick Axe,
+
+HDScrapIronShovel,items,Item,KgNone,HD Scrap Iron Shovel,
+
+HDScrapIronClub,items,Item,KgNone,HD Scrap Iron Club,
+
+HDScrapIronShiv,items,Item,KgNone,HD Scrap Iron Shiv,
+
+HDScrapIronAxeDesc,items,,,High Quality Scrap Iron Tool Meant For Early Game.
+
 HDCncHandGuns,items,Item,KgNone,HD Cnc HandGuns,
 
 HDCncAutomatics,items,Item,KgNone,HD Cnc Automatics,

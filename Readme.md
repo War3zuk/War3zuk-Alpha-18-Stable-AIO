@@ -1,5 +1,13 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.76 to 2.77
+
+Add HD Scrap Iron Axe (PBR Custom Bought Model)
+Add HD Scrap Iron PickAxe (PBR Custom Bought Model)
+Add HD Scrap Iron Shovel (PBR Custom Bought Model)
+Add HD Scrap Iron Club (PBR Custom Bought Model)
+Add HD Scrap Iron Shiv (PBR Custom Bought Model)
+
 Updated v2.75 to 2.76
 
 Adjusted BUFFBrainPox Pathogen To 10% Instead Of 50% Chance
