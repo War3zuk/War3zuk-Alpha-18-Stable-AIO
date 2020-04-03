@@ -3811,7 +3811,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HDXcalibur.Prefab"/>
 	<property name="CustomIcon" value="HDXcalibur"/>
 	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
-	<property name="RepairTools" value="resourceForgedIron"/>
+	<property name="RepairTools" value="RepairKitIronTools"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
@@ -3947,7 +3947,7 @@
 <item name="HD Mini Hatchet">
 	<property name="DescriptionKey" value="HDMiniHatchetDesc"/>
 	<property name="Extends" value="meleeToolStoneAxe"/>
-	<property name="RepairTools" value="resourceForgedIron"/>
+	<property name="RepairTools" value="RepairKitIronTools"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD MiniHatchet.unity3d?HDMiniHatchet.Prefab"/>
@@ -7020,6 +7020,8 @@
 	<property name="EconomicValue" value="75"/>
 	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
 	<property name="DescriptionKey" value="HDGunOilDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
 </item>
 
 <item name="RepairKitHandGuns">
@@ -7036,6 +7038,8 @@
 	<property name="RepairAmount" value="32000"/>
 	<property name="Group" value="Resources"/>
 	<property name="DescriptionKey" value="RepairKitHandGunsDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
 </item>
 
 <item name="RepairKitAutomaticRifles">
@@ -7051,6 +7055,8 @@
 	<property name="RepairAmount" value="32000"/>
 	<property name="Group" value="Resources"/>
 	<property name="DescriptionKey" value="RepairKitAutomaticRiflesDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
 </item>
 
 <item name="RepairKitShotGuns">
@@ -7066,6 +7072,8 @@
 	<property name="RepairAmount" value="32000"/>
 	<property name="Group" value="Resources"/>
 	<property name="DescriptionKey" value="RepairKitShotGunsDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
 </item>
 
 <item name="RepairKitHuntingRifles">
@@ -7081,11 +7089,79 @@
 	<property name="RepairAmount" value="32000"/>
 	<property name="Group" value="Resources"/>
 	<property name="DescriptionKey" value="RepairKitHuntingRiflesDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
+</item>
+
+<item name="RepairKitSteelArmor">
+	<property name="CustomIcon" value="Repair Kit Steel Armor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="186"/>
+	<property name="RepairTime" value="3"/>
+	<property name="RepairAmount" value="32000"/>
+	<property name="Group" value="Resources"/>
+	<property name="DescriptionKey" value="RepairKitSteelArmorDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
+</item>
+
+<item name="RepairKitKevlarArmor">
+	<property name="CustomIcon" value="Repair Kit Kevlar Armor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="186"/>
+	<property name="RepairTime" value="3"/>
+	<property name="RepairAmount" value="32000"/>
+	<property name="Group" value="Resources"/>
+	<property name="DescriptionKey" value="RepairKitKevlarArmorDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
+</item>
+
+<item name="RepairKitIronTools">
+	<property name="CustomIcon" value="Repair Kit Iron Tools"/>
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="186"/>
+	<property name="RepairTime" value="3"/>
+	<property name="RepairAmount" value="32000"/>
+	<property name="Group" value="Resources"/>
+	<property name="DescriptionKey" value="RepairKitIronToolsDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
+</item>
+
+<item name="RepairKitSteelTools">
+	<property name="CustomIcon" value="Repair Kit Steel Tools"/>
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="186"/>
+	<property name="RepairTime" value="3"/>
+	<property name="RepairAmount" value="32000"/>
+	<property name="Group" value="Resources"/>
+	<property name="DescriptionKey" value="RepairKitSteelToolsDesc"/>
+	<property name="Group" value="Resources"/>
+	<property name="FilterTags" value="floot"/>
 </item>
 
 </append>
-
-<!--  Valmar Stallionsden War3zuk EDIT -->
 
 <append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mm Bullet INC,9mm Bullet SH</append>
 <append xpath="/items/item[@name='gun44Magnum']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44Mag Bullet INC,44Mag Bullet SH</append>
@@ -7094,8 +7170,6 @@
 <append xpath="/items/item[@name='gunMR10']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762Mag Bullet INC,762Mag Bullet SH</append>
 <append xpath="/items/item[@name='gunAK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762Mag Bullet INC,762Mag Bullet SH</append>
 <append xpath="/items/item[@name='gunM60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762Mag Bullet INC,762Mag Bullet SH</append>
-
-<!--  Valmar Stallionsden War3zuk EDIT -->
 
 <set xpath="/items/item[@name='gunPistol']/property[@name='RepairTools']/@value">RepairKitHandGuns</set>
 <set xpath="/items/item[@name='gun44Magnum']/property[@name='RepairTools']/@value">RepairKitHandGuns</set>
@@ -7106,6 +7180,37 @@
 <set xpath="/items/item[@name='gunMR10']/property[@name='RepairTools']/@value">RepairKitHuntingRifles</set>
 <set xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
 <set xpath="/items/item[@name='gunPumpShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
+
+<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">RepairKitSteelArmor</set>
+<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">RepairKitKevlarArmor</set>
+
+<set xpath="/items/item[@name='meleeToolClawHammer']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeToolFireaxeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeToolPickaxeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeToolShovelIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeToolWrench']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeToolKnifeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeClubIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeKnucklesIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+<set xpath="/items/item[@name='meleeToolHoeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
+
+<set xpath="/items/item[@name='meleeToolKnifeMachete']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
+<set xpath="/items/item[@name='meleeToolPickaxeSteel']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
+<set xpath="/items/item[@name='meleeToolShovelSteel']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
+<set xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
+
+<append xpath="/items/item[@name='meleeToolFireaxeSteel']">
+	<property name="RepairTools" value="RepairKitSteelTools"/>
+</append>
+
+<append xpath="/items/item[@name='meleeThrownSpearSteel']">
+	<property name="RepairTools" value="RepairKitSteelTools"/>
+</append>
+
+<append xpath="/items/item[@name='meleeKnucklesSteel']">
+	<property name="RepairTools" value="RepairKitSteelTools"/>
+</append>
 
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 

@@ -1252,6 +1252,34 @@
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
+<recipe name="RepairKitSteelArmor" count="1" craft_time = "2">
+	<ingredient name="resourceForgedSteel" count="2"/>
+	<ingredient name="armorSteelSetParts" count="2"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+	<ingredient name="resourceCloth" count="2"/>
+</recipe>
+
+<recipe name="RepairKitKevlarArmor" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="armorMilitarySetParts" count="2"/>
+	<ingredient name="resourceMilitaryFiber" count="2"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="RepairKitIronTools" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+
+<recipe name="RepairKitSteelTools" count="1" craft_time = "2">
+	<ingredient name="resourceForgedSteel" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+
 <recipe name="gunPistolParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceSpring" count="10"/>

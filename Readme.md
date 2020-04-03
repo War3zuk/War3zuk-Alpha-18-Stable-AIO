@@ -9,6 +9,12 @@ Add HD Scrap Iron Club (PBR Custom Bought Model)
 Add HD Scrap Iron Shiv (PBR Custom Bought Model)
 Adjusted Zombie Hordes Slightly (WIP)
 
+Added Repair Kit Steel Armor (Repairs All Steel Armor)
+Added Repair Kit Kevlar Armor (Repairs All Military Armor)
+
+Added Repair Kit Iron Tools (Repairs All Forged Iron Tools)
+Added Repair Kit Steel Tools (Repairs All Forged Steel Tools)
+
 Updated v2.75 to 2.76
 
 Adjusted BUFFBrainPox Pathogen To 10% Instead Of 50% Chance

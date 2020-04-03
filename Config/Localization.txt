@@ -1,5 +1,21 @@
 Key,Source,Context,Changes,English
 
+RepairKitIronToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Steel Tools.
+
+RepairKitIronTools,items,Item,KgNone,HD Repair Kit Iron Tools,
+
+RepairKitSteelToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Iron Tools.
+
+RepairKitSteelTools,items,Item,KgNone,HD Repair Kit Steel Tools,
+
+RepairKitSteelArmorDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Steel Armor Parts.
+
+RepairKitSteelArmor,items,Item,KgNone,HD Repair Kit Steel Armor,
+
+RepairKitKevlarArmorDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Military Armor Parts.
+
+RepairKitKevlarArmor,items,Item,KgNone,HD Repair Kit Kevlar Armor,
+
 HDScrapIronAxe,items,Item,KgNone,HD Scrap Iron Axe,
 
 HDScrapIronPickAxe,items,Item,KgNone,HD Scrap Iron Pick Axe,
@@ -212,16 +228,20 @@ BulletSHDesc,items,,,Ammo designed to Shock your target.
 
 HDGunOilDesc,itmes,,,HDGun Oil is required in the making of ALL specialised Repair kits.
 
-RepairKitHandGuns,items,Item,KgNone,HD RepairKit Hand Guns,
+RepairKitHandGuns,items,Item,KgNone,HD Repair Kit Hand Guns,
+
 RepairKitHandGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hand Guns.
 
-RepairKitAutomaticRifles,items,Item,KgNone,HD RepairKit Automatic Rifles,
+RepairKitAutomaticRifles,items,Item,KgNone,HD Repair Kit Automatic Rifles,
+
 RepairKitAutomaticRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Automatic Guns.
 
-RepairKitShotGuns,items,Item,KgNone,HD RepairKit Shot Guns,
+RepairKitShotGuns,items,Item,KgNone,HD Repair Kit Shot Guns,
+
 RepairKitShotGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Shot Guns.
 
-RepairKitHuntingRifles,items,Item,KgNone,HD RepairKit Hunting Rifles,
+RepairKitHuntingRifles,items,Item,KgNone,HD Repair Kit Hunting Rifles,
+
 RepairKitHuntingRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hunting & Sniper Rifles.
 
 HDM134MBDesc,items,,,This is the Barrel part of the HD Minigun.
