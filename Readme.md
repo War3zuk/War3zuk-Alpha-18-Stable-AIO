@@ -4,9 +4,9 @@ Updated v2.77 to 2.78
 
 Fixed Fuel Pumps Loot
 BR1NXs Booper Electric Buff Updated
-Snuffkins Zombies Load Order Fixed
+Snufkins Zombies Load Order Fixed
 
-Balancing Of SnuffKins Zombie Groups
+Balancing Of SnufKins Zombie Groups
 BUFFSiren
 ZombieTemplate
 EntityGroups
@@ -14,9 +14,16 @@ ItemHands & Buff Refferences
 Spawning Groups
 
 Balancing Of AIO Zombie Groups
-
 EntityClasses
 EntityGroups
+
+Fixed Stats On Donnas Fubar Steak
+
+Balancing Stage 2
+Zombie Bomber
+ZombieArchon
+ZombieSiren
+ZombieCow
 
 Updated v2.76 to 2.77
 

@@ -5171,8 +5171,8 @@
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="30"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".02"/>
@@ -5203,9 +5203,9 @@
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="65"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".02"/>

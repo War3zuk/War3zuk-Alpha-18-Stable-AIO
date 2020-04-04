@@ -327,21 +327,21 @@
 	
 <entitygroup name="Giant Animals" >
 		<entity name="invisibleAnimal" prob="10" />
-		<entity name="Giant Rabbit" prob="0.3"/>
-		<entity name="Giant Rabbit Fire" prob="0.3"/>
-		<entity name="Giant Rabbit RAD" prob="0.3"/>
-		<entity name="Giant Chicken" prob="0.1"/>
-		<entity name="Giant Chicken Fire" prob="0.1"/>
-		<entity name="Giant Chicken RAD" prob="0.1"/>
-		<entity name="Giant Snake" prob="0.1"/>
-		<entity name="Giant Snake Fire" prob="0.1"/>
-		<entity name="Giant Snake RAD" prob="0.1"/>
+		<entity name="Giant Rabbit" prob="0.4"/>
+		<entity name="Giant Rabbit Fire" prob="0.4"/>
+		<entity name="Giant Rabbit RAD" prob="0.4"/>
+		<entity name="Giant Chicken" prob="0.4"/>
+		<entity name="Giant Chicken Fire" prob="0.4"/>
+		<entity name="Giant Chicken RAD" prob="0.2"/>
+		<entity name="Giant Snake" prob="0.2"/>
+		<entity name="Giant Snake Fire" prob="0.2"/>
+		<entity name="Giant Snake RAD" prob="0.2"/>
 		<entity name="Giant Zombie Vulture" prob="0.05"/>
 		<entity name="Giant Zombie Vulture Fire" prob="0.05"/>
 		<entity name="Giant Zombie Vulture RAD" prob="0.05"/>
-		<entity name="Giant Boar" prob="0.1"/>
-		<entity name="Giant Boar Fire" prob="0.1"/>
-		<entity name="Giant Boar RAD" prob="0.1"/>
+		<entity name="Giant Boar" prob="0.2"/>
+		<entity name="Giant Boar Fire" prob="0.2"/>
+		<entity name="Giant Boar RAD" prob="0.2"/>
 		<entity name="Giant Hound" prob="0.2"/>
 		<entity name="Giant Hound Fire" prob="0.2"/>
 		<entity name="Giant Hound RAD" prob="0.2"/>
@@ -349,33 +349,33 @@
 
 <entitygroup name="AnimalsSmall">
 		<entity name="animalBoar" prob="0.3"/>
-		<entity name="animalChicken" prob="0.1"/>
+		<entity name="animalChicken" prob="0.3"/>
 		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 
 <entitygroup name="AnimalsFarm">
 		<entity name="animalBoar" prob="0.3"/>
-		<entity name="animalChicken" prob="0.1"/>
+		<entity name="animalChicken" prob="0.3"/>
 		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 
 <entitygroup name="AnimalsDesert">
 		<entity name="animalBoar" prob="0.3"/>
-		<entity name="animalChicken" prob="0.1"/>
+		<entity name="animalChicken" prob="0.3"/>
 		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 
 <entitygroup name="FriendlyAnimalsDesert">
 		<entity name="invisibleAnimal" prob="10"/>
 		<entity name="animalBoar" prob="0.3"/>
-		<entity name="animalChicken" prob="0.1"/>
+		<entity name="animalChicken" prob="0.3"/>
 		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 	
 <entitygroup name="FriendlyAnimalsBurntForest">
 		<entity name="invisibleAnimal" prob="10"/>
 		<entity name="animalBoar" prob="0.3"/>
-		<entity name="animalChicken" prob="0.1"/>
+		<entity name="animalChicken" prob="0.3"/>
 		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 
@@ -384,34 +384,34 @@
 		<entity name="animalStag" />
 		<entity name="animalDoe" />
 		<entity name="animalBoar" prob="0.3"/>
-		<entity name="animalChicken" prob="0.1"/>
+		<entity name="animalChicken" prob="0.3"/>
 		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 
 <entitygroup name="AnimalsAll" >
 		<entity name="Giant Rabbit" prob="0.3"/>
-		<entity name="Giant Chicken" prob="0.1"/>
+		<entity name="Giant Chicken" prob="0.3"/>
 		<entity name="animalStag" />
 		<entity name="animalDoe" />
-		<entity name="Giant Boar" prob="0.1"/>
-		<entity name="Giant Snake" prob="0.1"/>
+		<entity name="Giant Boar" prob="0.3"/>
+		<entity name="Giant Snake" prob="0.3"/>
 		<entity name="animalZombieVulture" prob="0.05"/>
 		<entity name="animalWolf" />
 		<entity name="animalDireWolf" />
 		<entity name="animalBear" />
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.1"/>
+		<entity name="animalBoar" prob="0.3"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 
 <entitygroup name="FriendlyAnimalsSnow">
 		<entity name="invisibleAnimal" prob="10"/>
 		<entity name="Giant Rabbit" prob="0.3"/>
-		<entity name="Giant Chicken" prob="0.1"/>
-		<entity name="Giant Boar" prob="0.2"/>
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
-		<entity name="animalRabbit" prob="0.1"/>
+		<entity name="Giant Chicken" prob="0.3"/>
+		<entity name="Giant Boar" prob="0.3"/>
+		<entity name="animalBoar" prob="0.3"/>
+		<entity name="animalChicken" prob="0.3"/>
+		<entity name="animalRabbit" prob="0.3"/>
 </entitygroup>
 
 <entitygroup name="ZombieFarmGroup">
@@ -423,14 +423,14 @@
 		<entity name="zombieFarmer" prob="0.3"/>
 		<entity name="Giant Zombie Vulture" prob="0.05"/>
 		<entity name="Giant Zombie Vulture Fire" prob="0.05"/>
-		<entity name="animalBoar" prob="0.1"/>
-		<entity name="animalChicken" prob="0.2"/>
+		<entity name="animalBoar" prob="0.3"/>
+		<entity name="animalChicken" prob="0.3"/>
 		<entity name="animalRabbit" prob="0.3"/>
 		<entity name="Giant Zombie Vulture Fire" prob="0.05"/>
-		<entity name="Giant Boar Fire" prob="0.1"/>
-		<entity name="Giant Hound RAD" prob="0.1"/>
+		<entity name="Giant Boar Fire" prob="0.3"/>
+		<entity name="Giant Hound RAD" prob="0.3"/>
 		<entity name="Giant Zombie Vulture RAD" prob="0.05"/>
-		<entity name="Giant Snake RAD" prob="0.1"/>
+		<entity name="Giant Snake RAD" prob="0.3"/>
 </entitygroup>
 	
 <entitygroup name="ZombiesNight">
@@ -463,14 +463,11 @@
 		<entity name="zombieDemolition" />
 		<entity name="ZombieDemolisherArson" />
 		<entity name="ZombieDemolisherArsonFire" />
-		<entity name="Giant Rabbit Fire" prob="0.1"/>
-		<entity name="Giant Chicken Fire" prob="0.1"/>
-		<entity name="Giant Snake Fire" prob="0.1"/>
-		<entity name="Giant Zombie Vulture Fire" prob="0.05"/>
-		<entity name="Giant Boar Fire" prob="0.1"/>
-		<entity name="Giant Hound RAD" prob="0.1"/>
-		<entity name="Giant Zombie Vulture RAD" prob="0.05"/>
-		<entity name="Giant Snake RAD" prob="0.1"/>
+		<entity name="Giant Zombie Vulture Fire" prob="0.1"/>
+		<entity name="Giant Boar Fire" prob="0.5"/>
+		<entity name="Giant Hound RAD" prob="0.5"/>
+		<entity name="Giant Zombie Vulture RAD" prob="0.1"/>
+		<entity name="Giant Snake RAD" prob="0.5"/>
 </entitygroup>
 		
 <entitygroup name="ZombiesWasteland">
