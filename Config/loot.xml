@@ -387,17 +387,9 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='64']" >
-		<item name="HD Flame Thrower Schematic" count="1" prob="0.2"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.2"/>
-		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
-		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
-		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
-		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
-		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
-		<item name="HD Welder Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
+		<item name="ammoGasCan" count="100,500" prob="1"/>
+		<item name="HD Flame Fuel" count="50,100" prob="0.1"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >

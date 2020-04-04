@@ -3080,7 +3080,7 @@
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Sphere" value=".15"/>
-		<property name="Sound_start" value="sledge_swinglight"/>
+		<property name="Sound_start" value="swoosh"/>
 		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
 		<property name="Sound_start" value="stunbaton_swingheavy"/>
 		<property name="UseGrazingHits" value="true"/>
@@ -3133,13 +3133,11 @@
 		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="oreWoodHarvest"/>
-		
         <effect_group name="Base Effects" tiered="false">
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
 				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffShocked"/>
 				</triggered_effect>
 			</effect_group>
-		
 		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
@@ -3167,18 +3165,18 @@
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="10"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="particleeffects/p_electric_shock" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit1">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit2">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="2"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit3">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit4">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>

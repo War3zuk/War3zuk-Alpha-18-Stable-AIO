@@ -182,8 +182,8 @@
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
-	<property name="Explosion.BlockDamage" value="1000"/>
-	<property name="Explosion.EntityDamage" value="2000"/>
+	<property name="Explosion.BlockDamage" value="500"/>
+	<property name="Explosion.EntityDamage" value="100"/>
 	<property name="Explosion.DamageBonus.earth" value=".1"/>
 	<property name="StompsSpikes" value="false"/>
 	<property name="ExplodeDelay" value="5"/>
@@ -231,8 +231,8 @@
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
-	<property name="Explosion.BlockDamage" value="1000"/>
-	<property name="Explosion.EntityDamage" value="2000"/>
+	<property name="Explosion.BlockDamage" value="500"/>
+	<property name="Explosion.EntityDamage" value="100"/>
 	<property name="Explosion.DamageBonus.earth" value=".1"/>
 	<property name="StompsSpikes" value="false"/>
 	<property name="ExplodeDelay" value="5"/>

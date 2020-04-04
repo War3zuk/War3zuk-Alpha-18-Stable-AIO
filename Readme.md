@@ -1,5 +1,23 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.77 to 2.78
+
+Fixed Fuel Pumps Loot
+BR1NXs Booper Electric Buff Updated
+Snuffkins Zombies Load Order Fixed
+
+Balancing Of SnuffKins Zombie Groups
+BUFFSiren
+ZombieTemplate
+EntityGroups
+ItemHands & Buff Refferences
+Spawning Groups
+
+Balancing Of AIO Zombie Groups
+
+EntityClasses
+EntityGroups
+
 Updated v2.76 to 2.77
 
 Add HD Scrap Iron Axe (PBR Custom Bought Model)
