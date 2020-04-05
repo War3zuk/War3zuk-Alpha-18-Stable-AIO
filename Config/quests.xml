@@ -12,7 +12,7 @@
 	
 <insertBefore xpath="/quests/quest[@id='challenge_silenceofthelambs']" >
 	
-	<quest id="quest_BasicSurvival1">
+<quest id="quest_BasicSurvival1">
 		<property name="group_name_key" value="quest_BasicSurvival"/>
 		<property name="name_key" value="quest_BasicSurvival1"/>
 		<property name="subtitle_key" value="quest_BasicSurvival1_subtitle"/>
@@ -37,9 +37,9 @@
 
 		<reward type="Exp" value="50"/>
 		<reward type="Quest" id="quest_whiteRiverCitizen1"/>
-	</quest>
+</quest>
 	
-	<quest id="quest_whiteRiverCitizen1">
+<quest id="quest_whiteRiverCitizen1">
 		<property name="group_name_key" value="quest_WhiteRiverCitizen" />
 		<property name="name_key" value="quest_WhiteRiverCitizen1" />
 		<property name="subtitle_key" value="quest_WhiteRiverCitizen1_subtitle" />
@@ -124,7 +124,7 @@
 		<reward type="Quest" id="HD Builder PreReq 4" />
 </quest>
 	
-	<quest id="HD Builder PreReq 4">
+<quest id="HD Builder PreReq 4">
 	<property name="name_key" value="HD Builder PreReq 4" />
 	<property name="subtitle_key" value="HD Builder PreReq 4 Of 5" />
 	<property name="group_name_key" value="HD Builder PreReq" />
@@ -163,6 +163,7 @@
 		<reward type="Exp" value="10000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="pouredConcreteBlockVariantHelper" value="1000" />
+		<reward type="Item" id="Class Builder VM" value="1" />
 </quest>
 
 <quest id="HD Engineer PreReq 1">
@@ -223,7 +224,7 @@
 		<reward type="Quest" id="HD Engineer PreReq 4" />
 </quest>
 	
-	<quest id="HD Engineer PreReq 4">
+<quest id="HD Engineer PreReq 4">
 	<property name="name_key" value="HD Engineer PreReq 4" />
 	<property name="subtitle_key" value="HD Engineer PreReq 4 Of 5" />
 	<property name="group_name_key" value="HD Engineer PreReq" />
@@ -260,6 +261,7 @@
 		<reward type="Exp" value="10000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="vehicle4x4TruckPlaceable" value="1" />
+		<reward type="Item" id="Class Engineer VM" value="1" />
 </quest>
 
 <quest id="HD Farmer PreReq 1">
@@ -320,7 +322,7 @@
 		<reward type="Quest" id="HD Farmer PreReq 4" />
 </quest>
 	
-	<quest id="HD Farmer PreReq 4">
+<quest id="HD Farmer PreReq 4">
 	<property name="name_key" value="HD Farmer PreReq 4" />
 	<property name="subtitle_key" value="HD Farmer PreReq 4 Of 5" />
 	<property name="group_name_key" value="HD Farmer PreReq" />
@@ -359,6 +361,7 @@
 		<reward type="Exp" value="10000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HD Spas 12 USA" value="6" />
+		<reward type="Item" id="Class Farmer VM" value="1" />
 </quest>
 
 <quest id="HD Gunman PreReq 1">
@@ -427,7 +430,7 @@
 		<reward type="Quest" id="HD Gunman PreReq 4" />
 </quest>
 	
-	<quest id="HD Gunman PreReq 4">
+<quest id="HD Gunman PreReq 4">
 	<property name="name_key" value="HD Gunman PreReq 4" />
 	<property name="subtitle_key" value="HD Gunman PreReq 4 Of 5" />
 	<property name="group_name_key" value="HD Gunman PreReq" />
@@ -474,6 +477,7 @@
 		<reward type="Item" id="HD Dragunov SVD" value="6" />
 		<reward type="Item" id="HDDragunovSVDScope" value="1" />
 		<reward type="Item" id="HDDragunovSVDSilencer" value="1" />
+		<reward type="Item" id="Class Gunman VM" value="1" />
 </quest>
 
 <quest id="HD Mechanic PreReq 1">
@@ -536,7 +540,7 @@
 		<reward type="Quest" id="HD Mechanic PreReq 4" />
 </quest>
 	
-	<quest id="HD Mechanic PreReq 4">
+<quest id="HD Mechanic PreReq 4">
 	<property name="name_key" value="HD Mechanic PreReq 4" />
 	<property name="subtitle_key" value="HD Mechanic PreReq 4 Of 5" />
 	<property name="group_name_key" value="HD Mechanic PreReq" />
@@ -573,6 +577,7 @@
 		<reward type="Exp" value="10000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HD Wrench" value="6" />
+		<reward type="Item" id="Class Mechanic VM" value="1" />
 </quest>
 
 <quest id="HD Medic PreReq 1">
@@ -636,7 +641,7 @@
 		<reward type="Quest" id="HD Medic PreReq 4" />
 </quest>
 	
-	<quest id="HD Medic PreReq 4">
+<quest id="HD Medic PreReq 4">
 	<property name="name_key" value="HD Medic PreReq 4" />
 	<property name="subtitle_key" value="HD Medic PreReq 4 Of 5" />
 	<property name="group_name_key" value="HD Medic PreReq" />
@@ -679,6 +684,7 @@
 		<reward type="Item" id="HD Spattergroit Test Kit" value="2" />
 		<reward type="Item" id="HD Krytos Test Kit" value="2" />
 		<reward type="Item" id="HD Obonjan Test Kit" value="2" />
+		<reward type="Item" id="Class Medic VM" value="1" />
 </quest>
 
 <quest id="Trader Location">

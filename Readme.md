@@ -15,6 +15,14 @@ Edited 11 Prefabs (Mod Launcher Install)
 Removed 3 Screen Affects To Extra Z's (Mod Launcher Install)
 Adjusted 12 Extra Z's (Mod Launcher Install)
 
+Completed Quest Reward Items
+Class Builder VM (Gifted On Completion)
+Class Engineer VM (Gifted On Completion)
+Class Farmer VM (Gifted On Completion)
+Class Gunman VM (Gifted On Completion)
+Class Mechanic VM (Gifted On Completion)
+Class Medic VM (Gifted On Completion)
+
 Updated v2.77 to 2.78
 
 Fixed Fuel Pumps Loot

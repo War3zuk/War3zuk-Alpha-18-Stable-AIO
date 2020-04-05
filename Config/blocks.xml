@@ -2127,6 +2127,96 @@
 	<drop event="Fall" name="HD Power Relay Block" count="1" prob="1"/>
 </block>
 
+<block name="Class Builder VM">
+	<property name="Extends" value="cntVendingMachine"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Builder VM.Prefab"/>
+	<property name="TraderID" value="10"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="ClassBuilderVendingMachine" count="0"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Engineer VM">
+	<property name="Extends" value="cntVendingMachine"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Engineer VM.Prefab"/>
+	<property name="TraderID" value="11"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Engineer VM" count="0"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Farmer VM">
+	<property name="Extends" value="cntVendingMachine"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Farmer VM.Prefab"/>
+	<property name="TraderID" value="12"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Farmer VM" count="0"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Gunman VM">
+	<property name="Extends" value="cntVendingMachine"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Gunman VM.Prefab"/>
+	<property name="TraderID" value="13"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Gunman VM" count="0"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Mechanic VM">
+	<property name="Extends" value="cntVendingMachine"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Mechanic VM.Prefab"/>
+	<property name="TraderID" value="14"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Mechanic VM" count="0"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Medic VM">
+	<property name="Extends" value="cntVendingMachine"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Medic VM.Prefab"/>
+	<property name="TraderID" value="15"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Medic VM" count="0"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
 </append>
 	
 <append xpath="/blocks/block[@name='palletWhiteBagsBase']">
