@@ -1,5 +1,20 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.78 to 2.79
+
+Fixed Locker Loot
+Added Lootable Cement Pallets
+Added Lootable Storage Pallets
+Added Lootable Brick Pallets (Includes GunPowder)
+
+Added HD BlunderBuss (PBR Hires Model Paid)
+Adjusted HD BlunderBuss (Mag = 2)
+Adjusted HD BlunderBuss Spread,Dmg,Sights,Multiplier
+
+Edited 11 Prefabs (Mod Launcher Install)
+Removed 3 Screen Affects To Extra Z's (Mod Launcher Install)
+Adjusted 12 Extra Z's (Mod Launcher Install)
+
 Updated v2.77 to 2.78
 
 Fixed Fuel Pumps Loot

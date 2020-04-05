@@ -1,5 +1,7 @@
 Key,Source,Context,Changes,English
 
+HDBlunderbussDesc,items,Item,New,HD BlunderBuss. A Powerful Starter Weapon when combined with Gunpowder And Stone.
+
 RepairKitIronToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Steel Tools.
 
 RepairKitIronTools,items,Item,KgNone,HD Repair Kit Iron Tools,

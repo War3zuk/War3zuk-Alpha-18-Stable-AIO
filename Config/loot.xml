@@ -256,44 +256,17 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
-		<item name="Ammo Supply Shredder" count="1,2" prob="0.3"/>
-		<item name="Ammo Supply 9mm" count="1,2" prob="0.7"/>
-		<item name="Ammo Supply 44Mag" count="1,2" prob="0.6"/>
-		<item name="Ammo Supply 45 ACP" count="1,2" prob="0.6"/>
-		<item name="Ammo Supply DE50" count="1,2" prob="0.5"/>
-		<item name="Ammo Supply 500 Auto Max" count="1,2" prob="0.5"/>
-		<item name="Ammo Supply 762mm" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply Shotgun" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply ShotgunSlug" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply Breach Slug" count="1,2" prob="0.4"/>
-		<item name="Ammo Supply 408 Round" count="1,2" prob="0.3"/>
-		<item name="Ammo Supply 50 BMG Round" count="1,2" prob="0.3"/>
-		<item name="HD Tactical AR Schematic" count="1" prob="0.2"/>
-		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.2"/>
-		<item name="HD Desert Eagle Schematic" count="1" prob="0.2"/>
-		<item name="HD Mossberg 500 Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.2"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.2"/>
-		<item name="HD Spas 12 Schematic" count="1" prob="0.2"/>
-		<item name="HD Arctic Warfare Schematic" count="1" prob="0.2"/>
-		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.2"/>
-		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.2"/>
-		<item name="HD Mac10 Auto Schematic" count="1" prob="0.2"/>
-		<item name="HD Mods Schematic" count="1" prob="0.2"/>
-		<item name="HD CheyTac M300 Schematic" count="1" prob="0.2"/>
-		<item name="HD M3 Auto Schematic" count="1" prob="0.2"/>
-		<item name="HD Double Barrel Schematic" count="1" prob="0.2"/>
-		<item name="HD Winchester 1866 Schematic" count="1" prob="0.2"/>
-		<item name="HD Dragunov SVD Schematic" count="1" prob="0.2"/>
-		<item name="HD Flame Thrower Schematic" count="1" prob="0.2"/>
 		<item name="Health Supply Flare" count="1" prob="0.3"/>
+		<item group="groupApparelClothes" prob="20"/>
+		<item group="groupApparelHats" prob="5"/>
+		<item group="groupArmorScaled" prob="2"/>
+		<item group="groupAmmoRegular" prob="0.02"/>
+		<item group="books" count="1,2"/>
+		<item name="resourcePaper" count="1,2" prob="0.7"/>
+		<item name="oldCash" count="1,40" prob="0.3"/>
+		<item group="medicine" prob="0.05"/>
+		<item group="trophyGroup"/>
+		<item name="resourceGunPowder" count="10,50"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
@@ -737,7 +710,7 @@
 	<item group="rareFoodDrink" count="1,2" />
 </lootcontainer>
 
-<lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="517" count="1,3" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
 	<item name="resourceIronFragment" count="5,10" prob="0.2"/>
 	<item name="resourceBone" count="2,4" prob="0.05"/>
 	<item name="resourceNail" count="2,4" prob="0.05"/>
@@ -754,17 +727,41 @@
 	<item name="resourceOilShale" count="20,120" prob="0.05"/>
 	<item name="resourceCobblestones" count="40,120" prob="0.05"/>
 	<item name="resourceRadiator" count="1,2" prob="0.05"/>
-	<item name="resourceRockSmallBundle" count="1,1" prob="0.005"/>
-	<item name="resourceWoodBundle" count="1,1" prob="0.005"/>
-	<item name="resourceIronFragmentBundle" count="1,1" prob="0.005"/>
-	<item name="resourcePotassiumNitratePowderBundle" count="1,1" prob="0.005"/>
-	<item name="resourceLeadBundle" count="1,1" prob="0.005"/>
-	<item name="resourceCoalBundle" count="1,1" prob="0.005"/>
-	<item name="resourceOilShaleBundle" count="1,1" prob="0.005"/>
+	<item name="resourceRockSmallBundle" count="1" prob="0.005"/>
+	<item name="resourceWoodBundle" count="1" prob="0.005"/>
+	<item name="resourceIronFragmentBundle" count="1" prob="0.005"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1" prob="0.005"/>
+	<item name="resourceLeadBundle" count="1" prob="0.005"/>
+	<item name="resourceCoalBundle" count="1" prob="0.005"/>
+	<item name="resourceOilShaleBundle" count="1" prob="0.005"/>
 	<item name="ammoGasCanBundle" count="1,1" prob="0.005"/>
 	<item name="resourceSilverNugget" count="2,6" prob="0.005"/>
 	<item name="resourceGoldNugget" count="2,6" prob="0.005"/>
 	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
+</lootcontainer>
+		   
+<lootcontainer id="519" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+    <item name="resourceCement" count="20,100" prob="0.1"/>
+</lootcontainer>
+		   
+<lootcontainer id="520" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+    <item name="resourcePaper" count="5,10" prob="0.1"/>
+    <item name="resourceScrapPolymers" count="10,20" prob="0.1"/>
+</lootcontainer>
+		   
+<lootcontainer id="521" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+	<item name="resourceWood" count="50,100" prob="0.1"/>
+	<item name="resourceRockSmall" count="10,50" prob="0.1"/>
+	<item name="resourceGunPowder" count="5,10" prob="0.2"/>
+</lootcontainer>
+		   
+<lootcontainer id="522" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+    <item name="resourceCobblestones" count="20,100" prob="0.1"/>
+    <item name="resourceWood" count="10,50" prob="0.1"/>
+</lootcontainer>
+
+<lootcontainer id="523" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+	<item name="resourceGunPowder" count="5,10" prob="0.2"/>
 </lootcontainer>
 	
 </insertAfter>

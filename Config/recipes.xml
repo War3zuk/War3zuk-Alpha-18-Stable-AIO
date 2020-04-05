@@ -5,6 +5,19 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="ammoBlunderbuss" count="2">
+	<ingredient name="resourceRockSmall" count="1"/>
+	<ingredient name="resourceGunPowder" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+<recipe name="HD Blunderbuss" count="1" craft_time = "10" tags="perkBoomstick">
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+	
 <recipe name="HDScrapIronAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
 	<ingredient name="resourceScrapIron" count="50"/>
 	<ingredient name="resourceNail" count="2"/>

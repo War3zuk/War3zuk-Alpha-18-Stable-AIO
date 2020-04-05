@@ -2128,6 +2128,31 @@
 </block>
 
 </append>
+	
+<append xpath="/blocks/block[@name='palletWhiteBagsBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="519"/>
+</append>
+	
+<append xpath="/blocks/block[@name='palletBrownBoxesBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="520"/>
+</append>
+	
+<append xpath="/blocks/block[@name='palletBricksBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="521"/>
+</append>
+	
+<append xpath="/blocks/block[@name='palletBlueTarpBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="522"/>
+</append>
+
+<append xpath="/blocks/block[@name='wineBarrel']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="523"/>
+</append>
 
 <append xpath="/blocks/block[@name='cntGunSafeInsecure']"> 
 	<property name="DowngradeBlock" value="WARcntGunSafeInsecure"/>
