@@ -1644,5 +1644,50 @@
 	<ingredient name="resourceBrokenGlass" count="25"/>
 </recipe>
 
+<recipe name="modDyeWhite" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeRed" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeGreen" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeBlack" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeBlue" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeBrown" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyePink" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyePurple" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeYellow" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
 </append>
 </configs>

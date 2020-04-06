@@ -29,6 +29,8 @@ Adjusted Tweaked zombieGeist Code
 Changed ZombieArchon From Flier To Ground (Mod Launcher Install)
 Adjusted Tweaked ZombieArchon Code
 
+Craftable Dyes (HD PicBench)
+
 Updated v2.77 to 2.78
 
 Fixed Fuel Pumps Loot
