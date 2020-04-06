@@ -23,6 +23,12 @@ Class Gunman VM (Gifted On Completion)
 Class Mechanic VM (Gifted On Completion)
 Class Medic VM (Gifted On Completion)
 
+Changed zombieGeist From Flier To Ground (Mod Launcher Install)
+Adjusted Tweaked zombieGeist Code
+
+Changed ZombieArchon From Flier To Ground (Mod Launcher Install)
+Adjusted Tweaked ZombieArchon Code
+
 Updated v2.77 to 2.78
 
 Fixed Fuel Pumps Loot
