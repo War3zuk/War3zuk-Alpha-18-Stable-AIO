@@ -1,5 +1,12 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.79 to 2.80
+
+Edited ALL HD Spas 12 ROF =75
+Edited MossBerg 500 ROF =70
+Added ScrapBrass To Some Lootable Items
+CasinoCoin Weight Doubled (For Smelting)
+
 Updated v2.78 to 2.79
 
 Fixed Locker Loot

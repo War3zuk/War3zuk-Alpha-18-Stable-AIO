@@ -67,6 +67,7 @@
 	<set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Weight']/@value">2</set>
 	
 	<set xpath="/items/item[starts-with(@name,'vehicle') and contains(@name,'Placeable')]/property[@name='SellableToTrader' and @value='false']/@value">true</set>
 	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='EconomicValue'][@value='6000']/@value">5000</set>
@@ -2032,7 +2033,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
@@ -2119,7 +2120,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
@@ -2206,7 +2207,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
@@ -2293,7 +2294,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
@@ -2380,7 +2381,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
@@ -2466,7 +2467,7 @@
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="70"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="3"/>
