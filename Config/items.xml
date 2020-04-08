@@ -284,6 +284,21 @@
 	</effect_group>
 </item> -->
 	
+<item name="BrassWire">
+	<property name="DescriptionKey" value="BrassWireDesc"/>
+	<property name="CustomIcon" value="Brass Wire" />
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceScrapBrassLarge"/>
+	<property name="MeltTimePerUnit" value=".4"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="Weight" value="125"/>
+	<property name="EconomicValue" value="35"/>
+	<property name="Group" value="Resources"/>
+</item>
+	
 <item name="HD Blunderbuss">
 	<property name="DescriptionKey" value="HDBlunderbussDesc"/>
 	<property name="CustomIcon" value="HD Blunderbuss" />

@@ -1,5 +1,9 @@
 Key,Source,Context,Changes,English
 
+BrassWire,items,Item,KgNone,Brass Wire,
+
+BrassWireDesc,items,Item,New,Scrapped Reel of Brass Wiring. Probably good for Smelting.
+
 HDGun Oil,items,Item,KgNone,HD Gun Oil,
 
 HDBlunderbussDesc,items,Item,New,HD BlunderBuss. A Powerful Starter Weapon when combined with Gunpowder And Stone.

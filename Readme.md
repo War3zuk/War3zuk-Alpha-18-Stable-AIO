@@ -6,6 +6,8 @@ Edited ALL HD Spas 12 ROF =75
 Edited MossBerg 500 ROF =70
 Added ScrapBrass To Some Lootable Items
 CasinoCoin Weight Doubled (For Smelting)
+Added Brass Wiring (For Scrapping Or Smelting)
+Fixed HD Mega Vault
 
 Updated v2.78 to 2.79
 

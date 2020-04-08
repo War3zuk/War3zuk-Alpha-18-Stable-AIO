@@ -753,17 +753,17 @@
 	<item name="resourceWood" count="50,100" prob="0.2"/>
 	<item name="resourceRockSmall" count="10,50" prob="0.1"/>
 	<item name="resourceGunPowder" count="5,10" prob="0.2"/>
-	<item name="resourceScrapBrass" count="10,20" prob="0.1"/>
+	<item name="resourceScrapBrass" count="5,10" prob="0.1"/>
 </lootcontainer>
 		   
 <lootcontainer id="522" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
     <item name="resourceCobblestones" count="20,100" prob="0.1"/>
     <item name="resourceWood" count="10,50" prob="0.1"/>
-	<item name="resourceScrapBrass" count="10,20" prob="0.1"/>
 </lootcontainer>
 
 <lootcontainer id="523" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
 	<item name="resourceGunPowder" count="5,10" prob="0.2"/>
+	<item name="BrassWire" count="5,10" prob="0.1"/>
 </lootcontainer>
 	
 </insertAfter>
