@@ -1,5 +1,30 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.80 to 2.81
+
+Set Plants To Be Picked Up (UseKey)
+Balanced Resources From Boxes,Pallets & Cement Bags
+Updated HD Junk Turrets ROF
+
+Added The Following Warm & Chunky Foods
+(Bonus From Infection As Well As Food & Water)
+Warm Chunky Honey
+Warm Chunky Beef
+Warm Chunky Chicken
+Warm Chunky Lamb
+Warm Chunky Surprise
+Warm Chunky Chili
+Warm Chunky Pasta
+Warm Chunky Salmon
+Warm Chunky Sirloin
+Warm Chunky Vegetable Stew
+Warm Chunky Meat Stew
+Warm Chunky Sham Chowder
+Warm Chunky Hobo Stew
+Warm Chunky Steak And Potato
+Warm Chunky ChiliDog
+Warm Chunky Fish Taco
+
 Updated v2.79 to 2.80
 
 Edited ALL HD Spas 12 ROF =75

@@ -741,24 +741,24 @@
 </lootcontainer>
 		   
 <lootcontainer id="519" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourceCement" count="20,100" prob="0.1"/>
+    <item name="resourceCement" count="10,30" prob="0.1"/>
 </lootcontainer>
 		   
 <lootcontainer id="520" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourcePaper" count="5,10" prob="0.2"/>
-    <item name="resourceScrapPolymers" count="10,20" prob="0.2"/>
+    <item name="resourcePaper" count="2,5" prob="0.2"/>
+    <item name="resourceScrapPolymers" count="5,15" prob="0.2"/>
 </lootcontainer>
 		   
 <lootcontainer id="521" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-	<item name="resourceWood" count="50,100" prob="0.2"/>
-	<item name="resourceRockSmall" count="10,50" prob="0.1"/>
+	<item name="resourceWood" count="10,30" prob="0.2"/>
+	<item name="resourceRockSmall" count="10,20" prob="0.1"/>
 	<item name="resourceGunPowder" count="5,10" prob="0.2"/>
 	<item name="resourceScrapBrass" count="5,10" prob="0.1"/>
 </lootcontainer>
 		   
 <lootcontainer id="522" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourceCobblestones" count="20,100" prob="0.1"/>
-    <item name="resourceWood" count="10,50" prob="0.1"/>
+    <item name="resourceCobblestones" count="20,50" prob="0.1"/>
+    <item name="resourceWood" count="10,30" prob="0.1"/>
 </lootcontainer>
 
 <lootcontainer id="523" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">

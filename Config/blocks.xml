@@ -2686,6 +2686,21 @@
 	<append xpath="/blocks/block[@name='stainlessSteelWedgeTipCNRFullTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="Titanium Steel WedgeTipCNRFullTop"/> </property></append>
 	<append xpath="/blocks/block[@name='stainlessSteelWedgeTipStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="Titanium Steel WedgeTipStairs"/> </property></append>
 
+	<append xpath="/blocks/block[@name='plantedPotato3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedCorn3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedAloe3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedBlueberry3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedHop3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedYucca3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedCotton3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedCoffee3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='mushroom01']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedSnowberry3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedMushroom3Harvest']"><property name="Class" value="CropsGrown"/></append>
+
 <append xpath="/blocks">
 
 <block name="Titanium Steel Arch">

@@ -1,5 +1,11 @@
 Key,Source,Context,Changes,English
 
+HDBowl,items,Item,KgNone,HD Bowl,
+
+HDBowlDesc,items,Item,New,A Basic Clay Bowl used for Hot Meals.
+
+WarmChunkyFoodDesc,items,Item,New,Umm Warmed Grub Always tastes Better & is Good for You.
+
 BrassWire,items,Item,KgNone,Brass Wire,
 
 BrassWireDesc,items,Item,New,Scrapped Reel of Brass Wiring. Probably good for Smelting.
