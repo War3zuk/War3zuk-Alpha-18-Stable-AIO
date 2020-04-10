@@ -566,8 +566,8 @@
 <item name="gunPumpShotgun" count="1" prob="0.1"/>
 <item name="ammoShotgunShell" count="10,30" prob="0.1"/>
 <item name="meleeToolChainsaw" count="1" prob="0.1"/>
-<item name="foodRawMeat" count="2,4" prob="0.5"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
+<item name="foodRawMeat" count="2,4" prob="0.6"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.6"/>
 </lootcontainer>
 
 <!-- Animal ZombieBear -->
@@ -579,8 +579,8 @@
 <item name="gunDoubleBarrelShotgun" count="1" prob="0.1"/>
 <item name="ammoShotgunSlug" count="10,30" prob="0.1"/>
 <item name="meleeToolAuger" count="1" prob="0.1"/>
-<item name="foodRawMeat" count="2,4" prob="0.5"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
+<item name="foodRawMeat" count="2,4" prob="0.6"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.6"/>
 </lootcontainer>
 
 <!-- Animal Wolf -->
@@ -592,8 +592,8 @@
 <item name="gunHuntingRifle" count="1" prob="0.1"/>
 <item name="ammo762mmBulletBall" count="10,30" prob="0.1"/>
 <item name="meleeToolPickaxeSteel" count="1" prob="0.1"/>
-<item name="foodRawMeat" count="2,4" prob="0.5"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
+<item name="foodRawMeat" count="2,4" prob="0.6"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.6"/>
 </lootcontainer>
 
 <!-- Animal Coyote -->
@@ -605,8 +605,8 @@
 <item name="gunCrossbowIron" count="1" prob="0.1"/>
 <item name="ammoCrossbowBoltIron" count="10,30" prob="0.1"/>
 <item name="meleeToolShovelSteel" count="1" prob="0.1"/>
-<item name="foodRawMeat" count="2,4" prob="0.5"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
+<item name="foodRawMeat" count="2,4" prob="0.6"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.6"/>
 </lootcontainer>
 
 <!-- Animal DireWolf -->
@@ -618,8 +618,8 @@
 <item name="gun44Magnum" count="1" prob="0.1"/>
 <item name="ammo44MagnumBulletBall" count="10,30" prob="0.1"/>
 <item name="meleeToolFireaxeIron" count="1" prob="0.1"/>
-<item name="foodRawMeat" count="2,4" prob="0.5"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
+<item name="foodRawMeat" count="2,4" prob="0.6"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.6"/>
 </lootcontainer>
 
 <!-- Animal MountainLion -->
@@ -631,8 +631,8 @@
 <item name="gunBowCompound" count="1" prob="0.1"/>
 <item name="ammoCrossbowBoltSteelAP" count="10,30" prob="0.1"/>
 <item name="meleeToolClawHammer" count="1" prob="0.1"/>
-<item name="foodRawMeat" count="2,4" prob="0.5"/>
-<item name="resourceAnimalFat" count="2,4" prob="0.5"/>
+<item name="foodRawMeat" count="2,4" prob="0.6"/>
+<item name="resourceAnimalFat" count="2,4" prob="0.6"/>
 </lootcontainer>
 
 <!-- Animal Stag -->
@@ -741,29 +741,29 @@
 </lootcontainer>
 		   
 <lootcontainer id="519" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourceCement" count="10,30" prob="0.1"/>
+    <item name="resourceCement" count="10,20" prob="0.1"/>
 </lootcontainer>
 		   
 <lootcontainer id="520" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourcePaper" count="2,5" prob="0.2"/>
-    <item name="resourceScrapPolymers" count="5,15" prob="0.2"/>
+    <item name="resourcePaper" count="2,4" prob="0.2"/>
+    <item name="resourceScrapPolymers" count="2,10" prob="0.2"/>
 </lootcontainer>
 		   
 <lootcontainer id="521" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-	<item name="resourceWood" count="10,30" prob="0.2"/>
+	<item name="resourceWood" count="10,20" prob="0.2"/>
 	<item name="resourceRockSmall" count="10,20" prob="0.1"/>
 	<item name="resourceGunPowder" count="5,10" prob="0.2"/>
 	<item name="resourceScrapBrass" count="5,10" prob="0.1"/>
 </lootcontainer>
 		   
 <lootcontainer id="522" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourceCobblestones" count="20,50" prob="0.1"/>
-    <item name="resourceWood" count="10,30" prob="0.1"/>
+    <item name="resourceCobblestones" count="10,20" prob="0.1"/>
+    <item name="resourceWood" count="10,20" prob="0.1"/>
 </lootcontainer>
 
 <lootcontainer id="523" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
 	<item name="resourceGunPowder" count="5,10" prob="0.2"/>
-	<item name="BrassWire" count="5,10" prob="0.1"/>
+	<item name="BrassWire" count="2,10" prob="0.1"/>
 </lootcontainer>
 	
 </insertAfter>
