@@ -2,10 +2,9 @@
 	
 	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
 	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
-	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">3</set>
 	
 <append xpath="/buffs">
-
+	
 <buff name="buffMREInfectionAddCure" name_key="buff Infection Add Cure" hidden="true" icon="ui_game_symbol_pills">
 	<stack_type value="ignore"/>
 	<duration value=".1"/>
@@ -114,6 +113,32 @@
 		<effect_group>
 			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
 		</effect_group>
+</buff>
+
+<buff name="BUFFBloodDraw" name_key="Blood Draw" description_key="Youve made yourself a bloodbag, Warning, make too many And suffer the consequences, YOU HAVE BEEN WARNED!" icon="ui_game_symbol_BLOODDRAW" remove_on_death="true">
+	<stack_type value="replace"/>
+	<duration value="30"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="BUFFBloodDrawSideEffect"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="BUFFBloodDrawSideEffect">
+		<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="100"/>
+		</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BUFFBloodDrawSideEffect" name_key="Blood Draw SideEffect" description_key="You have drawn too much Blood! Keep this up And each time you Die the timer will be Reset" icon="ui_game_symbol_BLOODDRAW1" remove_on_death="false">
+    <stack_type value="ignore"/>
+    <duration value="600"/>
+    <effect_group>
+        <passive_effect name="AttributeLevel" tags="attIntellect" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attPerception" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attStrength" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attAgility" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attFortitude" operation="base_set" value="3"/> <!-- base_subtract -->
+            <triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+            <triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+            <triggered_effect trigger="onSelfRespawn" action="AddBuff" target="self" buff="BUFFBloodDrawSideEffect"/>
+    </effect_group>
 </buff>
 
 <buff name="buffEmbers" hidden="true">

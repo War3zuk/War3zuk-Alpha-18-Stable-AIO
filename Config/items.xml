@@ -488,25 +488,31 @@
 </item>
 
 <item name="medicalBloodDrawKit">
-	<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="medicalBloodDrawKit"/>
 	<property name="HoldType" value="3"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Mplastics"/>
-	<property name="Weight" value="6"/>
-	<property name="Stacknumber" value="25000"/>
-	<property class="Action1">
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_firstAidKit"/>
 		<property name="Gain_health" value="-50"/>
 		<property name="Gain_food" value="-50"/>
 		<property name="Gain_water" value="-50"/>
-		<property name="Sound_start" value="player_firstAidKit"/>
 		<property name="Consume" value="true"/>
 		<property name="Create_item" value="medicalBloodBag"/>
 	</property>
+	<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="BUFFBloodDraw"/>
+			<display_value name="dStaminaRegen" value="50"/>
+			<display_value name="dDuration" value="30"/>
+			<display_value name="dInstantHealth" value="50"/>
+			<display_value name="staminaAmount" value="50" />
+	</effect_group>
 </item>
 
 <item name="HD Ammo Care Package">
@@ -4078,7 +4084,7 @@
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="200"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
-		<display_value name="foodHealthAmount" value="50"/>
+		<display_value name="foodHealthAmount" value="200"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryBleeding"/>
