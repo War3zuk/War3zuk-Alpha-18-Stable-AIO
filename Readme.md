@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Update v2.82 to v2.83
+
+Fixed Small But Important Error In Progression.xml
+
 Updated v2.81 to 2.82
 
 Added HD Junk Turret Schematic (Unlocks All 3)
