@@ -5,9 +5,82 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HDammoBundle9mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle9mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle9mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="160"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle44MagnumBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle44MagnumBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle44MagnumBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle762mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle762mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle762mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundleShotgunShell" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBuckshot" count="80"/>
+	<ingredient name="resourceGunPowder" count="320"/>
+	<ingredient name="resourcePaper" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundleShotgunSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="320"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundleShotgunBreachingSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceForgedSteel" count="320"/>
+	<ingredient name="resourceClayLump" count="160"/>
+	<ingredient name="resourceGunPowder" count="320"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+</recipe>	
+	
 <recipe name="HDBowl" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
     <ingredient name="resourceClayLump" count="10"/>
-    <ingredient name="resourceYuccaFibers" count="10"/>
+    <ingredient name="resourceYuccaFibers" count="5"/>
 </recipe>
 	
 <recipe name="Warm Chunky Honey" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
@@ -1048,7 +1121,7 @@
 	
 <recipe name="HD Junk Turret 9mm" count="1" craft_time = "60" craft_area="HD WorkBench" tags="learnable,perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
-	<ingredient name="gunJunkTurretParts" count="10"/>
+	<ingredient name="gunJunkTurretParts" count="4"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
 	<ingredient name="resourceSpring" count="10"/>
@@ -1056,7 +1129,7 @@
 
 <recipe name="HD Junk Turret 762mm" count="1" craft_time = "100" craft_area="HD WorkBench" tags="learnable,perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
-	<ingredient name="gunJunkTurretParts" count="10"/>
+	<ingredient name="gunJunkTurretParts" count="7"/>
 	<ingredient name="resourceDuctTape" count="20"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceSpring" count="20"/>
@@ -1065,9 +1138,9 @@
 <recipe name="HD Junk Turret 50mm" count="1" craft_time = "120" craft_area="HD WorkBench" tags="learnable,perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
 	<ingredient name="gunJunkTurretParts" count="10"/>
-	<ingredient name="resourceDuctTape" count="40"/>
-	<ingredient name="resourceScrapPolymers" count="40"/>
-	<ingredient name="resourceSpring" count="40"/>
+	<ingredient name="resourceDuctTape" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceSpring" count="30"/>
 </recipe>
 
 <recipe name="Crop Plot" count="1" craft_time="10">

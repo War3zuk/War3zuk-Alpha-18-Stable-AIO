@@ -1,5 +1,29 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.81 to 2.82
+
+Added HD Junk Turret Schematic (Unlocks All 3)
+Rebalanced All Loot (Probability = 10%)
+Edited HD Bowl Recipe
+Removed HD Flame Thrower Walk Nerf
+Removed HD Flame Thrower Run Nerf
+Edited HD Flame Thrower Dmg
+
+RNG DMG Has Been REMOVED From ALL HD Weapons
+
+Edited HD Vulcans Upgraded Dmg Slightly
+Added ALL Vanilla Ammo Bundles To HD AmmoBench (Reduced Time)
+
+Added Care Packages As Follows (Found In World)
+HD Rage Quitter Care Package (LOL) You Know Who You Are
+HD Ammo Care Package
+HD Food Care Package
+HD Medicine Care Package
+HD Resource Care Package
+
+Added BloodDrawKit (No Exploit)
+Fixed HD RepairKits Description For Tools
+
 Updated v2.80 to 2.81
 
 Set Plants To Be Picked Up (UseKey)

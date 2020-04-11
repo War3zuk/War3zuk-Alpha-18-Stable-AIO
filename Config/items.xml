@@ -1,12 +1,5 @@
 <configs>
 	
-	<set xpath="/items/item[@name='ammoBlunderbuss']/effect_group/passive_effect[@name='EntityDamage']/@value">15</set>
-	<set xpath="/items/item[@name='ammoRocketHE']/effect_group/passive_effect[@name='EntityDamage']/@value">210</set>
-	<set xpath="/items/item[@name='ammoRocketFrag']/effect_group/passive_effect[@name='EntityDamage']/@value">315</set>
-	
-	<append xpath="/items/item[@name='gunToolNailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,HDNailGunBolt</append>
-	<set xpath="/items/item[@name='gunSMG5']/property[@name='Material']/@value">MMachineGunParts</set>
-	
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
 <remove xpath="/items/item[@name='meleeHandMaster']"/>
@@ -49,6 +42,13 @@
 <remove xpath="/items/item[@name='meleeHandBossGrace']"/>
 
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
+
+	<set xpath="/items/item[@name='ammoBlunderbuss']/effect_group/passive_effect[@name='EntityDamage']/@value">15</set>
+	<set xpath="/items/item[@name='ammoRocketHE']/effect_group/passive_effect[@name='EntityDamage']/@value">210</set>
+	<set xpath="/items/item[@name='ammoRocketFrag']/effect_group/passive_effect[@name='EntityDamage']/@value">315</set>
+	
+	<append xpath="/items/item[@name='gunToolNailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,HDNailGunBolt</append>
+	<set xpath="/items/item[@name='gunSMG5']/property[@name='Material']/@value">MMachineGunParts</set>
 	
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Steel Polish</append>
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
@@ -284,6 +284,319 @@
 	</effect_group>
 </item> -->
 	
+<item name="HDammoBundle9mmBulletBall">
+	<property name="CustomIcon" value="ammo9mmBulletBall"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="Weight" value="0"/>
+	<property name="EconomicValue" value="900"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="UnlockedBy" value="perkPistolPeteComplete"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="ammo9mmBulletBall"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundle9mmBulletHP">
+	<property name="Extends" value="HDammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammo9mmBulletHP"/>
+	<property name="EconomicValue" value="1400"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo9mmBulletHP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundle9mmBulletAP">
+	<property name="Extends" value="HDammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammo9mmBulletAP"/>
+	<property name="EconomicValue" value="1400"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo9mmBulletAP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundle44MagnumBulletBall">
+	<property name="Extends" value="HDammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="UnlockedBy" value="perkEnforcerComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo44MagnumBulletBall"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+<item name="HDammoBundle44MagnumBulletHP">
+	<property name="Extends" value="HDammoBundle44MagnumBulletBall"/>
+	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+	<property name="EconomicValue" value="1500"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo44MagnumBulletHP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+<item name="HDammoBundle44MagnumBulletAP">
+	<property name="Extends" value="HDammoBundle44MagnumBulletBall"/>
+	<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
+	<property name="EconomicValue" value="1500"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo44MagnumBulletAP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundle762mmBulletBall">
+	<property name="Extends" value="HDammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="EconomicValue" value="1100"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo762mmBulletBall"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+<item name="HDammoBundle762mmBulletHP">
+	<property name="Extends" value="HDammoBundle762mmBulletBall"/>
+	<property name="CustomIcon" value="ammo762mmBulletHp"/>
+	<property name="EconomicValue" value="1600"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo762mmBulletHP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+<item name="HDammoBundle762mmBulletAP">
+	<property name="Extends" value="HDammoBundle762mmBulletBall"/>
+	<property name="CustomIcon" value="ammo762mmBulletAP"/>
+	<property name="EconomicValue" value="1600"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo762mmBulletAP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundleShotgunShell">
+	<property name="Extends" value="HDammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammoShotgunShell"/>
+	<property name="EconomicValue" value="1100"/>
+	<property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoShotgunShell"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+<item name="HDammoBundleShotgunSlug">
+	<property name="Extends" value="HDammoBundleShotgunShell"/>
+	<property name="CustomIcon" value="ammoShotgunSlug"/>
+	<property name="EconomicValue" value="2000"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoShotgunSlug"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+<item name="HDammoBundleShotgunBreachingSlug">
+	<property name="Extends" value="HDammoBundleShotgunShell"/>
+	<property name="CustomIcon" value="ammoShotgunBreachingSlug"/>
+	<property name="EconomicValue" value="2000"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoShotgunBreachingSlug"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+	
+<item name="HD Care Package">
+	<property name="DescriptionKey" value="HDCarePackageDesc"/>
+	<property name="CustomIcon" value="HD Care Package" />
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="Weight" value="0"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="UnlockedBy" value="perkPistolPeteComplete"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="CPTampax,CPTeadybear,CPWaterBottle,CPDvd"/>
+		<property name="Create_item_count" value="1,1,1,1"/>
+	</property>
+</item>
+
+<item name="CPTampax">
+	<property name="DescriptionKey" value="CPTampaxDesc"/>
+	<property name="CustomIcon" value="CPTampax" />
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Weight" value="6"/>
+	<property name="Stacknumber" value="10"/>
+</item>
+
+<item name="CPTeadybear">
+	<property name="DescriptionKey" value="CPTampaxDesc"/>
+	<property name="CustomIcon" value="CPTeadybear" />
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="20"/>
+	<property name="Stacknumber" value="10"/>
+</item>
+
+<item name="CPWaterBottle">
+	<property name="DescriptionKey" value="CPTampaxDesc"/>
+	<property name="CustomIcon" value="CPWaterBottle" />
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mplastics"/>
+	<property name="Weight" value="6"/>
+	<property name="Stacknumber" value="10"/>
+</item>
+
+<item name="CPDvd">
+	<property name="DescriptionKey" value="CPTampaxDesc"/>
+	<property name="CustomIcon" value="CPDvd" />
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mplastics"/>
+	<property name="Weight" value="6"/>
+	<property name="Stacknumber" value="10"/>
+</item>
+
+<item name="medicalBloodDrawKit">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="medicalBloodDrawKit"/>
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Mplastics"/>
+	<property name="Weight" value="6"/>
+	<property name="Stacknumber" value="25000"/>
+	<property class="Action1">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Gain_health" value="-50"/>
+		<property name="Gain_food" value="-50"/>
+		<property name="Gain_water" value="-50"/>
+		<property name="Sound_start" value="player_firstAidKit"/>
+		<property name="Consume" value="true"/>
+		<property name="Create_item" value="medicalBloodBag"/>
+	</property>
+</item>
+
+<item name="HD Ammo Care Package">
+	<property name="CustomIcon" value="HD Ammo Care Package"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="HDCarePackageDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="Weight" value="0"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceGunPowder,resourceBulletCasing,resourceBulletTip"/>
+		<property name="Create_item_count" value="50,50,50"/>
+	</property>
+</item>
+
+<item name="HD Food Care Package">
+	<property name="CustomIcon" value="HD Food Care Package"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="Weight" value="0"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="foodCanBeef,foodCanChicken,foodCanLamb"/>
+		<property name="Create_item_count" value="5,5,5"/>
+	</property>
+</item>
+
+<item name="HD Medicine Care Package">
+	<property name="CustomIcon" value="HD Medicine Care Package"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="Weight" value="0"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="medicalFirstAidBandage,medicalPlasterCast,medicalBloodDrawKit"/>
+		<property name="Create_item_count" value="5,5,1"/>
+	</property>
+</item>
+
+<item name="HD Resource Care Package">
+	<property name="CustomIcon" value="HD Resource Care Package"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="Weight" value="0"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceRockSmall,resourceScrapBrass,resourceScrapLead"/>
+		<property name="Create_item_count" value="50,50,50"/>
+	</property>
+</item>
+
 <item name="BrassWire">
 	<property name="DescriptionKey" value="BrassWireDesc"/>
 	<property name="CustomIcon" value="Brass Wire" />
@@ -1123,8 +1436,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".17,.17"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
@@ -1209,8 +1522,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
@@ -1299,8 +1612,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
@@ -1390,8 +1703,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
@@ -1475,8 +1788,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMachineGunner"/>
@@ -1564,8 +1877,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
@@ -1637,8 +1950,8 @@
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="55"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.2"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".10,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".5,.5"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
@@ -1717,8 +2030,8 @@
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.2"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".10,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".5,.5"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
@@ -1797,8 +2110,8 @@
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMachineGunner"/>
@@ -1877,8 +2190,8 @@
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.1"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".5,.10"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
@@ -1971,8 +2284,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
@@ -2055,8 +2368,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
@@ -2142,8 +2455,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
@@ -2229,8 +2542,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
@@ -2316,8 +2629,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
@@ -2403,8 +2716,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
@@ -2490,8 +2803,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
@@ -2558,9 +2871,9 @@
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-19"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
@@ -2639,9 +2952,9 @@
 		<passive_effect name="MaxRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-29"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-25"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
@@ -2720,9 +3033,9 @@
 		<passive_effect name="MaxRange" operation="base_set" value="70"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-80"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-76"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
@@ -2817,8 +3130,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
@@ -2906,8 +3219,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
@@ -2994,8 +3307,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
@@ -3083,8 +3396,8 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
@@ -3149,15 +3462,13 @@
 				<property name="ScopeCameraOffset" value="0.000,0,0.065"/>
 				</property>
 			<effect_group name="Base Effects">
-		<passive_effect name="MaxRange" operation="base_set" value="15"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="10"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
+		<passive_effect name="MaxRange" operation="base_set" value="20"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="15"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="35"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="3"/>
-		<passive_effect name="WalkSpeed" operation="base_set" value="0.75"/>
-		<passive_effect name="RunSpeed" operation="base_set" value="0.85"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
@@ -4200,13 +4511,12 @@
 	<property name="DescriptionKey" value="HDElectrolyteDesc"/>
 </item>
 
-<item name="gunJunkTurretSchematic">
+<item name="HD Junk Turret Schematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="gunJunkTurret"/>
-	<property name="Unlocks" value="gunJunkTurret"/>
+	<property name="CustomIcon" value="HD Junk Turret Schematic"/>
+	<property name="Unlocks" value="HD Junk Turret 9mm"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunJunkTurret" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Junk Turret 9mm" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Junk Turret 762mm" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Junk Turret 50mm" operation="set" value="1"/>
@@ -4231,7 +4541,7 @@
 	<property name="EconomicValue" value="950"/>
 	<property name="SellableToTrader" value="true"/>
 	<property name="RequiredPower" value="15"/>
-	<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic"/>
+	<property name="UnlockedBy" value="perkTurrets,HD Junk Turret Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -4312,7 +4622,7 @@
 	<property name="EconomicValue" value="950"/>
 	<property name="SellableToTrader" value="true"/>
 	<property name="RequiredPower" value="15"/>
-	<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic"/>
+	<property name="UnlockedBy" value="perkTurrets,HD Junk Turret Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -4393,7 +4703,7 @@
 	<property name="EconomicValue" value="950"/>
 	<property name="SellableToTrader" value="true"/>
 	<property name="RequiredPower" value="15"/>
-	<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic"/>
+	<property name="UnlockedBy" value="perkTurrets,HD Junk Turret Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -5152,7 +5462,7 @@
 	<property name="DisplayType" value="medical"/>
 	<property name="CustomIcon" value="Penthrox Injection"/>
 	<property name="HoldType" value="16"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="950"/>
 	<property name="Stacknumber" value="20000"/>

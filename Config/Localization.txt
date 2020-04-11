@@ -1,5 +1,17 @@
 Key,Source,Context,Changes,English
 
+CPTampax,items,Item,KgNone,CP Tampax,
+CPTeadybear,items,Item,KgNone,CP Teadybear,
+CPWaterBottle,items,Item,KgNone,CP Water Bottle,
+CPDvd,items,Item,KgNone,CP Dvd,
+
+HDCarePackageDesc,items,Item,New,OMG A Care Package For All You Rage Quitters.
+CPTampaxDesc,items,Item,New,Scrap Me For Resources.
+
+HDCarePackageDesc,items,Item,New,Open Me For Resources.
+
+medicalBloodDrawKit,items,Item,KgNone,Blood Draw Kit,
+
 HDBowl,items,Item,KgNone,HD Bowl,
 
 HDBowlDesc,items,Item,New,A Basic Clay Bowl used for Hot Meals.
@@ -14,11 +26,11 @@ HDGun Oil,items,Item,KgNone,HD Gun Oil,
 
 HDBlunderbussDesc,items,Item,New,HD BlunderBuss. A Powerful Starter Weapon when combined with Gunpowder And Stone.
 
-RepairKitIronToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Steel Tools.
+RepairKitSteelToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Steel Tools.
 
 RepairKitIronTools,items,Item,KgNone,HD Repair Kit Iron Tools,
 
-RepairKitSteelToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Iron Tools.
+RepairKitIronToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Iron Tools.
 
 RepairKitSteelTools,items,Item,KgNone,HD Repair Kit Steel Tools,
 

@@ -5,7 +5,7 @@
 	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">3</set>
 	
 <append xpath="/buffs">
-	
+
 <buff name="buffMREInfectionAddCure" name_key="buff Infection Add Cure" hidden="true" icon="ui_game_symbol_pills">
 	<stack_type value="ignore"/>
 	<duration value=".1"/>
