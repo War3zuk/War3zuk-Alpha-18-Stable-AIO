@@ -292,7 +292,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="900"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -523,7 +523,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -545,7 +545,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -567,7 +567,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -589,7 +589,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -612,7 +612,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MresourceScrapBrassLarge"/>
 	<property name="MeltTimePerUnit" value=".4"/>
-	<property name="Stacknumber" value="250"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="125"/>
 	<property name="EconomicValue" value="35"/>
 	<property name="Group" value="Resources"/>

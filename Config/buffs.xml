@@ -121,7 +121,7 @@
 	<effect_group>
 		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="BUFFBloodDrawSideEffect"/>
 		<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="BUFFBloodDrawSideEffect">
-		<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="100"/>
+		<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="5"/>
 		</triggered_effect>
 		</effect_group>
 </buff>
