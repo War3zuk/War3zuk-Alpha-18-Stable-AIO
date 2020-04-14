@@ -4,6 +4,8 @@ Updated v2.83 to v2.84
 
 Updated Material On HD Power Relay
 Added HD Working Fridge (Fills Water)
+Updated HD Taza Axe
+Updated HD Junk Turret Recipe
 
 Update v2.82 to v2.83
 

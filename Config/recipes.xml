@@ -1129,7 +1129,7 @@
 	
 <recipe name="HD Junk Turret 9mm" count="1" craft_time = "60" craft_area="HD WorkBench" tags="learnable,perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
-	<ingredient name="gunJunkTurretParts" count="4"/>
+	<ingredient name="gunJunkTurretParts" count="2"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
 	<ingredient name="resourceSpring" count="10"/>
@@ -1137,7 +1137,7 @@
 
 <recipe name="HD Junk Turret 762mm" count="1" craft_time = "100" craft_area="HD WorkBench" tags="learnable,perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
-	<ingredient name="gunJunkTurretParts" count="7"/>
+	<ingredient name="gunJunkTurretParts" count="4"/>
 	<ingredient name="resourceDuctTape" count="20"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceSpring" count="20"/>
@@ -1145,7 +1145,7 @@
 
 <recipe name="HD Junk Turret 50mm" count="1" craft_time = "120" craft_area="HD WorkBench" tags="learnable,perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
-	<ingredient name="gunJunkTurretParts" count="10"/>
+	<ingredient name="gunJunkTurretParts" count="6"/>
 	<ingredient name="resourceDuctTape" count="30"/>
 	<ingredient name="resourceScrapPolymers" count="30"/>
 	<ingredient name="resourceSpring" count="30"/>
