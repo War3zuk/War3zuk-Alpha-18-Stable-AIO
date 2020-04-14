@@ -1,5 +1,12 @@
 Key,Source,Context,Changes,English
 
+tooltipJammed,UI,Menu,,,[d50937]<{0}> Use {1} ([d50937]Jammed[-]),
+
+tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
+tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
+
+lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
+
 CPTampax,items,Item,KgNone,CP Tampax,
 CPTeadybear,items,Item,KgNone,CP Teadybear,
 CPWaterBottle,items,Item,KgNone,CP Water Bottle,
@@ -234,7 +241,9 @@ HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed 
 
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
 
-HDWorkingDispenserDesc,blocks,Block Building,,Place your Empty Jars in an active Slot on your HotBar & fill the same as from a River or Pool with the Left Click while facing it.
+HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item & Use LMB
+
+HDWorkingFridgeDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item & Use LMB
 
 PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless you Engage them.
 

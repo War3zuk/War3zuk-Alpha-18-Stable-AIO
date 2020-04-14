@@ -1,0 +1,7 @@
+<configs>
+
+		<set xpath="/windows/window[@name='menuBackground']/texture/@texture">@modfolder:Textures/menu/WARmenu_background.png</set>
+
+		<set xpath="/windows/window[@name='mainMenuLogo']/texture/@texture">@modfolder:Textures/menu/WARlogo.png</set>
+
+</configs>

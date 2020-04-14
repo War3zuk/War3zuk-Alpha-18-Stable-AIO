@@ -1,5 +1,10 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.83 to v2.84
+
+Updated Material On HD Power Relay
+Added HD Working Fridge (Fills Water)
+
 Update v2.82 to v2.83
 
 Fixed Small But Important Error In Progression.xml

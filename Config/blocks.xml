@@ -545,10 +545,10 @@
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/HD Range Cooker.unity3d?HD Range Cooker.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
-	<property name="Material" value="Mmetal_thin" />
+	<property name="Material" value="Mmetal" />
 	<property name="LootList" value="130" />
 	<drop event="Destroy" name="HD Working Oven" count="1" />
-		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
 	<property name="HeatMapStrength" value="1"/>
 	<property name="HeatMapTime" value="100"/>
 	<property name="HeatMapFrequency" value="10"/>
@@ -558,13 +558,15 @@
 		<property name="Modules" value="tools,output,input"/>
 		<property name="CraftingAreaRecipes" value="campfire" />
 	</property>
+	<property name="EconomicValue" value="1250"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 	
 <block name="HD Working Dispenser">
 	<property name="CustomIcon" value="HD Working Dispenser"/>
-	<property name="DescriptionKey" value="HDWorkingDispenserDesc"/>
-	<property name="Material" value="Mmetal_thin"/>
-	<property name="StabilitySupport" value="false"/>
+	<property name="DescriptionKey" value="HDWDDesc"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="StabilitySupport" value="true"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="#@modfolder:Resources/HD Water Dispenser.unity3d?HD Water Dispenser.Prefab"/>
@@ -576,7 +578,32 @@
 	<property name="Class" value="SecureLoot"/>
 	<property name="LootList" value="131"/>
 		<drop event="Destroy" name="HD Working Dispenser" count="1" />
-		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
+	<property name="EconomicValue" value="750"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="HD Working Fridge">
+	<property name="CustomIcon" value="HD Working Fridge"/>
+	<property name="DescriptionKey" value="HDWorkingFridgeDesc"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Mesh" value="models"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HD Working Fridge.unity3d?HD Working Fridge.Prefab"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="131"/>
+		<drop event="Destroy" name="HD Working Fridge" count="1" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
+	<property name="EconomicValue" value="1500"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 	
 <block name="HD DrawBridge">
@@ -2111,12 +2138,12 @@
 <block name="HD Power Relay Block">
 	<property name="CustomIcon" value="HD Power Relay Block"/>
 	<property name="Class" value="ElectricWire"/>
-	<property name="Material" value="MBreachingMine"/>
+	<property name="Material" value="MTitaniumPolish"/>
 	<property name="StabilitySupport" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="Stacknumber" value="500"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Shape" value="New"/>
 	<property name="Texture" value="307"/>
 	<property name="Model" value="cube"/>

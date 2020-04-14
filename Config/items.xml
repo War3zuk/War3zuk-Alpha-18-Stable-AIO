@@ -1368,6 +1368,7 @@
 		<property name="Delay" value="1.0" />
 		<property name="Change_item_to" value="drinkJarRiverWater" />
 		<property name="Focused_blockname_1" value="HD Working Dispenser" />
+		<property name="Focused_blockname_2" value="HD Working Fridge" />
 		<property name="Sound_start" value="bucketfill_water" />
 	</property>
 	<property class="Action1">
@@ -4405,7 +4406,7 @@
 	<property name="RepairTools" value="RepairKitIronTools"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD MiniHatchet.unity3d?HDMiniHatchet.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Hatchet.Prefab"/>
 	<property name="CustomIcon" value="HD Mini Hatchet"/>
 	<property class="Action0">
 		<property name="Sound_start" value="swoosh"/>
@@ -4439,7 +4440,7 @@
 	<property name="Extends" value="meleeToolStoneAxe"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD MiniHatchet1.unity3d?HDMiniHatchet1.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Taza Hatchet.Prefab"/>
 	<property name="CustomIcon" value="HD Tazas Hatchet"/>
 	<property class="Action0">
 		<property name="Sound_start" value="swoosh"/>

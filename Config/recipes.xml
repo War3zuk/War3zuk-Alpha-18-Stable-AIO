@@ -862,19 +862,27 @@
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
-<recipe name="HD Working Oven" count="1" craft_area="HD WorkBench" craft_time="30" >
-    <ingredient name="resourceForgedIron" count="30" />
-	<ingredient name="resourceMechanicalParts" count="5"/>
+<recipe name="HD Working Oven" count="1" craft_area="HD WorkBench" craft_time="45" >
+    <ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
-    <ingredient name="toolCookingGrill" count="1" />
-	<ingredient name="resourceSpring" count="4"/>
+    <ingredient name="toolCookingGrill" count="1"/>
+	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 	
 <recipe name="HD Working Dispenser" count="1" craft_area="HD WorkBench" craft_time="30" >
 	<ingredient name="resourceScrapPolymers" count="100"/>
-    <ingredient name="resourceWood" count="20" />
-    <ingredient name="resourceForgedIron" count="20"/>
+    <ingredient name="resourceWood" count="20"/>
+    <ingredient name="resourceForgedIron" count="30"/>
     <ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+
+<recipe name="HD Working Fridge" count="1" craft_area="HD WorkBench" craft_time="60" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+    <ingredient name="resourceForgedIron" count="75"/>
+    <ingredient name="resourceMechanicalParts" count="30"/>
+    <ingredient name="resourceMetalPipe" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 </recipe>
 

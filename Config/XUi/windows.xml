@@ -1,5 +1,23 @@
 <configs>
 	
+	<remove xpath="/windows/window[@name='ingameMenu']" />
+
+	<append xpath="/windows">
+	<window name="ingameMenu" pos="360,0" size="408,1080" controller="InGameMenuWindow" cursor_area="true">
+			<sprite name="WARingameMenuBG" depth="2" pos="60,0" size="408,1080" atlas="uiAtlas" sprite="WARmenu_background" color="[menuElementsMenuBG]" pivot="center" globalopacitymod="1.5" />
+			<grid name="buttons" pos="0, -0" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
+				<simplebutton name="btnInvite" depth="3" width="250" height="46" caption_key="xuiMenuInvite" font_size="40" />
+				<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
+				<simplebutton name="btnHelp" depth="3" width="250" height="46" caption_key="xuiMenuHelp" font_size="40" />
+				<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
+				<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
+				<simplebutton name="btnExportPrefab" depth="3" width="250" height="46" caption_key="xuiMenuExportPrefab" font_size="40" />
+			</grid>
+			<label name="SMXeditionInfo" depth="9" pos="60,-470" size="250,33" text="Stable Release Version" font_size="16" color="[menuElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="center" pivot="center" />
+			<label name="SMXversionInfo" depth="9" pos="60,-490" size="250,33" text="War3zuk AIO v2.83" font_size="16" color="[menuElementsLBLSec]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" />
+	</window>
+	</append>
+	
 	<append xpath="/windows">
 	<window name="WARwindowOutput" width="378" height="198" anchor="CenterTop" panel="Right" cursor_area="true" >
 		<panel style="header.panel">
