@@ -1374,7 +1374,7 @@
 	<property class="Action1">
 	<property name="Class" value="ExchangeItem" />
 	<property name="Delay" value="1.0" />
-	<property name="Change_item_to" value="drinkJarRiverWater" />
+	<property name="Change_item_to" value="drinkJarPureMineralWater" />
 	<property name="Do_block_action" value="deplete1" />
 	<property name="Focused_blockname_1" value="water" />
 	<property name="Focused_blockname_2" value="waterMoving" />
