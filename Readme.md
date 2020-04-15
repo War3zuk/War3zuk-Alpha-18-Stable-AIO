@@ -6,6 +6,8 @@ Updated Material On HD Power Relay
 Added HD Working Fridge (Fills Water)
 Updated HD Taza Axe
 Updated HD Junk Turret Recipe
+Fixed Schematic XP Default 200xp
+Added HD Double Barrel To (Military Loot Chance)
 
 Update v2.82 to v2.83
 

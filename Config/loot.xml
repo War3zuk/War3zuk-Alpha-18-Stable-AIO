@@ -139,6 +139,10 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item group="groupAmmoRegular" prob=".5" count="2"/>
+		<item group="groupWeaponsScaled" prob="0.1"/>
+		<item group="groupModAllScaled" prob="0.1"/>
+		<item group="groupArmorT3_Light" prob="0.1"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -195,6 +199,7 @@
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Ammo Care Package" count="1,2" prob="0.1"/>
+		<item name="HD Double Barrel" count="1,2" prob="0.05"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
