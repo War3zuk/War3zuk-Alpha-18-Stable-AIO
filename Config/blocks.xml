@@ -20,6 +20,30 @@
 	
 <append xpath="/blocks">
 	
+<block name="StormFall Monster Cola">
+	<property name="Material" value="Mglass"/>
+	<property name="IsTerrainDecoration" value="true"/>	
+	<property name="Shape" value="ModelEntity"/>	
+	<property name="Model" value="#@modfolder:Resources/StormFall Monster Cola.unity3d?StormFall Monster Cola.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="Place" value="TowardsPlacerInverted"/>			
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+	<property name="CustomIcon" value="" />
+	<property name="CanPickup" value="true" param1="StormFall Monster Cola"/>
+	<property name="Stabilitysupport" value="false"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Stacknumber" value="10"/>
+	<property class="RepairItems">
+		<property name="resourceBrokenGlass" value="1"/>
+		</property>
+	<property name="Group" value="Basics,Building"/>
+	<property name="DescriptionKey" value="StormFallMonsterColaDesc"/>
+	<property name="FilterTags" value="fdecor"/>
+	<property name="SortOrder1" value="70a0"/>	
+	<property name="MaxDamage" value="25"/>
+</block>
+	
 <block name="HD Ground Mine">
 	<property name="DescriptionKey" value="HDGroundMineDesc"/>
 	<property name="CustomIcon" value="HD Ground Mine" />
@@ -2528,10 +2552,9 @@
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="IsPlant" value="true"/>
-	<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest"/>
-	<drop event="Destroy" name="foodHoney" count="1" prob=".5"/>
-	<drop event="Destroy" name="HDNailGunBolt" count="5,10" prob=".1"/>
-	<drop event="Destroy" name="Food Supply Flare" count="1" prob=".1"/>
+	<drop event="Harvest" name="resourceWood" count="10,20" tag="oreWoodHarvest"/>
+	<drop event="Destroy" name="foodHoney"/>
+	<drop event="Destroy" name="HDNailGunBolt" count="5,10" prob=".2"/>
 	<property name="FilterTags" value="foutdoor,ftrees"/>
 	<property name="SortOrder1" value="a0d0"/>
 </append>
@@ -2713,22 +2736,311 @@
 	<append xpath="/blocks/block[@name='stainlessSteelWedgeTipCNRFullTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="Titanium Steel WedgeTipCNRFullTop"/> </property></append>
 	<append xpath="/blocks/block[@name='stainlessSteelWedgeTipStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="Titanium Steel WedgeTipStairs"/> </property></append>
 
-	<append xpath="/blocks/block[@name='plantedPotato3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedCorn3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedAloe3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedBlueberry3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedHop3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedYucca3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedCotton3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedCoffee3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='mushroom01']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedSnowberry3Harvest']"><property name="Class" value="CropsGrown"/></append>
-	<append xpath="/blocks/block[@name='plantedMushroom3Harvest']"><property name="Class" value="CropsGrown"/></append>
+	<append xpath="/blocks/block[@name='plantedCornDead']">
+		<drop event="Destroy" name="plantedCorn1" count="1"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='mushroom01']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="foodCropMushrooms"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="foodCropYuccaFruit"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedCotton3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="resourceCropCottonPlant"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedCoffee3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="resourceCropCoffeeBeans"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="resourceCropGoldenrodPlant"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="resourceCropAloeLeaf"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedBlueberry3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="foodCropBlueberries"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="foodCropPotato"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="resourceCropChrysanthemumPlant"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="foodCropCorn"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="foodCropGraceCorn"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='plantedHop3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="resourceCropHopsFlower"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='plantedSnowberry3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="resourceCropSnowberryPlant"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
+		
+	<append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+		<property name="Create_item" value="foodCropPumpkin"/>
+		<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+	</append>
 
 <append xpath="/blocks">
+	
+<block name="HDplantedMushroom1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Mesh" value="models"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Model" value="OutdoorDecor/mushroom01" param1="main_mesh"/> <property name="HandleFace" value="Bottom"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedMushroom3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="1" tag="cropHarvest"/>
+</block>
+	
+<block name="HDplantedYucca1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="1" tag="cropHarvest"/>
+</block>
+	
+<block name="HDplantedCotton1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="20"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedCotton3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="1" tag="cropHarvest"/>
+</block>	
+	
+<block name="HDplantedCoffee1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="393"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedCoffee3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="plantedCoffee3Harvest" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedGoldenrod1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="401"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedAloe1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedAloe3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedBlueberry1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedPotato1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="foodCropPotato" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedChrysanthemum1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="551"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedChrysanthemum3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedCorn1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="foodCropCorn" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedHop1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="447"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedHop3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedSnowberry1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="350"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedSnowberry1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedSnowberry3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="resourceCropSnowberryPlant" count="1" tag="cropHarvest"/>
+</block>
+
+<block name="HDplantedPumpkin1">
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="DescriptionKey" value="plantedGraceCorn3HarvestDesc"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
+	<property name="PlantGrowing.GrowthRate" value="90"/>
+	<property name="PlantGrowing.Next" value="plantedPumpkin3Harvest"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="15"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="1" tag="cropHarvest"/>
+</block>
 
 <block name="Titanium Steel Arch">
 	<property name="CustomIcon" value="stainlessSteelArch"/> <property name="CustomIconTint" value="#1F2020"/>

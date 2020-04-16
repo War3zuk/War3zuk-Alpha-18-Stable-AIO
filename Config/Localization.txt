@@ -5,11 +5,25 @@ tutorialTipQuest01,Journal,,,,"Greetings WasteLander,\n\nThis OverHaul will take
 tutorialTipQuest02,Journal,,,,"Basic Survival has been shortened to Crafting your BedRoll & placing it down. Once this is done you will be directed to the nearest Trader & once spoken too he will activate your main quests to fullfill during game play. Once a Quest is complete to Tier5 you will be granted a Shelf that once placed will give you access to that particular trades Items.",
 
 tooltipJammed,UI,Menu,,,[d50937]<{0}> Use {1} ([d50937]Jammed[-]),
-
 tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
 tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
-
 lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
+
+StormFallMonsterColaDesc,items,Food,New,Yum StormFall Monster Cola! Recover quicker. Increased Melee Damage. Also restores some stamina And some Health,
+
+HDplantedMushroom1,blocks,Block Building,KgNone,HD Mushroom Seedling,
+HDplantedYucca1,blocks,Block Building,KgNone,HD Yucca Seedling,
+HDplantedCotton1,blocks,Block Building,KgNone,HD Cotton Seedling,
+HDplantedCoffee1,blocks,Block Building,KgNone,HD Coffee Seedling,
+HDplantedGoldenrod1,blocks,Block Building,KgNone,HD Goldenrod Seedling,
+HDplantedAloe1,blocks,Block Building,KgNone,HD Aloe Seedling,
+HDplantedBlueberry1,blocks,Block Building,KgNone,HD Blueberry Seedling,
+HDplantedPotato1,blocks,Block Building,KgNone,HD Potato Seedling,
+HDplantedChrysanthemum1,blocks,Block Building,KgNone,HD Chrysanthemum Seedling,
+HDplantedCorn1,blocks,Block Building,KgNone,HD Corn Seedling,
+HDplantedHop1,blocks,Block Building,KgNone,HD Hops Seedling,
+HDplantedSnowberry1,blocks,Block Building,KgNone,HD SnowBerry Seedling,
+HDplantedPumpkin1,blocks,Block Building,KgNone,HD Pumpkin Seedling,
 
 CPTampax,items,Item,KgNone,CP Tampax,
 CPTeadybear,items,Item,KgNone,CP Teadybear,

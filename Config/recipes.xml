@@ -5,6 +5,11 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="StormFall Monster Cola" count="1" craft_time = "10">
+	<ingredient name="drinkNukaCola" count="2"/>
+	<ingredient name="drinkNukaCherry" count="2"/>
+</recipe>
+	
 <recipe name="HDammoBundle9mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="80"/>
@@ -1874,6 +1879,62 @@
 <recipe name="modDyeYellow" count="1" craft_area="HD PicsBench" craft_time = "10">
 	<ingredient name="resourcePaint" count="20"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="HDplantedMushroom1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedYucca1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCotton1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCoffee1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedGoldenrod1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedAloe1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedBlueberry1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedPotato1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedChrysanthemum1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCorn1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedHop1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedSnowberry1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedPumpkin1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="foodCropGraceCorn" count="1" craft_time = "0.5">
+	<ingredient name="foodCropCorn" count="10"/>
 </recipe>
 
 </append>

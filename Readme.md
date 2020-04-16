@@ -1,5 +1,29 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.84 to v2.85
+
+This Updated Is ONLY Farming As Theres A Bit
+To Explain..
+
+Added the ability to Craft SuperCorn From Corn
+SuperCorn is unlocked at Level 5 Living Of The Land
+Or by its schematic like Vanilla
+
+SuperCorn can now craft all Seeds that make a New Seed
+Called HD (PlantType) Seedling which will grow above ground
+or below so Underground base farming is possible, Timer for
+new plants is 90 Mins real time from Seedling To Harvestable
+Plant & is affected by the Perk Living Of The Land
+
+All plants in game now work with the Living Of The Land Perk
+Max 3 at Level 5 with extra Books
+
+These are all crafted on the player once youve unlocked it
+All HD Crops require a Plot Including the Mushrooms But as stated
+will grow with or without sunlight
+
+Added Storm Monster Cola
+
 Updated v2.83 to v2.84
 
 Updated Material On HD Power Relay

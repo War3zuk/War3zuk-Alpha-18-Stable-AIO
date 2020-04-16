@@ -5,6 +5,25 @@
 	
 <append xpath="/buffs">
 	
+<buff name="BUFFStormFall" name_key="StormFall" description_key="Yum StormFall Monster Cola! Recover quicker, Increased Melee Damage, Also restores some stamina And some Health. Your Max Run Speed has also been Buffed use it wisely haha!" icon="ui_game_symbol_StormFall">
+	<stack_type value="replace"/>
+	<duration value="260"/>
+	<effect_group>
+		<passive_effect name="RunSpeed" operation="perc_add" value=".4"/>
+		<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.10"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.30">
+			<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+		</passive_effect>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.30">
+			<requirement name="HasBuff" buff="buffHealWaterMax"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value="5">
+			<requirement name="HoldingItemHasTags" tags="fists,melee" />
+		</passive_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="20"/>
+	</effect_group>
+</buff>
+	
 <buff name="buffMREInfectionAddCure" name_key="buff Infection Add Cure" hidden="true" icon="ui_game_symbol_pills">
 	<stack_type value="ignore"/>
 	<duration value=".1"/>
