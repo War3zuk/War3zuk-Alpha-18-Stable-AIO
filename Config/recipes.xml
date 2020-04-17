@@ -1099,20 +1099,36 @@
 	<ingredient name="resourcePaper" count="50"/>
 </recipe>
 
-<recipe name="HD Cell" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
-	<ingredient name="resourceForgedSteel" count="25"/>
-	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="carBattery" count="4"/>
-	<ingredient name="resourceOil" count="10"/>
+<recipe name="HD Gas Generator" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+	<ingredient name="resourceElectricParts" count="15"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="5"/>
 </recipe>
 
 <recipe name="HD Generator" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
-	<ingredient name="resourceForgedIron" count="150"/>
-	<ingredient name="resourceMechanicalParts" count="50"/>
-	<ingredient name="resourceElectricParts" count="25"/>
-	<ingredient name="resourceScrapPolymers" count="25"/>
-	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>
+	
+<recipe name="HD High Torque Motor" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="smallEngine" count="4"/>
+	<ingredient name="resourceOil" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+</recipe>
+
+<recipe name="HD Cell" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="carBattery" count="4"/>
+	<ingredient name="resourceOil" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
 </recipe>
 
 <recipe name="Golden Coin" craft_time="5" count="1">

@@ -56,6 +56,8 @@
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.1"/>
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
@@ -144,6 +146,8 @@
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Ammo Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='21']" >
@@ -223,6 +227,8 @@
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Ammo Care Package" count="1,2" prob="0.1"/>
 		<item name="HD Double Barrel" count="1,2" prob="0.05"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
@@ -271,6 +277,8 @@
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Ammo Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
@@ -285,16 +293,8 @@
 		<item group="trophyGroup"/>
 		<item name="resourceGunPowder" count="5,10"/>
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
-		<item group="groupApparelClothes" prob="10"/>
-		<item group="groupApparelHats" prob="4"/>
-		<item group="groupArmorScaled" prob="2"/>
-		<item group="groupAmmoRegular" prob="0.02"/>
-		<item group="books" count="1,2"/>
-		<item name="resourcePaper" count="1,2" prob="0.1"/>
-		<item name="oldCash" count="1,40" prob="0.1"/>
-		<item group="medicine" prob="0.1"/>
-		<item group="trophyGroup"/>
-		<item name="resourceGunPowder" count="10,50"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
@@ -395,6 +395,8 @@
 		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.1"/>
 		<item name="HD Cnc Automatics Schematic" count="1" prob="0.1"/>
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='64']" >
@@ -485,6 +487,8 @@
 		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.1"/>
 		<item name="HD Cnc Automatics Schematic" count="1" prob="0.1"/>
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='95']" >
@@ -581,16 +585,14 @@
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Building Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='51']" >
 		<item group="medicine"/>
 		<item name="resourceScrapPolymers" count="5,10" prob="0.3"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
-		<item name="HD GunBench Schematic" count="1" prob="0.1"/>
-		<item name="HD WorkBench Schematic" count="1" prob="0.1"/>
-		<item name="HD AmmoBench Schematic" count="1" prob="0.1"/>
-		<item name="HD PicsBench Schematic" count="1" prob="0.1"/>
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
 		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
 		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
@@ -602,10 +604,6 @@
 	<append xpath="/lootcontainers/lootcontainer[@id='96']" >
 		<item group="labEquipment" prob="0.5"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
-		<item name="HD GunBench Schematic" count="1" prob="0.1"/>
-		<item name="HD WorkBench Schematic" count="1" prob="0.1"/>
-		<item name="HD AmmoBench Schematic" count="1" prob="0.1"/>
-		<item name="HD PicsBench Schematic" count="1" prob="0.1"/>
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
 		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
 		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
@@ -620,10 +618,6 @@
 		<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
 		<item name="medicalAloeCream" count="4,10" prob=".05"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
-		<item name="HD GunBench Schematic" count="1" prob="0.1"/>
-		<item name="HD WorkBench Schematic" count="1" prob="0.1"/>
-		<item name="HD AmmoBench Schematic" count="1" prob="0.1"/>
-		<item name="HD PicsBench Schematic" count="1" prob="0.1"/>
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
 		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
 		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
@@ -813,17 +807,17 @@
 	<item name="resourceOilShale" count="20,120" prob="0.1"/>
 	<item name="resourceCobblestones" count="40,120" prob="0.1"/>
 	<item name="resourceRadiator" count="1,2" prob="0.1"/>
-	<item name="resourceRockSmallBundle" count="1" prob="0.005"/>
-	<item name="resourceWoodBundle" count="1" prob="0.005"/>
-	<item name="resourceIronFragmentBundle" count="1" prob="0.005"/>
-	<item name="resourcePotassiumNitratePowderBundle" count="1" prob="0.005"/>
-	<item name="resourceLeadBundle" count="1" prob="0.005"/>
-	<item name="resourceCoalBundle" count="1" prob="0.005"/>
-	<item name="resourceOilShaleBundle" count="1" prob="0.005"/>
-	<item name="ammoGasCanBundle" count="1,1" prob="0.005"/>
-	<item name="resourceSilverNugget" count="2,6" prob="0.005"/>
-	<item name="resourceGoldNugget" count="2,6" prob="0.005"/>
-	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
+	<item name="resourceRockSmallBundle" count="1" prob="0.006"/>
+	<item name="resourceWoodBundle" count="1" prob="0.006"/>
+	<item name="resourceIronFragmentBundle" count="1" prob="0.006"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1" prob="0.006"/>
+	<item name="resourceLeadBundle" count="1" prob="0.006"/>
+	<item name="resourceCoalBundle" count="1" prob="0.006"/>
+	<item name="resourceOilShaleBundle" count="1" prob="0.006"/>
+	<item name="ammoGasCanBundle" count="1,1" prob="0.006"/>
+	<item name="resourceSilverNugget" count="2,6" prob="0.006"/>
+	<item name="resourceGoldNugget" count="2,6" prob="0.006"/>
+	<item name="resourceRawDiamond" count="2,6" prob="0.006"/>
 </lootcontainer>
 		   
 <lootcontainer id="519" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">

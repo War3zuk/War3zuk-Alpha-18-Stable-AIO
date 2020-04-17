@@ -1,5 +1,13 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.85 to v2.86
+
+Added HD Generator (Hires PBR Model)
+Added HD Gas Generator (Hires PBR Model)
+Added HD Gas Generator Icons 256x256
+Added HD Generator Schematic
+Added HD Gas Generator Schematic
+
 Updated v2.84 to v2.85
 
 This Updated Is ONLY Farming As Theres A Bit

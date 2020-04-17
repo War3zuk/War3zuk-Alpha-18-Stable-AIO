@@ -1690,8 +1690,49 @@
 	<property name="FilterTags" value="floot"/>
 </block>
 		
+<block name="HD Gas Generator">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Generator"/>
+	<property name="DisplayType" value="blockElectricalHardened"/>
+	<property name="UnlockedBy" value="HD Gas Generator Schematic"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HD Gas Generator.unity3d?HD Gas Generator.Prefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DescriptionKey" value="HDGasGeneratorDesc"/>
+	<property name="MaxFuel" value="40000"/>
+			<property name="OutputPerFuel" value="850000"/>
+			<property name="MaxPower" value="60000"/>
+			<property name="OutputPerStack" value="20000"/>
+	<property name="SlotItem" value="HD High Torque Motor"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		<property name="resourceMechanicalParts" value="10"/>
+		<property name="resourceElectricParts" value="10"/>
+		<property name="resourceElectricParts" value="10"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,4" prob="0.6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,4" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="TakeDelay" value="15"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+        
 <block name="HD Generator">
-	<property name="CustomIcon" value="HD Genny"/>
+	<property name="CustomIcon" value="HD Generator"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="BatteryBank"/>
 	<property name="Material" value="MstainlessSteel"/>
@@ -1699,7 +1740,7 @@
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="Model" value="#@modfolder:Resources/HD Generator.unity3d?HD Generator.Prefab"/> <property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DescriptionKey" value="HDGeneratorDesc"/>
@@ -1713,9 +1754,9 @@
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="10"/>
-		<property name="resourceElectricParts" value="4"/>
-		<property name="resourceElectricParts" value="4"/>
-		<property name="resourceScrapPolymers" value="4"/>
+		<property name="resourceElectricParts" value="10"/>
+		<property name="resourceElectricParts" value="10"/>
+		<property name="resourceScrapPolymers" value="10"/>
 	</property>
 	<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
@@ -2189,8 +2230,8 @@
 	<property name="TraderID" value="10"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<drop event="Destroy" name="ClassBuilderVendingMachine" count="0"/>
-	<property name="TakeDelay" value="10"/>
+	<drop event="Destroy" name="Class Builder VM" count="1"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
@@ -2204,8 +2245,8 @@
 	<property name="TraderID" value="11"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<drop event="Destroy" name="Class Engineer VM" count="0"/>
-	<property name="TakeDelay" value="10"/>
+	<drop event="Destroy" name="Class Engineer VM" count="1"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
@@ -2219,8 +2260,8 @@
 	<property name="TraderID" value="12"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<drop event="Destroy" name="Class Farmer VM" count="0"/>
-	<property name="TakeDelay" value="10"/>
+	<drop event="Destroy" name="Class Farmer VM" count="1"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
@@ -2234,8 +2275,8 @@
 	<property name="TraderID" value="13"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<drop event="Destroy" name="Class Gunman VM" count="0"/>
-	<property name="TakeDelay" value="10"/>
+	<drop event="Destroy" name="Class Gunman VM" count="1"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
@@ -2249,8 +2290,8 @@
 	<property name="TraderID" value="14"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<drop event="Destroy" name="Class Mechanic VM" count="0"/>
-	<property name="TakeDelay" value="10"/>
+	<drop event="Destroy" name="Class Mechanic VM" count="1"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
@@ -2264,8 +2305,8 @@
 	<property name="TraderID" value="15"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<drop event="Destroy" name="Class Medic VM" count="0"/>
-	<property name="TakeDelay" value="10"/>
+	<drop event="Destroy" name="Class Medic VM" count="1"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>

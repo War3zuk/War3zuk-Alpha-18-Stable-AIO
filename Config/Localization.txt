@@ -9,6 +9,13 @@ tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
 tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
 lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
 
+HDGasGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
+HDGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
+
+HDMotorDesc,items,,,A specialised High Torque Motor that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Motors.
+
+HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Cells.
+
 medicalBloodDrawKitDesc,items,,,Medical Blood Draw Kit IMPORTANT.\n\nThis Kit is used for the creation of BloodBags.\n\nIt will Remove 50 Percent of your HP & Deplete Water And Food.\n\nIf Exploited It will also Reduce ALL Skills To L3.
 
 medicalBloodDrawKit,items,Item,KgNone,Blood Draw Kit,
@@ -346,8 +353,6 @@ HDForgeDesc,blocks,,,Used to smelt advanced metals like Brass And Titanium.
 DonnasFubarStewDesc,items,Food,New,Donnas Fubar Stew comes straight from the Heart & Warms your Balls as well as your Soul.
 
 DonnasFubarSteakDesc,items,Food,New,A Fubar Steak used in making the Fubar Stew.
-
-HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Cells.
 
 HDXDesc,items,,,Xcalibur the ONLY bashing tool you need early game.
 

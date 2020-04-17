@@ -4511,13 +4511,40 @@
 	</effect_group>
 </item>
 
+<item name="HD High Torque Motor">
+	<property name="CustomIcon" value="HD High Torque Motor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MsmallEngine"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="200"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="Group" value="Resources"/>
+	<property name="DescriptionKey" value="HDMotorDesc"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property class="Attributes">
+		<property name="DegradationMax" value="70000000,75000000"/>
+		<property name="VehicleNoise" value="1,0.1"/>
+		<property name="VehicleMaxSpeed" value="5,18"/>
+		<property name="VehicleAcceleration" value="7,14"/>
+		<property name="VehicleMetersPerLiter" value="8,12"/>
+		<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+		<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
+		<property name="VehicleStartChance" value="0.5,0.99"/>
+		<property name="VehicleTankSize" value="40000, 50000"/>
+		<property name="VehicleFuelItem" value="ammoGasCan"/>
+	</property>
+</item>
+		
 <item name="HD Cell">
 	<property name="CustomIcon" value="HD Cell"/>
 	<property name="HoldType" value="45"/>
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="UnlockedBy" value="perkYeahScience"/>
 	<property name="Material" value="MresourceScrapLeadLarge"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="Weight" value="160"/>
@@ -4527,13 +4554,13 @@
 	<property name="ShowQuality" value="false"/>
 	<property name="DescriptionKey" value="HDCellDesc"/>
 	<property class="Attributes">
-		<property name="DegradationMax" value="10916,10922"/>
-		<property name="BatteryMaxLoadInVolts" value="10916, 10922"/>
-		<property name="BatteryDischargeTimeInMinutes" value="10916,10922"/>
+		<property name="DegradationMax" value="70000000,75000000"/>
+		<property name="BatteryMaxLoadInVolts" value="70000000, 75000000"/>
+		<property name="BatteryDischargeTimeInMinutes" value="70000000,75000000"/>
 	</property>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="6000,60000" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="70000000,75000000" tier="1,6"/>
 	</effect_group>
 </item>
 
@@ -6987,6 +7014,17 @@
 	<property name="Unlocks" value="HD Generator"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Generator" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+	</effect_group>
+</item>
+
+<item name="HD Gas Generator Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Gas Generator Schematic"/>
+	<property name="Unlocks" value="HD Gas Generator"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Gas Generator" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
 	</effect_group>
 </item>
