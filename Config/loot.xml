@@ -8,6 +8,15 @@
 	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,9</set>
 
 	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+		<item group="groupApparelClothes" prob="1"/>
+		<item group="trophyGroup"/>
+		<item group="groupAmmoRegular"/>
+		<item group="books"/>
+		<item group="medicine"/>
+		<item name="meleeToolFlashlight02"/>
+		<item name="apparelCigar" prob=".2"/>
+		<item name="oldCash" count="1,20" prob="0.5"/>
+		<item name="resourceSewingKit"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -50,6 +59,7 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
+		<item group="groupSafeLoot"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -91,6 +101,11 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item group="junk"/>
+		<item group="groupAmmoRegular"/>
+		<item group="books" prob="0.1"/>
+		<item group="dyes" prob="0.09"/>
+		<item name="meleeToolPaintTool" prob="0.04"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -132,6 +147,10 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='21']" >
+		<item group="rottenFood"/>
+		<item name="resourceScrapPolymers" count="5,10"/>
+		<item name="drinkJarEmpty"/>
+		<item name="drinkJarBoiledWater"/>
 		<item name="HD Food Care Package" count="1" prob="0.1"/>
 		<item name="Warm Chunky Beef" count="1" prob="0.1"/>
 		<item name="Warm Chunky Chili" count="1" prob="0.1"/>
@@ -139,6 +158,10 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item group="groupAmmoRegular" prob=".5" count="2"/>
+		<item group="groupWeaponsScaled" prob=".4"/>
+		<item group="groupModAllScaled" prob=".10"/>
+		<item group="groupArmorT3_Light" prob="0.2"/>
 		<item group="groupAmmoRegular" prob=".5" count="2"/>
 		<item group="groupWeaponsScaled" prob="0.1"/>
 		<item group="groupModAllScaled" prob="0.1"/>
@@ -203,6 +226,7 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
+		<item group="groupSafeLoot"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -250,6 +274,16 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
+		<item group="groupApparelClothes" prob="4"/>
+		<item group="groupApparelHats" prob="5"/>
+		<item group="groupArmorScaled" prob="2"/>
+		<item group="groupAmmoRegular" prob="0.02"/>
+		<item group="books" count="1,2"/>
+		<item name="resourcePaper" count="1,2" prob="0.2"/>
+		<item name="oldCash" count="1,40" prob="0.5"/>
+		<item group="medicine" prob="0.5"/>
+		<item group="trophyGroup"/>
+		<item name="resourceGunPowder" count="5,10"/>
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
 		<item group="groupApparelClothes" prob="10"/>
 		<item group="groupApparelHats" prob="4"/>
@@ -264,6 +298,12 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
+		<item group="groupAmmoRegular" prob=".3"/>
+		<item group="groupWeaponsScaled" prob=".4"/>
+		<item group="groupModAllScaled" prob=".1"/>
+		<item group="weaponParts" count="1,5" prob=".10"/>
+		<item group="groupArmorScaled" prob="0.2"/>
+		<item name="resourceRepairKit" count="2,3" prob="0.1"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -333,6 +373,7 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='60']" >
+		<item group="books" count="1,2" prob="0.3"/>
 		<item name="HD Forge Schematic" count="1" prob="0.1"/>
 		<item name="HD Wrench Schematic" count="1" prob="0.1"/>
 		<item name="HD Auger Schematic" count="1" prob="0.1"/>
@@ -363,6 +404,30 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+		<item group="cannedfood" count="1,2" prob="13"/>
+		<item name="drinkJarBeer" count="1,3" prob="5"/>
+		<item name="drinkJarBoiledWater" count="1,4" prob="10"/>
+		<item group="books" prob="6"/>
+		<item group="brassResource" prob="6"/>
+		<item name="resourceForgedIron" count="2,10" prob="3"/>
+		<item name="resourceForgedSteel" count="2,10" prob="3"/>
+		<item group="tools" prob="6"/>
+		<item group="rareTools" prob="3"/>
+		<item group="groupArmorScaled" prob="7"/>
+		<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" prob="0.5"/>
+		<item group="groupApparelClothes" prob="6"/>
+		<item group="warmClothes" prob=".2"/>
+		<item group="groupAmmoRegular" count="1,2" prob="13"/>
+		<item group="groupWeaponsScaled" prob="10"/>
+		<item name="apparelNightvisionGoggles" loot_prob_template="probTemplate1.0"/>
+		<item name="casinoCoin" count="200,410" prob="6"/>
+		<item name="oldCash" count="150,500" prob="6"/>
+		<item name="drugHerbalAntibiotics" count="1,2" prob="1.3"/>
+		<item group="rareMedicine" prob="2"/>
+		<item name="drugPainkillers" count="1,2" prob="3"/>
+		<item name="drugVitamins" count="1,2" prob="4.5"/>
+		<item group="groupTreasureMaps" prob="0.6"/>
+		<item group="groupQuestChallenge" prob="0.6"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -406,6 +471,9 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='83']" >
+		<item group="cannedfood" prob="0.8"/>
+		<item group="groupWeaponsScaled" prob="0.1"/>
+		<item group="groupArmorScaled" prob="0.1"/>
 		<item name="MRE Military Ration" count="0,1" prob="0.1"/>
 		<item name="Military Purify Tablets" count="2,4" prob="0.1"/>
 		<item name="HD Tool And Die Set Schematic" count="1" prob="0.1"/>
@@ -420,6 +488,12 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='95']" >
+		<item group="groupAmmoRegular" prob=".3" count="2,3"/>
+		<item group="groupWeaponsScaled" prob="0.3"/>
+		<item group="groupArmorScaled" prob="0.4"/>
+		<item group="groupModAllScaled" prob=".1"/>
+		<item group="commonBooks" count="1,2" prob="0.1"/>
+		<item group="rareBooks" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -462,6 +536,7 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+		<item group="groupAmmoPileLoot"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob="0.1"/>
@@ -509,6 +584,8 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='51']" >
+		<item group="medicine"/>
+		<item name="resourceScrapPolymers" count="5,10" prob="0.3"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
 		<item name="HD GunBench Schematic" count="1" prob="0.1"/>
 		<item name="HD WorkBench Schematic" count="1" prob="0.1"/>
@@ -523,6 +600,7 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='96']" >
+		<item group="labEquipment" prob="0.5"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
 		<item name="HD GunBench Schematic" count="1" prob="0.1"/>
 		<item name="HD WorkBench Schematic" count="1" prob="0.1"/>
@@ -535,6 +613,12 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='116']" >
+		<item group="labEquipment"/>
+		<item group="dyes" prob=".05"/>
+		<item name="resourceGunPowder" count="20,50" prob=".05"/>
+		<item name="resourceCropChrysanthemumPlant" count="5,12" prob=".05"/>
+		<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
+		<item name="medicalAloeCream" count="4,10" prob=".05"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
 		<item name="HD GunBench Schematic" count="1" prob="0.1"/>
 		<item name="HD WorkBench Schematic" count="1" prob="0.1"/>

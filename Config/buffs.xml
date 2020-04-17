@@ -7,6 +7,8 @@
 	
 <buff name="BUFFStormFall" name_key="StormFall" description_key="Yum StormFall Monster Cola! Recover quicker, Increased Melee Damage, Also restores some stamina And some Health. Your Max Run Speed has also been Buffed use it wisely haha!" icon="ui_game_symbol_StormFall">
 	<stack_type value="replace"/>
+	<display_value value=".buffDrugSteroidsDisplay"/>
+	<display_value_format value="time"/>
 	<duration value="260"/>
 	<effect_group>
 		<passive_effect name="RunSpeed" operation="perc_add" value=".4"/>

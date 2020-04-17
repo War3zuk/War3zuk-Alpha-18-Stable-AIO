@@ -304,24 +304,20 @@
 			</property>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
 	<effect_group tiered="false">
-		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+		<display_value name="dStrength" value="5"/>
+		<display_value name="dCarryCapacity" value="10"/>
+		<display_value name="$waterAmountAdd" value="-10"/>
+		<display_value name="dDuration" value="603"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="add" value="603"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="set" value="1803">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
-			<display_value name="dStaminaRegen" value=".15"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
-			<display_value name="dHypothermalResist" value="30"/>
-			<display_value name="dDuration" value="903"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffYuccaJuiceSmoothieDuration" operation="add" value="903"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffYuccaJuiceSmoothieDuration" operation="set" value="2703">
-			<requirement name="CVarCompare" cvar="$buffYuccaJuiceSmoothieDuration" operation="GT" value="2703"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
+			<requirement name="CVarCompare" cvar="$buffDrugSteroidsDuration" operation="GT" value="1803"/></triggered_effect>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,BUFFStormFall"/>
 	</effect_group>
-	<effect_group tiered="false">
-		<requirement name="HasBuff" buff="buffIsOnFire"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
-	</effect_group>
-</item>
-
+</item>	
 	
 <item name="HDammoBundle9mmBulletBall">
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
@@ -527,6 +523,7 @@
 </item>
 
 <item name="medicalBloodDrawKit">
+	<property name="DescriptionKey" value="medicalBloodDrawKitDesc"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="medicalBloodDrawKit"/>
 	<property name="HoldType" value="3"/>

@@ -23,6 +23,8 @@ All HD Crops require a Plot Including the Mushrooms But as stated
 will grow with or without sunlight
 
 Added Storm Monster Cola
+Fixed Medical Blood Draw Kit Description (Read Carefully)
+Fixed Some Loot Issues With Boxes
 
 Updated v2.83 to v2.84
 

@@ -36,6 +36,13 @@
 		<crafting_category_list display_type="HD AmmoBench">
 			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
 		</crafting_category_list>
+		
+		<item_display_info display_type="StormFall2" display_group="groupConsumables">
+			<display_entry name="dStrength" title_key="statShowStrength" display_leading_plus="true"/>
+			<display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
 	
 	</append>
 </ui_display_info>

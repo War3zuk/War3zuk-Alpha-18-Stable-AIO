@@ -9,6 +9,10 @@ tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
 tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
 lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
 
+medicalBloodDrawKitDesc,items,,,Medical Blood Draw Kit IMPORTANT.\n\nThis Kit is used for the creation of BloodBags.\n\nIt will Remove 50 Percent of your HP & Deplete Water And Food.\n\nIf Exploited It will also Reduce ALL Skills To L3.
+
+medicalBloodDrawKit,items,Item,KgNone,Blood Draw Kit,
+
 StormFallMonsterColaDesc,items,Food,New,Yum StormFall Monster Cola! Recover quicker. Increased Melee Damage. Also restores some stamina And some Health,
 
 HDplantedMushroom1,blocks,Block Building,KgNone,HD Mushroom Seedling,
