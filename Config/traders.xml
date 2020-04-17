@@ -77,12 +77,6 @@
 			<item group="decorativeBlocks" count="20,70"/>
 			<item group="tools" count="10" quality="10,30"/>
 			<item group="tools" count="10"/>
-			<item group="weaponsMelee" count="10,30" quality="1,3"/>
-			<item group="weaponsGunsT2" count="100" quality="1,3"/>
-			<item group="weaponsGunParts" count="100"/>
-			<item group="clothes" count="10,40"/>
-			<item group="groupArmorLight" count="10,30" quality="1,4"/>
-			<item group="groupArmorHeavy" count="10,30" quality="1,4"/>
 			<item group="traderElectrical" count="10,20"/>
 			<item group="modAllT1SecretStash" count="10,20"/>
 			<item name="forge"/>
@@ -234,6 +228,11 @@
 			<item name="armorMilitaryVest" quality="1,4"/>
 			<item name="resourceMilitaryFiber" count="1,5" prob="2"/>
 			<item name="apparelNightvisionGoggles"/>
+			<item group="weaponsMelee" count="10,30" quality="1,3"/>
+			<item group="weaponsGunsT2" count="100" quality="1,3"/>
+			<item group="weaponsGunParts" count="100"/>
+			<item group="groupArmorLight" count="10,30" quality="1,4"/>
+			<item group="groupArmorHeavy" count="10,30" quality="1,4"/>
 		</trader_items>
 	</trader_info>
 
