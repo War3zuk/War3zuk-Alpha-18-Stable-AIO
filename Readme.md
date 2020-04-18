@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.86 to v2.87
+
+Fixed Storm Monster Cola Recipe
+
 Updated v2.85 to v2.86
 
 Added HD Generator (Hires PBR Model)

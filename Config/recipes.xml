@@ -6,8 +6,9 @@
 <append xpath="/recipes">
 	
 <recipe name="StormFall Monster Cola" count="1" craft_time = "10">
-	<ingredient name="drinkNukaCola" count="2"/>
-	<ingredient name="drinkNukaCherry" count="2"/>
+	<ingredient name="drugPainkillers" count="1"/>
+	<ingredient name="drugSteroids" count="1"/>
+	<ingredient name="drinkJarBeer" count="2"/>
 </recipe>
 	
 <recipe name="HDammoBundle9mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
