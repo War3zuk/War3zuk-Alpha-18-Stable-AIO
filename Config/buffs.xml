@@ -5,6 +5,47 @@
 	
 <append xpath="/buffs">
 	
+	<buff name="buffBeer" name_key="buffDrunk01Name" description_key="buffDrunk01Desc" tooltip_key="buffDrunk01Tooltip" icon="ui_game_symbol_beer">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffBeerDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="@$buffBeerDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="BUFFPissedUP02">
+				<requirement name="CVarCompare" cvar="beers" operation="GT" value="5"/>
+			</triggered_effect>
+			
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="LTE" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBeer"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="3">
+				<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.5">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.35">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.7" effect_name="Drunk"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01"/>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+	
 <buff name="BUFFStormFall" name_key="StormFall" description_key="Yum StormFall Monster Cola! Recover quicker, Increased Melee Damage, Also restores some stamina And some Health. Your Max Run Speed has also been Buffed use it wisely haha!" icon="ui_game_symbol_StormFall">
 	<stack_type value="replace"/>
 	<display_value value=".buffDrugSteroidsDisplay"/>

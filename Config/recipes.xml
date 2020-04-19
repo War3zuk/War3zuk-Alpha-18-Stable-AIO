@@ -5,6 +5,12 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="War3zuks Stoggy" count="1" tags="learnable">
+	<ingredient name="resourceYuccaFibers" count="1000"/>
+	<ingredient name="resourceCropHopsFlower" count="10"/>
+	<ingredient name="resourcePaper" count="100"/>
+</recipe>
+	
 <recipe name="StormFall Monster Cola" count="1" craft_time = "10">
 	<ingredient name="drugPainkillers" count="1"/>
 	<ingredient name="drugSteroids" count="1"/>
@@ -354,6 +360,38 @@
 	<ingredient name="resourceSpring" count="5"/>
 	<ingredient name="HDGun Oil" count="3"/>
 </recipe>
+
+<recipe name="HDColtM1911REFLEX" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDColtM1911AREFLEX" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDDEReflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDDEPUNReflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
 	
 <recipe name="HD Colt M1911" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "60" tags="perkGunslinger">
 	<ingredient name="resourceForgedIron" count="15"/>
@@ -648,6 +686,14 @@
 	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceDuctTape" count="30"/>
 	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD Karabiner 98k" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedIron" count="75"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
 <recipe name="Weed Wacker 5000" count="1"  craft_time = "10">

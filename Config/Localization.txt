@@ -9,6 +9,15 @@ tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
 tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
 lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
 
+War3zuksStoggyDesc,items,,,So Youve Crafted The Ultimate In Nicotine. Enjoy 20 Percent Quicker Crafting,
+
+HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope,
+HDColtM1911REFLEX,items,Item,KgNone,HD M1911 REFLEX,
+HDColtM1911AREFLEX,items,Item,KgNone,HD Colt M1911A REFLEX,
+HDDEPUNReflex,items,Item,KgNone,HD Desert Eagle Punisher Reflex,
+
+HDKarabiner98kDesc,items,,,The Karabiner 98k is a controlled-feed bolt-action rifle based on the Mauser M98 system. Its internal magazine can be loaded with five 7.62 rounds.
+
 HDGasGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
 HDGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
 
@@ -201,6 +210,14 @@ HDDesertEagleSilencerDesc,items,,,Military Grade Surpressor that can be attached
 HDMac10AutoSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Mac10 Auto.
 HDMossberg500SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD ShotGuns.
 HDArcticWarfareSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Arctic Warfare or the HD CheyTac M300.
+
+HDDEReflexDesc,items,,,Military Grade Reflex that can be attached to the HD Desert Eagle.
+
+HDDEReflex,items,Item,KgNone,HD Desert Eagle Reflex.
+
+HDColtM1911REFLEXDesc,items,,,Military Grade Reflex that can be attached to the HD Colt M1911.
+
+HDColtM1911AREFLEXDesc,items,,,Military Grade Reflex that can be attached to the HD Colt M1911A.
 
 HDDragunovSVDScopeDesc,items,,,Military Grade Scope that can be attached to the HD Dragunov SVD.
 

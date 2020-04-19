@@ -7,7 +7,7 @@
 	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,9</set>
 
-	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+<append xpath="/lootcontainers/lootcontainer[@id='6']" >
 		<item group="groupApparelClothes" prob="1"/>
 		<item group="trophyGroup"/>
 		<item group="groupAmmoRegular"/>
@@ -58,9 +58,10 @@
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
+<append xpath="/lootcontainers/lootcontainer[@id='11']" >
 		<item group="groupSafeLoot"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
@@ -100,9 +101,10 @@
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Building Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
-	</append>
+		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+<append xpath="/lootcontainers/lootcontainer[@id='12']" >
 		<item group="junk"/>
 		<item group="groupAmmoRegular"/>
 		<item group="books" prob="0.1"/>
@@ -148,9 +150,10 @@
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='21']" >
+<append xpath="/lootcontainers/lootcontainer[@id='21']" >
 		<item group="rottenFood"/>
 		<item name="resourceScrapPolymers" count="5,10"/>
 		<item name="drinkJarEmpty"/>
@@ -159,9 +162,9 @@
 		<item name="Warm Chunky Beef" count="1" prob="0.1"/>
 		<item name="Warm Chunky Chili" count="1" prob="0.1"/>
 		<item name="Warm Chunky Sham Chowder" count="1" prob="0.1"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+<append xpath="/lootcontainers/lootcontainer[@id='40']" >
 		<item group="groupAmmoRegular" prob=".5" count="2"/>
 		<item group="groupWeaponsScaled" prob=".4"/>
 		<item group="groupModAllScaled" prob=".10"/>
@@ -229,9 +232,10 @@
 		<item name="HD Double Barrel" count="1,2" prob="0.05"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
+<append xpath="/lootcontainers/lootcontainer[@id='42']" >
 		<item group="groupSafeLoot"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
@@ -279,9 +283,10 @@
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
+<append xpath="/lootcontainers/lootcontainer[@id='43']" >
 		<item group="groupApparelClothes" prob="4"/>
 		<item group="groupApparelHats" prob="5"/>
 		<item group="groupArmorScaled" prob="2"/>
@@ -295,9 +300,9 @@
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
+<append xpath="/lootcontainers/lootcontainer[@id='50']" >
 		<item group="groupAmmoRegular" prob=".3"/>
 		<item group="groupWeaponsScaled" prob=".4"/>
 		<item group="groupModAllScaled" prob=".1"/>
@@ -344,9 +349,10 @@
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
-	</append>
+		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='53']" >
+<append xpath="/lootcontainers/lootcontainer[@id='53']" >
 		<item group="workingStiffs"/>
 		<item name="HD Forge Schematic" count="1" prob="0.1"/>
 		<item name="HD Wrench Schematic" count="1" prob="0.1"/>
@@ -370,9 +376,9 @@
 		<item name="HD Cnc Automatics Schematic" count="1" prob="0.1"/>
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Resource Care Package" count="1" prob="0.1"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='60']" >
+<append xpath="/lootcontainers/lootcontainer[@id='60']" >
 		<item group="books" count="1,2" prob="0.3"/>
 		<item name="HD Forge Schematic" count="1" prob="0.1"/>
 		<item name="HD Wrench Schematic" count="1" prob="0.1"/>
@@ -397,15 +403,15 @@
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='64']" >
+<append xpath="/lootcontainers/lootcontainer[@id='64']" >
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="ammoGasCan" count="100,500" prob="1"/>
 		<item name="HD Flame Fuel" count="50,100" prob="0.1"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+<append xpath="/lootcontainers/lootcontainer[@id='70']" >
 		<item group="cannedfood" count="1,2" prob="13"/>
 		<item name="drinkJarBeer" count="1,3" prob="5"/>
 		<item name="drinkJarBoiledWater" count="1,4" prob="10"/>
@@ -470,9 +476,9 @@
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='83']" >
+<append xpath="/lootcontainers/lootcontainer[@id='83']" >
 		<item group="cannedfood" prob="0.8"/>
 		<item group="groupWeaponsScaled" prob="0.1"/>
 		<item group="groupArmorScaled" prob="0.1"/>
@@ -489,9 +495,9 @@
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='95']" >
+<append xpath="/lootcontainers/lootcontainer[@id='95']" >
 		<item group="groupAmmoRegular" prob=".3" count="2,3"/>
 		<item group="groupWeaponsScaled" prob="0.3"/>
 		<item group="groupArmorScaled" prob="0.4"/>
@@ -537,9 +543,9 @@
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.1"/>
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+<append xpath="/lootcontainers/lootcontainer[@id='110']" >
 		<item group="groupAmmoPileLoot"/>
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		<item name="Ammo Supply 9mm" count="1,2" prob="0.1"/>
@@ -587,9 +593,9 @@
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='51']" >
+<append xpath="/lootcontainers/lootcontainer[@id='51']" >
 		<item group="medicine"/>
 		<item name="resourceScrapPolymers" count="5,10" prob="0.3"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
@@ -599,18 +605,18 @@
 		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
 		<item name="HD Care Package" count="1,2" prob="0.1"/>
 		<item name="HD Medicine Care Package" count="1,2" prob="0.1"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='96']" >
+<append xpath="/lootcontainers/lootcontainer[@id='96']" >
 		<item group="labEquipment" prob="0.5"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
 		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
 		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
-	</append>
+</append>
 	
-	<append xpath="/lootcontainers/lootcontainer[@id='116']" >
+<append xpath="/lootcontainers/lootcontainer[@id='116']" >
 		<item group="labEquipment"/>
 		<item group="dyes" prob=".05"/>
 		<item name="resourceGunPowder" count="20,50" prob=".05"/>
@@ -622,7 +628,7 @@
 		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
 		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
 		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
-	</append>
+</append>
 
 <append xpath="/lootcontainers">
 <lootcontainer id="130" size="10,9" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >

@@ -1,5 +1,26 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.87 to v2.88
+
+Added HD Karabiner 98k (Hires PBR Custom Model) Paid
+Added HD Karabiner 98k Icons 256x256
+Added HD Karabiner 98k Schematic
+Added Animations, Fire,Idle & Reload
+
+Added HD Colt M1911 Custom PBR Reflex (Paid)
+Added HD Colt M1911A Custom PBR Reflex (Paid)
+Sight Aligned & CrossHair Removed
+
+Added HD Desert Eagle Custom PBR Reflex (Paid)
+Added HD Desert Eagle Punisher Custom PBR Reflex (Paid)
+Sight Aligned & CrossHair Removed
+
+Fixed HD Desert Eagles Custom Silencer (180D Turn)
+Fixed M4A1 Scope Name In Game
+Edited BuffBeer Screen Affect
+
+Added Warz3uks Stoggy (20% Quicker Crafting)
+
 Updated v2.86 to v2.87
 
 Fixed Storm Monster Cola Recipe
