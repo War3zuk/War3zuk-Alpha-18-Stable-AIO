@@ -283,6 +283,63 @@
 		<passive_effect name="StaminaLoss" operation="base_add" value="13.8" tags="secondary"/>
 	</effect_group>
 </item> -->
+	
+<item name="HDMotor125cc">
+	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
+	<property name="DescriptionKey" value="HDMotor125ccDesc"/>
+	<property name="CustomIcon" value="HDMotor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="150"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.050"/>
+		<display_value name="dCraftingTime" value=".5"/>
+	</effect_group>
+</item>
+
+<item name="HDMotor250cc">
+	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
+	<property name="DescriptionKey" value="HDMotor250ccDesc"/>
+	<property name="CustomIcon" value="HDMotor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.150"/>
+		<display_value name="dCraftingTime" value=".5"/>
+	</effect_group>
+</item>
+
+<item name="HDMotor500cc">
+	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
+	<property name="DescriptionKey" value="HDMotor500ccDesc"/>
+	<property name="CustomIcon" value="HDMotor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="550"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.300"/>
+		<display_value name="dCraftingTime" value=".5"/>
+	</effect_group>
+</item>
 
 <item name="War3zuks Stoggy">
 	<property name="CustomIcon" value="War3zuks Stoggy"/>
@@ -303,7 +360,7 @@
 		<display_value name="dCraftingTime" value="-.2"/>
 	</effect_group>
 </item>
-	
+
 <item name="StormFall Monster Cola">
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="StormFall2"/>
@@ -313,31 +370,31 @@
 	<property name="Material" value="Mglass"/>
 	<property name="CustomIcon" value="StormFall Monster Cola"/>
 	<property name="Stacknumber" value="2500"/> 
-	<property name="Weight" value="5"/>
-	<property name="EconomicValue" value="125"/>
-	<property name="CraftingIngredientTime" value="10"/>
-			<property class="Action0">
-				<property name="Class" value="Eat"/>
-				<property name="Delay" value="1"/>
-				<property name="Use_time" value="..."/>
-				<property name="Sound_start" value="player_drinking"/>
-			</property>
+	<property name="EconomicValue" value="80"/>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
 	<effect_group tiered="false">
-		<display_value name="dStrength" value="5"/>
-		<display_value name="dCarryCapacity" value="10"/>
-		<display_value name="$waterAmountAdd" value="-10"/>
-		<display_value name="dDuration" value="603"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="add" value="603"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="set" value="1803">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
-			<requirement name="CVarCompare" cvar="$buffDrugSteroidsDuration" operation="GT" value="1803"/></triggered_effect>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,BUFFStormFall"/>
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="75"/>
+			<display_value name="dStaminaRegen" value=".25"/>
+			<display_value name="dRunSpeed" value=".6"/>
+			<display_value name="dDuration" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="363">
+				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
 	</effect_group>
-</item>	
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
 	
 <item name="HDammoBundle9mmBulletBall">
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
@@ -6515,6 +6572,35 @@
 	</effect_group>
 </item>
 
+<item name="Camoes Bifana">
+	<property name="DescriptionKey" value="CamoesBifanaDesc"/>
+	<property name="CustomIcon" value="Camoes Bifana"/>
+	<property name="UnlockedBy" value="Camoes Bifana Schematic"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="35"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dCureInfection" value=".05"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
 <item name="Forged Brass">
 	<property name="HoldType" value="45"/>
 	<property name="CustomIcon" value="ForgedBrass"/>
@@ -7625,6 +7711,31 @@
 	<property name="Unlocks" value="HD Karabiner 98k"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Karabiner 98k" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+	</effect_group>
+</item>
+
+<item name="HD Cement Mixer Schematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Cement Mixer Schematic"/>
+	<property name="Unlocks" value="HDCementMixer"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCementMixer" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor125cc" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor250cc" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor500cc" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+	</effect_group>
+</item>
+
+<item name="Camoes Bifana Schematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Camoes Bifana Schematic"/>
+	<property name="Unlocks" value="Camoes Bifana"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Camoes Bifana" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
 	</effect_group>
 </item>

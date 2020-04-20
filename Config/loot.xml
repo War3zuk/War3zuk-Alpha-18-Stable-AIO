@@ -162,6 +162,7 @@
 		<item name="Warm Chunky Beef" count="1" prob="0.1"/>
 		<item name="Warm Chunky Chili" count="1" prob="0.1"/>
 		<item name="Warm Chunky Sham Chowder" count="1" prob="0.1"/>
+		<item name="Camoes Bifana Schematic" count="1" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='40']" >
@@ -300,6 +301,7 @@
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+		<item name="Camoes Bifana Schematic" count="1" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='50']" >
@@ -403,6 +405,7 @@
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+		<item name="Camoes Bifana Schematic" count="1" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='64']" >
@@ -605,6 +608,12 @@
 		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
 		<item name="HD Care Package" count="1,2" prob="0.1"/>
 		<item name="HD Medicine Care Package" count="1,2" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='93']" >
+		<item group="cementMixerLoot" count="2"/>
+		<item name="cementMixerSchematic" prob="0.2"/>
+		<item name="HD Cement Mixer Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='96']" >

@@ -39,7 +39,7 @@
 	<window name="WARwindowOutput" />
 	<window name="windowNonPagingHeader" />
 	<window name="windowToolsHD GunBench" />
-	</window_group>
+</window_group>
 	
 <window_group name="workstation_HD WorkBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
@@ -48,7 +48,7 @@
 	<window name="WARwindowOutput" />
 	<window name="windowNonPagingHeader" />
 	<window name="windowToolsHD WorkBench" />
-	</window_group>
+</window_group>
 	
 <window_group name="workstation_HD PicsBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
@@ -56,7 +56,7 @@
 	<window name="WARwindowCraftingQueue"/>
 	<window name="WARwindowOutput" />
 	<window name="windowNonPagingHeader" />
-	</window_group>
+</window_group>
 	
 <window_group name="workstation_HD AmmoBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
@@ -65,7 +65,16 @@
 	<window name="WARwindowOutput" />
 	<window name="windowNonPagingHeader" />
 	<window name="windowToolsHD AmmoBench" />
-	</window_group>
+</window_group>
+	
+<window_group name="workstation_HDCementMixer" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="WARwindowOutput" />
+	<window name="windowNonPagingHeader" />
+	<window name="windowToolsHDCementMixer"/>
+</window_group>
 
 </append>
 

@@ -1,5 +1,23 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.88 to v2.89
+
+Fixed Farming Seeds Recipe
+Fixed Storm Monster Cola
+
+(Crafted In The HD WorkBench)
+Added HD Cement Mixer (Hires PBR Model) Paid
+Added HD Engine 125cc (Bonus To Crafting Speed 5%)
+Added HD Engine 250cc (Bonus To Crafting Speed 15%)
+Added HD Engine 500cc (Bonus To Crafting Speed 30%)
+Added HD Cement Mixer Schematic (Only Found In Broken Cement Mixers)
+Added Icons 256x256
+
+(Cooked In Campfire With The Grill)
+Added Camoes Bifana (Traditional Portuguese Dish)
+Added Camoes Bifana Schematic
+Added Camoes Bifana Icon 256x256
+
 Updated v2.87 to v2.88
 
 Added HD Karabiner 98k (Hires PBR Custom Model) Paid

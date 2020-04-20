@@ -3,7 +3,50 @@
 	<remove xpath="/recipes/recipe[@name='resourceGlue']"/>
 	<remove xpath="/recipes/recipe[@name='drinkJarBoiledWater']"/>
 	
+	<remove xpath="/recipes/recipe[@name='plantedAloe1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedBlueberry1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedChrysanthemum1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedCoffee1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedCorn1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedCotton1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedGoldenrod1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedHop1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedMushroom1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedPotato1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedYucca1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedPumpkin1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedGraceCorn1']"/>
+	
 <append xpath="/recipes">
+	
+<recipe name="HDCementMixer" count="1" craft_area="HD WorkBench" craft_time = "120" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="150"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="smallEngine" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+</recipe>
+
+<recipe name="HDMotor125cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+
+<recipe name="HDMotor250cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+
+<recipe name="HDMotor500cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="2"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
 	
 <recipe name="War3zuks Stoggy" count="1" tags="learnable">
 	<ingredient name="resourceYuccaFibers" count="1000"/>
@@ -194,6 +237,13 @@
 	<ingredient name="foodShamSandwich" count="1"/>
 	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="Camoes Bifana" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" tags="learnable">
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="drinkJarBeer" count="1"/>
 </recipe>
 
 <recipe name="ammoBlunderbuss" count="2">
@@ -1998,6 +2048,59 @@
 
 <recipe name="foodCropGraceCorn" count="1" craft_time = "0.5">
 	<ingredient name="foodCropCorn" count="10"/>
+</recipe>
+
+<recipe name="plantedAloe1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropAloeLeaf" count="1"/>
+</recipe>
+
+<recipe name="plantedBlueberry1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropBlueberries" count="1"/>
+</recipe>
+
+<recipe name="plantedChrysanthemum1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+</recipe>
+
+<recipe name="plantedCoffee1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropCoffeeBeans" count="1"/>
+</recipe>
+
+<recipe name="plantedCorn1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropCorn" count="1"/>
+</recipe>
+
+<recipe name="plantedCotton1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropCottonPlant" count="1"/>
+</recipe>
+
+<recipe name="plantedGoldenrod1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+</recipe>
+
+<recipe name="plantedGraceCorn1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropGraceCorn" count="1"/>
+</recipe>
+
+<recipe name="plantedHop1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropHopsFlower" count="1"/>
+</recipe>
+
+<recipe name="plantedMushroom1" count="1" craft_time="2" tags="learnable">
+	<ingredient name="foodCropMushrooms" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+</recipe>
+
+<recipe name="plantedPotato1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropPotato" count="1"/>
+</recipe>
+
+<recipe name="plantedYucca1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropYuccaFruit" count="1"/>
+</recipe>
+
+<recipe name="plantedPumpkin1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropPumpkin" count="1"/>
 </recipe>
 
 </append>

@@ -9,6 +9,20 @@ tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
 tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
 lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
 
+CamoesBifanaDesc,items,,,The bifana is a Portuguese sandwich that comprises of a light but crusty bread roll filled with sauteed strips of pork that have been seasoned with garlic. spices. and white wine.,
+
+HDCementMixerDesc,,blocks,Workstation,Cement Mixing At Its Finest With Improved Speeds. There are different Engine Torques Giving a Total reduction in time of 50 Percent with 0 Heat Penalty,
+
+HDCementMixer,items,Item,KgNone,HD Cement Mixer,
+
+HDMotor125cc,items,Item,KgNone,HD Motor 125 cc,
+HDMotor250cc,items,Item,KgNone,HD Motor 250 cc,
+HDMotor500cc,items,Item,KgNone,HD Motor 500 cc,
+
+HDMotor125ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 5 Percent speed Increase,
+HDMotor250ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 15 Percent speed Increase,
+HDMotor500ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 30 Percent speed Increase,
+
 War3zuksStoggyDesc,items,,,So Youve Crafted The Ultimate In Nicotine. Enjoy 20 Percent Quicker Crafting,
 
 HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope,
