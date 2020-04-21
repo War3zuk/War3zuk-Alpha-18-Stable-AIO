@@ -5545,7 +5545,7 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="DisplayType" value="toolBellows"/>
 	<effect_group tiered="false">
-		<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.777"/>
+		<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.666"/>
 		<display_value name="dCraftingSmeltTime" value=".4"/>
 	</effect_group>
 </item>
@@ -5562,7 +5562,7 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="DisplayType" value="toolAnvil"/>
 	<effect_group tiered="false">
-		<passive_effect name="CraftingTime" operation="perc_add" value="-.777"/>
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.666"/>
 		<display_value name="dCraftingTime" value=".4"/>
 	</effect_group>
 </item>

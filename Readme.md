@@ -5,6 +5,9 @@ Updated v2.89 to v2.90
 Added Possums Pavlova
 New Foods No Longer Require A Schematic
 HD Cement Mixer Schematic Added It To 4 Places
+Updated Starter Quest ToolTip Info
+Replaced 9mm & 7.62mm Minigun Icons
+Adjusted Multiplier On Bellows & Anvil
 
 Updated v2.88 to v2.89
 

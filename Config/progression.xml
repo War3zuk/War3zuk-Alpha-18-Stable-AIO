@@ -18,7 +18,5 @@
 		<passive_effect level="4" name="JunkTurretActiveCount" operation="base_set" value="0"/>
 		<passive_effect level="5" name="JunkTurretActiveCount" operation="base_set" value="1"/>
 	</insertAfter>
-	
-	<!--<append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@level='5,5']/@tags">,HD Junk Turret 9mm,HD Junk Turret 762mm,HD Junk Turret 50mm</append> -->
 		
 </configs>
