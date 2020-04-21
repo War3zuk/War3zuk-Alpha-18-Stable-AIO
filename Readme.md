@@ -10,6 +10,9 @@ Replaced 9mm & 7.62mm Minigun Icons
 Adjusted Multiplier On Bellows & Anvil
 Lowered Volume On HD M4A1 Carbine
 
+Player Rewarded Vending Machines New PBR Model
+Damage Reward Vending Machines To Pick Them BackUp
+
 Updated v2.88 to v2.89
 
 Fixed Farming Seeds Recipe
