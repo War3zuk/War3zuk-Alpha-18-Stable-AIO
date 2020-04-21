@@ -162,7 +162,6 @@
 		<item name="Warm Chunky Beef" count="1" prob="0.1"/>
 		<item name="Warm Chunky Chili" count="1" prob="0.1"/>
 		<item name="Warm Chunky Sham Chowder" count="1" prob="0.1"/>
-		<item name="Camoes Bifana Schematic" count="1" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='40']" >
@@ -234,6 +233,7 @@
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+		<item name="HD Cement Mixer Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='42']" >
@@ -301,7 +301,6 @@
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-		<item name="Camoes Bifana Schematic" count="1" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='50']" >
@@ -367,7 +366,6 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.1"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.1"/>
 		<item name="Building Supply Flare" count="1" prob="0.05"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
 		<item name="HD Tool And Die Set Schematic" count="1" prob="0.1"/>
 		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.1"/>
 		<item name="HD Grinder Schematic" count="1" prob="0.1"/>
@@ -378,6 +376,7 @@
 		<item name="HD Cnc Automatics Schematic" count="1" prob="0.1"/>
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Resource Care Package" count="1" prob="0.1"/>
+		<item name="HD Cement Mixer Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='60']" >
@@ -393,7 +392,6 @@
 		<item name="HD AmmoBench Schematic" count="1" prob="0.1"/>
 		<item name="HD PicsBench Schematic" count="1" prob="0.1"/>
 		<item name="Ammo Supply Flare" count="1" prob="0.05"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
 		<item name="HD Tool And Die Set Schematic" count="1" prob="0.1"/>
 		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.1"/>
 		<item name="HD Grinder Schematic" count="1" prob="0.1"/>
@@ -405,7 +403,6 @@
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
-		<item name="Camoes Bifana Schematic" count="1" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='64']" >
@@ -600,12 +597,9 @@
 	
 <append xpath="/lootcontainers/lootcontainer[@id='51']" >
 		<item group="medicine"/>
-		<item name="resourceScrapPolymers" count="5,10" prob="0.3"/>
+		<item name="resourceScrapPolymers" count="5,10" prob="0.1"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
-		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
-		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
 		<item name="HD Care Package" count="1,2" prob="0.1"/>
 		<item name="HD Medicine Care Package" count="1,2" prob="0.1"/>
 </append>
@@ -620,9 +614,6 @@
 		<item group="labEquipment" prob="0.5"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
 		<item name="Health Supply Flare" count="1" prob="0.05"/>
-		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
-		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='116']" >
@@ -634,9 +625,6 @@
 		<item name="medicalAloeCream" count="4,10" prob=".05"/>
 		<item name="HD First Aid Kit Schematic" count="1" prob="0.1"/>
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
-		<item name="Donnas Fubar Stew Schematic" count="1" prob="0.1"/>
-		<item name="DD1GGs Sham And Tuna Pie Schematic" count="1" prob="0.1"/>
-		<item name="Lovers Pizza Schematic" count="1" prob="0.1"/>
 </append>
 
 <append xpath="/lootcontainers">
@@ -675,7 +663,7 @@
 <item name="meleeToolAuger" count="1" prob="0.1"/>
 <item name="foodRawMeat" count="2,4" prob="1"/>
 <item name="resourceAnimalFat" count="2,4" prob="1"/>
-<item name="HD Double Barrel" count="1" value="1" prob="0.005"/>
+<item name="HD Double Barrel" count="1" value="1" prob="0.01"/>
 </lootcontainer>
 
 <!-- Animal Wolf -->

@@ -1,8 +1,12 @@
 Key,Source,Context,Changes,English
 
-tutorialTipQuest01,Journal,,,,"Greetings WasteLander,\n\nThis OverHaul will take you on a Rollercoaster of excitement. The Mod itself adds many New Items, Blocks & many other changes most of which affect the Core Game. Its now time for you to take this new Journey, Most Core Items start with the Abbreviation HD for easy Indexing. Items that are meant to be crafted on the player still are but most other things are Gated behind an HD Schematic Or HD Bench, You will Find NO HD Weapons in the world Except for the HD SHotgun which can appear rarely in Zombie Bears.\n\nNow Go & do your best to survive, -War3zuk",
+tutorialTipQuest01_title,,Popup Tip,KeyTrunk KgNone,Welcome to War3zuk OverHaul,,,,
 
-tutorialTipQuest02,Journal,,,,"Basic Survival has been shortened to Crafting your BedRoll & placing it down. Once this is done you will be directed to the nearest Trader & once spoken too he will activate your main quests to fullfill during game play. Once a Quest is complete to Tier5 you will be granted a Shelf that once placed will give you access to that particular trades Items.",
+tutorialTipQuest01,,Popup Tip,KeyTrunk KgNone,"Greetings Zombie Slayer,\n\nThis is War3zuk the Mod Author Speaking. The Mod itself adds many New Custom Modles And Items, Blocks & many other changes most of which affect around 90% of the Core Game. Its now time for you to take this Journey, Most Core Items start with the Abbreviation HD for easy Indexing. Items that are meant to be crafted on the player are still crafted there but most other things are Gated behind an HD Schematic Or HD Bench, You will Find NO HD Weapons in the world Except for the HD Shotgun which can appear in Zombie Bears but is Rare.\n\nNow Go & do your best to survive, -War3zuk",,,
+
+tutorialTipQuest02_title,,Popup Tip,KeyTrunk KgNone,War3zuk OverHaul Info,,,,
+
+tutorialTipQuest02,,Popup Tip,KeyTrunk KgNone,"Basic Survival has been shortened to Crafting your BedRoll & placing it down. Once this is done you will be directed to the nearest Trader & once spoken too he will activate your main quests to fullfill during game play. Once a Quest is complete to Tier5 you will be granted a Shelf that once placed in the World will give you access to that particular Quests Items Like A Trader. This Mod tries to make Full use of Items normally thrown so check each thing for a New Recipe, -War3zuk",,,
 
 tooltipJammed,UI,Menu,,,[d50937]<{0}> Use {1} ([d50937]Jammed[-]),
 tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),

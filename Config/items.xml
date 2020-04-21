@@ -5847,7 +5847,6 @@
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="20000"/>
 	<property name="EconomicValue" value="100"/>
-	<property name="UnlockedBy" value="Donnas Fubar Stew Schematic"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -5912,7 +5911,6 @@
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="20000"/>
 	<property name="EconomicValue" value="100"/>
-	<property name="UnlockedBy" value="DD1GGs Sham And Tuna Pie Schematic"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -5950,7 +5948,6 @@
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="20000"/>
 	<property name="EconomicValue" value="100"/>
-	<property name="UnlockedBy" value="BR1NXls HotPot Pizza Stew Schematic"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -5983,7 +5980,6 @@
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="20000"/>
 	<property name="EconomicValue" value="100"/>
-	<property name="UnlockedBy" value="Lovers Pizza Schematic"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -6575,7 +6571,6 @@
 <item name="Camoes Bifana">
 	<property name="DescriptionKey" value="CamoesBifanaDesc"/>
 	<property name="CustomIcon" value="Camoes Bifana"/>
-	<property name="UnlockedBy" value="Camoes Bifana Schematic"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
 	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
@@ -6594,6 +6589,34 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="70"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dCureInfection" value=".05"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
+<item name="Possums Pavlova">
+	<property name="DescriptionKey" value="PossumsPavlovaDesc"/>
+	<property name="CustomIcon" value="Possums Pavlova"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="35"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="80"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="40"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="dCureInfection" value=".05"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
@@ -7549,39 +7572,6 @@
 	</effect_group>
 </item>
 
-<item name="Donnas Fubar Stew Schematic">
-	<property name="Extends" value="schematicMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="Donnas Fubar Stew Schematic"/>
-	<property name="Unlocks" value="Donnas Fubar Stew"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Donnas Fubar Stew" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
-	</effect_group>
-</item>
-
-<item name="DD1GGs Sham And Tuna Pie Schematic">
-	<property name="Extends" value="schematicMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="DD1GGs Sham And Tuna Pie Schematic"/>
-	<property name="Unlocks" value="DD1GGs Sham And Tuna Pie"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="DD1GGs Sham And Tuna Pie" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
-	</effect_group>
-</item>
-
-<item name="BR1NXls HotPot Pizza Stew Schematic">
-	<property name="Extends" value="schematicMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="BR1NXls HotPot Pizza Stew Schematic"/>
-	<property name="Unlocks" value="BR1NXls HotPot Pizza Stew"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="BR1NXls HotPot Pizza Stew" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
-	</effect_group>
-</item>
-
 <item name="HD Tool And Die Set Schematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -7693,17 +7683,6 @@
 	</effect_group>
 </item>
 
-<item name="Lovers Pizza Schematic">
-	<property name="Extends" value="schematicMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="Lovers Pizza Schematic"/>
-	<property name="Unlocks" value="Lovers Pizza"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Lovers Pizza" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
-	</effect_group>
-</item>
-
 <item name="HD Karabiner 98k Schematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -7725,17 +7704,6 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor125cc" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor250cc" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor500cc" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
-	</effect_group>
-</item>
-
-<item name="Camoes Bifana Schematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="Camoes Bifana Schematic"/>
-	<property name="Unlocks" value="Camoes Bifana"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Camoes Bifana" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
 	</effect_group>
 </item>

@@ -239,11 +239,18 @@
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
-<recipe name="Camoes Bifana" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" tags="learnable">
+<recipe name="Camoes Bifana" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
 	<ingredient name="resourceAnimalFat" count="2"/>
 	<ingredient name="foodShamSandwich" count="2"/>
 	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="drinkJarBeer" count="1"/>
+</recipe>
+
+<recipe name="Possums Pavlova" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodHoney" count="1"/>
+	<ingredient name="foodEgg" count="4"/>
 </recipe>
 
 <recipe name="ammoBlunderbuss" count="2">
@@ -1320,7 +1327,7 @@
 	<ingredient name="resourceWood" count="10"/>
 </recipe>
 
-<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="Donnas Fubar Steak" count="1"/>
 	<ingredient name="foodCanSham" count="1"/>
 	<ingredient name="foodCanStock" count="1"/>
@@ -1333,14 +1340,14 @@
 	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 
-<recipe name="DD1GGs Sham And Tuna Pie" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+<recipe name="DD1GGs Sham And Tuna Pie" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="resourceAnimalFat" count="10"/>
 	<ingredient name="foodCanSham" count="2"/>
 	<ingredient name="resourceBone" count="10"/>
 	<ingredient name="foodCanTuna" count="2"/>
 </recipe>
 
-<recipe name="BR1NXls HotPot Pizza Stew" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+<recipe name="BR1NXls HotPot Pizza Stew" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="resourceAnimalFat" count="5"/>
 	<ingredient name="foodCornMeal" count="2"/>
 	<ingredient name="foodHoney" count="1"/>
@@ -1348,7 +1355,7 @@
 	<ingredient name="foodCanBeef" count="1"/>
 </recipe>
 
-<recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+<recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="James Ingredients" count="1"/>
 	<ingredient name="Michelles Ingredients" count="1"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
