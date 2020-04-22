@@ -2249,6 +2249,20 @@
 	<drop event="Fall" name="HD Power Relay Block" count="1" prob="1"/>
 </block>
 
+<block name="Class Bruiser VM">
+	<property name="Extends" value="cntVendingMachine"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="50"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Bruiser VM.Prefab"/>
+	<property name="TraderID" value="16"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Bruiser VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
 <block name="Class Builder VM">
 	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="cntVendingMachine" />

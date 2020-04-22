@@ -8054,6 +8054,27 @@
 	<property name="Group"            value="Special Items"/>
 </item>
 
+<item name="Class Bruiser">
+	<property name="CreativeMode"     value="None"/>
+	<property name="CustomIcon" value="Class Bruiser"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeClubIron,gunBowCompound,ammoArrowSteelAP,meleeKnucklesSteel,meleeToolSledgehammerIron,armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,meleeToolKnifeMacheteSchematic,meleeClubIronSchematic"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,200,1,1,1,1,1,1,1,1,1"/>
+	</property>
+</item>
+
 <item name="Class Builder">
 	<property name="CreativeMode"     value="None"/>
 	<property name="CustomIcon" value="Class Builder"/>

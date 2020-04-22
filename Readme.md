@@ -8,10 +8,19 @@ HD Cement Mixer Schematic Added It To 4 Places
 Updated Starter Quest ToolTip Info
 Replaced 9mm & 7.62mm Minigun Icons
 Adjusted Multiplier On Bellows & Anvil
-Lowered Volume On HD M4A1 Carbine
-
+HD M4A1 Carbine Sound Reduced 50%
+Fixed BUFFDrunk
+HD BlunderBuss (Addons Removed)
 Player Rewarded Vending Machines New PBR Model
 Damage Reward Vending Machines To Pick Them BackUp
+
+Replaced FTP Recipe (PlasterCast) Crafted On Player Now
+
+(IMPORTANT) This May Reset Your Points
+Added Bruiser Class (Requires New Game Obviously)
+Added Bruiser Class Quests 5 Levels (Custom Reward)
+
+(NO More Classes Wil Be Added From This Point)
 
 Updated v2.88 to v2.89
 

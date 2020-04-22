@@ -58,6 +58,7 @@
 
 		<reward type="SkillPoints" value="5" />
 		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="HD Bruiser PreReq 1" stage="aftercomplete"/>
 		<reward type="Quest" id="HD Builder PreReq 1" stage="aftercomplete"/>
 		<reward type="Quest" id="HD Engineer PreReq 1" stage="aftercomplete"/>
 		<reward type="Quest" id="HD Farmer PreReq 1" stage="aftercomplete"/>
@@ -65,6 +66,119 @@
 		<reward type="Quest" id="HD Mechanic PreReq 1" stage="aftercomplete"/>
 		<reward type="Quest" id="HD Medic PreReq 1" stage="aftercomplete"/>
     </quest>
+	
+<quest id="HD Bruiser PreReq 1">
+	<property name="name_key" value="HD Bruiser PreReq 1" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Your a Bruiser so time to Bludgeon some zombies" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceForgedIron" value="20" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="1" phase="1"/>
+		<objective type="Craft" id="meleeClubIron" value="1" phase="2"/>
+		
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="HD Bruiser PreReq 2" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 2">
+	<property name="name_key" value="HD Bruiser PreReq 2" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to collect some additional resources" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="meleeToolKnifeMacheteParts" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
+		<objective type="Craft" id="meleeToolKnifeMachete" value="1" phase="2"/>
+		
+		<reward type="Exp" value="2000" />
+		<reward type="Quest" id="HD Bruiser PreReq 3" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 3">
+	<property name="name_key" value="HD Bruiser PreReq 3" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to Craft the Ultimate Helper" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="meleeToolSledgehammerSteelParts" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
+		<objective type="Craft" id="meleeToolSledgehammerSteel" value="1" phase="2"/>
+		
+		<reward type="Exp" value="3000" />
+		<reward type="Quest" id="HD Bruiser PreReq 4" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 4">
+	<property name="name_key" value="HD Bruiser PreReq 4" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to lay some building blocks to help in base creation" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="meleeKnucklesSteelParts" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
+		<objective type="Craft" id="meleeKnucklesSteel" value="1" phase="2"/>
+		
+		<reward type="Exp" value="4000" />
+		<reward type="Quest" id="HD Bruiser PreReq 5" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 5">
+	<property name="name_key" value="HD Bruiser PreReq 5" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to Craft some Serious Help for great results" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="ZombieKill" value="100" />
+			<requirement type="Group" id="requirementGroupClub" value="OR">
+				<requirement type="Holding" id="meleeToolSledgehammerSteel" />
+				<requirement type="Holding" id="meleeToolSledgehammerIron" />
+				<requirement type="Holding" id="meleeClubIron" />
+			</requirement>
+		
+		<reward type="Exp" value="10000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="meleeToolSledgehammerSteel" value="6" />
+		<reward type="Item" id="meleeToolSledgehammerIron" value="6" />
+		<reward type="Item" id="meleeKnucklesSteel" value="6" />
+		<reward type="Item" id="HD Machete" value="6" />
+		<reward type="Item" id="Class Bruiser VM" value="1" />
+</quest>
 
 <quest id="HD Builder PreReq 1">
 	<property name="name_key" value="HD Builder PreReq 1" />
@@ -734,7 +848,7 @@
 		</objective>
 		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="3" />
-		<reward type="Item" id="HD Machete" />
+		<reward type="Item" id="HD Machete" value="6" />
 </quest>
 			
 <quest id="War3zuk Quest 02">
@@ -764,10 +878,10 @@
 		</objective>
 		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="3" />
-		<reward type="Item" id="armorLeatherChest" />
-		<reward type="Item" id="armorLeatherGloves" />
-		<reward type="Item" id="armorLeatherPants" />
-		<reward type="Item" id="armorLeatherBoots" />
+		<reward type="Item" id="armorLeatherChest" value="6" />
+		<reward type="Item" id="armorLeatherGloves" value="6" />
+		<reward type="Item" id="armorLeatherPants" value="6" />
+		<reward type="Item" id="armorLeatherBoots" value="6" />
 </quest>
 		
 </insertBefore>

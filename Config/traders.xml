@@ -282,6 +282,26 @@
 			<item name="medicalSplint"/>
 		</trader_items>
 	</trader_info>
+	
+	<trader_info id="16" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="resourceForgedIron" count="5000,7500"/>
+			<item name="resourceForgedSteel" count="4000,4500"/>
+			<item name="resourceScrapPolymers" count="5000,12500"/>
+			<item name="resourceElectricParts" count="5000,12500"/>
+			<item name="resourceElectronicParts" count="5000,12500"/>
+			<item name="resourceMechanicalParts" count="5000,12500"/>
+			<item group="weaponsMelee" count="10,2" prob="0.3"/>
+			<item name="resourceScrapPolymers" count="5000,15000"/>
+			<item name="resourceElectricParts" count="5000,15000"/>
+			<item name="resourceMechanicalParts" count="5000,15000"/>
+			<item name="resourceSpring" count="500,1000"/>
+			<item group="tools" count="100,300" prob="0.4"/>
+			<item group="rareTools" count="100" prob="0.2"/>
+			<item name="meleeToolSledgehammerIronSchematic" count="10" prob="1"/>
+			<item name="meleeToolSledgehammerSteelSchematic" count="10" prob="1"/>
+		</trader_items>
+	</trader_info>
 
 </append>
 	

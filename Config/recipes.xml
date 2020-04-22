@@ -1703,6 +1703,7 @@
 	<ingredient name="resourceOilShale" count="800"/>
 </recipe>
 
+<recipe name="Class Bruiser"> <ingredient name="Starter Class" count="1"/></recipe>
 <recipe name="Class Builder"> <ingredient name="Starter Class" count="1"/></recipe>
 <recipe name="Class Engineer"> <ingredient name="Starter Class" count="1"/></recipe>
 <recipe name="Class Farmer"> <ingredient name="Starter Class" count="1"/></recipe>
