@@ -37,7 +37,7 @@
 				<requirement name="HasBuff" buff="buffHealWaterMax"/>
 			</passive_effect>
 
-			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.7" effect_name="Drunk"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.1" effect_name="Drunk"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
 			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01"/>
 
