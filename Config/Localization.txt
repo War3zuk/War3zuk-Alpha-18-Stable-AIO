@@ -15,7 +15,7 @@ lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-]
 
 CamoesBifanaDesc,items,,,The bifana is a Portuguese sandwich that comprises of a light but crusty bread roll filled with sauteed strips of pork that have been seasoned with garlic. spices. and white wine.,
 
-HDCementMixerDesc,,blocks,Workstation,Cement Mixing At Its Finest With Improved Speeds. There are different Engine Torques Giving a Total reduction in time of 50 Percent with 0 Heat Penalty,
+HDCementMixerDesc,,blocks,Workstation,Cement Mixing At Its Finest With Improved Speeds. There are different Engine Torques Giving a Total reduction in time of 50 Percent with 0 Heat Penalty. Engine Models are as follows.\n\nHD Motor 125cc.\n\nHD Motor 250cc.\n\nHD Motor 500cc
 
 HDCementMixer,items,Item,KgNone,HD Cement Mixer,
 

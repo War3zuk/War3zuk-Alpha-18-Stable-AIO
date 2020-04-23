@@ -283,7 +283,7 @@
 		<passive_effect name="StaminaLoss" operation="base_add" value="13.8" tags="secondary"/>
 	</effect_group>
 </item> -->
-	
+
 <item name="HDMotor125cc">
 	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
 	<property name="DescriptionKey" value="HDMotor125ccDesc"/>
