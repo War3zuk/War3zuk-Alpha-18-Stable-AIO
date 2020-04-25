@@ -234,6 +234,7 @@
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
 		<item name="HD Cement Mixer Schematic" prob="0.1"/>
+		<item name="HD Rocket Launcher Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='42']" >
@@ -285,6 +286,7 @@
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
 		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+		<item name="HD Rocket Launcher Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='43']" >
@@ -351,6 +353,7 @@
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Karabiner 98k Schematic" count="1" prob="0.1"/>
+		<item name="HD Rocket Launcher Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='53']" >
@@ -403,6 +406,7 @@
 		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+		<item name="HD Rocket Launcher Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='64']" >
@@ -543,6 +547,7 @@
 		<item name="HD Dragunov SVD Schematic" count="1" prob="0.1"/>
 		<item name="HD Flame Thrower Schematic" count="1" prob="0.1"/>
 		<item name="Food Supply Flare" count="1" prob="0.05"/>
+		<item name="HD Rocket Launcher Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='110']" >
@@ -593,6 +598,7 @@
 		<item name="HD Junk Turret Schematic" count="1" prob="0.1"/>
 		<item name="HD Generator Schematic" count="1" prob="0.1"/>
 		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+		<item name="HD Rocket Launcher Schematic" prob="0.1"/>
 </append>
 	
 <append xpath="/lootcontainers/lootcontainer[@id='51']" >

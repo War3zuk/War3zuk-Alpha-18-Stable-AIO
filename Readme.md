@@ -1,5 +1,20 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.90 to v2.91
+
+Updated HD Cement Mixer Description
+Removed ElectricShock From VM Venders
+Updated Icon For All VM Venders
+VM Venders MaxHp (250) Dmg To Pick Up
+Fixed RegrowSafe Expliot (lol)
+Fixed HardenedChest Exploit (lol)
+
+HD Rocket Launcher (Hires PBR Model) Paid
+HD Rocket Launcher Schematic
+HD Rocket Launcher Icons 256x256
+HD Rocket Launcher Missile (In Hand Model)
+HD Rocket Launcher (Firing Prefab)
+
 Updated v2.89 to v2.90
 
 Added Possums Pavlova

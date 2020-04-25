@@ -13,6 +13,12 @@ tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
 tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
 lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
 
+HDLauncherDesc,items,,,The K9 Dual Launcher will do small damage to Blocks & High damage to Entities.,
+
+HDRocketLauncherRound,items,Item,KgNone,HD Rocket Launcher Round,
+
+HDRocketLauncherRoundDesc,items,,,The K9 Round is used ONLY In the HD Rocket Launcher.,
+
 CamoesBifanaDesc,items,,,The bifana is a Portuguese sandwich that comprises of a light but crusty bread roll filled with sauteed strips of pork that have been seasoned with garlic. spices. and white wine.,
 
 HDCementMixerDesc,,blocks,Workstation,Cement Mixing At Its Finest With Improved Speeds. There are different Engine Torques Giving a Total reduction in time of 50 Percent with 0 Heat Penalty. Engine Models are as follows.\n\nHD Motor 125cc.\n\nHD Motor 250cc.\n\nHD Motor 500cc

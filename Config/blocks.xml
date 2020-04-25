@@ -36,7 +36,6 @@
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
 	<property name="Stacknumber" value="25000"/>
-	<property name="CraftTimeMultiplier" value="0.1,0.1"/>
 	<property name="CraftingAreaRecipes" value="HD Cement Mixer"/>
 	<!--  <property name="HeatMapStrength" value="2"/>
 	<property name="HeatMapTime" value="5000"/>
@@ -2107,6 +2106,7 @@
     <property name="PlantGrowing.FertileLevel" value="0"/>
     <property name="PlantGrowing.LightLevelGrow" value="0"/>
     <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<drop event="Destroy" count="0"/>
 </block>
     
 <block name="WAR Rock Boulder 1">
@@ -2186,7 +2186,6 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="Tags" value="safes"/>
 	<property name="CustomIcon" value="cntGunSafe"/>
-	<property name="CustomIcon" value="rockResourceBroke2"/>
     <property name="CreativeMode" value="None"/>
     <property name="ImposterDontBlock" value="true"/>
     <property name="IsTerrainDecoration" value="true"/>
@@ -2203,6 +2202,7 @@
     <property name="PlantGrowing.FertileLevel" value="0"/>
     <property name="PlantGrowing.LightLevelGrow" value="0"/>
     <property name="PlantGrowing.LightLevelStay" value="0"/>
+  	<drop event="Destroy" count="0"/>
 </block>
 
 <block name="WARcntHardenedChestInsecure">
@@ -2226,6 +2226,7 @@
     <property name="PlantGrowing.FertileLevel" value="0"/>
     <property name="PlantGrowing.LightLevelGrow" value="0"/>
     <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<drop event="Destroy" count="0"/>
 </block>
 
 <block name="HD Power Relay Block">
@@ -2249,25 +2250,51 @@
 	<drop event="Fall" name="HD Power Relay Block" count="1" prob="1"/>
 </block>
 
-<block name="Class Bruiser VM">
-	<property name="Extends" value="cntVendingMachine"/>
+<block name="VendingMachineMaster">
+	<property name="Group" value="Science"/>
 	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="cntVendingMachineGroupDesc"/>
+	<property name="DisplayType" value="blockHardenedMulti"/>
+	<property name="Material" value="MTitaniumPolish"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Class" value="VendingMachine"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceForgedIron" value="10"/> </property>
+	<property name="TraderID" value="3"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Bruiser VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Bruiser VM.Prefab"/>
 	<property name="TraderID" value="16"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
 	<drop event="Destroy" name="Class Bruiser VM" count="1"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
-	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 </block>
 
 <block name="Class Builder VM">
-	<property name="Extends" value="cntVendingMachine"/>
-	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Builder VM.Prefab"/>
 	<property name="TraderID" value="10"/>
 	<property name="Stacknumber" value="1"/>
@@ -2278,11 +2305,10 @@
 </block>
 
 <block name="Class Engineer VM">
-	<property name="Extends" value="cntVendingMachine"/>
-	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CanPickup" value="true"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Engineer VM.Prefab"/>
 	<property name="TraderID" value="11"/>
 	<property name="Stacknumber" value="1"/>
@@ -2293,11 +2319,10 @@
 </block>
 
 <block name="Class Farmer VM">
-	<property name="Extends" value="cntVendingMachine"/>
-	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CanPickup" value="true"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Farmer VM.Prefab"/>
 	<property name="TraderID" value="12"/>
 	<property name="Stacknumber" value="1"/>
@@ -2308,11 +2333,10 @@
 </block>
 
 <block name="Class Gunman VM">
-	<property name="Extends" value="cntVendingMachine"/>
-	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CanPickup" value="true"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Gunman VM.Prefab"/>
 	<property name="TraderID" value="13"/>
 	<property name="Stacknumber" value="1"/>
@@ -2323,11 +2347,10 @@
 </block>
 
 <block name="Class Mechanic VM">
-	<property name="Extends" value="cntVendingMachine"/>
-	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CanPickup" value="true"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Mechanic VM.Prefab"/>
 	<property name="TraderID" value="14"/>
 	<property name="Stacknumber" value="1"/>
@@ -2338,11 +2361,10 @@
 </block>
 
 <block name="Class Medic VM">
-	<property name="Extends" value="cntVendingMachine"/>
-	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CanPickup" value="true"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Medic VM.Prefab"/>
 	<property name="TraderID" value="15"/>
 	<property name="Stacknumber" value="1"/>

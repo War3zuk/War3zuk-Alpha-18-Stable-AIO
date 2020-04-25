@@ -3701,6 +3701,118 @@
 	</effect_group>
 </item>
 
+<item name="HD Rocket Launcher">
+	<property name="DescriptionKey" value="HDLauncherDesc"/>
+	<property name="CustomIcon" value="HD Rocket Launcher"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,canHaveCosmetic,noSilencer"/>
+	<property name="DisplayType" value="rangedLauncher"/>
+	<property name="HoldType" value="10"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD Rocket Launcher.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="MRocketLauncherParts"/> <property name="Weight" value="10"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="launcher_sight_in"/>
+	<property name="Sound_Sight_Out" value="launcher_sight_out"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="4500"/>
+	<property name="UnlockedBy" value="HD Rocket Launcher Schematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="Launcher"/>
+		<property name="Delay" value=".8"/>
+		<property name="Range" value="100"/>
+		<property name="Magazine_items" value="HDRocketLauncherRound"/>
+		<property name="Reload_time" value="2"/>
+		<property name="Sound_start" value="HDRocketF"/>
+		<property name="Sound_repeat" value="HDRocketF"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="m136_reload"/>
+		<property name="Particles_muzzle_fire" value="rocketLauncherFire"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke_m136"/>
+		<property name="ScopeOffset" value="-.00062,.088,.065"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+	</property>
+	<effect_group name="gunRocketLauncher">
+		<passive_effect name="MaxRange" operation="base_set" value="150"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="0"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="0"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="0"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".01,.01" tier="2,6"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDemolitionsExpert"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="7"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="7"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".15"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="10"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="10"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.5"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".5"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.2"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".4"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="5000,1000" tier="1,6" tags="perkDemolitionsExpert"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDemolitionsExpert"/>
+		
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
+		
+	</effect_group>
+</item>
+
+<item name="HDRocketLauncherRound">
+	<property name="DescriptionKey" value="HDRocketLauncherRoundDesc"/>
+	<property name="CustomIcon" value="HD Rocket Launcher Round"/>
+	<property name="Tags" value="ammo"/>
+	<property name="DisplayType" value="ammoLauncher"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile001.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="HandMeshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile002.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile002.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Mlead_scrap"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="Explosion.ParticleIndex" value="4"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.DamageBonus.water" value="0"/>
+		<property name="Gravity" value="-2"/>
+		<property name="FlyTime" value="4"/>
+		<property name="LifeTime" value="20"/>
+	</property>
+	<effect_group name="ammoRocketHE" tiered="false">
+		<passive_effect name="BlockDamage" operation="base_set" value="0.1"/><display_value name="dExDamageBlock" value="0.1"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="450"/><display_value name="dExDamageEntity" value="450"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="18"/>
+		<display_value name="dExRadius" value="5"/>
+	</effect_group>
+</item>
+
 <item name="HD Flame Fuel">
 	<property name="Extends" value="ammoGasCan"/>
 	<property name="DescriptionKey" value="HDFlameFuelDesc"/>
@@ -7705,6 +7817,17 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor250cc" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor500cc" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+	</effect_group>
+</item>
+
+<item name="HD Rocket Launcher Schematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Rocket Launcher Schematic"/>
+	<property name="Unlocks" value="HD Rocket Launcher"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Rocket Launcher" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
 	</effect_group>
 </item>
 
