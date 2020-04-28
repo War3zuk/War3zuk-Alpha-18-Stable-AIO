@@ -135,8 +135,64 @@ HDCncAutomaticsDesc,items,,,Add this Item to the HD GunBench To allow for the Pr
 
 HDCncRiflesDesc,items,,,Add this Item to the HD GunBench To allow for the Production Of HD Sniper Rifles.
 
-HDGunPowderBundle,items,Item,KgNone,HD GunPowder Bundle,
+45ACPRound,items,Item,KgNone,HD Ammo .45mm ACP,
+45ACPRoundSH,items,Item,KgNone,HD Ammo .45mm ACP SH,
+45ACPRoundINC,items,Item,KgNone,HD Ammo .45mm ACP INC,
 
+DeagleRound,items,Item,KgNone,HD Ammo .50mm AE,
+50MagBulletINC,items,Item,KgNone,HD Ammo .50mm AE INC,
+50MagBulletSH,items,Item,KgNone,HD Ammo .50mm AE SH,
+
+408Round,items,Item,KgNone,HD Ammo .408mm CT,
+408RoundINC,items,Item,KgNone,HD Ammo .408mm CT INC,
+408RoundSH,items,Item,KgNone,HD Ammo .408mm CT SH,
+
+500AutoMax,items,Item,KgNone,HD Ammo .500mm AM,
+500MagBulletINC,items,Item,KgNone,HD Ammo .500mm AM INC,
+500MagBulletSH,items,Item,KgNone,HD Ammo .500mm AM SH,
+
+50BMGRound,items,Item,KgNone,HD Ammo .50mm BMG,
+50BMGRoundINC,items,Item,KgNone,HD Ammo .50mm BMG INC,
+50BMGRoundSH,items,Item,KgNone,HD Ammo .50mm BMG SH,
+
+HDammoBundle45ACPRound,items,Item,KgNone,HD Ammo Bundle .45mm ACP,
+
+HDammoBundle9mmBulletBall,items,Item,KgNone,HD Ammo Bundle .9mm,
+
+HDammoBundle9mmBulletHP,items,Item,KgNone,HD Ammo Bundle .9mm HP,
+
+HDammoBundle9mmBulletAP,items,Item,KgNone,HD Ammo Bundle .9mm AP,
+
+HDammoBundle44MagnumBulletBall,items,Item,KgNone,HD Ammo Bundle .44mm,
+
+HDammoBundle44MagnumBulletHP,items,Item,KgNone,HD Ammo Bundle .44mm HP,
+
+HDammoBundle44MagnumBulletAP,items,Item,KgNone,HD Ammo Bundle .44mm AP,
+
+HDammoBundleDeagleRound,items,Item,KgNone,HD Ammo Bundle .50mm AE,
+
+HDammoBundle500AutoMax,items,Item,KgNone,HD Ammo Bundle .500mm AM,
+
+HDammoBundle762mmBulletBall,items,Item,KgNone,HD Ammo Bundle 7.62mm,
+
+HDammoBundle762mmBulletHP,items,Item,KgNone,HD Ammo Bundle 7.62mm HP,
+
+HDammoBundle762mmBulletAP,items,Item,KgNone,HD Ammo Bundle 7.62mm AP,
+
+HDammoBundle408Round,items,Item,KgNone,HD Ammo Bundle .408mm CT,
+
+HDammoBundle50BMGRound,items,Item,KgNone,HD Ammo Bundle .50mm BMG,
+
+HDammoBundleShotgunShell,items,Item,KgNone,HD Ammo Bundle Shotgun Shell,
+
+HDammoBundleShotgunSlug,items,Item,KgNone,HD Ammo Bundle Shotgun Slug,
+
+HDammoBundleShotgunBreachingSlug,items,Item,KgNone,HD Ammo Bundle Shotgun Breaching Slug,
+
+HDBreachingC4,items,Item,KgNone,HD Breaching C4,
+MREMilitaryRation,items,Item,KgNone,HD MRE Military Ration,
+
+HDGunPowderBundle,items,Item,KgNone,HD GunPowder Bundle,
 HDammoGasCanBundle,items,Item,KgNone,HD ammoGasCan Bundle,
 
 HDGeneratorDesc,blocks,,,This Thing will power a City. Use the HD Cells to power.

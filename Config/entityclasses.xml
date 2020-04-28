@@ -5546,7 +5546,7 @@
 
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
-<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.20</set>
+<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.10</set>
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
 
 <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]"> <passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/></append>

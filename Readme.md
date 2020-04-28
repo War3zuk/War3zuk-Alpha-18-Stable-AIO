@@ -1,12 +1,24 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.91 to v2.92
+
+Renamed All HD Ammo
+Removed Old Single Burried Supplies Quest
+Replaced Burried Supplies 6 New Quests (Needs Fully Testing)
+Optimized HD Booper Shock BUFF
+
+Added ALL HD Ammo Types To Bundles (HD AmmoBench) + HDGrinder
+Added HD Ammo Types To Burried Supply Quests For Trader
+
+TreeStumps Can Now Be Looted Again :)
+
 Updated v2.90 to v2.91
 
 Updated HD Cement Mixer Description
 Removed ElectricShock From VM Venders
 Updated Icon For All VM Venders
 VM Venders MaxHp (250) Dmg To Pick Up
-Fixed RegrowSafe Expliot (lol)
+Fixed RegrowSafe Exploit (lol)
 Fixed HardenedChest Exploit (lol)
 
 HD Rocket Launcher (Hires PBR Model) Paid

@@ -10,6 +10,9 @@
 	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']"/>
 	<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
 	
+	<remove xpath="/quests/quest[@id='tier1_buried_supplies']"/>
+	<remove xpath="/quests/quest[@id='tier2_buried_supplies']"/>
+	
 <insertBefore xpath="/quests/quest[@id='challenge_silenceofthelambs']" >
 	
 <quest id="quest_BasicSurvival1">
@@ -885,4 +888,297 @@
 </quest>
 		
 </insertBefore>
+
+<insertBefore xpath="/quests/quest[@id='test_sleepers']" >
+
+<quest id="tier1_buried_supplies">
+		<property name="name_key" value="Tier 1 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 1 Buried Supplies"/>
+		<property name="description_key" value="Tier 1 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="I want you to go out and find my Stoggy Stash. 50 Packs of the finest Cigars youve ever smoked. They were stolen by the BR1NXs Bandits. If you see them Fuck Them Up"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="1"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedStashChest"/>
+			<property name="distance" value="100-200"/>
+			<property name="default_radius" value="2"/>
+			<property name="container_type" value="Supplies"/>
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedStashChest"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="3"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="badZombieStripper_Rager,badZombieWarlord_Rager,valZombieRavagerSpider_Rager,sanZombieBanditJuggernaut_Rager,sanZombieBodyBuilder_Rager" value="3-5" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+</quest>
+
+<quest id="tier2_buried_supplies">
+		<property name="name_key" value="Tier 2 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 2 Buried Supplies"/>
+		<property name="description_key" value="Tier 2 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="A shit load of Loot has gone. It was that Baddass Bandit Camoes and his thirsty crew. Steal back my Shit and sort them Fuckers out."/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="2"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="distance" value="200-300"/>
+			<property name="default_radius" value="3"/>
+			<property name="container_type" value="Supplies"/>
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="2"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="badZombieStripper_Rager,sanZombieBanditLooter_Rager,sanZombieReaper_Rager,sanZombieBanditRaider_Rager,sanZombieTrailerPark_Rager" value="4-6" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Item" id="casinoCoin" value="1000"/>
+
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+</quest>
+
+<quest id="tier3_buried_supplies">
+		<property name="name_key" value="Tier 3 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 3 Buried Supplies"/>
+		<property name="description_key" value="Tier 3 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="PandaPants75s Builder pack has been stolen. Its upto You and only You to get this back so he can carry on his work. If you see the people responsable kill them all."/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="3"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="distance" value="300-400"/>
+			<property name="default_radius" value="4"/>
+			<property name="container_type" value="Supplies"/>
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="3"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="gupZombieSnowQueen_Rager,gupZombieBouncer_Rager,valZombieRegen_Rager,valZombieRaveReaper_Rager,badZombieSWATFemale_Rager" value="5-7" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Item" id="casinoCoin" value="2000"/>
+
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+</quest>
+
+<quest id="tier4_buried_supplies">
+		<property name="name_key" value="Tier 4 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 4 Buried Supplies"/>
+		<property name="description_key" value="Tier 4 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="A band of outlaws has taken Ipossoms special Pavlova Recipe. We Need That Back you hear. If you find the culprits mess them up so even their mothers cant recognise them."/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="4"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="distance" value="400-500"/>
+			<property name="default_radius" value="5"/>
+			<property name="container_type" value="Supplies"/>
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="3"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="badZombieSWATMale_Rager,badZombieStripperMole_Rager,badZombieCur_Rager,badZombieBolivar_Rager,sanZombieFreak_Rager" value="6-8" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Item" id="casinoCoin" value="4000"/>
+
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+</quest>
+
+<quest id="tier5_buried_supplies">
+		<property name="name_key" value="Tier 5 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 5 Buried Supplies"/>
+		<property name="description_key" value="Tier 5 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Nauti Angel has done it again. Shes only gone and stolen our life times supply of Canned Pears. When you find her Stash Rip her a New one. She deserves NO Mercy."/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="5"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="distance" value="500-600"/>
+			<property name="default_radius" value="6"/>
+			<property name="container_type" value="Supplies"/>
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="3"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="sanZombieCannibalFemale_Rager,sanZombieBloodmoon_Rager,sanZombieBanditKiller_Rager,sanZombieHunter_Rager,sanZombieCpl_Rager" value="7-9" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Item" id="casinoCoin" value="5000"/>
+
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+</quest>
+
+<quest id="tier6_buried_supplies">
+		<property name="name_key" value="Tier 6 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 6 Buried Supplies"/>
+		<property name="description_key" value="Tier 6 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Kain383 Has stolen Our Arms Supply. We want all our hardware back. Follow the Clues And bring back our Gear. If you see him End Him"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="6"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="distance" value="600-800"/>
+			<property name="default_radius" value="5"/>
+			<property name="container_type" value="Supplies"/>
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedWeaponChest"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="3"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="sanZombieMitchHazmat_Rager,sanZombieHunterSven_Rager,sanZombieFiend_Rager,sanZombiePrisoner_Rager,sanZombieInfectedLady_Rager" value="7-9" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="10000"/>
+		<reward type="Item" id="casinoCoin" value="10000"/>
+
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+</quest>
+
+</insertBefore>
+
 </configs>

@@ -82,6 +82,12 @@
 	<ingredient name="drugSteroids" count="1"/>
 	<ingredient name="drinkJarBeer" count="2"/>
 </recipe>
+
+<recipe name="HDammoBundle45ACPRound" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
 	
 <recipe name="HDammoBundle9mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
 	<ingredient name="resourceBulletTip" count="80"/>
@@ -119,6 +125,18 @@
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
+<recipe name="HDammoBundleDeagleRound" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="180"/>
+	<ingredient name="resourceGunPowder" count="180"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle500AutoMax" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="180"/>
+	<ingredient name="resourceGunPowder" count="180"/>
+	<ingredient name="resourceBulletCasing" count="180"/>
+</recipe>
+
 <recipe name="HDammoBundle762mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="240"/>
@@ -135,6 +153,18 @@
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="400"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle408Round" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="180"/>
+	<ingredient name="resourceGunPowder" count="360"/>
+	<ingredient name="resourceBulletCasing" count="180"/>
+</recipe>
+
+<recipe name="HDammoBundle50BMGRound" count="1" craft_time = "350" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBulletTip" count="260"/>
+	<ingredient name="resourceGunPowder" count="520"/>
+	<ingredient name="resourceBulletCasing" count="260"/>
 </recipe>
 
 <recipe name="HDammoBundleShotgunShell" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
@@ -354,7 +384,7 @@
 	<ingredient name="resourceNail" count="10"/>
 </recipe>
 
-<recipe name="HD Breaching C4" count="1" craft_area="HD WorkBench" craft_time = "30" >
+<recipe name="HDBreachingC4" count="1" craft_area="HD WorkBench" craft_time = "30" >
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="resourceGunPowder" count="50"/>
 	<ingredient name="resourceCandyTin" count="1"/>
@@ -1138,23 +1168,23 @@
 	<ingredient name="Ammo Supply Shredder" count="1"/>
 </recipe>
 
-<recipe name="45 ACP Round" count="30">
+<recipe name="45ACPRound" count="30">
 	<ingredient name="Ammo Supply 45 ACP" count="1"/>
 </recipe>
 
-<recipe name="Deagle Round" count="30">
+<recipe name="DeagleRound" count="30">
 	<ingredient name="Ammo Supply DE50" count="1"/>
 </recipe>
 
-<recipe name="500 Auto Max" count="30">
+<recipe name="500AutoMax" count="30">
 	<ingredient name="Ammo Supply 500 Auto Max" count="1"/>
 </recipe>
 
-<recipe name="408 Round" count="20">
+<recipe name="408Round" count="20">
 	<ingredient name="Ammo Supply 408 Round" count="1"/>
 </recipe>
 
-<recipe name="50 BMG Round" count="20">
+<recipe name="50BMGRound" count="20">
 	<ingredient name="Ammo Supply 50 BMG Round" count="1"/>
 </recipe>
 		
@@ -1414,34 +1444,34 @@
 	<ingredient name="resourceScrapIron" count="20"/>
 </recipe>
 
-<recipe name="45 ACP Round" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="45ACPRound" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
 	<ingredient name="resourceBulletTip" count="1"/>
-	<ingredient name="resourceGunPowder" count="2"/>
+	<ingredient name="resourceGunPowder" count="1"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
 
-<recipe name="Deagle Round" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="DeagleRound" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
 	<ingredient name="resourceBulletTip" count="2"/>
 	<ingredient name="resourceGunPowder" count="2"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
 
-<recipe name="50 BMG Round" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="50BMGRound" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
 	<ingredient name="resourceBulletTip" count="3"/>
 	<ingredient name="resourceGunPowder" count="6"/>
 	<ingredient name="resourceBulletCasing" count="3"/>
 </recipe>
 
-<recipe name="408 Round" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="408Round" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
 	<ingredient name="resourceBulletTip" count="2"/>
-	<ingredient name="resourceGunPowder" count="5"/>
+	<ingredient name="resourceGunPowder" count="4"/>
 	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="500 Auto Max" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="500AutoMax" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
 	<ingredient name="resourceBulletTip" count="2"/>
-	<ingredient name="resourceGunPowder" count="1"/>
-	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="2"/>
+	<ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
 <recipe name="9mm Bullet SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
@@ -1458,14 +1488,14 @@
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 	
-<recipe name="50Mag Bullet SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="50MagBulletSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
 	 <ingredient name="HD Electrolyte" count="2"/>
      <ingredient name="resourceGunPowder" count="2"/>
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 	
-<recipe name="500Mag Bullet SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="500MagBulletSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
 	 <ingredient name="HD Electrolyte" count="2"/>
      <ingredient name="resourceGunPowder" count="2"/>
@@ -1479,21 +1509,21 @@
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="45 ACP Round SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="45ACPRoundSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
 	 <ingredient name="HD Electrolyte" count="2"/>
      <ingredient name="resourceGunPowder" count="2"/>
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="408 Round SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="408RoundSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="4" />
 	 <ingredient name="HD Electrolyte" count="4"/>
      <ingredient name="resourceGunPowder" count="4"/>
      <ingredient name="resourceBulletCasing" count="4"/>
 </recipe>
 
-<recipe name="50 BMG Round SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="50BMGRoundSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="5" />
 	 <ingredient name="HD Electrolyte" count="5"/>
      <ingredient name="resourceGunPowder" count="10"/>
@@ -1516,13 +1546,13 @@
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 	
-<recipe name="50Mag Bullet INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="50MagBulletINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
      <ingredient name="resourceGunPowder" count="2"/>
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 	
-<recipe name="500Mag Bullet INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="500MagBulletINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
      <ingredient name="resourceGunPowder" count="2"/>
      <ingredient name="resourceBulletCasing" count="2"/>
@@ -1534,19 +1564,19 @@
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="45 ACP Round INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="45ACPRoundINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
      <ingredient name="resourceGunPowder" count="2"/>
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="408 Round INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="408RoundINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
      <ingredient name="resourceGunPowder" count="5"/>
      <ingredient name="resourceBulletCasing" count="2"/>
 </recipe>
 
-<recipe name="50 BMG Round INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+<recipe name="50BMGRoundINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
      <ingredient name="Hollow Tip" count="2" />
      <ingredient name="resourceGunPowder" count="5"/>
      <ingredient name="resourceBulletCasing" count="2"/>
@@ -1766,11 +1796,11 @@
 </recipe>
 
 <recipe name="Disassemble Deagle Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
-	<ingredient name="Deagle Round" count="10"/>
+	<ingredient name="DeagleRound" count="10"/>
 </recipe>
 
 <recipe name="Disassemble 500 Auto Max 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
-	<ingredient name="500 Auto Max" count="10"/>
+	<ingredient name="500AutoMax" count="10"/>
 </recipe>
 
 <recipe name="Disassemble Blunderbuss Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
@@ -1794,15 +1824,15 @@
 </recipe>
 
 <recipe name="Disassemble 45 ACP Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
-	<ingredient name="45 ACP Round" count="10"/>
+	<ingredient name="45ACPRound" count="10"/>
 </recipe>
 
 <recipe name="Disassemble 408 Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
-	<ingredient name="408 Round" count="10"/>
+	<ingredient name="408Round" count="10"/>
 </recipe>
 
 <recipe name="Disassemble 50 BMG Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
-	<ingredient name="50 BMG Round" count="10"/>
+	<ingredient name="50BMGRound" count="10"/>
 </recipe>
 
 <recipe name="concreteTunnelCenter" count="1" craft_time="5" craft_area="cementMixer" tags="cementMixerCrafting">

@@ -419,6 +419,16 @@
 	</property>
 </item>
 
+<item name="HDammoBundle45ACPRound">
+	<property name="Extends" value="HDammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="45 ACP"/>
+	<property name="EconomicValue" value="1400"/>
+	<property class="Action0">
+		<property name="Create_item" value="45ACPRound"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
 <item name="HDammoBundle9mmBulletHP">
 	<property name="Extends" value="HDammoBundle9mmBulletBall"/>
 	<property name="CustomIcon" value="ammo9mmBulletHP"/>
@@ -458,12 +468,33 @@
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>
+
 <item name="HDammoBundle44MagnumBulletAP">
 	<property name="Extends" value="HDammoBundle44MagnumBulletBall"/>
 	<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
 	<property name="EconomicValue" value="1500"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammo44MagnumBulletAP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundleDeagleRound">
+	<property name="Extends" value="HDammoBundle44MagnumBulletBall"/>
+	<property name="CustomIcon" value="Deagle Round"/>
+	<property name="EconomicValue" value="1500"/>
+	<property class="Action0">
+		<property name="Create_item" value="DeagleRound"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundle500AutoMax">
+	<property name="Extends" value="HDammoBundle44MagnumBulletBall"/>
+	<property name="CustomIcon" value="500 AM"/>
+	<property name="EconomicValue" value="2500"/>
+	<property class="Action0">
+		<property name="Create_item" value="500AutoMax"/>
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>
@@ -478,6 +509,7 @@
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>
+
 <item name="HDammoBundle762mmBulletHP">
 	<property name="Extends" value="HDammoBundle762mmBulletBall"/>
 	<property name="CustomIcon" value="ammo762mmBulletHp"/>
@@ -488,6 +520,7 @@
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>
+
 <item name="HDammoBundle762mmBulletAP">
 	<property name="Extends" value="HDammoBundle762mmBulletBall"/>
 	<property name="CustomIcon" value="ammo762mmBulletAP"/>
@@ -495,6 +528,28 @@
 	<property name="UnlockedBy" value="perkSniperComplete"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammo762mmBulletAP"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundle408Round">
+	<property name="Extends" value="HDammoBundle762mmBulletBall"/>
+	<property name="CustomIcon" value="408 Round"/>
+	<property name="EconomicValue" value="2800"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="408Round"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+
+<item name="HDammoBundle50BMGRound">
+	<property name="Extends" value="HDammoBundle762mmBulletBall"/>
+	<property name="CustomIcon" value="50 BMG"/>
+	<property name="EconomicValue" value="3800"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="50BMGRound"/>
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>
@@ -509,6 +564,7 @@
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>
+
 <item name="HDammoBundleShotgunSlug">
 	<property name="Extends" value="HDammoBundleShotgunShell"/>
 	<property name="CustomIcon" value="ammoShotgunSlug"/>
@@ -518,6 +574,7 @@
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>
+
 <item name="HDammoBundleShotgunBreachingSlug">
 	<property name="Extends" value="HDammoBundleShotgunShell"/>
 	<property name="CustomIcon" value="ammoShotgunBreachingSlug"/>
@@ -1198,7 +1255,7 @@
 	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
 </item>
 	
-<item name="MRE Military Ration">
+<item name="MREMilitaryRation">
 	<property name="DescriptionKey" value="MREMilitaryRationDesc"/>
 	<property name="CustomIcon" value="MRE Military Ration"/>
 	<property name="Tags" value="medical"/>
@@ -1419,7 +1476,7 @@
 	<property name="Group" value="Survival"/>
 	</item>
 	
-<item name="HD Breaching C4">
+<item name="HDBreachingC4">
 	<property name="DescriptionKey" value="HDBreachingC4Desc"/>
 	<property name="CustomIcon" value="HD Breaching C4"/>
 	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
@@ -1526,7 +1583,7 @@
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
+		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Sound_start" value="M1911Fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -1612,7 +1669,7 @@
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
+		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Sound_start" value="M1911Fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -1699,7 +1756,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".34"/>
-		<property name="Magazine_items" value="Deagle Round,50Mag Bullet INC,50Mag Bullet SH"/>
+		<property name="Magazine_items" value="DeagleRound,50MagBulletINC,50MagBulletSH"/>
 		<property name="Reload_time" value="4"/>
 		<property name="Sound_start" value="DEFire"/>
 		<property name="Sound_repeat" value=""/>
@@ -1790,7 +1847,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".34"/>
-		<property name="Magazine_items" value="Deagle Round,50Mag Bullet INC,50Mag Bullet SH"/>
+		<property name="Magazine_items" value="DeagleRound,50MagBulletINC,50MagBulletSH"/>
 		<property name="Reload_time" value="4"/>
 		<property name="Sound_start" value="DEFire"/>
 		<property name="Sound_repeat" value=""/>
@@ -1879,7 +1936,7 @@
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
+		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Sound_start" value="mp5_fire"/>
 		<property name="Sound_loop" value="mp5_fire"/>
 		<property name="Sound_end" value="mp5_fire_end"/>
@@ -1965,7 +2022,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
+		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Reload_time" value="4.1"/>
 		<property name="Sound_start" value="M3F"/>
 		<property name="Sound_loop" value="M3F"/>
@@ -2049,7 +2106,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
+		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Sound_start" value="AKHybridFire"/>
 		<property name="Sound_loop" value="AKHybridFire"/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -2129,7 +2186,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
+		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Sound_start" value="AKHybridFire"/>
 		<property name="Sound_loop" value="AKHybridFire"/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -2289,7 +2346,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="500 Auto Max,500Mag Bullet INC,500Mag Bullet SH"/>
+		<property name="Magazine_items" value="500AutoMax,500MagBulletINC,500MagBulletSH"/>
 		<property name="Sound_start" value="ARFire"/>
 		<property name="Sound_loop" value="ARFire"/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -3131,7 +3188,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="50 BMG Round,50 BMG Round INC,50 BMG Round SH"/>
+		<property name="Magazine_items" value="50BMGRound,50BMGRoundINC,50BMGRoundSH"/>
 		<property name="Sound_start" value="M134Fire"/>
 		<property name="Sound_loop" value="M134Fire"/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -3219,7 +3276,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
-		<property name="Magazine_items" value="50 BMG Round,50 BMG Round INC,50 BMG Round SH"/>
+		<property name="Magazine_items" value="50BMGRound,50BMGRoundINC,50BMGRoundSH"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="AWFire"/>
 		<property name="Sound_repeat" value=""/>
@@ -3308,7 +3365,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
-		<property name="Magazine_items" value="408 Round,408 Round INC,408 Round SH"/>
+		<property name="Magazine_items" value="408Round,408RoundINC,408RoundSH"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="CheyM300Fire"/>
 		<property name="Sound_repeat" value="CheyM300Fire"/>
@@ -3485,7 +3542,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
-		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
+		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="WinchesterF"/>
 		<property name="Sound_repeat" value="WinchesterF"/>
@@ -3834,7 +3891,7 @@
 
 <item name="HD BR1NXlS Booper">
 	<property name="DescriptionKey" value="HDBR1NXlSBooperDesc"/>
-	<property name="CustomIcon" value="HD BR1NXlS Booper"/>
+	<property name="CustomIcon" value="HD BR1NXlS Booper"/> <!--  GFX Icon BY Pandapants75  -->
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,perkElectrocutioner,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="33"/>
@@ -3912,7 +3969,7 @@
 			</effect_group>
 		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
@@ -3922,7 +3979,7 @@
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="10">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="1">
 			<requirement name="IsAlive" target="other"/>
@@ -3935,11 +3992,11 @@
 			<requirement name="IsSecondaryAttack"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="particleeffects/p_electric_shock" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit1">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
@@ -3962,7 +4019,7 @@
 	</effect_group>
 </item>
 
-<item name="500 Auto Max">
+<item name="500AutoMax">
 	<property name="Extends" value="ammo762mmBulletBall"/>
 	<property name="CustomIcon" value="500 AM"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -3978,10 +4035,10 @@
 	</effect_group>
 </item>
 
-<item name="45 ACP Round">
+<item name="45ACPRound">
 	<property name="DescriptionKey" value="45ACPRoundDesc"/>
 	<property name="Extends" value="ammo9mmBulletBall"/>
-	<property name="CustomIcon" value="45 Acp"/>
+	<property name="CustomIcon" value="45 ACP"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -3995,7 +4052,7 @@
 	</effect_group>
 </item>
 
-<item name="Deagle Round">
+<item name="DeagleRound">
 	<property name="DescriptionKey" value="DERoundDesc"/>
 	<property name="Extends" value="ammo44MagnumBulletBall"/>
 	<property name="CustomIcon" value="Deagle Round"/>
@@ -4012,7 +4069,7 @@
 	</effect_group>
 </item>
 
-<item name="50 BMG Round">
+<item name="50BMGRound">
 	<property name="DescriptionKey" value="50BMGRoundDesc"/>
 	<property name="Extends" value="ammo44MagnumBulletBall"/>
 	<property name="CustomIcon" value="50 BMG"/>
@@ -4029,7 +4086,7 @@
 	</effect_group>
 </item>
 
-<item name="408 Round">
+<item name="408Round">
 	<property name="DescriptionKey" value="408RoundDesc"/>
 	<property name="Extends" value="ammo44MagnumBulletBall"/>
 	<property name="CustomIcon" value="408 Round"/>
@@ -4927,7 +4984,7 @@
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.1,.1"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="85.0"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="65.0"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="40"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="1,1" tier="2,6"/>
@@ -5008,7 +5065,7 @@
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.1,.1"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="85.0"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="65.0"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="1,1" tier="2,6"/>
@@ -5056,7 +5113,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".8"/>
-		<property name="Magazine_items" value="50 BMG Round"/>
+		<property name="Magazine_items" value="50BMGRound"/>
 		<property name="Reload_time" value="3.9"/>
 		<property name="Sound_start" value="AWFire"/>
 		<property name="Sound_repeat" value="AWFire"/>
@@ -5089,7 +5146,7 @@
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.1,.1"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="85.0"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="65.0"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="60"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="1,1" tier="2,6"/>
@@ -6849,7 +6906,7 @@
 			</effect_group>
 		</item>
 		
-<item name="45 ACP Round SH">
+<item name="45ACPRoundSH">
 	<property name="CustomIcon" value="45 Acp SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
@@ -6869,9 +6926,9 @@
 			</effect_group>
 		 </item>
 		
-<item name="50Mag Bullet SH">
+<item name="50MagBulletSH">
 			 <property name="CustomIcon" value="50Mag Bullet SH" />
-		 <property name="Extends" value="Deagle Round"/>
+		 <property name="Extends" value="DeagleRound"/>
 		<property name="EconomicValue" value="60"/>
 		 <property name="Stacknumber" value="20000" /> 
 		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
@@ -6889,9 +6946,9 @@
 			</effect_group>
 		</item>
 		
-<item name="500Mag Bullet SH">
+<item name="500MagBulletSH">
 			 <property name="CustomIcon" value="500Mag Bullet SH" />
-		 <property name="Extends" value="Deagle Round"/>
+		 <property name="Extends" value="DeagleRound"/>
 		<property name="EconomicValue" value="70"/>
 		 <property name="Stacknumber" value="20000" /> 
 		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
@@ -6929,7 +6986,7 @@
 			</effect_group>
 		 </item>
 		 
-<item name="408 Round SH">
+<item name="408RoundSH">
 	<property name="CustomIcon" value="408 Round SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
@@ -6949,7 +7006,7 @@
 			</effect_group>
 		 </item>
 		 
-<item name="50 BMG Round SH">
+<item name="50BMGRoundSH">
 	<property name="CustomIcon" value="50 BMG Round SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
@@ -7021,7 +7078,7 @@
 		</effect_group>
 </item>
 		
-<item name="45 ACP Round INC">
+<item name="45ACPRoundINC">
 	<property name="CustomIcon" value="45 Acp INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
@@ -7047,9 +7104,9 @@
 		</effect_group>
 </item>
 		
-<item name="50Mag Bullet INC">
+<item name="50MagBulletINC">
 	 <property name="CustomIcon" value="50Mag Bullet INC" />
-	 <property name="Extends" value="Deagle Round"/>
+	 <property name="Extends" value="DeagleRound"/>
 	<property name="EconomicValue" value="60"/>
 	<property name="Stacknumber" value="20000" /> 
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
@@ -7073,9 +7130,9 @@
 		</effect_group>
 </item>
 		
-<item name="500Mag Bullet INC">
+<item name="500MagBulletINC">
 	<property name="CustomIcon" value="500Mag Bullet INC" />
-	<property name="Extends" value="Deagle Round"/>
+	<property name="Extends" value="DeagleRound"/>
 	<property name="EconomicValue" value="70"/>
 	<property name="Stacknumber" value="20000" /> 
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
@@ -7125,7 +7182,7 @@
 		</effect_group>
 </item>
 		 
-<item name="408 Round INC">
+<item name="408RoundINC">
 	<property name="CustomIcon" value="408 Round INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
@@ -7151,7 +7208,7 @@
 		</effect_group>
 </item>
 		 
-<item name="50 BMG Round INC">
+<item name="50BMGRoundINC">
 	<property name="CustomIcon" value="50 BMG Round INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
