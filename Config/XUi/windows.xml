@@ -159,7 +159,7 @@
 	<set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/rect[@visible='{showstats}']/rect[@pos='-3,-192']/label[@justify='left']/@width">834</set>
 	<set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/rect[@visible='{showstats}']/rect[@pos='-3,-192']/label[@justify='right']/@width">834</set>
 	<set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/rect[@visible='{showdescription}']/label[@name='descriptionText']/@width">844</set>
-	<set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/grid[@name='parts']/@cols">11</set>
+	<set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/grid[@name='parts']/@cols">12</set>
 	<set xpath="/windows/window[@name='buffInfoPanel']/@width">1007</set>
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/sprite[@depth='5']/@width">1007</set>
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@name='description']/@width">852</set>

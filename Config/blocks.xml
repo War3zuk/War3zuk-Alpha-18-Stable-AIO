@@ -2657,23 +2657,26 @@
 	<property name="MovementFactor" value="1.2"/>
 </append>
 
-<append xpath="/blocks/block[@name='treeStump']">
+<append xpath="/blocks/block[@name='goreBlockHumanCorpse']">
+<block name="goreBlockHumanCorpse">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="35"/>
-	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="LootList" value="524"/>
+	<property name="Material" value="Morganic"/>
+	<property name="MaxDamage" value="50"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Path" value="solid"/>
-	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
-	<property name="ModelOffset" value="0,0,0"/>
-	<property name="ImposterDontBlock" value="true"/>
+	<property name="Model" value="Entities/Gore/gore_block1_Prefab"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="BigDecorationRadius" value="3"/>
-	<property name="IsPlant" value="true"/>
-	<drop event="Harvest" name="resourceWood" count="10,20" tag="oreWoodHarvest"/>
-	<drop event="Destroy" name="foodHoney"/>
-	<drop event="Destroy" name="HDNailGunBolt" count="5,10" prob=".2"/>
-	<property name="FilterTags" value="foutdoor,ftrees"/>
-	<property name="SortOrder1" value="a0d0"/>
+	<property name="FallDamage" value=".9"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Harvest" name="goreBlockHumanCorpse" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" prob="1" tag="allHarvest"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="3,6" prob="1" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
+	<drop event="Destroy" name="resourceBone" count="5,10" tag="butcherHarvest"/>
+</block>
 </append>
 
 <append xpath="/blocks/block[@name='cntGasPump']">

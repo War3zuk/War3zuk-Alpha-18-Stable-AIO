@@ -1,5 +1,10 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.92 to v2.93
+
+Added HD Bowl Model (Hires PBR) Paid
+Fixed .45 Acp Ammo Icon
+
 Updated v2.91 to v2.92
 
 Renamed All HD Ammo

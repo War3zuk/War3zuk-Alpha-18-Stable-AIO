@@ -6267,9 +6267,10 @@
 <item name="HDBowl">
 	<property name="DescriptionKey" value="HDBowlDesc"/>
 	<property name="CustomIcon" value="HD Bowl"/>
-    <property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab" />
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
     <property name="Material" value="Morganic" />
-    <property name="HoldType" value="3" />
+    <property name="HoldType" value="31" />
     <property name="Group" value="Resources" />
 </item>
 
@@ -6278,8 +6279,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6307,8 +6308,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6336,8 +6337,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6365,8 +6366,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6394,8 +6395,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6423,8 +6424,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6452,8 +6453,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6481,8 +6482,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6510,8 +6511,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6539,8 +6540,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6568,8 +6569,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6597,8 +6598,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6626,8 +6627,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6655,8 +6656,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6684,8 +6685,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6713,8 +6714,8 @@
 	<property name="CustomIcon" value="Warm Chunky Honey"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6742,8 +6743,8 @@
 	<property name="CustomIcon" value="Camoes Bifana"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
@@ -6770,8 +6771,8 @@
 	<property name="CustomIcon" value="Possums Pavlova"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="35"/>
