@@ -1056,20 +1056,20 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
-<recipe name="HDPumpJackE" count="1"  craft_time="120" craft_tool="HDWelder" craft_area="HD WorkBench" tags="learnable">
-	<ingredient name="resourceForgedIron" count="10"/>
-	<ingredient name="resourceMetalPipe" count="20"/>
-	<ingredient name="resourceScrapIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="10"/>
-	<ingredient name="resourceElectricParts" count="40"/>
-</recipe>
-
 <recipe name="HD Fuel Storage" count="1" craft_time = "140" craft_tool="HDWelder" craft_area="HD WorkBench">
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="50"/>
 	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HDPumpJackE" count="1"  craft_time="120" craft_tool="HDWelder" craft_area="HD WorkBench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceElectricParts" count="40"/>
 </recipe>
 
 <recipe name="HD GunBench" count="1"  craft_time = "160" tags="learnable">

@@ -37,9 +37,6 @@
 	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="CraftingAreaRecipes" value="HD Cement Mixer"/>
-	<!--  <property name="HeatMapStrength" value="2"/>
-	<property name="HeatMapTime" value="5000"/>
-	<property name="HeatMapFrequency" value="1000"/> -->
 	<property class="Workstation">
 		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="cementMixer"/>

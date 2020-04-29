@@ -1376,16 +1376,16 @@
 	<property name="CustomIcon" value="HD Nail Gun Bolt"/>
 	<property name="Extends" value="ammoCrossbowBoltIron"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltSteelPrefab.prefab"/>
-	<property name="EconomicValue" value="57"/>
-	<property name="EconomicBundleSize" value="5"/>
+	<property name="EconomicValue" value="12"/>
+	<property name="EconomicBundleSize" value="50"/>
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value=".1"/>
 	<property name="StickyColliderUp" value="2"/>
 	<property name="StickyColliderRadius" value=".05"/>
 	<property name="StickyColliderLength" value=".75"/>
 	<effect_group name="ammoCrossbowBoltSteelAP" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="45"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="6"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+		<passive_effect name="BlockDamage" operation="base_set" value=".1"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
 		<display_value name="dTargetArmor" value="-.2"/>
 		<passive_effect name="BlockDamage" operation="perc_set" value=".1" tags="wood"/>
@@ -1393,15 +1393,11 @@
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="82.5"/>
 	</effect_group>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryCrippled01">
-			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
-			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
-		</triggered_effect>
 		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
 			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
 			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
 			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
-			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
 		</triggered_effect>
 	</effect_group>
 	<effect_group tiered="false">
@@ -1411,7 +1407,7 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.4">
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
 	</effect_group>
 </item>
@@ -4710,7 +4706,7 @@
 		
 		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
@@ -4720,7 +4716,7 @@
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="10">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="1">
 			<requirement name="IsAlive" target="other"/>
@@ -4733,11 +4729,11 @@
 			<requirement name="IsSecondaryAttack"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit1">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/>
