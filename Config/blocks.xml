@@ -650,9 +650,9 @@
 	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Class" value="SecureLoot"/>
-	<property name="LootList" value="131"/>
+	<property name="LootList" value="1"/>
 		<drop event="Destroy" name="HD Working Fridge" count="1" />
-		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="0.75" />
 	<property name="EconomicValue" value="1500"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
