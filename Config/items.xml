@@ -7865,7 +7865,7 @@
 </item>
 
 <item name="HD Cement Mixer Schematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Cement Mixer Schematic"/>
 	<property name="Unlocks" value="HDCementMixer"/>
@@ -7879,7 +7879,7 @@
 </item>
 
 <item name="HD Rocket Launcher Schematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Rocket Launcher Schematic"/>
 	<property name="Unlocks" value="HD Rocket Launcher"/>

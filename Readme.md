@@ -5,6 +5,8 @@ Updated v2.92 to v2.93
 Added HD Bowl Model (Hires PBR) Paid
 Fixed .45 Acp Ammo Icon
 Fixed Fridge NRE
+Fixed HD Cement Mixer Schematic Not Scrapping To Correct Material
+Fixed HD Rocket Launcher Schematic Not Scrapping To Correct Material
 
 Updated v2.91 to v2.92
 
