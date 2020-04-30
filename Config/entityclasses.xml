@@ -31,7 +31,7 @@
 	<property name="PhysicsBody" value="vulture"/>
 	<property name="Mass" value="65"/>
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
-	<property name="SizeScale" value="5"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="515"/>
 	<property name="AITask-1" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
@@ -75,7 +75,7 @@
 	<property name="PhysicsBody" value="vulture"/>
 	<property name="Mass" value="65"/>
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
-	<property name="SizeScale" value="5"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="515"/>
 	<property name="AITask-1" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
@@ -121,7 +121,7 @@
 	<property name="PhysicsBody" value="vulture"/>
 	<property name="Mass" value="65"/>
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
-	<property name="SizeScale" value="5"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="515"/>
 	<property name="AITask-1" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
@@ -267,7 +267,7 @@
 	<property name="SoundDeath" value="Animals/rabbitdeath"/>
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="511"/>
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="RunawayWhenHurt"/>
@@ -308,7 +308,7 @@
 	<property name="SoundDeath" value="Animals/rabbitdeath"/>
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="511"/>
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="RunawayWhenHurt"/>
@@ -351,7 +351,7 @@
 	<property name="SoundDeath" value="Animals/rabbitdeath"/>
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="511"/>
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="RunawayWhenHurt"/>
@@ -392,7 +392,7 @@
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="HasDeathAnim" value="false"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
@@ -429,7 +429,7 @@
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="HasDeathAnim" value="false"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
@@ -468,7 +468,7 @@
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="HasDeathAnim" value="false"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
@@ -503,7 +503,7 @@
 	<property name="Mass" value="45"/>
 	<property name="Weight" value="70"/>
 	<property name="Faction" value="undead"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="513"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
@@ -566,7 +566,7 @@
 	<property name="Mass" value="45"/>
 	<property name="Weight" value="70"/>
 	<property name="Faction" value="undead"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="513"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
@@ -632,7 +632,7 @@
 	<property name="Mass" value="45"/>
 	<property name="Weight" value="70"/>
 	<property name="Faction" value="undead"/>
-	<property name="SizeScale" value="2.0"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="513"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
@@ -692,7 +692,7 @@
 	<property name="HasDeathAnim" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
-	<property name="SizeScale" value="1.5"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="514"/>
 	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
 	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
@@ -735,7 +735,7 @@
 	<property name="HasDeathAnim" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
-	<property name="SizeScale" value="1.5"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="514"/>
 	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
 	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
@@ -780,7 +780,7 @@
 	<property name="HasDeathAnim" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
-	<property name="SizeScale" value="1.5"/>
+	<property name="SizeScale" value="2"/>
 	<property name="LootListOnDeath" value="514"/>
 	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
 	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
@@ -812,7 +812,7 @@
 	<property name="Tags" value="entity,animal,zombie,hostile,dog"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
 	<property name="Class" value="EntityZombieDog"/>
-	<property name="SizeScale" value="2"/>
+	<property name="SizeScale" value="1.7"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
 	<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
@@ -866,7 +866,7 @@
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
 	<property name="Class" value="EntityZombieDog"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
-	<property name="SizeScale" value="2"/>
+	<property name="SizeScale" value="1.7"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
 	<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
@@ -920,7 +920,7 @@
 	<property name="Tags" value="entity,animal,zombie,hostile,dog"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
 	<property name="Class" value="EntityZombieDog"/>
-	<property name="SizeScale" value="2"/>
+	<property name="SizeScale" value="1.7"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
 	<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>

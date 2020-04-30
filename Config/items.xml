@@ -1459,7 +1459,7 @@
 	<property name="FuelValue" value="1"/>
 	<property name="EconomicValue" value="1850"/>
 	<property name="Group" value="Books"/>
-	</item>
+</item>
 	
 <item name="Scrapped Schematics">
 	<property name="DescriptionKey" value="ScrappedSchematicsDesc"/>
@@ -1470,7 +1470,7 @@
 	<property name="Stacknumber" value="25000"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Group" value="Survival"/>
-	</item>
+</item>
 	
 <item name="HDBreachingC4">
 	<property name="DescriptionKey" value="HDBreachingC4Desc"/>
