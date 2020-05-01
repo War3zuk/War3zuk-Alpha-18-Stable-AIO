@@ -994,12 +994,6 @@
 	<item name="BrassWire" count="2,10" prob="0.1"/>
 </lootcontainer>
 
-<lootcontainer id="524" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-	<item name="resourceSpring" count="2,4" prob="1"/>
-	<item name="resourceElectricParts" count="2,4" prob="1"/>
-	<item name="resourceMechanicalParts" count="2,4" prob="1"/>
-</lootcontainer>
-
 <lootgroup name="HDgroupQuestAmmo">
 	<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="GradeALoot"/>
