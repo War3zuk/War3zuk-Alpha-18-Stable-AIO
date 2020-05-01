@@ -1,5 +1,15 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.93 to v2.94
+
+Giants Animals Resized
+Fixed HD Water Dispenser
+Added AirCon to Lootable Items
+Added AirconFan To Lootable Items
+Added WorkBench Broken To Regrow
+Added ChemBench Broken To Regrow
+Added Cement Mixer Broke To Regrow
+
 Updated v2.92 to v2.93
 
 Added HD Bowl Model (Hires PBR) Paid

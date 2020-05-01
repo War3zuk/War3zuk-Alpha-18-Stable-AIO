@@ -2191,12 +2191,12 @@
     <property name="CreativeMode" value="None"/>
     <property name="ImposterDontBlock" value="true"/>
     <property name="IsTerrainDecoration" value="true"/>
-    <property name="Material" value="MstainlessSteel"/>
+    <property name="Material" value="MTitaniumPolish"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="pipe_cap"/>
 	<property name="Texture" value="191"/>
 	<property name="LootList" value="42"/>
-	<property name="DescriptionKey" value="cntGunSafeDesc"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
     <property name="Class" value="PlantGrowing"/>
     <property name="PlantGrowing.Next" value="cntGunSafeInsecure"/>
     <property name="PlantGrowing.GrowthRate" value="360"/>
@@ -2219,14 +2219,98 @@
     <property name="CreativeMode" value="None"/>
     <property name="ImposterDontBlock" value="true"/>
     <property name="IsTerrainDecoration" value="true"/>
-    <property name="Material" value="MstainlessSteel"/>
+    <property name="Material" value="MTitaniumPolish"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="pipe_cap"/>
 	<property name="Texture" value="191"/>
 	<property name="LootList" value="121"/>
-	<property name="DescriptionKey" value="cntGunSafeDesc"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
     <property name="Class" value="PlantGrowing"/>
     <property name="PlantGrowing.Next" value="cntHardenedChestInsecure"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARcntCollapsedWorkbench">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MTitaniumPolish"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="92"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntCollapsedWorkbench"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARcntCollapsedCementMixer">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MTitaniumPolish"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="93"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntCollapsedCementMixer"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARcntCollapsedChemistryStation">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MTitaniumPolish"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="94"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntCollapsedChemistryStation"/>
     <property name="PlantGrowing.GrowthRate" value="360"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="0"/>
@@ -2411,12 +2495,34 @@
 	<property name="LootList" value="523"/>
 </append>
 
+<append xpath="/blocks/block[@name='airConditioner']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="524" />
+</append>
+
+<append xpath="/blocks/block[@name='airConditionVentFan']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="524" />
+</append>
+
 <append xpath="/blocks/block[@name='cntGunSafeInsecure']"> 
 	<property name="DowngradeBlock" value="WARcntGunSafeInsecure"/>
 </append>
-
+	
 <append xpath="/blocks/block[@name='cntHardenedChestInsecure']"> 
 	<property name="DowngradeBlock" value="WARcntHardenedChestInsecure"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCollapsedWorkbench']"> 
+	<property name="DowngradeBlock" value="WARcntCollapsedWorkbench"/>
+</append>
+	
+<append xpath="/blocks/block[@name='cntCollapsedChemistryStation']"> 
+	<property name="DowngradeBlock" value="WARcntCollapsedChemistryStation"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCollapsedCementMixer']"> 
+	<property name="DowngradeBlock" value="WARcntCollapsedCementMixer"/>
 </append>
 
 <append xpath="/blocks/block[@name='cntCar03SedanDamage2Master']"> 
