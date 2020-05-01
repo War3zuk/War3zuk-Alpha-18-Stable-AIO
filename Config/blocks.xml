@@ -20,6 +20,46 @@
 	
 <append xpath="/blocks">
 	
+<block name="airConditioner">
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="524" />
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Appliances/ac_unitPrefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="52"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="3,12" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="1,10" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Destroy" name="resourceRadiator" count="1" prob="0.7" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="450"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+</block>
+
+<block name="airConditionVentFan">
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="524" />
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Appliances/vent_fanPrefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<property name="ImposterExchange" value="imposterPlate" param1="168"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="3,12" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="1,10" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="450"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+</block>
+	
 <block name="HDCementMixer">
 	<property name="CustomIcon" value="HD Cement Mixer" />
 	<property name="DescriptionKey" value="HDCementMixerDesc"/>
@@ -625,7 +665,7 @@
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Class" value="SecureLoot"/>
-	<property name="LootList" value="131"/>
+	<property name="LootList" value="1"/>
 		<drop event="Destroy" name="HD Working Dispenser" count="1" />
 		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
 	<property name="EconomicValue" value="750"/>
