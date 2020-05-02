@@ -1883,10 +1883,10 @@
 	<ingredient name="unit_clay" count="10"/>
 </recipe>
 
-<recipe name="HD DrawBridge" count="2"  craft_time = "200" tags="HD WorkBench" >
-     <ingredient name="resourceForgedIron" count="800" />
-     <ingredient name="resourceSpring" count="100"/>
-     <ingredient name="resourceWood" count="2000"/>
+<recipe name="HD DrawBridge" count="1" craft_time = "150" craft_tool="HDWelder" craft_area="HD WorkBench">
+     <ingredient name="resourceForgedIron" count="200" />
+     <ingredient name="resourceSpring" count="20"/>
+     <ingredient name="resourceWood" count="1000"/>
      <ingredient name="resourceScrapIron" count="1000"/>
 </recipe>
 

@@ -9,6 +9,7 @@ Added AirconFan To Lootable Items
 Added WorkBench Broken To Regrow
 Added ChemBench Broken To Regrow
 Added Cement Mixer Broke To Regrow
+Adjusted HD DrawBridge Recipe
 
 Updated v2.92 to v2.93
 
