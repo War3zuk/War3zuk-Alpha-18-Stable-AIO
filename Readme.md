@@ -1,5 +1,10 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.94 to v2.95
+
+Added Custom BirdsNest Model (Hires PBR) Paid replaces Vanilla
+Adjusted BirdsNest Loot
+
 Updated v2.93 to v2.94
 
 Giants Animals Resized

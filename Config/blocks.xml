@@ -2469,6 +2469,23 @@
 </block>
 
 </append>
+
+<append xpath="/blocks/block[@name='cntBirdnest']">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Model" value="#@modfolder:Resources/cntBirdnest.unity3d?cntBirdnest.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="25"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<drop event="Harvest" name="resourceCloth" count="2,4" prob="1" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceFeather" count="4,8" prob="1" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceFeather" count="2,4" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="5,10"/>
+	<property name="FilterTags" value="floot,foutdoor"/>
+</append>
 	
 <append xpath="/blocks/block[@name='palletWhiteBagsBase']">
 	<property name="Class" value="Loot"/>

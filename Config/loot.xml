@@ -161,11 +161,12 @@
 </append>
 
 <append xpath="/lootcontainers">
-<lootcontainer id="25" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="25" count="2,3" size="2,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
 	<item group="groupBirdNestMain"/>
-	<item name="resourceFeather" count="5,10" prob="0.8"/>
-	<item name="foodEgg" count="3,6" prob="0.8"/>
-	<item name="resourceCloth" count="5,10" prob="0.8"/>
+	<item name="resourceFeather" count="5,10" prob="1"/>
+	<item name="foodEgg" count="3,6" prob="1"/>
+	<item name="resourceCloth" count="5,10" prob="1"/>
+	<item name="ammo9mmBulletBall" count="5,10" prob="1"/>
 </lootcontainer>
 </append>
 
