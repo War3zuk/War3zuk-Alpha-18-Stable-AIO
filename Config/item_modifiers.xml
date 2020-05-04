@@ -16,6 +16,12 @@
 			<property name="Sound_start" value="M1911FireS"/>
 			<property name="ScopeCameraOffset" value="-0.000,0.010,-0.000"/>
 		</item_property_overrides>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="HDGlockAutoFire"/>
+			<property name="Sound_loop" value="HDGlockAutoFire"/>
+		</item_property_overrides>
 
 		<item_property_overrides name="HD Desert Eagle Punisher">
 			<property name="CrosshairOnAim" value="true"/>
@@ -110,6 +116,11 @@
 		<item_property_overrides name="HD Colt M1911A">
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="ScopeCameraOffset" value=".0002,-.032,0"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.020,-0.000"/>
 		</item_property_overrides>
 	
 		<item_property_overrides name="HD Desert Eagle Punisher">
@@ -538,6 +549,60 @@
 		<effect_group tiered="false">
 			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
 			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HDDEPUNReflex.unity3d?HDDEPUNReflex.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDGlockAutoSilencer" installable_tags="HDGlockAutoSilencer" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Glock Auto Silencer"/>
+		<property name="DescriptionKey" value="HDGlockAutoSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HDGlockAutoSilencer.unity3d?HDGlockAutoSilencer.Prefab"/>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="Sound_start" value="HDGlockAutoFire"/>
+			<property name="Sound_loop" value="HDGlockAutoFire"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="BarrelScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-0.001,0"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HDGlockAutoSilencer.unity3d?HDGlockAutoSilencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDGlockAutoReflex" installable_tags="HDGlockAutoReflex" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HD Glock Auto Reflex"/>
+		<property name="DescriptionKey" value="HDGlockAutoReflexDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HDGlockAutoReflex.unity3d?HDGlockAutoReflex.Prefab"/>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.020,-0.000"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HDGlockAutoReflex.unity3d?HDGlockAutoReflex.Prefab" parent_transform="Attachments/Scope"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>

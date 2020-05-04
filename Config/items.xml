@@ -1552,6 +1552,93 @@
 		<property name="Group" value="Resources" />
 </item>
 
+<item name="HDGlock18Auto">
+	<property name="DescriptionKey" value="HDGlockAutoDesc"/>
+	<property name="CustomIcon" value="HD Glock Auto"/>
+	<property name="Tags" value="HDGlockAutoSilencer,HDGlockAutoReflex,sideAttachments,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="1"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HD Glock Auto.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
+	<property name="RepairTools" value="RepairKitHandGuns"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="pistol_sight_in"/>
+	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="flashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value=".55"/>
+	<property name="EconomicValue" value="1250"/>
+	<property name="ShowQuality" value="true"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
+		<property name="Sound_start" value="HDGlockAutoFireS"/>
+		<property name="Sound_loop" value="HDGlockAutoFireS"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="pistol_reload"/>
+		<property name="AutoReload" value="true"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_pistol_fpv"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="0,-.001,0"/>
+	</property>
+
+	<effect_group name="gunPistol">
+		<passive_effect name="MaxRange" operation="base_set" value="65"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="45"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="0"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="750"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="450"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="21"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".05"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="0"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="0"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="0"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".8"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,1600" tier="1,6" tags="perkGunslinger,9mmGun"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
+		
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
+		
+	</effect_group>
+</item>
+
 <item name="HD Colt M1911">
 	<property name="DescriptionKey" value="HD1911Desc"/>
 	<property name="Tags" value="M1911,HDColtM19,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
@@ -7589,6 +7676,8 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDColtM1911AREFLEX" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDEPUNReflex" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDEReflex" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGlockAutoSilencer" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGlockAutoReflex" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
 	</effect_group>
 </item>
@@ -8331,7 +8420,7 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitarySetParts,gunSMG5,ammo9mmBulletHP,gunSMG5Schematic"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitarySetParts,gunSMG5,ammo9mmBulletBall,gunSMG5Schematic"/>
 		<property name="Create_item_count" value="5,5,5,5,5,40,1,250,1"/>
 	</property>
 </item>

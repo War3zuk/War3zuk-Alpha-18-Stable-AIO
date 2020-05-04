@@ -20,6 +20,30 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HDGlock18Auto" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "90" tags="perkGunslinger">
+	<ingredient name="resourceForgedIron" count="45"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HDGlockAutoReflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDGlockAutoSilencer" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+	
 <recipe name="HD Rocket Launcher" count="1" craft_time = "200" craft_area="HD GunBench" tags="learnable,perkDemolitionsExpert">
 	<ingredient name="gunRocketLauncherParts" count="5"/>
 	<ingredient name="resourceForgedSteel" count="200"/>

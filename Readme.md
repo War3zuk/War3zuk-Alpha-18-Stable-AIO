@@ -5,6 +5,15 @@ Updated v2.94 to v2.95
 Added Custom BirdsNest Model (Hires PBR) Paid replaces Vanilla
 Adjusted BirdsNest Loot
 
+Added HD GlockG5 18 Auto (Hires PBR Model) Paid
+Added HD GlockG5 18 Auto Custom Silencer (Hires PBR Model) Paid
+Added HD GlockG5 18 Auto Custom Reflex (Hires PBR Model) Paid
+Added HD GlockG5 18 Auto Icons 256x256
+
+Added Custom BackPack Model (Player Death Dropped)
+Added Custom BackPack Model (Loot Dropped)
+Added Custom BackPack Model (Zombie Death Dropped)
+
 Updated v2.93 to v2.94
 
 Giants Animals Resized
