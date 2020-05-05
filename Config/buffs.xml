@@ -1,4 +1,4 @@
-<configs>
+<configs> <!--  Thanks To Xipher7934 For His Original HealthBar Code  -->
 	
 	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
 	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
@@ -357,6 +357,73 @@
 			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="electric_fence_impact"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="electric_fence_impact"/>
 			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="electric_fence_impact"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="HealthBar" name_key="healthBarName" tooltip_key="buffRadiation3Tooltip" icon="ui_game_symbol_radiation" icon_color="255,255,0" remove_on_death="true">
+		<stack_type value="replace"/>
+		<duration value="6"/>
+		
+		<effect_group>
+		
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_4" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_3" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".20"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_2" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".40"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_1" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".60"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_0" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".80"/>
+			</triggered_effect>
+		
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_4" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_3" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".20"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_2" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".40"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_1" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".60"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_0" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".80"/>
+			</triggered_effect>
+		
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_1">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_2">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_3">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
+			</triggered_effect>
+		
+			
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_2"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_3"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_4"/>
+			
 		</effect_group>
 	</buff>
 

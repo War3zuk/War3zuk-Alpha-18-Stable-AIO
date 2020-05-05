@@ -1,4 +1,4 @@
-<configs>
+<configs> <!--  Thanks To Xipher7934 For His Original HealthBar Code  -->
 	
 	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDPlayerRuckSack.Prefab</set>
 	<set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackdropped.Prefab</set>
@@ -1180,6 +1180,11 @@
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 		<passive_effect name="StaminaMax" operation="base_set" value="100"/>
 	</effect_group>
+	
+		<effect_group name="Health Bar">
+			<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="HealthBar"/>
+		</effect_group>
+		
 </entity_class>
 
 </insertAfter>
@@ -3149,31 +3154,22 @@
 	<property name="AITask-3" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal"/>
 	<property name="AITask-4" value="Look"/>
 	<property name="AITask-5" value="Wander"/>
-
-	<!-- Stealth settings -->
 	<property name="MaxViewAngle" value="180"/>
 	<property name="SightRange" value="30"/> <!-- distance in m -->
 	<property name="SightLightThreshold" value="-2,150"/>
-
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/> <!-- Indiv.Random. sight capability - "I see you" light value at point blank -->
 	<property name="SleeperWakeupSightDetectionMax" value="340,480"/> <!-- Indiv.Random. "I see you" light value at "SightRange" -->
 	<property name="SleeperSenseSightDetectionMin" value="-10,0"/> <!-- same for groaning, not waking -->
 	<property name="SleeperSenseSightDetectionMax" value="200,300"/>
-
 	<property name="SleeperNoiseSenseThreshold" value="3,8"/> <!-- Indiv.Random. hearing capability - "I hear something" noise value -->
 	<property name="SleeperNoiseWakeThreshold" value="9,12"/>
-
 	<property name="SleeperSmellSenseThreshold" value="20,50"/> <!-- Indiv.Random. smell capability - "I smell something" player smell value -->
 	<property name="SoundSleeperSenseChance" value=".5"/> <!-- the chance to play "SoundSleeperSense" when "SleeperSmellSenseThreshold" is triggered -->
-
-	<!-- Gameplay -->
 	<property name="MaxTurnSpeed" value="450"/>
 	<property name="MoveSpeed" value="0.7"/>
 	<property name="MoveSpeedPanic" value="2.0"/>
 	<property name="CanClimbLadders" value="false"/>
-
 	<property name="ExperienceGain" value="327"/>
-	<!-- <property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="0"/> -->
 	<property name="TimeStayAfterDeath" value="300"/>
 	<property name="DeadBodyHitPoints" value="350"/>
 
@@ -3181,6 +3177,11 @@
 		<passive_effect name="HealthMax" operation="base_set" value="50"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
+	
+		<effect_group name="Health Bar">
+			<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="HealthBar"/>
+		</effect_group>
+		
 </entity_class>
 </insertAfter> 
 
@@ -3371,27 +3372,19 @@
 	<property name="AITarget-2" value="BlockIf" data="condition=alert e 0"/>
 	<property name="AITarget-3" value="BlockingTargetTask"/>
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,20,15,EntityNPC,15,10"/>
-
 	<property name="SurfaceCategory" value="organic"/>
 	<property name="ParticleOnDeath" value="blood_death"/>
-
-	<!-- Stealth settings -->
 	<property name="MaxViewAngle" value="180"/>
 	<property name="SightRange" value="30"/> <!-- distance in m -->
 	<property name="SightLightThreshold" value="-2,150"/>
-
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/> <!-- Indiv.Random. sight capability - "I see you" light value at point blank -->
 	<property name="SleeperWakeupSightDetectionMax" value="340,480"/> <!-- Indiv.Random. "I see you" light value at "SightRange" -->
 	<property name="SleeperSenseSightDetectionMin" value="-10,0"/> <!-- same for groaning, not waking -->
 	<property name="SleeperSenseSightDetectionMax" value="200,300"/>
-
 	<property name="SleeperNoiseSenseThreshold" value="3,8"/> <!-- Indiv.Random. hearing capability - "I hear something" noise value -->
 	<property name="SleeperNoiseWakeThreshold" value="9,12"/>
-
 	<property name="SleeperSmellSenseThreshold" value="20,50"/> <!-- Indiv.Random. smell capability - "I smell something" player smell value -->
 	<property name="SoundSleeperSenseChance" value=".5"/> <!-- the chance to play "SoundSleeperSense" when "SleeperSmellSenseThreshold" is triggered -->
-
-	<!-- Gameplay -->
 	<property name="MaxTurnSpeed" value="280"/>
 	<property name="MoveSpeed" value=".3"/>
 	<property name="MoveSpeedAggro" value="1.15, 1.2"/>
@@ -3399,13 +3392,15 @@
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.4"/>
 	<property name="CanClimbLadders" value="false"/>
-
 	<property name="HandItem" value="meleeHandAnimalBear"/>
-
 	<property name="TimeStayAfterDeath" value="300"/>
-	<property name="ExperienceGain" value="413"/> <!-- XP grunt -->
-	<!-- <property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="0"/> -->
+	<property name="ExperienceGain" value="413"/>
 	<property name="DeadBodyHitPoints" value="350"/>
+	
+		<effect_group name="Health Bar">
+			<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="HealthBar"/>
+		</effect_group>
+		
 </entity_class>
 </insertAfter> 
 
