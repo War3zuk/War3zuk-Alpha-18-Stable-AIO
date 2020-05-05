@@ -13,6 +13,8 @@ Added HD GlockG5 18 Auto Icons 256x256
 Added Custom BackPack Model (Player Death Dropped)
 Added Custom BackPack Model (Loot Dropped)
 Added Custom BackPack Model (Zombie Death Dropped)
+Fixed HD GlockG5 Reflex RedDot
+Fixed HD Glock G5 Sounds
 
 Updated v2.93 to v2.94
 
