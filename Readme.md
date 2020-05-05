@@ -15,6 +15,7 @@ Added Custom BackPack Model (Loot Dropped)
 Added Custom BackPack Model (Zombie Death Dropped)
 Fixed HD GlockG5 Reflex RedDot
 Fixed HD Glock G5 Sounds
+Fixed Monster Cola Stats & Buff
 
 Updated v2.93 to v2.94
 
