@@ -13,6 +13,20 @@ tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
 tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
 lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
 
+lootEntity,UI,Use Prompt,,<{0}> [dfc90d]Search[-]{1},<{0}> [dfc90d]Search[-]{1}
+lootTooltipEmpty,UI,Use Prompt,,[f30f0f]Empty[-] {1},[f30f0f]Empty[-] {1}
+
+pickupCrops,UI,HUD,,"[FFFFFF]Press[-] [d50937]<{{0}}>[-], To Pickup [d50937]{0} {1} [-]",
+pickupPrompt,UI,HUD,,"[FFFFFF]Press[-] [d50937]<{{0}}>[-], To Pickup [d50937]{0} [-]",
+
+tooltipUnlocked,UI,Menu,,<{0}> Use {1} ([d50937]Unlocked[-]),
+lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Search[-] {1},
+
+useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
+lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
+
+RalifsBorschtDesc,items,,,Ralifs Borscht. Is most often associated with the soups variant of Ukrainian And Russian origin. This delicious beet soup even helps you regulate blood pressure and protects The heart. The liver. The stomach And helps you Kill Zombies.,
+
 HDGlock18Auto,items,Item,KgNone,HD GlockG5 18 Auto,
 HDGlockAutoSilencer,items,Item,KgNone,HD GlockG5 18 Auto Silencer,
 HDGlockAutoReflex,items,Item,KgNone,HD GlockG5 18 Auto Reflex,

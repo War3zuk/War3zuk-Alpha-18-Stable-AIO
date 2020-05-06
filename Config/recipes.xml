@@ -330,6 +330,13 @@
 	<ingredient name="foodEgg" count="4"/>
 </recipe>
 
+<recipe name="Ralifs Borscht" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+</recipe>
+
 <recipe name="ammoBlunderbuss" count="2">
 	<ingredient name="resourceRockSmall" count="1"/>
 	<ingredient name="resourceGunPowder" count="1"/>

@@ -1,5 +1,10 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.95 to v2.96
+
+Added Ralifs Borscht (CampFire + CookingPot)
+Edited UI Colouring
+
 Updated v2.94 to v2.95
 
 Added Custom BirdsNest Model (Hires PBR) Paid replaces Vanilla
@@ -16,6 +21,7 @@ Added Custom BackPack Model (Zombie Death Dropped)
 Fixed HD GlockG5 Reflex RedDot
 Fixed HD Glock G5 Sounds
 Fixed Monster Cola Stats & Buff
+Integrated Zombie HealthBar (Thanks & Original Code Xipher7934)
 
 Updated v2.93 to v2.94
 
