@@ -95,7 +95,7 @@
 	<ingredient name="resourceCloth" count="10"/>
 </recipe>
 	
-<recipe name="War3zuks Stoggy" count="1" tags="learnable">
+<recipe name="War3zuks Stoggy" craft_time = "30" count="1">
 	<ingredient name="resourceYuccaFibers" count="1000"/>
 	<ingredient name="resourceCropHopsFlower" count="10"/>
 	<ingredient name="resourcePaper" count="100"/>

@@ -3983,7 +3983,7 @@
 	<property name="HoldType" value="33"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD BR1NXlS Booper.unity3d?HD BR1NXlS Booper.Prefab"/>
 	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
-	<property name="RepairTools" value="resourceForgedSteel"/>
+	<property name="RepairTools" value="RepairKitSteelTools"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
@@ -4323,7 +4323,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Wrench.unity3d?HD Wrench.Prefab"/>
 	<property name="CustomIcon" value="HD Wrench"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceForgedSteel"/>
+	<property name="RepairTools" value="RepairKitSteelTools"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy"/>
@@ -8424,7 +8424,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
-		<property name="Create_item_count" value="5,5,5,5,1,150,100,1,1000,25,1,1"/>
+		<property name="Create_item_count" value="5,5,5,5,1,200,100,1,1000,25,1,1"/>
 	</property>
 </item>
 
@@ -8445,7 +8445,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
-		<property name="Create_item_count" value="1,150,1,150,10,10,2,2,1,20,1,1,1,1"/>
+		<property name="Create_item_count" value="1,200,1,150,10,10,2,2,1,20,1,1,1,1"/>
 	</property>
 </item>
 
@@ -8466,7 +8466,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitarySetParts,gunSMG5,ammo9mmBulletBall,gunSMG5Schematic"/>
-		<property name="Create_item_count" value="5,5,5,5,5,40,1,250,1"/>
+		<property name="Create_item_count" value="5,5,5,5,5,40,1,200,1"/>
 	</property>
 </item>
 
@@ -8487,7 +8487,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
-		<property name="Create_item_count" value="5,5,5,5,10,1,1,150,1,1"/>
+		<property name="Create_item_count" value="5,5,5,5,10,1,1,200,1,1"/>
 	</property>
 </item>
 
@@ -8508,7 +8508,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeToolKnifeMacheteSchematic,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
-		<property name="Create_item_count" value="5,5,5,5,1,1,20,1,150,1,1,1,1,1,1"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,20,1,200,1,1,1,1,1,1"/>
 	</property>
 </item>
 
@@ -8528,8 +8528,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletHP,medicalAloeCream,medicalPlasterCast"/>
-		<property name="Create_item_count" value="5,5,5,5,5,5,5,5,1,1,1,150,5,5"/>
+		<property name="Create_item" value="medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast"/>
+		<property name="Create_item_count" value="5,5,5,5,5,5,5,5,1,1,1,200,5,5"/>
 	</property>
 </item>
 
@@ -8550,7 +8550,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,armorMiningHelmet,resourceForgedIron,resourceForgedSteel,forgeSchematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,gunPumpShotgun,ammoShotgunShell,"/>
-		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,100,100,1,1,1,1,1,1,150"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,100,100,1,1,1,1,1,1,200"/>
 	</property>
 </item>
 
@@ -8570,8 +8570,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletHP"/>
-		<property name="Create_item_count" value="5,5,5,5,1,1,150,1,1,150"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletBall"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,150,1,1,200"/>
 	</property>
 </item>
 

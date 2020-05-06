@@ -4,6 +4,10 @@ Updated v2.95 to v2.96
 
 Added Ralifs Borscht (CampFire + CookingPot)
 Edited UI Colouring
+Fixed War3zuks Stoggy Recipe
+Adjusted Ammo (Starter Classes)
+Fixed HD BR1NXlS Booper (RepairItem)
+Fixed HD Wrench (RepairItem)
 
 Updated v2.94 to v2.95
 
