@@ -651,11 +651,6 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Flame Fuel" count="100" craft_time = "10">
-	<ingredient name="ammoGasCan" count="200"/>
-	<ingredient name="resourceOilShale" count="10"/>
-</recipe>
-
 <recipe name="HD Vulcan 9mm" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
 	<ingredient name="HD Vulcan 9mm Barrel" count="3"/>
 	<ingredient name="HD Vulcan 9mm Parts" count="1"/>
@@ -1761,13 +1756,22 @@
 	<ingredient name="HDGun Oil" count="2"/>
 </recipe>
 
+<recipe name="HD Flame Fuel" count="100" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="3">
+	<ingredient name="ammoGasCan" count="200"/>
+	<ingredient name="resourceOilShale" count="10"/>
+</recipe>
+
+<recipe name="ammoGasCan" count="200" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="5">
+	<ingredient name="HD Flame Fuel" count="100"/>
+</recipe>
+
 <recipe name="resourceGunPowder" count="1" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="0.5">
 	<ingredient name="resourceCoal" count="1"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
 </recipe>
 
-<recipe name="ammoGasCan" count="10" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="0.5" tags="learnable,chemStationCrafting">
-	<ingredient name="resourceOilShale" count="1"/>
+<recipe name="ammoGasCan" count="100" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="0.5">
+	<ingredient name="resourceOilShale" count="10"/>
 </recipe>
 
 <recipe name="HDGunPowderBundle" count="1" craft_time="1000" craft_tool="HDGrinder" craft_area="HD AmmoBench">

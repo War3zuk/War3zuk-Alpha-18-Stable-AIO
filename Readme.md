@@ -9,6 +9,11 @@ Adjusted Ammo (Starter Classes)
 Fixed HD BR1NXlS Booper (RepairItem)
 Fixed HD Wrench (RepairItem)
 
+Adjusted Recipe In Medic Quest (Sand)
+Adjusted Recipe In Medic Quest (CornMeal)
+
+HD Flame Fuel (Converts Back To AmmoGasCan)
+
 Updated v2.94 to v2.95
 
 Added Custom BirdsNest Model (Hires PBR) Paid replaces Vanilla

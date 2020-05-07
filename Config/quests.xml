@@ -748,8 +748,8 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 	
-		<objective type="FetchKeep" id="resourceCrushedSand" value="10" phase="1" />
-		<objective type="FetchKeep" id="foodCornMeal" value="20" phase="1" />
+		<objective type="FetchKeep" id="resourceCrushedSand" value="50" phase="1" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="1" />
 		<objective type="FetchKeep" id="resourceCloth" value="10" phase="1" />
 		<objective type="FetchKeep" id="drinkJarRiverWater" value="5" phase="1" />
 		<objective type="Craft" id="medicalPlasterCast" value="5" phase="2" />
