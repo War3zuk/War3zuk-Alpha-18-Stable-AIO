@@ -337,6 +337,12 @@
 	<ingredient name="foodCropMushrooms" count="2"/>
 </recipe>
 
+<recipe name="AaronRockst4rs Fritos And Eggs" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodEgg" count="2"/>
+</recipe>
+
 <recipe name="ammoBlunderbuss" count="2">
 	<ingredient name="resourceRockSmall" count="1"/>
 	<ingredient name="resourceGunPowder" count="1"/>

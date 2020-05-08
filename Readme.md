@@ -14,6 +14,8 @@ Adjusted Recipe In Medic Quest (CornMeal)
 
 HD Flame Fuel (Converts Back To AmmoGasCan)
 
+Added AaronRockst4rs Fritos And Eggs (Campfire + Grill)
+
 Updated v2.94 to v2.95
 
 Added Custom BirdsNest Model (Hires PBR) Paid replaces Vanilla

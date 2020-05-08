@@ -4055,7 +4055,7 @@
 			</effect_group>
 		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
@@ -4065,7 +4065,7 @@
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="10">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="1">
 			<requirement name="IsAlive" target="other"/>
@@ -4078,20 +4078,20 @@
 			<requirement name="IsSecondaryAttack"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="6"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="10"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="particleeffects/p_electric_shock" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="10"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit1">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit2">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="2"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit3">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
+			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit4">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
@@ -6919,6 +6919,34 @@
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="363">
 				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
+	</effect_group>
+</item>
+
+<item name="AaronRockst4rs Fritos And Eggs">
+	<property name="DescriptionKey" value="AaronFritosEggsDesc"/>
+	<property name="CustomIcon" value="AaronRockst4rs Fritos And Eggs"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="35"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="65"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dCureInfection" value=".05"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
 	</effect_group>
 </item>
 
