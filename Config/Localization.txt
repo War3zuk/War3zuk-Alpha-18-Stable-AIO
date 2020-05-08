@@ -27,6 +27,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
 AaronFritosEggsDesc,items,,,AaronRockst4rs Fritos And Eggs. Is just how your Momma use to make Em. Fritos And Eggs delicately cooked until golden brown. Tastes Good And Helps in the Zombie Slayin.,
 
+AaronRockst4rDesc,items,,,In-Game Poster Is Dedicated To Aaron Rockst4r for His 24 Hour stream of the Mod.,
+
 RalifsBorschtDesc,items,,,Ralifs Borscht. Is most often associated with the soups variant of Ukrainian And Russian origin. This delicious beet soup even helps you regulate blood pressure and protects The heart. The liver. The stomach And helps you Kill Zombies.,
 
 HDGlock18Auto,items,Item,KgNone,HD GlockG5 18 Auto,

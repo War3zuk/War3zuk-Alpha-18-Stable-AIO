@@ -20,6 +20,26 @@
 	
 <append xpath="/blocks">
 	
+<block name="Aaron Rockst4r">
+	<property name="DescriptionKey" value="AaronRockst4rDesc"/>
+	<property name="CustomIcon" value="Aaron Rockst4r"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="3,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/AaronRockstars.unity3d?AaronRockstars.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+	
 <block name="HDCementMixer">
 	<property name="CustomIcon" value="HD Cement Mixer" />
 	<property name="DescriptionKey" value="HDCementMixerDesc"/>

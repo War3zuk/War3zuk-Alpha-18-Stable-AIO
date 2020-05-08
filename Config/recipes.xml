@@ -343,6 +343,12 @@
 	<ingredient name="foodEgg" count="2"/>
 </recipe>
 
+<recipe name="Aaron Rockst4r" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="40"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceBrokenGlass" count="30"/>
+</recipe>
+
 <recipe name="ammoBlunderbuss" count="2">
 	<ingredient name="resourceRockSmall" count="1"/>
 	<ingredient name="resourceGunPowder" count="1"/>

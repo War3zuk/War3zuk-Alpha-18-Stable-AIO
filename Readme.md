@@ -15,6 +15,10 @@ Adjusted Recipe In Medic Quest (CornMeal)
 HD Flame Fuel (Converts Back To AmmoGasCan)
 
 Added AaronRockst4rs Fritos And Eggs (Campfire + Grill)
+Added AaronRockst4rs Ingame Poster
+
+Demolisher (Fire) 1500 Block Dmg
+Demolisher (Radiated) 2000 Block Dmg
 
 Updated v2.94 to v2.95
 
