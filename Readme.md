@@ -20,6 +20,8 @@ Added AaronRockst4rs Ingame Poster
 Demolisher (Fire) 1500 Block Dmg
 Demolisher (Radiated) 2000 Block Dmg
 
+Added HD Machete (Hires PBR Model) Paid
+
 Updated v2.94 to v2.95
 
 Added Custom BirdsNest Model (Hires PBR) Paid replaces Vanilla

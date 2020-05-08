@@ -5434,7 +5434,7 @@
 	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Machete.unity3d?HD Machete.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Machete.unity3d?HD Machete.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -5520,7 +5520,7 @@
 	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Shuriken Katana.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Shuriken Katana.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -5605,7 +5605,7 @@
 	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Wakizashi Katana.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Wakizashi Katana.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -5690,7 +5690,7 @@
 	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Dragon Katana.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Samuri.unity3d?HD Dragon Katana.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MmeleeToolKnifeMachete"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
