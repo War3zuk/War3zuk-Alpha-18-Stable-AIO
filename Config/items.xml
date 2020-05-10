@@ -283,6 +283,35 @@
 		<passive_effect name="StaminaLoss" operation="base_add" value="13.8" tags="secondary"/>
 	</effect_group>
 </item> -->
+	
+<item name="WarTestTracerBullet">
+	<property name="CustomIcon" value="WarTestTracerBullet"/>
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="Meshfile" value="#@modfolder:Resources/WarTestTracerBullet.unity3d?guppyParticleTracerBullet" />
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="EconomicValue" value="30"/>
+    <property name="Stacknumber" value="25000" />
+	<property name="DescriptionKey" value="WarTestTracerBulletDesc"/>
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="25"/>
+		<property name="DamageBlock" value="15"/>
+		<property name="Explosion.ParticleIndex" value="0"/>
+		<property name="Velocity" value="70"/>
+		<property name="FlyTime" value="2"/>
+		<property name="LifeTime" value="4"/>
+		<property name="CollisionRadius" value="1"/>
+	</property>
+	<effect_group name="Base Effects" tiered="false">
+	<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="stone"/>
+	</effect_group>
+</item>
 
 <item name="HDMotor125cc">
 	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
@@ -7369,7 +7398,7 @@
 	<property name="CustomIcon" value="50 BMG Round INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
+    <property name="Stacknumber" value="20000" />
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -7390,7 +7419,7 @@
 			</triggered_effect>
 		</effect_group>
 </item>
-		 
+
  <item name="Hollow Tip">
      <property name="Extends" value="resourceBulletTip" />
      <property name="DescriptionKey" value="HollowTipDesc"/>

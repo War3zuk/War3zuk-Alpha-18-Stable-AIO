@@ -1,5 +1,31 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.96 to v2.97
+
+Console Commands That May Help With FPS
+
+gfx pp enable 0
+type weather rain 0
+type weather clouds 0
+
+Vanilla Haybales Scrap To Fiber
+Added Carboard Boxes To Lootable Group
+
+Complete Loot.XML Rebuild (4Hours lol)
+Following New LootGroups Added
+
+War3zukHDWeaponParts
+War3zukHDWeapons
+War3zukHDBenches
+War3zukHDBenchAddons
+War3zukHDTools
+War3zukHDAmmo
+War3zukHDMilitary
+War3zukHDMedical
+War3zukHDFlares
+War3zukHDCarePackages
+War3zukHDFoods
+
 Updated v2.95 to v2.96
 
 Added Ralifs Borscht (CampFire + CookingPot)

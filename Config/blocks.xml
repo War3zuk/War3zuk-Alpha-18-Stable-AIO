@@ -12,6 +12,8 @@
 	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">35</set>
 	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">40</set>
 	
+	<set xpath="/blocks/block[@name='hayBaleBlock']/property[@name='Material']/@value">Mplants</set>
+	
 	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">50</set>
 	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@name">resourceIronFragment</set>
 
@@ -2540,6 +2542,11 @@
 <append xpath="/blocks/block[@name='airConditionVentFan']">
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="524" />
+</append>
+
+<append xpath="/blocks/block[@name='palletCompressedCardboard']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="525"/>
 </append>
 
 <append xpath="/blocks/block[@name='cntGunSafeInsecure']"> 
