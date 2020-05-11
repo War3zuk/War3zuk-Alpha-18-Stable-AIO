@@ -2,12 +2,6 @@ War3zuk-Alpha-18.4 B4 - AIO
 
 Updated v2.96 to v2.97
 
-Console Commands That May Help With FPS
-
-gfx pp enable 0
-type weather rain 0
-type weather clouds 0
-
 Vanilla Haybales Scrap To Fiber
 Added Carboard Boxes To Lootable Group
 
@@ -25,6 +19,11 @@ War3zukHDMedical
 War3zukHDFlares
 War3zukHDCarePackages
 War3zukHDFoods
+
+Adjusted Starter Class Loot Slightly
+Edited HD Mini Hatchet (Now Sellable & Scraps Down)
+Edited HD Tazas Hatchet (Now Sellable & Scraps Down)
+Fixed SteelSpikeMaster
 
 Updated v2.95 to v2.96
 
