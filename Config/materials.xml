@@ -1,10 +1,12 @@
 <configs>
 	
+	<set xpath="/materials/material[@id='MwoodReinforced']/property[@name='MaxDamage']/@value">500</set>
+	
 	<set xpath="/materials/material[@id='Msteel']/property[@name='MaxDamage']/@value">7500</set>
 	<set xpath="/materials/material[@id='Msteel']/property[@name='stability_glue']/@value">500</set>
 	<set xpath="/materials/material[@id='Msteel']/property[@name='explosionresistance']/@value">1.8</set>
 	
-	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">12500</set>
+	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">10000</set>
 	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='stability_glue']/@value">500</set>
 	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='explosionresistance']/@value">2.0</set>
 	
@@ -33,7 +35,7 @@
 	<property name="stability_glue" value="500"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.5"/>
-	<property name="MaxDamage" value="30000"/>
+	<property name="MaxDamage" value="20000"/>
 	<property name="Experience" value="0"/>
 </material>
 
@@ -58,7 +60,7 @@
 	<property name="stability_glue" value="500"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.25"/>
-	<property name="MaxDamage" value="15000"/>
+	<property name="MaxDamage" value="12000"/>
 	<property name="Experience" value="5"/>
 </material>
 
@@ -71,7 +73,7 @@
 	<property name="stability_glue" value="500"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.5"/>
-	<property name="MaxDamage" value="20000"/>
+	<property name="MaxDamage" value="15000"/>
 	<property name="Experience" value="6"/>
 </material>
 

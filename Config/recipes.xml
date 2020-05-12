@@ -43,6 +43,14 @@
 	<ingredient name="resourceSpring" count="5"/>
 	<ingredient name="HDGun Oil" count="2"/>
 </recipe>
+
+<recipe name="HDSpas12Reflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
 	
 <recipe name="HD Rocket Launcher" count="1" craft_time = "200" craft_area="HD GunBench" tags="learnable,perkDemolitionsExpert">
 	<ingredient name="gunRocketLauncherParts" count="5"/>

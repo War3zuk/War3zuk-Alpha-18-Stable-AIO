@@ -2,6 +2,9 @@ War3zuk-Alpha-18.4 B4 - AIO
 
 Updated v2.96 to v2.97
 
+Rebuilt HD Spas 12 (Removed Reflex Sight) Now Craftable Addon
+Default Spas 12 Is Now Black
+
 Vanilla Haybales Scrap To Fiber
 Added Carboard Boxes To Lootable Group
 
@@ -24,6 +27,24 @@ Adjusted Starter Class Loot Slightly
 Edited HD Mini Hatchet (Now Sellable & Scraps Down)
 Edited HD Tazas Hatchet (Now Sellable & Scraps Down)
 Fixed SteelSpikeMaster
+
+Added HD Wood Bars Centered (Full Upgrade Path To Titaniun)
+Added HD Wood Bars (Full Upgrade Path To Titaniun)
+
+Adjusted Damage Amounts: HD Bars
+Titanium Polish = 15,000Hp
+Steel Polish = 10,000Hp
+Forged Steel = 7,500Hp
+Forged Iron = 2,500Hp
+
+Adjusted Damage Amounts: HD Blocks
+Wood = 225Hp RWood = 500Hp
+CobbleStone = 1,500Hp
+Wet Cement 1,250Hp Dry = 2,500Hp
+RWet = 3,000Hp RDry = 5,000Hp
+Steel = 7,500Hp
+RSteel = 10,000Hp
+Titanium = 15,000Hp
 
 Updated v2.95 to v2.96
 

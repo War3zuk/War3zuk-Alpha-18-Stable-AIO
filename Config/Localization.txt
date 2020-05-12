@@ -25,6 +25,10 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDSpas12Reflex,items,Item,KgNone,HD Spas 12 Reflex,
+
+HDSpas12ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Spas 12,
+
 AaronFritosEggsDesc,items,,,AaronRockst4rs Fritos And Eggs. Is just how your Momma use to make Em. Fritos And Eggs delicately cooked until golden brown. Tastes Good And Helps in the Zombie Slayin.,
 
 AaronRockst4rDesc,items,,,In-Game Poster Is Dedicated To Aaron Rockst4r for His 24 Hour stream of the Mod.,

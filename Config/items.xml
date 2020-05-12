@@ -2575,10 +2575,10 @@
 
 <item name="HD Spas 12">
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Default.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="CustomIcon" value="HD Spas 12"/>
 	<property name="Material" value="MShotgunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitShotGuns"/>
@@ -2661,11 +2661,11 @@
 <item name="HD Spas 12 Street">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Street"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 001.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Street.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="EconomicValue" value="1250"/>
 	<property name="Material" value="MShotgunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitShotGuns"/>
@@ -2748,11 +2748,11 @@
 <item name="HD Spas 12 USA">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 USA"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 002.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 USA.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="EconomicValue" value="1250"/>
 	<property name="Material" value="MShotgunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitShotGuns"/>
@@ -2835,11 +2835,11 @@
 <item name="HD Spas 12 Alien">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Alien"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 003.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Alien.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="EconomicValue" value="1250"/>
 	<property name="Material" value="MShotgunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitShotGuns"/>
@@ -2922,11 +2922,11 @@
 <item name="HD Spas 12 Irish">
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="Extends" value="HD Spas 12"/>
-	<property name="Tags" value="Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,noSilencer,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Irish"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 004.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Irish.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="EconomicValue" value="1250"/>
 	<property name="Material" value="MShotgunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitShotGuns"/>
@@ -7762,6 +7762,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDEReflex" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGlockAutoSilencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGlockAutoReflex" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDSpas12Reflex" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
 	</effect_group>
 </item>

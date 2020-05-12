@@ -66,11 +66,13 @@
 		</item_property_overrides>
 	
 		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="MossBerg500S"/>
 			<property name="Sound_loop" value="MossBerg500S"/>
 		</item_property_overrides>
 	
 		<item_property_overrides name="HD Mossberg 500">
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="MossBerg500S"/>
 			<property name="Sound_loop" value="MossBerg500S"/>
 		</item_property_overrides>
@@ -150,7 +152,7 @@
 		
 		<item_property_overrides name="HD Spas 12">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.0001,-0.013,0.35"/>
+			<property name="ScopeCameraOffset" value="0.0000,-0.013,0.35"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Tactical AR">
@@ -182,7 +184,7 @@
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
 	
 		<item_property_overrides name="HD Spas 12">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Mossberg 500">
@@ -603,6 +605,28 @@
 		<effect_group tiered="false">
 			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
 			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HDGlockAutoReflex.unity3d?HDGlockAutoReflex.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDSpas12Reflex" installable_tags="HDSpas12Reflex" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HD Spas 12 Reflex"/>
+		<property name="DescriptionKey" value="HDSpas12ReflexDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HDSpas12Reflex.Prefab"/>
+		
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.033,-0.000"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Spas 12.unity3d?HDSpas12Reflex.Prefab" parent_transform="Attachments/Scope"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
