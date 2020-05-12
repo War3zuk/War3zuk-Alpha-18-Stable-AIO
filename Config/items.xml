@@ -286,6 +286,64 @@
 		<passive_effect name="StaminaLoss" operation="base_add" value="13.8" tags="secondary"/>
 	</effect_group>
 </item> -->
+	
+<item name="BabyChick">
+	<property name="DescriptionKey" value="BabyChickDesc"/>
+	<property name="CustomIcon" value="Baby Chick"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="15"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/><display_value name="dFoodPoisoningRisk" value=".99"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+	
+<item name="Chicken Nuggets">
+	<property name="DescriptionKey" value="ChickenNuggetsDesc"/>
+	<property name="CustomIcon" value="Chicken Nuggets"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="35"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dCureInfection" value=".05"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="0"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
 
 <item name="HDMotor125cc">
 	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
@@ -6798,7 +6856,7 @@
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="40"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="40"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="500"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="dCureInfection" value=".05"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>

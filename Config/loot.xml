@@ -248,6 +248,7 @@
 	<item name="foodEgg" count="3,6" prob="1"/>
 	<item name="resourceCloth" count="5,10" prob="1"/>
 	<item name="ammo9mmBulletBall" count="5,10" prob="0.5"/>
+	<item name="BabyChick" count="2,4" prob="1"/>
 </lootcontainer>
 </append>
 
@@ -259,6 +260,7 @@
 	<item group="cannedfood" count="1,2" prob="0.1"/>
 	<item name="ammo9mmBulletBall" count="10,20" prob="0.1"/>
 	<item group="War3zukHDFoods" count="1,2" prob="0.1"/>
+	<item name="BabyChick" count="2,4" prob="1"/>
 </lootcontainer>
 </append>
 	

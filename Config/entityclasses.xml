@@ -53,7 +53,7 @@
 	<property name="HandItem" value="meleeHandAnimalZombieVulture"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
 	<property name="DismemberMultiplierLegs" value="0"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="20"/>
@@ -97,7 +97,7 @@
 	<property name="HandItem" value="meleeHandAnimalZombieVulture"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
 	<property name="DismemberMultiplierLegs" value="0"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="20"/>
@@ -143,7 +143,7 @@
 	<property name="HandItem" value="meleeHandZombieCopRadiated"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
 	<property name="DismemberMultiplierLegs" value="0"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="20"/>
@@ -280,7 +280,7 @@
 	<property name="AITask-5" value="Wander"/>
 	<property name="MoveSpeedPanic" value="1.3"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="300"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -321,7 +321,7 @@
 	<property name="AITask-5" value="Wander"/>
 	<property name="MoveSpeedPanic" value="1.3"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="300"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -364,7 +364,7 @@
 	<property name="AITask-5" value="Wander"/>
 	<property name="MoveSpeedPanic" value="1.3"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="300"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -400,7 +400,7 @@
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="200"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
@@ -437,7 +437,7 @@
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="200"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
@@ -476,7 +476,7 @@
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="200"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
@@ -538,7 +538,7 @@
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -601,7 +601,7 @@
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -667,7 +667,7 @@
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -1086,7 +1086,7 @@
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
 	<property name="Mass" value="270"/>
-	<property name="Weight" value="175"/>
+	<property name="Weight" value="250"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="Faction" value="undead"/>
 	<property name="Tags" value="entity,zombie"/>
@@ -1517,7 +1517,7 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="1"/>
 	<property name="Mass" value="210"/>
-	<property name="Weight" value="70"/>
+	<property name="Weight" value="150"/>
 	<property name="PushFactor" value="20"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -2464,7 +2464,7 @@
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="Mass" value="320"/>
-	<property name="Weight" value="70"/>
+	<property name="Weight" value="150"/>
 	<property name="PhysicsBody" value="zombieFat"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -3142,7 +3142,7 @@
 	<property name="RotateToGround" value="true"/>
 	<property name="PhysicsBody" value="Stag"/>
 	<property name="Mass" value="20"/>
-	<property name="Weight" value="70"/>
+	<property name="Weight" value="150"/>
 	<property name="SurfaceCategory" value="organic"/>
 	<property name="ParticleOnDeath" value="blood_death"/>
 	<property name="SoundHurt" value="Animals/stagpain"/>
@@ -3171,7 +3171,7 @@
 	<property name="CanClimbLadders" value="false"/>
 	<property name="ExperienceGain" value="327"/>
 	<property name="TimeStayAfterDeath" value="300"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="1000"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="50"/>
@@ -3204,7 +3204,7 @@
 	<property name="Faction" value="animals"/>
 	<property name="PhysicsBody" value="Doe"/>
 	<property name="Mass" value="140"/>
-	<property name="Weight" value="70"/>
+	<property name="Weight" value="150"/>
 	<property name="SurfaceCategory" value="organic"/>
 	<property name="ParticleOnDeath" value="blood_death"/>
 	<property name="SoundHurt" value="Animals/stagpain"/>

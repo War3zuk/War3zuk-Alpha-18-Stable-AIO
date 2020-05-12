@@ -26,6 +26,9 @@ useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
 HDSpas12Reflex,items,Item,KgNone,HD Spas 12 Reflex,
+BabyChick,items,Item,KgNone,Cute Baby Chick,
+BabyChickDesc,items,,,OMG Youve found a Cute Baby Chick. Gotta be useful for something Right.,
+ChickenNuggetsDesc,items,,,Like McDonalds Only REAL MEAT lol.,
 
 HDSpas12ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Spas 12,
 

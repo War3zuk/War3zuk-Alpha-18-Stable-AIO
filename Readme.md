@@ -1,5 +1,9 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.97 to v2.98
+
+Added Chicken Nuggets (CampFire + Grill)
+
 Updated v2.96 to v2.97
 
 Rebuilt HD Spas 12 (Removed Reflex Sight) Now Craftable Addon
