@@ -3,6 +3,8 @@ War3zuk-Alpha-18.4 B4 - AIO
 Updated v2.97 to v2.98
 
 Added Chicken Nuggets (CampFire + Grill)
+Added HD Rocket Launcher Ammo Flame
+Added Chick Model so Birdsnest Chicks can be Held (lol)
 
 Updated v2.96 to v2.97
 

@@ -292,8 +292,8 @@
 	<property name="CustomIcon" value="Baby Chick"/>
     <property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HDChick.unity3d?HDChick.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HDChick.unity3d?HDChick.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="15"/>

@@ -24,6 +24,42 @@
 	
 <append xpath="/blocks">
 	
+<block name="HD Tesla Coil">
+	<property name="DescriptionKey" value="HDTeslaCoilDesc"/>
+	<property name="CustomIcon" value="HD Tesla Coil"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="ElectricWire"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="MaxDamage" value="1500"/>
+	<property name="DamageReceived" value="0.2"/>
+	<property name="Model" value="#@modfolder:Resources/HD Tesla Coil.unity3d?HD Tesla Coil.Prefab"/>
+	<!--  <property name="HandleFace" value="Bottom"/> -->
+	<property class="RepairItems"> <property name="resourceElectricParts" value="1"/> <property name="resourceScrapIron" value="1"/> </property>
+	<property name="DisplayType" value="blockElectricalMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="Buff" value="buffShocked"/>
+	<property name="BuffChance" value="1"/>
+	<property name="Group" value="Tools/Traps,Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="4"/>
+		<property name="resourceElectricParts" value="1"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,40" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="62"/>
+	<property name="FilterTags" value="fdecor,felectrical,ftraps"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+	
 <block name="Aaron Rockst4r">
 	<property name="DescriptionKey" value="AaronRockst4rDesc"/>
 	<property name="CustomIcon" value="Aaron Rockst4r"/>
