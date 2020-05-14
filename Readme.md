@@ -2,11 +2,17 @@ War3zuk-Alpha-18.4 B4 - AIO
 
 Updated v2.97 to v2.98
 
+(Important) Please Delete Old Mod Files so you do not
+have any files left running or loading for this version
+
 Added Chicken Nuggets (CampFire + Grill)
 Added HD Rocket Launcher Ammo Flame
 Added Chick Model so Birdsnest Chicks can be Held (lol)
 Edited HD CheyTac Localization Description (Camoes lol)
 Adjusted HD BlunderBuss Dmg (60) +40 Against Armor
+Edited ALL HD Weapons Durability
+Edited HD Glock G5 Auto RNG Stats Fixed
+Edited HD Arctic Warfare Now Takes 7.62 Ammo (216Dmg)
 
 Updated v2.96 to v2.97
 

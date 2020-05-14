@@ -70,10 +70,10 @@
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Weight']/@value">2</set>
 	
 	<set xpath="/items/item[starts-with(@name,'vehicle') and contains(@name,'Placeable')]/property[@name='SellableToTrader' and @value='false']/@value">true</set>
-	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='EconomicValue'][@value='6000']/@value">5000</set>
-	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/property[@name='EconomicValue'][@value='10000']/@value">7500</set>
-	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/property[@name='EconomicValue'][@value='30000']/@value">9000</set>
-	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/property[@name='EconomicValue'][@value='50000']/@value">12500</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='EconomicValue'][@value='6000']/@value">6500</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/property[@name='EconomicValue'][@value='10000']/@value">8500</set>
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/property[@name='EconomicValue'][@value='30000']/@value">10500</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/property[@name='EconomicValue'][@value='50000']/@value">15500</set>
 	
 	<remove xpath="/items/item/effect_group/passive_effect[@name='Mobility' and @operation='perc_add']"/>
 	<remove xpath="/items/item[@name='drinkJarEmpty']"/>
@@ -1640,7 +1640,6 @@
 	<property name="LightValue" value=".55"/>
 	<property name="EconomicValue" value="1250"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
@@ -1660,7 +1659,6 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,-.001,0"/>
 	</property>
-
 	<effect_group name="gunPistol">
 		<passive_effect name="MaxRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="45"/>
@@ -1679,9 +1677,9 @@
 		<passive_effect name="BlockDamage" operation="perc_add" value=".05"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="0"/>
-		<passive_effect name="MagazineSize" operation="perc_add" value="0"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="0"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
@@ -1780,7 +1778,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.0"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".50"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,1500" tier="1,6" tags="perkGunslinger,9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="300,600" tier="1,6" tags="perkGunslinger,9mmGun"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -1866,7 +1864,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.0"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".50"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,1500" tier="1,6" tags="perkGunslinger,9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="300,600" tier="1,6" tags="perkGunslinger,9mmGun"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -1956,7 +1954,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.1"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".6"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkGunslinger"/>
 		
 
@@ -2047,7 +2045,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.1"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".6"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkGunslinger"/>
 
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -2132,7 +2130,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".15"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1250,2450" tier="1,6" tags="perkMachineGunner,9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="400,800" tier="1,6" tags="perkMachineGunner,9mmGun"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,9mmGun"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -2221,7 +2219,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.3"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".8"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkDeadEye,9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="400,800" tier="1,6" tags="perkDeadEye,9mmGun"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye,9mmGun"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -2298,7 +2296,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1250,1550" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="450,900" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2378,7 +2376,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1250,1550" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="450,900" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2458,7 +2456,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".4"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500,2100" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2538,7 +2536,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".6"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="2500,5500" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -2621,7 +2619,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1.1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1150,1300" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
 		
@@ -2706,7 +2704,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2.1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500,7500" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
 		
@@ -2793,7 +2791,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2.1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500,7500" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
 		
@@ -2880,7 +2878,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2.1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500,7500" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
 		
@@ -2967,7 +2965,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2.1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500,7500" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
 		
@@ -3054,7 +3052,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2.1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500,7500" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
 		
@@ -3141,7 +3139,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1.1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1500,7500" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
 		
@@ -3220,7 +3218,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".83"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="30000,65000" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="600,1200" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -3301,7 +3299,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".83"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="30000,65000" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="600,1200" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -3382,7 +3380,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".83"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="30000,65000" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="600,1200" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -3419,11 +3417,10 @@
 	<property name="EconomicValue" value="2500"/>
 	<property name="UnlockedBy" value="HD Arctic Warfare Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
-		<property name="Magazine_items" value="50BMGRound,50BMGRoundINC,50BMGRoundSH"/>
+		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP,762Mag Bullet INC,762Mag Bullet SH"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="AWFire"/>
 		<property name="Sound_repeat" value=""/>
@@ -3434,22 +3431,20 @@
 		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
-
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0010,.0260,-.06"/>
 	</property>
-
 	<effect_group name="gunMR10">
 		<passive_effect name="MaxRange" operation="base_set" value="150"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="125"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="8"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="70"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -3474,7 +3469,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="650,1250" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -3508,7 +3503,6 @@
 	<property name="EconomicValue" value="2500"/>
 	<property name="UnlockedBy" value="HD CheyTac M300 Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
@@ -3523,14 +3517,12 @@
 		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
-
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.00000,.00000,.00000"/>
 	</property>
-
 	<effect_group name="gunMR10">
 		<passive_effect name="MaxRange" operation="base_set" value="165"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="145"/>
@@ -3563,7 +3555,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="2200,4400" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="650,1250" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -3597,7 +3589,6 @@
 	<property name="EconomicValue" value="1000"/>
 	<property name="UnlockedBy" value="HD Dragunov SVD Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
@@ -3611,14 +3602,12 @@
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_AK47_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
-
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value=".00000,.014,.245"/>
 	</property>
-
 	<effect_group name="gunMR10">
 		<passive_effect name="MaxRange" operation="base_set" value="170"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="120"/>
@@ -3651,7 +3640,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="11200,12200" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="650,1250" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -3685,7 +3674,6 @@
 	<property name="EconomicValue" value="2500"/>
 	<property name="UnlockedBy" value="HD Winchester 1866 Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
@@ -3700,14 +3688,12 @@
 		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
-
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value=".0000,.017,.0000"/>
 	</property>
-
 	<effect_group name="gunMR10">
 		<passive_effect name="MaxRange" operation="base_set" value="100"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="75"/>
@@ -3740,7 +3726,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1200,2400" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="650,1250" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -3806,13 +3792,12 @@
 			<display_value name="dRecoil" value="1" />
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="3000,9000" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="600,1000" tier="1,6"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,4"/>
 		<passive_effect name="ModSlots" operation="base_set" value="8,12" tier="5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-			
 		</effect_group>
 </item>
 
@@ -3841,7 +3826,6 @@
 	<property name="EconomicValue" value="2500"/>
 	<property name="UnlockedBy" value="HD Karabiner 98k Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
@@ -3856,14 +3840,12 @@
 		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
-
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.00000,.015,.00000"/>
 	</property>
-
 	<effect_group name="gunMR10">
 		<passive_effect name="MaxRange" operation="base_set" value="165"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="145"/>
@@ -3896,7 +3878,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="2200,4400" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="650,1250" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -3977,7 +3959,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".5"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".4"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="5000,1000" tier="1,6" tags="perkDemolitionsExpert"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="700,1300" tier="1,6" tags="perkDemolitionsExpert"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDemolitionsExpert"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>

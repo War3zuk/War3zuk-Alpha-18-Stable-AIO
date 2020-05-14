@@ -33,10 +33,9 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
-	<property name="MaxDamage" value="1500"/>
-	<property name="DamageReceived" value="0.2"/>
+	<property name="MaxDamage" value="2000"/>
+	<property name="DamageReceived" value="0.1"/>
 	<property name="Model" value="#@modfolder:Resources/HD Tesla Coil.unity3d?HD Tesla Coil.Prefab"/>
-	<!--  <property name="HandleFace" value="Bottom"/> -->
 	<property class="RepairItems"> <property name="resourceElectricParts" value="1"/> <property name="resourceScrapIron" value="1"/> </property>
 	<property name="DisplayType" value="blockElectricalMulti"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
