@@ -184,7 +184,7 @@
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
 	
 		<item_property_overrides name="HD Spas 12">
-			<property name="CrosshairOnAim" value="true"/>
+			<property name="CrosshairOnAim" value="false"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Mossberg 500">

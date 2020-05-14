@@ -274,7 +274,7 @@ DD1GGsShamTunaPieDesc,items,,,DD1GGs Sham And Tuna Pie Will keep you Zombie kill
 
 HDMacheteDesc,items,,,Extra Sharp & Serrated for cleaner Kills.
 
-HDCheyTacM300Desc,items,,,The CheyTac Intervention is an American bolt action sniper rifle manufactured by CheyTac LLC. Which can also be classified as an anti materiel rifle. It is fed by a 7 round detachable single stack magazine.
+HDCheyTacM300Desc,items,,,The CheyTac Intervention is an American bolt action sniper rifle manufactured by CheyTac LLC. Which can also be classified as an anti-material rifle. It is fed by a 7 round detachable single stack magazine that uses the renound 408mm CT Ammo,
 
 HDVulcan9mmDesc,items,,,The HD Vulcan 9mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
 

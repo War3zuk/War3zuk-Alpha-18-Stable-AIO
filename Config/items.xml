@@ -295,7 +295,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HDChick.unity3d?HDChick.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HDChick.unity3d?HDChick.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="15"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -325,7 +325,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="35"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
