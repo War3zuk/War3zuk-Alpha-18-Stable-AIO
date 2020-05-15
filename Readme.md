@@ -13,6 +13,7 @@ Adjusted HD BlunderBuss Dmg (60) +40 Against Armor
 Edited ALL HD Weapons Durability
 Edited HD Glock G5 Auto RNG Stats Fixed
 Edited HD Arctic Warfare Now Takes 7.62 Ammo (216Dmg)
+Enabled Proper Wandering Hordes
 
 Updated v2.96 to v2.97
 
