@@ -44,27 +44,27 @@
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 
 <lootgroup name="War3zukHDWeaponParts">
-		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob="0.1"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob="0.1"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".55"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".55"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons">
-		<item name="HD Mods Schematic" count="1" prob="0.5"/>
-		<item name="HD Desert Eagle Schematic" count="1" prob="0.5"/>
-		<item name="HD Mac10 Auto Schematic" count="1" prob="0.4"/>
-		<item name="HD M3 Auto Schematic" count="1" prob="0.4"/>
-		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.3"/>
-		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.3"/>		
-		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.3"/>
-		<item name="HD Tactical AR Schematic" count="1" prob="0.3"/>
-		<item name="HD Spas 12 Schematic" count="1" prob="0.3"/>
+		<item name="HD Mods Schematic" count="1" prob="0.2"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob="0.3"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob="0.3"/>
+		<item name="HD M3 Auto Schematic" count="1" prob="0.3"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.2"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.2"/>		
+		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.2"/>
+		<item name="HD Tactical AR Schematic" count="1" prob="0.2"/>
+		<item name="HD Spas 12 Schematic" count="1" prob="0.2"/>
 		<item name="HD Mossberg 500 Schematic" count="1" prob="0.2"/>
 		<item name="HD Double Barrel Schematic" count="1" prob="0.2"/>
 		<item name="HD Winchester 1866 Schematic" count="1" prob="0.2"/>
@@ -84,27 +84,27 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons">
-		<item name="HD Tool And Die Set Schematic" count="1" prob="0.2"/>
-		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.2"/>
-		<item name="HD Grinder Schematic" count="1" prob="0.2"/>
-		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.2"/>
-		<item name="HD Bullet Press Schematic" count="1" prob="0.2"/>
-		<item name="HD Welder Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc Automatics Schematic" count="1" prob="0.2"/>
-		<item name="HD Cnc Rifles Schematic" count="1" prob="0.2"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob="0.1"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob="0.1"/>
+		<item name="HD Grinder Schematic" count="1" prob="0.1"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob="0.1"/>
+		<item name="HD Bullet Press Schematic" count="1" prob="0.1"/>
+		<item name="HD Welder Schematic" count="1" prob="0.1"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob="0.1"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob="0.1"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools">
-		<item name="HD Forge Schematic" count="1" prob="0.3"/>
-		<item name="HD Cement Mixer Schematic" prob="0.3"/>
-		<item name="HD Generator Schematic" count="1" prob="0.3"/>
-		<item name="HD Gas Generator Schematic" count="1" prob="0.3"/>
-		<item name="HDPumpJackE Schematic" count="1" prob="0.3"/>
-		<item name="HD Junk Turret Schematic" count="1" prob="0.3"/>
-		<item name="HD Wrench Schematic" count="1" prob="0.3"/>
-		<item name="HD Auger Schematic" count="1" prob="0.3"/>
-		<item name="HD Chainsaw Schematic" count="1" prob="0.3"/>
+		<item name="HD Forge Schematic" count="1" prob="0.2"/>
+		<item name="HD Cement Mixer Schematic" prob="0.2"/>
+		<item name="HD Generator Schematic" count="1" prob="0.2"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.2"/>
+		<item name="HDPumpJackE Schematic" count="1" prob="0.2"/>
+		<item name="HD Junk Turret Schematic" count="1" prob="0.2"/>
+		<item name="HD Wrench Schematic" count="1" prob="0.2"/>
+		<item name="HD Auger Schematic" count="1" prob="0.2"/>
+		<item name="HD Chainsaw Schematic" count="1" prob="0.2"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo">
@@ -123,50 +123,50 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary">
-		<item name="HD Military Gloves Schematic" count="1" prob="0.15"/>
-		<item name="HD Military Boots Schematic" count="1" prob="0.15"/>
-		<item name="HD Military Legs Schematic" count="1" prob="0.15"/>
-		<item name="HD Military Vest Schematic" count="1" prob="0.15"/>
-		<item name="HD Military Helmet Schematic" count="1" prob="0.15"/>
-		<item name="MREMilitaryRation" count="0,1" prob="0.2"/>
-		<item name="Military Purify Tablets" count="2,4" prob="0.2"/>
+		<item name="HD Military Gloves Schematic" count="1" prob=".75"/>
+		<item name="HD Military Boots Schematic" count="1" prob=".75"/>
+		<item name="HD Military Legs Schematic" count="1" prob=".75"/>
+		<item name="HD Military Vest Schematic" count="1" prob=".75"/>
+		<item name="HD Military Helmet Schematic" count="1" prob=".75"/>
+		<item name="MREMilitaryRation" count="0,1" prob="0.1"/>
+		<item name="Military Purify Tablets" count="2,4" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">
-		<item name="HD First Aid Kit Schematic" count="1" prob="0.2"/>
+		<item name="HD First Aid Kit Schematic" count="1" prob=".50"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares">
-		<item name="Food Supply Flare" count="1" prob="0.3"/>
-		<item name="Ammo Supply Flare" count="1" prob="0.2"/>
-		<item name="Building Supply Flare" count="1" prob="0.4"/>
-		<item name="Health Supply Flare" count="1" prob="0.2"/>
+		<item name="Food Supply Flare" count="1" prob="0.1"/>
+		<item name="Ammo Supply Flare" count="1" prob="0.1"/>
+		<item name="Building Supply Flare" count="1" prob="0.1"/>
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages">
-		<item name="HD Food Care Package" count="1" prob="0.3"/>
-		<item name="HD Ammo Care Package" count="1,2" prob="0.2"/>
-		<item name="HD Resource Care Package" count="1" prob="0.4"/>
-		<item name="HD Medicine Care Package" count="1" prob="0.2"/>
+		<item name="HD Food Care Package" count="1" prob="0.1"/>
+		<item name="HD Ammo Care Package" count="1,2" prob="0.1"/>
+		<item name="HD Resource Care Package" count="1" prob="0.1"/>
+		<item name="HD Medicine Care Package" count="1" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods">
-		<item name="Warm Chunky Honey" count="1" prob="0.15"/>
-		<item name="Warm Chunky Beef" count="1" prob="0.15"/>
-		<item name="Warm Chunky Chicken" count="1" prob="0.15"/>
-		<item name="Warm Chunky Lamb" count="1" prob="0.15"/>
-		<item name="Warm Chunky Surprise" count="1" prob="0.15"/>
-		<item name="Warm Chunky Chili" count="1" prob="0.15"/>
-		<item name="Warm Chunky Pasta" count="1" prob="0.15"/>
-		<item name="Warm Chunky Salmon" count="1" prob="0.15"/>
-		<item name="Warm Chunky Sirloin" count="1" prob="0.15"/>
-		<item name="Warm Chunky Vegetable Stew" count="1" prob="0.15"/>
-		<item name="Warm Chunky Meat Stew" count="1" prob="0.15"/>
-		<item name="Warm Chunky Sham Chowder" count="1" prob="0.15"/>
-		<item name="Warm Chunky Hobo Stew" count="1" prob="0.15"/>
-		<item name="Warm Chunky Steak And Potato" count="1" prob="0.15"/>
-		<item name="Warm Chunky ChiliDog" count="1" prob="0.15"/>
-		<item name="Warm Chunky Fish Taco" count="1" prob="0.15"/>
+		<item name="Warm Chunky Honey" count="1" prob=".50"/>
+		<item name="Warm Chunky Beef" count="1" prob=".50"/>
+		<item name="Warm Chunky Chicken" count="1" prob=".50"/>
+		<item name="Warm Chunky Lamb" count="1" prob=".50"/>
+		<item name="Warm Chunky Surprise" count="1" prob=".50"/>
+		<item name="Warm Chunky Chili" count="1" prob=".50"/>
+		<item name="Warm Chunky Pasta" count="1" prob=".50"/>
+		<item name="Warm Chunky Salmon" count="1" prob=".50"/>
+		<item name="Warm Chunky Sirloin" count="1" prob=".50"/>
+		<item name="Warm Chunky Vegetable Stew" count="1" prob=".50"/>
+		<item name="Warm Chunky Meat Stew" count="1" prob=".50"/>
+		<item name="Warm Chunky Sham Chowder" count="1" prob=".50"/>
+		<item name="Warm Chunky Hobo Stew" count="1" prob=".50"/>
+		<item name="Warm Chunky Steak And Potato" count="1" prob=".50"/>
+		<item name="Warm Chunky ChiliDog" count="1" prob=".50"/>
+		<item name="Warm Chunky Fish Taco" count="1" prob=".50"/>
 </lootgroup>
 	
 </insertAfter>	
