@@ -50,34 +50,35 @@
 	<block name="HiddenHD ZTPH 019" prob="1"/>
 	<block name="HiddenHD ZTPH 020" prob="1"/>
 </placeholder>
+	
+</append>
 
 <append xpath="/blockplaceholders">
 	<placeholder name="storeShelving01">
-		<block name="storeShelving01Empty" prob=".80"/>
-		<block name="storeShelving01Full" prob=".33"/>
+		<block name="storeShelving01Empty" prob=".65"/>
+		<block name="storeShelving01Full" prob=".35"/>
 	</placeholder>
 </append>
 
 <append xpath="/blockplaceholders">
 	<placeholder name="storeShelving01Double">
-		<block name="storeShelving01DoubleEmpty" prob=".80"/>
-		<block name="storeShelving01DoubleFull" prob=".20"/>
+		<block name="storeShelving01DoubleEmpty" prob=".65"/>
+		<block name="storeShelving01DoubleFull" prob=".35"/>
 	</placeholder>
 </append>
 	
 <append xpath="/blockplaceholders">
 	<placeholder name="storeShelving01Top">
-		<block name="storeShelving01TopEmpty" prob=".80"/>
-		<block name="storeShelving01TopFull" prob=".20"/>
+		<block name="storeShelving01TopEmpty" prob=".65"/>
+		<block name="storeShelving01TopFull" prob=".35"/>
 	</placeholder>
 </append>
 	
 <append xpath="/blockplaceholders">
 	<placeholder name="storeShelving01TopDouble">
-		<block name="storeShelving01TopDoubleEmpty" prob=".80"/>
-		<block name="storeShelving01TopDoubleFull" prob=".20"/>
+		<block name="storeShelving01TopDoubleEmpty" prob=".65"/>
+		<block name="storeShelving01TopDoubleFull" prob=".35"/>
 	</placeholder>
 </append>
-	
-</append>
+
 </blockplaceholders>
