@@ -15,6 +15,9 @@ Edited HD Glock G5 Auto RNG Stats Fixed
 Edited HD Arctic Warfare Now Takes 7.62 Ammo (216Dmg)
 Enabled Proper Wandering Hordes
 Rebalanced Loot Slightly Base On 20h GamePlay
+Last Rebalance Of Loot Base On 30h GamePlay
+Fixed Warm Chunky Fish Taco Food Amount
+Fixed Warm Chunky Foods Not Displaying Anti-Biotic Property
 
 Updated v2.96 to v2.97
 
