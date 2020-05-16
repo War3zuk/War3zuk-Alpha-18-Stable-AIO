@@ -94,6 +94,34 @@
 	<property name="SortOrder1" value="70a0"/>
 </block> -->
 	
+<block name="BooMotherFucker">
+	<property name="CustomIcon" value="houseFrontDoor1_v1"/>
+	<property name="DescriptionKey" value="doorGroupDesc"/>
+	<property name="Class" value="Door"/>
+	<property name="Material" value="Mwood_regular"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Doors/house_frontDoor1_v1Prefab"/><property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterCTRPlate" param1="25"/>
+	<property name="Tag" value="Door"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
+	<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
+	<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
+	<property name="Mesh-Damage-4" value="Door/Door_DMG3"/>
+	<property name="Mesh-Damage-5" value="Door/Door_DMG4"/>
+	<property name="OpenSound" value="open_door_wood"/>
+	<property name="CloseSound" value="close_door_wood"/>
+	<property class="RepairItems"> <property name="resourceWood" value="3"/> </property>
+	<drop event="Harvest" name="resourceWood" count="2" prob="1"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="CraftingSkillGroup" value="craftSkillConstruction"/>
+</block>
+	
 <block name="Aaron Rockst4r">
 	<property name="DescriptionKey" value="AaronRockst4rDesc"/>
 	<property name="CustomIcon" value="Aaron Rockst4r"/>
@@ -4721,5 +4749,78 @@
 	<property name="DowngradeBlock" value="HD Stainless Steel Bars"/>
 </block>
 
+<block name="storeShelving01Full">
+	<property name="Extends" value="storeShelving01"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="526"/>
+</block>
+	
+<block name="storeShelving01Empty">
+	<property name="Extends" value="storeShelving01"/>
+</block>
+		
+<block name="storeShelving01DoubleFull">
+	<property name="Extends" value="storeShelving01Double"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="527"/>
+</block>
+		
+<block name="storeShelving01DoubleEmpty">
+	<property name="Extends" value="storeShelving01Double"/>
+</block>
+	
+<block name="storeShelving01TopFull">
+	<property name="Extends" value="storeShelving01Top"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="528"/>
+</block>
+		
+<block name="storeShelving01TopEmpty">
+	<property name="Extends" value="storeShelving01Top"/>
+</block>
+		
+<block name="storeShelving01TopDoubleFull">
+	<property name="Extends" value="storeShelving01TopDouble"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="529"/>
+</block>
+		
+<block name="storeShelving01TopDoubleEmpty">
+	<property name="Extends" value="storeShelving01TopDouble"/>
+</block>
+
 </append>
+
+<append xpath="/blocks/block[@name='doorFrameWhite1']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
+<append xpath="/blocks/block[@name='doorFrameMetal1']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
+<append xpath="/blocks/block[@name='secureDoorWooden']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
+<append xpath="/blocks/block[@name='ironDoor1_v1']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
+<append xpath="/blocks/block[@name='vaultDoor01']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
+<append xpath="/blocks/block[@name='commercialDoor1_v1']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
+<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
+<append xpath="/blocks/block[@name='commercialDoor2_v1']">
+	<property name="DowngradeBlock" value="BooMotherFucker"/>
+</append>
+
 </configs>

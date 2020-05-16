@@ -689,7 +689,7 @@
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="false"/>
+	<property name="HasRagdoll" value="true"/>
 	<property name="PhysicsBody" value="boar"/>
 	<property name="Mass" value="200"/>
 	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
@@ -732,7 +732,7 @@
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="false"/>
+	<property name="HasRagdoll" value="true"/>
 	<property name="PhysicsBody" value="boar"/>
 	<property name="Mass" value="200"/>
 	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
@@ -777,7 +777,7 @@
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="false"/>
+	<property name="HasRagdoll" value="true"/>
 	<property name="PhysicsBody" value="boar"/>
 	<property name="Mass" value="200"/>
 	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
@@ -5576,6 +5576,10 @@
 
 <append xpath="/entity_classes/entity_class[@name='animalStag']">
 	<property name="LootListOnDeath" value="506"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalBoar']">
+	<property name="LootListOnDeath" value="500"/>
 </append>
   
 </configs>
