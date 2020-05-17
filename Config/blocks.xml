@@ -717,22 +717,32 @@
 	<property name="Model" value="#@modfolder:Resources/HD Working Fire.unity3d?HD Working Fire.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Material" value="Mmetal" />
-	<property name="MaxDamage" value="2000"/>
+	<property name="MaxDamage" value="750"/>
 	<property name="StabilitySupport" value="true"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<drop event="Destroy" name="HD Working Fire" count="1" />
-		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
-	<property name="HeatMapStrength" value="1"/>
-	<property name="HeatMapTime" value="10"/>
-	<property name="HeatMapFrequency" value="10"/>
 	<property name="Group" value="Food/Cooking,Decor" />
 	<property name="ActiveRadiusEffects" value="+heatSource(1)"/>
 	<property class="Workstation">
 		<property name="Modules" value="tools,output,input"/>
 		<property name="CraftingAreaRecipes" value="campfire" />
 	</property>
-	<property name="EconomicValue" value="1250"/>
-	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+	<property name="CraftActionName" value="lblContextActionCook"/>
+	<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+	<property name="OpenSound" value="campfire_open"/>
+	<property name="CloseSound" value="campfire_close"/>
+	<property name="CraftSound" value="campfire_cook_click"/>
+	<property name="CraftCompleteSound" value="campfire_complete_item"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		</property>
+	<drop event="Destroy" name="HD Working Fire" count="1" />
+	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+	<property name="EconomicValue" value="450"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="SortOrder1" value="70i0"/>
 </block>
 	
 <block name="HD Working Oven">
@@ -743,20 +753,31 @@
 	<property name="Model" value="#@modfolder:Resources/HD Range Cooker.unity3d?HD Range Cooker.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Material" value="Mmetal" />
+	<property name="MaxDamage" value="750"/>
 	<property name="LootList" value="130" />
-	<drop event="Destroy" name="HD Working Oven" count="1" />
-		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
-	<property name="HeatMapStrength" value="1"/>
-	<property name="HeatMapTime" value="10"/>
-	<property name="HeatMapFrequency" value="10"/>
 	<property name="Group" value="Food/Cooking,Decor" />
 	<property name="ActiveRadiusEffects" value="+heatSource(1)"/>
 	<property class="Workstation">
 		<property name="Modules" value="tools,output,input"/>
 		<property name="CraftingAreaRecipes" value="campfire" />
 	</property>
-	<property name="EconomicValue" value="1250"/>
-	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+	<property name="CraftActionName" value="lblContextActionCook"/>
+	<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+	<property name="OpenSound" value="campfire_open"/>
+	<property name="CloseSound" value="campfire_close"/>
+	<property name="CraftSound" value="campfire_cook_click"/>
+	<property name="CraftCompleteSound" value="campfire_complete_item"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		</property>
+	<drop event="Destroy" name="HD Working Oven" count="1" />
+	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+	<property name="EconomicValue" value="650"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="SortOrder1" value="70i0"/>
 </block>
 	
 <block name="HD Working Dispenser">
