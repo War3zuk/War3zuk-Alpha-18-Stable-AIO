@@ -708,6 +708,32 @@
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBoxDubStepOFF"/>
 </block>
+
+<block name="HD Working Fire">
+	<property name="CustomIcon" value="HD Working Fire"/>
+	<property name="DescriptionKey" value="HDWorkingFireDesc"/>
+	<property name="Class" value="Campfire" />
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/HD Working Fire.unity3d?HD Working Fire.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Material" value="Mmetal" />
+	<property name="MaxDamage" value="2000"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<drop event="Destroy" name="HD Working Fire" count="1" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
+	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapTime" value="10"/>
+	<property name="HeatMapFrequency" value="10"/>
+	<property name="Group" value="Food/Cooking,Decor" />
+	<property name="ActiveRadiusEffects" value="+heatSource(1)"/>
+	<property class="Workstation">
+		<property name="Modules" value="tools,output,input"/>
+		<property name="CraftingAreaRecipes" value="campfire" />
+	</property>
+	<property name="EconomicValue" value="1250"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
 	
 <block name="HD Working Oven">
 	<property name="CustomIcon" value="HD Working Oven"/>
@@ -721,7 +747,7 @@
 	<drop event="Destroy" name="HD Working Oven" count="1" />
 		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
 	<property name="HeatMapStrength" value="1"/>
-	<property name="HeatMapTime" value="100"/>
+	<property name="HeatMapTime" value="10"/>
 	<property name="HeatMapFrequency" value="10"/>
 	<property name="Group" value="Food/Cooking,Decor" />
 	<property name="ActiveRadiusEffects" value="+heatSource(1)"/>
@@ -1934,7 +1960,7 @@
 	<property name="DescriptionKey" value="HDForgeDesc"/>
 	<property name="Class" value="Forge"/>
 	<property name="CustomIcon" value="HD Forge" />
-	<property name="Material" value="Mstone_scrap"/>
+	<property name="Material" value="Mmetal"/>
 	<property name="MaxDamage" value="2000"/>
 	<property name="StabilitySupport" value="true"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1948,7 +1974,7 @@
 	<property name="ParticleName" value="forge"/>
 	<property name="ParticleOffset" value="0.5,1.5,0.3"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="HeatMapStrength" value="3"/>
 	<property name="HeatMapTime" value="600"/>
 	<property name="HeatMapFrequency" value="60"/>

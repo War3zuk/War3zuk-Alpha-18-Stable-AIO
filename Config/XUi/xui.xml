@@ -32,6 +32,15 @@
 	<window name="windowNonPagingHeader" />
 </window_group>
 
+<window_group name="workstation_HD Working Fire" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowToolsCampfire" />
+	<window name="windowOutput" />
+	<window name="windowNonPagingHeader" />
+</window_group>
+
 <window_group name="workstation_HD GunBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>

@@ -1079,8 +1079,16 @@
     <ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
-    <ingredient name="toolCookingGrill" count="1"/>
+    <ingredient name="campfire" count="1"/>
 	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Working Fire" count="1" craft_area="HD WorkBench" craft_time="25" >
+    <ingredient name="resourceForgedIron" count="25"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+    <ingredient name="campfire" count="1"/>
+	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 	
 <recipe name="HD Working Dispenser" count="1" craft_area="HD WorkBench" craft_time="30" >

@@ -398,6 +398,7 @@ HDJukeBoxDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Auto
 
 HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed and manufactured by the British company Accuracy International It uses the .50 BGM Rounds And can be improved by adding points into the DeadEye Perk.
 
+HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
 
 HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item & Use LMB
