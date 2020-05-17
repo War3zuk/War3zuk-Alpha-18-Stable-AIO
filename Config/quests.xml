@@ -511,6 +511,7 @@
 	
 		<objective type="ZombieKill" value="50" />
 		<requirement type="Group" id="requirementGroupHDPistols" value="OR">
+			<requirement type="Holding" id="HDGlock18Auto" />
 			<requirement type="Holding" id="HD Colt M1911" />
 			<requirement type="Holding" id="HD Colt M1911A" />
 			<requirement type="Holding" id="HD Desert Eagle" />
