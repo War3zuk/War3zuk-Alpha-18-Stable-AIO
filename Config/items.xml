@@ -8899,14 +8899,13 @@
 	<property class="Action0"><!-- AttackAction -->
 		<property name="Class" value="Melee"/>
 		<property name="Delay" value="0.8"/> <!-- obsolete if rounds per minute exists -->
-		<property name="Range" value="1.65"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
+		<property name="Range" value="1.25"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
 		<property name="Sphere" value="0.1"/>
-		<property name="Block_range" value="2"/>
+		<property name="Block_range" value="1"/>
 		<property name="DamageEntity" value="10"/>
-		<property name="DamageBlock" value="10"/>
 		<property name="Sound_start" value="swoosh"/>
 	</property>
-		<effect_group name="meleeHandMaster" tiered="false">
+		<effect_group name="meleeHandMaster1" tiered="false">
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="1.65"/>
 	</effect_group>
 </item>
@@ -8941,7 +8940,7 @@
 		<property name="SwingAngle" value="90"/>
 	</property>
 	<effect_group name="meleeHandPlayer" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="10"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="7"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="2.5"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
@@ -8950,7 +8949,7 @@
 		<passive_effect name="StaminaLoss" operation="base_set" value="8.6" tags="primary"/>
 
 		<passive_effect name="MaxRange" operation="base_set" value="2.0"/>
-		<passive_effect name="BlockRange" operation="base_set" value="2.4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="2.6"/>
 	</effect_group>
 	<effect_group name="Power Attack" tiered="false">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -9003,15 +9002,22 @@
 	<property name="Extends" value="meleeHandMaster1"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
+		<property name="DamageEntity" value="10"/>
 		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombie01" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="10"/> <!-- this passive is ignored so using the old notation! -->
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/>
+
+		<!-- If the  buffInfectionCatch  buff makes it past buff resistance, this value is added to the  infectionCounter,  increasing infection level -->
+		<!-- Buckets are: -->
+		<!--InfectionRegular--><!--InfectionFeral--><!--InfectionRadiated--><!--InfectionSpecial-->
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
 	</effect_group>
 </item>
 
@@ -9043,17 +9049,19 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffObonjan"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffObonjan"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="50"/>
 	</effect_group>
 </item>
+
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeHandZombie01']" >
 <item name="meleeHandZombieFeral">
 	<property name="Extends" value="meleeHandZombie01"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="15"/>
+		<property name="DamageEntity" value="20"/>
+		<property name="Range" value="1.25"/>
 		</property>
 	<effect_group name="meleeHandZombieFeral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9061,7 +9069,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="50"/><!--InfectionFeral-->
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
 	</effect_group>
 </item>
 </insertAfter>
@@ -9071,18 +9079,19 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="24"/>
 	<property class="Action0">
-		<property name="Delay" value="1.1"/> <!-- obsolete if rounds per minute exists -->
-		<property name="Buff" value="buffLegSprained,buffIllInfection0"/>
+		<property name="Delay" value="2.0"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Buff" value="buffInfectionCatch"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombie02" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="30"/>  A16 2 -->
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" target_tags="walker,player" buff="buffLegSprained">
 			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
-			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="30"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
 		</triggered_effect>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/><!--InfectionRegular-->
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
 	</effect_group>
 </item>
 </insertAfter>
@@ -9092,6 +9101,7 @@
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="20"/>
+		<property name="Range" value="1.25"/>
 		</property>
 	<effect_group name="meleeHandZombie02Feral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9113,7 +9123,8 @@
 		<property name="Class" value="Melee"/>
 		<property name="Sphere" value="0.4"/>
 		<property name="DamageEntity" value="12"/>
-		<property name="Buff" value="buffBurningElement,buffIllInfection0,buffInjuryStunned1"/>
+		<property name="Buff" value="buffBurningZombie,buffInfectionCatch,buffInjuryStunned01"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombieBurning" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9148,9 +9159,10 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="24"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="8"/>
+		<property name="DamageEntity" value="24"/>
 		<property name="Delay" value="2.0"/> <!-- obsolete if rounds per minute exists -->
-		<property name="Buff" value="buffLegSprained,buffIllInfection0,buffBurningElement"/>
+		<property name="Buff" value="buffInfectionCatch,buffBurningZombie"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombieBurningCrawler" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9173,7 +9185,8 @@
 	<property class="Action0">
 		<property name="Range" value="1.75"/>
 		<property name="DamageEntity" value="20"/>
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Vomit"/>
@@ -9187,7 +9200,7 @@
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value=""/>
 		<property name="Sound_reload" value=""/>
-		<property name="Buff" value="buffIllInfection0"/>
+		<property name="Buff" value="buffInfectionCatch"/>
 	</property>
 	<effect_group name="meleeHandZombieCop" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9220,13 +9233,13 @@
 		<property name="LifeTime" value="4"/>
 		<property name="CollisionRadius" value="0.5"/>
 		<property name="DamageBonus.earth" value="0"/>
-		<property name="Buff" value="buffIllInfection0"/>
+		<property name="Buff" value="buffInfectionCatch"/>
 	</property>
 	<effect_group name="ammoProjectileZombieVomit" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInfectionCatch"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
 	</effect_group>
@@ -9274,8 +9287,8 @@
 	</property>
 	<effect_group name="ammoProjectileZombieVomitFeral" tiered="false">
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="0"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="1"/>
@@ -9322,8 +9335,8 @@
 	</property>
 	<effect_group name="ammoProjectileZombieVomitRadiated" tiered="false">
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="0"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="1"/>
@@ -9339,12 +9352,13 @@
 	<property class="Action0">
 		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
 		<property name="DamageEntity" value="8"/>
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="Base Effects">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
-		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth" match_all_tags="true"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="earth" match_all_tags="true"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="0.50" tags="buffInjuryBleeding"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="0.15" tags="buffIllInfection0"/>
 	</effect_group>
@@ -9373,7 +9387,8 @@
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="20"/>
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombieStrong" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9388,7 +9403,7 @@
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeHandZombieStrong']" >
 <item name="meleeHandZombieDemolition">
-	<property name="Extends" value="meleeHandMaster"/>
+	<property name="Extends" value="meleeHandMaster1"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="20"/>
@@ -9432,7 +9447,7 @@
 		<property name="Range" value="3.75"/>
 		<property name="Sphere" value="0.4"/>
 		<property name="DamageEntity" value="30"/>
-		<property name="Buff" value="buffInjuryBleeding,buffInjuryStunned1"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInjuryStunned01"/>
 	</property>
 	<effect_group name="meleeHandAnimalBear" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9449,7 +9464,7 @@
 	<property class="Action0">
 		<property name="Range" value="2.75"/>
 		<property name="DamageEntity" value="50"/>
-		<property name="Buff" value="buffInjuryBleeding,buffInjuryStunned1,buffIllInfection0"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInjuryStunned01,buffInfectionCatch"/>
 	</property>
 	<effect_group name="meleeHandAnimalZombieBear" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9511,7 +9526,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffSpattergroit"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffSpattergroit"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="200"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -9522,7 +9537,9 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="20"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+		<property name="DamageEntity" value="40"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombieWorker" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9558,7 +9575,8 @@
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0,buffInjuryStunned1"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombieFootballPlayer" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9620,7 +9638,7 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".60" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffBrainPox"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
 	</effect_group>
 </item>
@@ -9641,7 +9659,6 @@
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryStunned01"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffBrainPox"/>
 		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
 	</effect_group>
 </item>
@@ -9737,8 +9754,8 @@
 		<property name="Delay" value="2.5"/>
 		<property name="Range" value="1.2"/>
 		<property name="DamageEntity" value="10"/>
-		<property name="Buff" value="buffInjuryBleeding"/>
-		<property name="Buff_chance" value="0.4,0.2"/>
+		<property name="Buff" value="buffInjuryBleedingZombie"/>
+		<property name="Buff_chance" value=".4,.2"/>
 	</property>
 	<effect_group name="meleeHandAnimalSnake" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -9755,8 +9772,9 @@
 	<property class="Action0">
 		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
 		<property name="Range" value="2"/>
-		<property name="DamageEntity" value="22"/>
-		<property name="Buff" value="buffInjuryBleeding"/>
+		<property name="DamageEntity" value="14"/>
+		<property name="Buff" value="buffInjuryBleedingZombie"/>
+		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandAnimalWolf" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>

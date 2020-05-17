@@ -1,64 +1,5 @@
 <gamestages>
 	
-	<remove xpath="/gamestages/spawner[@name='WanderingHorde']" />
-	
-	<append xpath="/gamestages">
-	
-	<spawner name="WanderingHorde">
-		<gamestage stage="01"><spawn group="wanderingHordeStageGS1"		num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="02"><spawn group="wanderingHordeStageGS2"		num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="03"><spawn group="wanderingHordeStageGS5"		num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="04"><spawn group="ZombieDogGroup"				num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="05"><spawn group="FwanderingHordeStageGS1"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="06"><spawn group="FwanderingHordeStageGS2"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="07"><spawn group="FwanderingHordeStageGS4"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="08"><spawn group="VultureGroup"				num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="09"><spawn group="wanderingHordeStageGS8"		num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="10"><spawn group="wanderingHordeStageGS11"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="11"><spawn group="wanderingHordeStageGS14"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="12"><spawn group="WolfGroup"					num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="13"><spawn group="FwanderingHordeStageGS7"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="14"><spawn group="FwanderingHordeStageGS10"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="15"><spawn group="ZombieBikerBarGroup"		num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="16"><spawn group="FwanderingHordeStageGS13"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="17"><spawn group="wanderingHordeStageGS18"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="18"><spawn group="wanderingHordeStageGS22"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="19"><spawn group="wanderingHordeStageGS27"	num="10" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="20"><spawn group="ZombieDogGroup"				num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="21"><spawn group="FwanderingHordeStageGS16"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="22"><spawn group="FwanderingHordeStageGS19"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="23"><spawn group="FwanderingHordeStageGS23"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="24"><spawn group="ZombieGhostTownGroup"		num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="25"><spawn group="wanderingHordeStageGS31"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="26"><spawn group="wanderingHordeStageGS36"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="27"><spawn group="VultureGroup"				num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="28"><spawn group="wanderingHordeStageGS41"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="29"><spawn group="FwanderingHordeStageGS27"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="30"><spawn group="FwanderingHordeStageGS31"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="31"><spawn group="FwanderingHordeStageGS35"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="32"><spawn group="wanderingHordeStageGS46"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="33"><spawn group="wanderingHordeStageGS52"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="34"><spawn group="ZombieDogGroup"				num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="35"><spawn group="wanderingHordeStageGS58"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="36"><spawn group="wanderingHordeStageGS70"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="37"><spawn group="FwanderingHordeStageGS40"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="38"><spawn group="ZombieAnimalsGroup"			num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="39"><spawn group="FwanderingHordeStageGS44"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="40"><spawn group="FwanderingHordeStageGS49"	num="20" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="41"><spawn group="WolfPack"					num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="42"><spawn group="wanderingHordeStageGS64"	num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="43"><spawn group="wanderingHordeStageGS76"	num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="44"><spawn group="ZombieSoldierGroup"			num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="45"><spawn group="wanderingHordeStageGS82"	num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="46"><spawn group="FwanderingHordeStageGS54"	num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="47"><spawn group="VultureGroup"				num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="48"><spawn group="FwanderingHordeStageGS59"	num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="49"><spawn group="FwanderingHordeStageGS64"	num="25" maxAlive="30" duration="09"/></gamestage>
-		<gamestage stage="50"><spawn group="ZombieBearsGroup"			num="25" maxAlive="30" duration="09"/></gamestage>
-	</spawner>
-	
-	</append>
-	
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 
 <remove xpath="/gamestages/spawner[@name='SleeperGSList']" />
@@ -82,37 +23,37 @@
 			  <spawn group="ZombiesTierGroup01" num="20" maxAlive="8" duration="1"/>
 			</gamestage>
 			<gamestage stage="125">
-			  <spawn group="ZombiesTierGroup02" num="20" maxAlive="10" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="20" maxAlive="10" duration="1"/>
 			</gamestage>
 			<gamestage stage="150">
-			  <spawn group="ZombiesTierGroup02" num="21" maxAlive="12" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="21" maxAlive="12" duration="1"/>
 			</gamestage>
 			<gamestage stage="175">
-			  <spawn group="ZombiesTierGroup02" num="21" maxAlive="14" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="21" maxAlive="14" duration="1"/>
 			</gamestage>
 			<gamestage stage="200">
-			  <spawn group="ZombiesTierGroup02" num="21" maxAlive="16" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="21" maxAlive="16" duration="1"/>
 			</gamestage>
 			<gamestage stage="225">
-			  <spawn group="ZombiesTierGroup02" num="22" maxAlive="18" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="22" maxAlive="18" duration="1"/>
 			</gamestage>
 			<gamestage stage="250">
-			  <spawn group="ZombiesTierGroup02" num="22" maxAlive="20" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="22" maxAlive="20" duration="1"/>
 			</gamestage>
 			<gamestage stage="275">
-			  <spawn group="ZombiesTierGroup02" num="22" maxAlive="22" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="22" maxAlive="22" duration="1"/>
 			</gamestage>
 			<gamestage stage="300">
-			  <spawn group="ZombiesTierGroup02" num="23" maxAlive="24" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="23" maxAlive="24" duration="1"/>
 			</gamestage>
 			<gamestage stage="325">
-			  <spawn group="ZombiesTierGroup02" num="23" maxAlive="26" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="23" maxAlive="26" duration="1"/>
 			</gamestage>
 			<gamestage stage="350">
-			  <spawn group="ZombiesTierGroup02" num="23" maxAlive="28" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="23" maxAlive="28" duration="1"/>
 			</gamestage>
 			<gamestage stage="375">
-			  <spawn group="ZombiesTierGroup02" num="24" maxAlive="30" duration="1"/>
+			  <spawn group="ZombiesTierGroup01" num="24" maxAlive="30" duration="1"/>
 			</gamestage>
 			<gamestage stage="400">
 			  <spawn group="ZombiesTierGroup02" num="24" maxAlive="32" duration="1"/>
@@ -793,5 +734,64 @@
 		  
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 		  
+</append>
+
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']" />
+	
+	<append xpath="/gamestages">
+	
+	<spawner name="WanderingHorde">
+		<gamestage stage="01"><spawn group="wanderingHordeStageGS1"		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="02"><spawn group="wanderingHordeStageGS2"		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="03"><spawn group="wanderingHordeStageGS5"		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="04"><spawn group="ZombieDogGroup"				num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="05"><spawn group="FwanderingHordeStageGS1"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="06"><spawn group="FwanderingHordeStageGS2"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="07"><spawn group="FwanderingHordeStageGS4"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="08"><spawn group="VultureGroup"				num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="09"><spawn group="wanderingHordeStageGS8"		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="10"><spawn group="wanderingHordeStageGS11"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="11"><spawn group="wanderingHordeStageGS14"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="12"><spawn group="WolfGroup"					num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="13"><spawn group="FwanderingHordeStageGS7"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="14"><spawn group="FwanderingHordeStageGS10"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="15"><spawn group="ZombieBikerBarGroup"		num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="16"><spawn group="FwanderingHordeStageGS13"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="17"><spawn group="wanderingHordeStageGS18"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="18"><spawn group="wanderingHordeStageGS22"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="19"><spawn group="wanderingHordeStageGS27"	num="10" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="20"><spawn group="ZombieDogGroup"				num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="21"><spawn group="FwanderingHordeStageGS16"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="22"><spawn group="FwanderingHordeStageGS19"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="23"><spawn group="FwanderingHordeStageGS23"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="24"><spawn group="ZombieGhostTownGroup"		num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="25"><spawn group="wanderingHordeStageGS31"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="26"><spawn group="wanderingHordeStageGS36"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="27"><spawn group="VultureGroup"				num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="28"><spawn group="wanderingHordeStageGS41"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="29"><spawn group="FwanderingHordeStageGS27"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="30"><spawn group="FwanderingHordeStageGS31"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="31"><spawn group="FwanderingHordeStageGS35"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="32"><spawn group="wanderingHordeStageGS46"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="33"><spawn group="wanderingHordeStageGS52"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="34"><spawn group="ZombieDogGroup"				num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="35"><spawn group="wanderingHordeStageGS58"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="36"><spawn group="wanderingHordeStageGS70"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="37"><spawn group="FwanderingHordeStageGS40"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="38"><spawn group="ZombieAnimalsGroup"			num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="39"><spawn group="FwanderingHordeStageGS44"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="40"><spawn group="FwanderingHordeStageGS49"	num="20" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="41"><spawn group="WolfPack"					num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="42"><spawn group="wanderingHordeStageGS64"	num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="43"><spawn group="wanderingHordeStageGS76"	num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="44"><spawn group="ZombieSoldierGroup"			num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="45"><spawn group="wanderingHordeStageGS82"	num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="46"><spawn group="FwanderingHordeStageGS54"	num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="47"><spawn group="VultureGroup"				num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="48"><spawn group="FwanderingHordeStageGS59"	num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="49"><spawn group="FwanderingHordeStageGS64"	num="25" maxAlive="30" duration="09"/></gamestage>
+		<gamestage stage="50"><spawn group="ZombieBearsGroup"			num="25" maxAlive="30" duration="09"/></gamestage>
+	</spawner>
+	
 </append>
 </gamestages>

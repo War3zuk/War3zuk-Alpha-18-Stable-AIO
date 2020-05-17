@@ -1,6 +1,6 @@
 <entitygroups>
 	
-	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.1"/><entity name="Giant Zombie Vulture RAD" prob="0.1"/><entity name="Giant Hound" prob="0.1"/><entity name="Giant Hound Fire" prob="0.1"/><entity name="Giant Hound RAD" prob="0.1"/><entity name="Giant Zombie Vulture Fire" prob="0.1"/><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="animalBossGrace" prob="0.1"/></append>
+<!--  <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.1"/><entity name="Giant Zombie Vulture RAD" prob="0.1"/><entity name="Giant Hound" prob="0.1"/><entity name="Giant Hound Fire" prob="0.1"/><entity name="Giant Hound RAD" prob="0.1"/><entity name="Giant Zombie Vulture Fire" prob="0.1"/><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="animalBossGrace" prob="0.1"/></append>
 	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.1"/><entity name="Giant Zombie Vulture RAD" prob="0.1"/><entity name="Giant Hound" prob="0.1"/><entity name="Giant Hound Fire" prob="0.1"/><entity name="Giant Hound RAD" prob="0.1"/><entity name="Giant Zombie Vulture Fire" prob="0.1"/><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="animalBossGrace" prob="0.1"/></append>
 	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.1"/><entity name="Giant Zombie Vulture RAD" prob="0.1"/><entity name="Giant Hound" prob="0.1"/><entity name="Giant Hound Fire" prob="0.1"/><entity name="Giant Hound RAD" prob="0.1"/><entity name="Giant Zombie Vulture Fire" prob="0.1"/><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="animalBossGrace" prob="0.1"/></append>
 	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS7']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.1"/><entity name="Giant Zombie Vulture RAD" prob="0.1"/><entity name="Giant Hound" prob="0.1"/><entity name="Giant Hound Fire" prob="0.1"/><entity name="Giant Hound RAD" prob="0.1"/><entity name="Giant Zombie Vulture Fire" prob="0.1"/><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="animalBossGrace" prob="0.1"/></append>
@@ -321,7 +321,7 @@
 	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4031']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.7"/><entity name="Giant Zombie Vulture RAD" prob="0.7"/><entity name="Giant Hound" prob="0.7"/><entity name="Giant Hound Fire" prob="0.7"/><entity name="Giant Hound RAD" prob="0.7"/><entity name="Giant Zombie Vulture Fire" prob="0.7"/><entity name="ZombieDemolisherArson" prob="0.7"/><entity name="animalBossGrace" prob="0.1"/></append>
 	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4049']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.7"/><entity name="Giant Zombie Vulture RAD" prob="0.7"/><entity name="Giant Hound" prob="0.7"/><entity name="Giant Hound Fire" prob="0.7"/><entity name="Giant Hound RAD" prob="0.7"/><entity name="Giant Zombie Vulture Fire" prob="0.7"/><entity name="ZombieDemolisherArson" prob="0.7"/><entity name="animalBossGrace" prob="0.1"/></append>
 	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4067']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.7"/><entity name="Giant Zombie Vulture RAD" prob="0.7"/><entity name="Giant Hound" prob="0.7"/><entity name="Giant Hound Fire" prob="0.7"/><entity name="Giant Hound RAD" prob="0.7"/><entity name="Giant Zombie Vulture Fire" prob="0.7"/><entity name="ZombieDemolisherArson" prob="0.7"/><entity name="animalBossGrace" prob="0.1"/></append>
-	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4086']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.7"/><entity name="Giant Zombie Vulture RAD" prob="0.7"/><entity name="Giant Hound" prob="0.7"/><entity name="Giant Hound Fire" prob="0.7"/><entity name="Giant Hound RAD" prob="0.7"/><entity name="Giant Zombie Vulture Fire" prob="0.7"/><entity name="ZombieDemolisherArson" prob="0.7"/><entity name="animalBossGrace" prob="0.1"/></append>
+	<append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4086']"><entity name="ZombieDemolisherArson" prob="0.1"/><entity name="ZombieDemolisherArsonFire" prob="0.7"/><entity name="Giant Zombie Vulture RAD" prob="0.7"/><entity name="Giant Hound" prob="0.7"/><entity name="Giant Hound Fire" prob="0.7"/><entity name="Giant Hound RAD" prob="0.7"/><entity name="Giant Zombie Vulture Fire" prob="0.7"/><entity name="ZombieDemolisherArson" prob="0.7"/><entity name="animalBossGrace" prob="0.1"/></append> -->
 	
 <append xpath="/entitygroups">
 	
@@ -914,7 +914,6 @@
 			<entity name="zombieJoe"/>
 			<entity name="zombieArlene"/>
 			<entity name="zombieDarlene"/>			
-			<entity name="zombieDemolition" prob="0.75"/>		
 			<entity name="zombieMarlene"/>
 			<entity name="zombieYo"/>
 			<entity name="zombieSteve"/>
@@ -998,7 +997,6 @@
 			<entity name="sanZombieClaireHazmat"/>
 			<entity name="sanZombieSueHazmat"/>
 			<entity name="sanZombieOldLady"/>
-			<entity name="zombieDemolition" prob="0.75"/>
 			<entity name="sanZombieOldMan"/>
 			<entity name="sanZombieEvilGranny"/>
 			<entity name="sanZombieSecurityGuard"/>
@@ -1264,7 +1262,6 @@
 			<entity name="badZombieCheerleader_Rager" prob="0.75"/>
 			<entity name="badZombieOldTimer_Rager" prob="0.75"/>
 			<entity name="badZombieJethro" prob="0.75"/>
-			<entity name="zombieDemolition" prob="0.75"/>
 			<entity name="badZombieSeryph" prob="0.75"/>
 			<entity name="badZombieSeryphSnow" prob="0.75"/>
 			<entity name="valZombieBigBitch" prob="0.75"/>
@@ -1474,7 +1471,6 @@
 			<entity name="valZombieChildFemale" prob="0.15"/>
 			<entity name="valZombieChildMale" prob="0.15"/>
 			<entity name="valZombieRanger" prob="0.15"/>
-			<entity name="zombieDemolition" prob="0.75"/>
 			<entity name="valZombieScorchedRusher" prob="0.15"/>
 			<entity name="gupZombieMartha" prob="0.15"/>
 			<entity name="gupZombieSally" prob="0.15"/>
@@ -1812,7 +1808,6 @@
 			<entity name="badZombieJoe_Rager" prob="0.35"/>
 			<entity name="badZombieYo_Rager" prob="0.35"/>
 			<entity name="badZombieSteve_Rager" prob="0.35"/>
-			<entity name="zombieDemolition" prob="0.75"/>
 			<entity name="badZombieArlene_Rager" prob="0.35"/>
 			<entity name="badZombieDarlene_Rager" prob="0.35"/>
 			<entity name="badZombieMarlene_Rager" prob="0.35"/>
@@ -2416,6 +2411,7 @@
 			<entity name="sanZombieSecurityGuard" prob="0.05"/>
 			<entity name="sanZombieFrozen" prob="0.05"/>
 			<entity name="zombieFootballPlayer" prob="0.15"/>
+			<entity name="zombieDemolition" prob="0.75"/>
 			<entity name="zombieFemaleFat" prob="0.15"/>
 			<entity name="zombieMoe" prob="0.15"/>
 			<entity name="zombieSteveCrawlerFeral" prob="0.15"/>

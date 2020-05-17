@@ -6,6 +6,7 @@ Added Blank Door For When Doors Are Broken
 Added Edited RWGmixer.xml (Create RWG Worlds with the custom prefabs)
 Added HD Working Fire Hires PBR Model (Works Same As The Oven)
 Edited HD Working Oven (Now Matches New Fire Code)
+Adjusted StompyNZ Intergrated Zombies Code (Farm NRE I Think)
 
 Updated v2.97 to v2.98
 
