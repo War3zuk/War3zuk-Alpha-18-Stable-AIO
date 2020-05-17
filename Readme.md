@@ -1,5 +1,10 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.98 to v2.99
+
+Added Blank Door For When Doors Are Broken
+Added Edited RWGmixer.xml (Create RWG Worlds with the custom prefabs)
+
 Updated v2.97 to v2.98
 
 (Important) Please Delete Old Mod Files so you do not
