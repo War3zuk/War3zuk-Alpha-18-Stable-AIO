@@ -5142,7 +5142,7 @@
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1"/>
 		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="100,600" tier="1,6" tags="perkTurrets"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2500" tier="1,6" tags="perkTurrets"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
@@ -5223,7 +5223,7 @@
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1"/>
 		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="100,600" tier="1,6" tags="perkTurrets"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2500" tier="1,6" tags="perkTurrets"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
@@ -5304,7 +5304,7 @@
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1"/>
 		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="100,600" tier="1,6" tags="perkTurrets"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2500" tier="1,6" tags="perkTurrets"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>

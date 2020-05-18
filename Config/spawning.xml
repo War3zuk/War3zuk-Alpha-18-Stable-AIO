@@ -1,6 +1,6 @@
 <configs>
 
-<!--  <append xpath="/spawning/biome[@name='city']">
+<append xpath="/spawning/biome[@name='city']">
 	<spawn maxcount="1" respawndelay="60" time="Any" entitygroup="Giant Animals" spawnDeadChance="0" />
 	<spawn maxcount="1" respawndelay="120" time="Any" entitygroup="ZombieFarmGroup" spawnDeadChance="0" />
 </append>
@@ -33,7 +33,7 @@
 <append xpath="/spawning/biome[@name='snow']">
 	<spawn maxcount="1" respawndelay="60" time="Any" entitygroup="Giant Animals" spawnDeadChance="0" />
 	<spawn maxcount="1" respawndelay="120" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
-</append> -->
+</append>
 	
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 

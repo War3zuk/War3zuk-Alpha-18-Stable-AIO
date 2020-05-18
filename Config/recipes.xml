@@ -20,6 +20,16 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD wood Bars Centered" count="1" craft_time = "1">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="5"/>
+</recipe>
+
+<recipe name="HD Wood Bars" count="1" craft_time = "1">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="5"/>
+</recipe>
+
 <recipe name="HDGlock18Auto" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "90" tags="perkGunslinger">
 	<ingredient name="resourceForgedIron" count="45"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
