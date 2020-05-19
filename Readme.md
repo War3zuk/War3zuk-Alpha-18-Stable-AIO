@@ -11,6 +11,14 @@ Added HD GlockG5 18 Auto To The HDPistolsGroup For Gunman Quest
 Fixed HD Junk Turrets Durability
 Fixed HD Wood Bars Centered Recipe
 Fixed HD Wood Bars Recipe
+Rebalanced Loot Table Again
+
+
+
+
+
+(Launcher Edits)
+Added RWGMixer.xml To Launcher (For Random Gen Worlds Using Custom Prefabs)
 
 Updated v2.97 to v2.98
 
