@@ -3,7 +3,6 @@ War3zuk-Alpha-18.4 B4 - AIO
 Updated v2.98 to v2.99
 
 Added Blank Door For When Doors Are Broken
-Added Edited RWGmixer.xml (Create RWG Worlds with the custom prefabs)
 Added HD Working Fire Hires PBR Model (Works Same As The Oven)
 Edited HD Working Oven (Now Matches New Fire Code)
 Adjusted StompyNZ Intergrated Zombies Code (Farm NRE I Think)
@@ -12,13 +11,12 @@ Fixed HD Junk Turrets Durability
 Fixed HD Wood Bars Centered Recipe
 Fixed HD Wood Bars Recipe
 Rebalanced Loot Table Again
-
-
-
+Fixed Zombie Block Dmg Melee Dmg (From Code Re-Write)
 
 
 (Launcher Edits)
 Added RWGMixer.xml To Launcher (For Random Gen Worlds Using Custom Prefabs)
+Added Edited RWGmixer.xml (Create RWG Worlds with the custom prefabs)
 
 Updated v2.97 to v2.98
 

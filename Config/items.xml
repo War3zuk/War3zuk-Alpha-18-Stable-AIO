@@ -4751,7 +4751,7 @@
 	<property name="CreativeMode" value="None"/>
   	<property class="Action0">
 		<property name="DamageEntity" value="30"/>
-		<property name="DamageBlock" value="20"/>
+		<property name="DamageBlock" value="30"/>
 	</property>
 	<effect_group name="meleeHandZombieBurningFeral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
@@ -8878,8 +8878,8 @@
 		<property name="Range" value="1.65"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
 		<property name="Sphere" value="0.1"/>
 		<property name="Block_range" value="2.5"/>
-		<property name="DamageEntity" value="10"/>
-		<property name="DamageBlock" value="16"/>
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="20"/>
 		<property name="Sound_start" value="swoosh"/>
 	</property>
 		<effect_group name="meleeHandMaster" tiered="false">
@@ -8887,6 +8887,7 @@
 	</effect_group>
 </item>
 </insertAfter>
+
 <insertAfter xpath="/items/item[@name='meleeHandMaster']" >
 <item name="meleeHandMaster1">
 	<property name="Tags" value="blunt,melee,light"/>
@@ -8896,22 +8897,23 @@
 	<property name="Canhold" value="false"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="Candrop" value="false"/>
-	<property class="Action0"><!-- AttackAction -->
+	<property class="Action0">
 		<property name="Class" value="Melee"/>
-		<property name="Delay" value="0.8"/> <!-- obsolete if rounds per minute exists -->
-		<property name="Range" value="1.25"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
+		<property name="Delay" value="0.8"/>
+		<property name="Range" value="1.65"/>
 		<property name="Sphere" value="0.1"/>
-		<property name="Block_range" value="1"/>
-		<property name="DamageEntity" value="10"/>
+		<property name="Block_range" value="2"/>
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="25"/>
 		<property name="Sound_start" value="swoosh"/>
 	</property>
-		<effect_group name="meleeHandMaster1" tiered="false">
+		<effect_group name="meleeHandMaster" tiered="false">
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="1.65"/>
 	</effect_group>
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeHandMaster1']" >
-<item name="meleeHandPlayer"> <!-- T1 brawling -->
+<item name="meleeHandPlayer">
 	<property name="Extends" value="meleeHandMaster"/>
 	<property name="Tags" value="blunt,melee,grunting,light,attFortitude,perkBrawler"/>
 	<property name="CreativeMode" value="None"/>
@@ -8920,19 +8922,16 @@
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Sphere" value=".15"/>
 		<property name="Damage_type" value="Bashing"/>
-
 		<property name="GrazeStart" value=".3"/>
 		<property name="GrazeEnd" value=".5"/>
 		<property name="SwingDegrees" value="5"/>
 		<property name="UseGrazingHits" value="true"/>
 		<property name="SwingAngle" value="-90"/>
-
 	</property>
-	<property class="Action1"> <!-- UseAction -->
+	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".15"/>   <!-- limit to 0.15, else the sphere cast can overlap the target already -->
+		<property name="Sphere" value=".15"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
-
 		<property name="GrazeStart" value=".3"/>
 		<property name="GrazeEnd" value=".4"/>
 		<property name="SwingDegrees" value="65"/>
@@ -8947,7 +8946,6 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="80"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="8.6" tags="primary"/>
-
 		<passive_effect name="MaxRange" operation="base_set" value="2.0"/>
 		<passive_effect name="BlockRange" operation="base_set" value="2.6"/>
 	</effect_group>
@@ -8957,8 +8955,8 @@
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="13" tags="secondary"/>
 	</effect_group>
-	<!--use_action class="LiftUpTerrain" delay="1" use_time="..." gain_health="-5"gain_stamina="-20" gain_food="0" gain_water="10" gain_sickness="15" condition_raycast_block="77,78,79,80" sound_start="player_drinking" /-->
 </item>
+
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeHandPlayer']" >
 <item name="handPlayer"> <!-- deprecated can now delete -->
@@ -9002,22 +9000,15 @@
 	<property name="Extends" value="meleeHandMaster1"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="10"/>
 		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01"/>
-		<property name="Range" value="1.25"/>
 	</property>
 	<effect_group name="meleeHandZombie01" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="10"/> <!-- this passive is ignored so using the old notation! -->
-		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<passive_effect name="EntityDamage" operation="base_set" value="20"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-
-		<!-- If the  buffInfectionCatch  buff makes it past buff resistance, this value is added to the  infectionCounter,  increasing infection level -->
-		<!-- Buckets are: -->
-		<!--InfectionRegular--><!--InfectionFeral--><!--InfectionRadiated--><!--InfectionSpecial-->
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="40"/>
 	</effect_group>
 </item>
 
@@ -9029,7 +9020,7 @@
 	</property>
 	<effect_group name="meleeHandZombie01" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="25"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
@@ -9042,11 +9033,11 @@
 	<property name="Extends" value="meleeHandMaster1"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="15"/>
+		<property name="DamageEntity" value="35"/>
 		</property>
 	<effect_group name="meleeHandZombieFeral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryBleedingZombie"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffObonjan"/>
@@ -9060,7 +9051,7 @@
 	<property name="Extends" value="meleeHandZombie01"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="20"/>
+		<property name="DamageEntity" value="25"/>
 		<property name="Range" value="1.25"/>
 		</property>
 	<effect_group name="meleeHandZombieFeral" tiered="false">

@@ -1084,8 +1084,8 @@
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
-	<property name="Mass" value="170"/>
-	<property name="Weight" value="70"/>
+	<property name="Mass" value="270"/>
+	<property name="Weight" value="120"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="Faction" value="undead"/>
 	<property name="Tags" value="entity,zombie"/>
@@ -1109,14 +1109,13 @@
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/>
 	<property class="FallLandBehavior">
-		<property name="None" data="weightmin=0.6"/>
-		<property name="Ragdoll" data="heightMin=2;weightMin=.2;weightMax=.4"/>
+		<property name="None" data="weightmin=0.5"/>
+		<property name="Ragdoll" data="heightMin=1;weightMin=.1;weightMax=.2"/>
 	</property>
-
 	<property name="WalkType" value="7"/>
-	<property name="SoundRandomTime" value="60.0"/> <!-- It will play the roam every 60/30 seconds -->
+	<property name="SoundRandomTime" value="30.0"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
-	<property name="SoundAlertTime" value="25.0"/> <!-- It will play the roam every 25/12.5 seconds-->
+	<property name="SoundAlertTime" value="25.0"/>
 	<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
 	<property name="SoundSense" value="Enemies/Base_Zombie_Male/zombiemalesense"/>
 	<property name="SoundHurt" value="Enemies/Base_Zombie_Male/zombiemalepain"/>
@@ -1124,17 +1123,15 @@
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 	<property name="SoundSleeperSense" value="sleepersense"/>
 	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ParticleOnDeath" value="blood_death"/>
-	<property name="SurfaceCategory" value="organic"/> <!-- determines the particle effect played on hit -->
-
+	<property name="SurfaceCategory" value="organic"/>
 	<property name="DismemberMultiplierHead" value="1"/>
 	<property name="DismemberMultiplierArms" value="1"/>
 	<property name="DismemberMultiplierLegs" value="1"/>
-	<property name="LegCrippleScale" value="2"/> <!-- Scales chance to cripple (percent of health that a hit does is the chance) -->
-	<property name="LegCrawlerThreshold" value="0"/> <!-- at like .175 nearly every zombie knocked down from a leg hit turns into a crawler -->
+	<property name="LegCrippleScale" value="2"/>
+	<property name="LegCrawlerThreshold" value="0"/>
 	<property name="KnockdownProneDamageThreshold" value="0.5"/>
 	<property name="KnockdownProneStunDuration" value="0.5,1.8"/>
 	<property name="KnockdownProneRefillRate" value="0.045,0.045"/>
@@ -1146,48 +1143,35 @@
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
 	<property name="PainResistPerHit" value=".45"/>
-
-	<!-- Stealth -->
 	<property name="MaxViewAngle" value="180"/>
-	<property name="SightRange" value="30"/> <!-- distance in m -->
-	<property name="SightLightThreshold" value="-2,150"/> <!-- how well lit you have to be for the zombie to see you at min,max range -->
-
-	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/> <!-- Indiv.Random. sight capability - "I see you" light value at point blank -->
-	<property name="SleeperWakeupSightDetectionMax" value="340,480"/> <!-- Indiv.Random. "I see you" light value at "SightRange" -->
-	<property name="SleeperSenseSightDetectionMin" value="-10,0"/> <!-- same for groaning, not waking -->
+	<property name="SightRange" value="30"/>
+	<property name="SightLightThreshold" value="-2,150"/>
+	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/>
+	<property name="SleeperWakeupSightDetectionMax" value="340,480"/>
+	<property name="SleeperSenseSightDetectionMin" value="-10,0"/>
 	<property name="SleeperSenseSightDetectionMax" value="200,300"/>
-
-	<property name="SleeperNoiseSenseThreshold" value="3,8"/> <!-- Indiv.Random. hearing capability - "I hear something" noise value -->
+	<property name="SleeperNoiseSenseThreshold" value="3,8"/>
 	<property name="SleeperNoiseWakeThreshold" value="9,12"/>
-
-	<property name="SleeperSmellSenseThreshold" value="20,50"/> <!-- Indiv.Random. smell capability - "I smell something" player smell value -->
-	<property name="SoundSleeperSenseChance" value=".5"/> <!-- the chance to play "SoundSleeperSense" when "SleeperSmellSenseThreshold" is triggered -->
+	<property name="SleeperSmellSenseThreshold" value="20,50"/>
+	<property name="SoundSleeperSenseChance" value=".8"/>
 	<property name="SleeperSmellWakeThreshold" value="40,100"/>
-
-	<property name="NoiseAlertThreshold" value="30"/> <!-- DEPRECATED; an awake zombie triggers instantly if touched by the sound range/volume -->
-	<property name="SmellAlertThreshold" value="40"/> <!-- for awake zombies -->
-
-	<!-- Gameplay -->
+	<property name="NoiseAlertThreshold" value="30"/>
+	<property name="SmellAlertThreshold" value="40"/>
 	<property name="MaxTurnSpeed" value="250"/>
-	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value="0.2, 1.25"/> <!-- chasing a target min/max (like day or night)-->
-	<property name="MoveSpeedPanic" value="0.55"/>
+	<property name="MoveSpeed" value=".5"/>
+	<property name="MoveSpeedAggro" value="0.50, 1.35"/>
+	<property name="MoveSpeedPanic" value="0.75"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="JumpMaxDistance" value="0"/>
-
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<property name="HandItem" value="meleeHandZombie01"/>
 	<property name="HandItemCrawler" value="meleeHandZombie02"/>
-	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
-	<property name="AttackTimeoutNight" value="1.1"/>
-
-	<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
-	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
-
-	<property name="ExperienceGain" value="413"/> <!-- XP grunt -->
-	<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
-	<!-- <property name="LootListOnDeath" value="45"/> -->
+	<property name="AttackTimeoutDay" value="1.1"/>
+	<property name="AttackTimeoutNight" value="1.0"/>
+	<property name="Immunity" value="sickness;disease;wellness"/>
+	<property name="ExperienceGain" value="500"/>
+	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="TimeStayAfterDeath" value="30"/>
+	<property name="TimeStayAfterDeath" value="10"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
