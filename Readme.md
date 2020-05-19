@@ -1,5 +1,22 @@
 War3zuk-Alpha-18.4 B4 - AIO
 
+Updated v2.99 to v3.00
+
+
+
+
+
+
+7 Days To Die Launcher Edits
+Fixed Nuka Factory Error (My Bad)
+Added Screamer To Night Time Group
+
+How To Do A Fresh Install Of The Mod...
+1) Delete the Mods folder
+2) Delete the Temp folder
+3) Delete the war3zuk folder
+& then click Presync Mod
+
 Updated v2.98 to v2.99
 
 Added Blank Door For When Doors Are Broken
