@@ -377,7 +377,10 @@
 		
 		<reward type="Exp" value="10000" />
 		<reward type="SkillPoints" value="1" />
-		<reward type="Item" id="vehicle4x4TruckPlaceable" value="1" />
+		<reward type="Item" id="HDBreachingC4" value="20" />
+		<reward type="Item" id="HD Ground Mine" value="20" />
+		<reward type="Item" id="HD Blade Trap" value="5" />
+		<reward type="Item" id="HD Dart Trap" value="5" />
 		<reward type="Item" id="Class Engineer VM" value="1" />
 </quest>
 

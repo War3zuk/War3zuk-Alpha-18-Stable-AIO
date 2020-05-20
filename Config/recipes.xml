@@ -20,6 +20,13 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD Tesla Fence" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "20" tags="learnable">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+	
 <recipe name="HD wood Bars Centered" count="1" craft_time = "1">
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceNail" count="5"/>
@@ -1656,10 +1663,10 @@
 </recipe>
 
 <recipe name="HD Rolling Door" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "240" tags="workbenchCrafting">
-	<ingredient name="resourceForgedSteel" count="500"/>
-	<ingredient name="resourceForgedIron" count="500"/>
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceSpring" count="20"/>
-	<ingredient name="Titanium Polish" count="100"/>
+	<ingredient name="Titanium Polish" count="50"/>
 </recipe>
 
 <recipe name="HDGun Oil" count="1" craft_time = "2">

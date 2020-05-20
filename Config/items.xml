@@ -4911,7 +4911,7 @@
 	<property name="EconomicValue" value="150"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Hatchet.Prefab"/>
 	<property name="CustomIcon" value="HD Mini Hatchet"/>
-	<property name="Material" value="MmeleeToolAllSteel"/>
+	<property name="Material" value="Mmetal_medium"/>
 	<property name="Weight" value="6"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="SellableToTrader" value="true"/>
@@ -4949,7 +4949,7 @@
 	<property name="EconomicValue" value="150"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Taza Hatchet.Prefab"/>
 	<property name="CustomIcon" value="HD Tazas Hatchet"/>
-	<property name="Material" value="MmeleeToolAllSteel"/>
+	<property name="Material" value="Mmetal_medium"/>
 	<property name="Weight" value="6"/>
 	<property name="EconomicValue" value="170"/>
 	<property name="SellableToTrader" value="true"/>
@@ -8099,6 +8099,18 @@
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Rocket Launcher" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="electricfencepostSchematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="electricfencepost"/>
+	<property name="Unlocks" value="electricfencepost"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepost" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Tesla Fence" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
 

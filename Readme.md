@@ -2,14 +2,18 @@ War3zuk-Alpha-18.4 B4 - AIO
 
 Updated v2.99 to v3.00
 
-
-
-
+HD Mini Hatchet (Scraps To Scrap iron)
+HD Taza Hatchet (Scraps To Scrap iron)
+Adjusted HD Rolling Door Recipe (Less50%)
+Edited Replacement Door (Only Affects POI Houses)
+Edited Reward For HD Engineer L5
+Added HD Tesla Fence (Better HP More Dmg)
 
 
 7 Days To Die Launcher Edits
 Fixed Nuka Factory Error (My Bad)
 Added Screamer To Night Time Group
+Removed UMA files (Did some testing & not worth the size)
 
 How To Do A Fresh Install Of The Mod...
 1) Delete the Mods folder
