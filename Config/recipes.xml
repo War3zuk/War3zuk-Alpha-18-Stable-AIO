@@ -20,6 +20,12 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="Grand Spartans Blade" count="1" craft_time = "120" tags="perkDeepCuts">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="2"/>
+</recipe>
+	
 <recipe name="HD Tesla Fence" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "20" tags="learnable">
 	<ingredient name="resourceForgedIron" count="30"/>
 	<ingredient name="resourceElectricParts" count="20"/>
@@ -339,6 +345,12 @@
 	<ingredient name="foodShamSandwich" count="1"/>
 	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="FaxFoxs Furr Burger" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodRawMeat" count="2"/>
 </recipe>
 
 <recipe name="Camoes Bifana" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">

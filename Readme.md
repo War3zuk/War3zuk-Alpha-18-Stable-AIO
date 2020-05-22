@@ -10,6 +10,9 @@ Updated v3.00 to v3.01
 
 Edited HDGun Oil (x2 Recipe)
 Edited HD Repair Kits Recipe 1x Weapon Part Per
+Added Grand Spartan Sword Hires PBR Model
+Added Grand Spartan Coin Icon
+Added FaxFoxs Furr Burger (Campfire + Grill)
 
 Updated v2.99 to v3.00
 

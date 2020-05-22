@@ -814,7 +814,7 @@
 	<item name="MREMilitaryRation" count="2" loot_prob_template="GradeALoot"/>
 </lootgroup>
 
-<lootcontainer id="526" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualPlus1Template">
+<lootcontainer id="526" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
 	<item group="coldfood" count="1" prob=".50"/>
 	<item group="War3zukHDFoods" count="1" prob=".50"/>
 	<item group="beverages" count="1" prob=".50"/>
@@ -823,7 +823,7 @@
 	<item name="drinkJarEmpty" count="5" prob=".50"/>
 </lootcontainer>
 
-<lootcontainer id="527" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="3.5" loot_quality_template="qualPlus1Template">
+<lootcontainer id="527" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
 	<item group="coldfood" count="1" prob=".25"/>
 	<item group="War3zukHDFoods" count="1" prob=".25"/>
 	<item group="beverages" count="1" prob=".25"/>
@@ -831,7 +831,7 @@
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="528" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualPlus1Template">
+<lootcontainer id="528" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
 	<item group="coldfood" count="1" prob=".50"/>
 	<item group="War3zukHDFoods" count="1" prob=".50"/>
 	<item group="beverages" count="1" prob=".50"/>
@@ -839,7 +839,7 @@
 	<item name="drinkJarEmpty" count="5" prob=".50"/>
 </lootcontainer>
 
-<lootcontainer id="529" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2.5" loot_quality_template="qualPlus1Template">
+<lootcontainer id="529" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
 	<item group="coldfood" count="1" prob=".25"/>
 	<item group="War3zukHDFoods" count="1" prob=".25"/>
 	<item group="beverages" count="1" prob=".25"/>
@@ -848,19 +848,5 @@
 </lootcontainer>
 	
 </insertAfter>
-
-<!--<append xpath="/lootcontainers">
-<lootcontainer id="130" size="10,9" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >
-</lootcontainer>
-</append>
-
-<append xpath="/lootcontainers">
-<lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
-</lootcontainer>
-</append> -->
-
-<!--<append xpath="/lootcontainers/lootcontainer[@id='6']" >
-		<item group="groupApparelClothes" prob="1"/>
-</append> -->
 
 </configs>

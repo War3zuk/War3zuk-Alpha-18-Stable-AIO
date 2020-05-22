@@ -25,6 +25,10 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+FaxFoxsFurrBurgerDesc,items,,,The Burger To End All Burgers. Get your zombie slaying chops around this Furry Burger Of Joy. Just watch out for the Juice Drips,
+
+HDGSBladeDesc,items,,,Spartan Blades crafted with the Finest Metal. Just kidding its probably Blunt,
+
 HDTeslaCoilDesc,Block,,,The Tesla Fence acts much the same as the Electric Fence with the exception of its overall power. damage and overall extra HP.\n\nDeath will happen if you get caught in this,
 
 HDSpas12Reflex,items,Item,KgNone,HD Spas 12 Reflex,
