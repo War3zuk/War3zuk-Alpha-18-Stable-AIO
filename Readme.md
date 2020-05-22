@@ -6,6 +6,11 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.00 to v3.01
+
+Edited HDGun Oil (x2 Recipe)
+Edited HD Repair Kits Recipe 1x Weapon Part Per
+
 Updated v2.99 to v3.00
 
 HD Mini Hatchet (Scraps To Scrap iron)

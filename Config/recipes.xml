@@ -1669,53 +1669,53 @@
 	<ingredient name="Titanium Polish" count="50"/>
 </recipe>
 
-<recipe name="HDGun Oil" count="1" craft_time = "2">
+<recipe name="HDGun Oil" count="2" craft_time = "0.5">
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceOil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitHandGuns" count="1" craft_time = "2">
 	<ingredient name="resourceForgedIron" count="1"/>
-	<ingredient name="gunPistolParts" count="2"/>
+	<ingredient name="gunPistolParts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceCloth" count="1"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2">
 	<ingredient name="resourceForgedIron" count="1"/>
-	<ingredient name="gunAk47Parts" count="2"/>
+	<ingredient name="gunAk47Parts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceCloth" count="1"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitShotGuns" count="1" craft_time = "2">
 	<ingredient name="resourceForgedIron" count="1"/>
-	<ingredient name="gunDoubleBarrelShotgunParts" count="2"/>
+	<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceCloth" count="1"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitHuntingRifles" count="1" craft_time = "2">
 	<ingredient name="resourceForgedIron" count="1"/>
-	<ingredient name="gunHuntingRifleParts" count="2"/>
+	<ingredient name="gunHuntingRifleParts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceCloth" count="1"/>
 	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <recipe name="RepairKitSteelArmor" count="1" craft_time = "2">
 	<ingredient name="resourceForgedSteel" count="2"/>
-	<ingredient name="armorSteelSetParts" count="2"/>
+	<ingredient name="armorSteelSetParts" count="1"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<ingredient name="resourceCloth" count="2"/>
 </recipe>
 
 <recipe name="RepairKitKevlarArmor" count="1" craft_time = "2">
 	<ingredient name="resourceForgedIron" count="2"/>
-	<ingredient name="armorMilitarySetParts" count="2"/>
+	<ingredient name="armorMilitarySetParts" count="1"/>
 	<ingredient name="resourceMilitaryFiber" count="2"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 </recipe>

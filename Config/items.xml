@@ -2074,7 +2074,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HD Mac10 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="5"/>
+	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitAutomaticRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
@@ -3169,7 +3169,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="60"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Vulcan 9mm.unity3d?HD Vulcan 9mm.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="5"/>
+	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="10"/>
 	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="false"/>
 	<property name="RepairTools" value="RepairKitAutomaticRifles"/>
@@ -3331,7 +3331,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="60"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Vulcan 50Bmg.unity3d?HD Vulcan 50Bmg.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="15"/>
+	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="10"/>
 	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="false"/>
 	<property name="RepairTools" value="RepairKitAutomaticRifles"/>
@@ -3412,7 +3412,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HD Arctic Warfare.Prefab"/>
-	<property name="Material" value="MRifleParts"/> <property name="Weight" value="10"/>
+	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
@@ -3498,7 +3498,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD CheyTac M300.unity3d?HD CheyTac M300.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="MRifleParts"/> <property name="Weight" value="10"/>
+	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
@@ -3584,7 +3584,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HD Dragunov SVD.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="MRifleParts"/> <property name="Weight" value="10"/>
+	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
