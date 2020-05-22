@@ -15,14 +15,15 @@ Edited Replacement Door (Only Affects POI Houses)
 Edited Reward For HD Engineer L5
 Added HD Tesla Fence (Better HP More Dmg)
 Added LeatherHood to War3zuk Quest 02
+Edited AI-Tasks For Zombies (Sleeper NRE)
 
+Rebuilt HD First Aid Kit (Grants 80Hp on First Use)
 
 7 Days To Die Launcher Edits
 Fixed Nuka Factory Error (My Bad)
 Added Screamer To Night Time Group
 Removed UMA files (Did some testing & not worth the size)
 Edited Snufkins Zombies
-Removed Zombie (Susspected NRE)
 
 Updated v2.98 to v2.99
 

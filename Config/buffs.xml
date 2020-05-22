@@ -5,6 +5,14 @@
 	
 <append xpath="/buffs">
 	
+	<buff name="buffHDFirstAidKit" name_key="HDFirstAidKit" description_key="Your 1st Aid Kit has healed YOU !!" icon="ui_game_symbol_pills">
+		<stack_type value="replace"/>
+		<duration value="0"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="80"/>
+		</effect_group>
+	</buff>
+	
 	<buff name="buffTeslaShocked" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="255,0,0">
 		<damage_type value="electrical"/>
 		<stack_type value="replace"/>

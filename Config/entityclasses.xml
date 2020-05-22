@@ -1080,12 +1080,12 @@
 	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="false"/>
+	<property name="HasRagdoll" value="true"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
 	<property name="Mass" value="270"/>
-	<property name="Weight" value="120"/>
+	<property name="Weight" value="175"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="Faction" value="undead"/>
 	<property name="Tags" value="entity,zombie"/>
@@ -1107,10 +1107,10 @@
 	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityEnemyAnimal,EntityPlayer"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,40,20,EntityNPC,40,20"/>
 	<property class="FallLandBehavior">
 		<property name="None" data="weightmin=0.5"/>
-		<property name="Ragdoll" data="heightMin=1;weightMin=.1;weightMax=.2"/>
+		<property name="Ragdoll" data="heightMin=2;weightMin=.2;weightMax=.4"/>
 	</property>
 	<property name="WalkType" value="7"/>
 	<property name="SoundRandomTime" value="30.0"/>
@@ -1142,9 +1142,9 @@
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
-	<property name="PainResistPerHit" value=".45"/>
+	<property name="PainResistPerHit" value=".50"/>
 	<property name="MaxViewAngle" value="180"/>
-	<property name="SightRange" value="30"/>
+	<property name="SightRange" value="40"/>
 	<property name="SightLightThreshold" value="-2,150"/>
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/>
 	<property name="SleeperWakeupSightDetectionMax" value="340,480"/>
@@ -1159,7 +1159,7 @@
 	<property name="SmellAlertThreshold" value="40"/>
 	<property name="MaxTurnSpeed" value="250"/>
 	<property name="MoveSpeed" value=".5"/>
-	<property name="MoveSpeedAggro" value="0.50, 1.35"/>
+	<property name="MoveSpeedAggro" value="0.60, 1.35"/>
 	<property name="MoveSpeedPanic" value="0.75"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="1.5, 2.0"/>
@@ -1168,17 +1168,17 @@
 	<property name="AttackTimeoutDay" value="1.1"/>
 	<property name="AttackTimeoutNight" value="1.0"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
-	<property name="ExperienceGain" value="500"/>
+	<property name="ExperienceGain" value="550"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="TimeStayAfterDeath" value="10"/>
+	<property name="TimeStayAfterDeath" value="20"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 		<passive_effect name="StaminaMax" operation="base_set" value="100"/>
-	</effect_group>
+	</effect_group>		
 </entity_class>
 </insertAfter> 
 
