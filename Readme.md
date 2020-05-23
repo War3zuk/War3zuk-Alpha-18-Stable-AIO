@@ -15,6 +15,17 @@ Added Grand Spartan Coin Icon
 Added FaxFoxs Furr Burger (Campfire + Grill)
 Fixed Random NRE In Weapons (Delete OLD Files)
 
+Vanilla CampFire UI Updated
+Vanilla ChemBench UI Updated
+Vanilla WorkBench UI Updated
+HD Working Fire UI Updated
+HD Working Oven UI Updated
+HD Cement Mixer UI Updated
+Hd Forge UI Updated
+
+Giant Animals Adjusted To 1.5 From 1.7
+Giant Demolishers Adjusted To 1.5 From 2.0
+
 Updated v2.99 to v3.00
 
 HD Mini Hatchet (Scraps To Scrap iron)
