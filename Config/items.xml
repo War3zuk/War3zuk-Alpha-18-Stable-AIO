@@ -81,22 +81,12 @@
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='SellableToTrader']/@value">true</set>
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='EconomicValue']/@value">6500</set>
 	
-	<!--  <set xpath="/items/item/effect_group/passive_effect[@value='-.2,.2']/@value">.1</set>
+	<set xpath="/items/item/effect_group/passive_effect[@value='-.2,.2']/@value">.1</set>
 	<set xpath="/items/item/effect_group/passive_effect[@value='-.05,.05']/@value">.03</set>
 	<set xpath="/items/item/effect_group/passive_effect[@value='-.122,.122']/@value">.100</set>
 	<set xpath="/items/item/effect_group/passive_effect[@value='-.08,.08']/@value">.05</set>
 	<set xpath="/items/item/effect_group/passive_effect[@value='-.15,.15']/@value">.20</set>
-	<set xpath="/items/item/effect_group/passive_effect[@value='.1,.5']/@value">.5</set> -->
-	
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='EntityDamage') and (@value='-.15,.15')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='BlockDamage') and (@value='-.15,.15')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='StaminaLoss') and (@value='-.05,.05')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='RoundsPerMinute') and (@value='-.05,.05')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='RoundsPerMinute') and (@value='-.1,.1')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='AttacksPerMinute') and (@value='-.05,.05')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='WeaponHandling') and (@value='-.08,.08')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='MagazineSize') and (@value='-.122,.122')]" /> <!-- Weapon RNG Removed -->
-    <remove xpath="/items/item/effect_group/passive_effect[(@name='DamageFalloffRange') and (@value='-.2,.2')]" /> <!-- Weapon RNG Removed -->
+	<set xpath="/items/item/effect_group/passive_effect[@value='.1,.5']/@value">.5</set>
 	
 <append xpath="/items">
 	

@@ -10,10 +10,10 @@
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 
-<!--<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowOutput']/@name">WARwindowOutput</set>
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowOutput']/@name">WARwindowOutput</set>
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']/window[@name='windowOutput']/@name">WARwindowOutput</set>
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowOutput']/@name">WARwindowOutput</set>
-<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowOutput']/@name">WARwindowOutput</set> -->
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowOutput']/@name">WARwindowOutput</set>
 
 <append xpath="/xui/ruleset[@name='default']" >
 
@@ -32,61 +32,61 @@
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="windowToolsCampfire" />
-	<window name="WARwindowOutput" />
-	<window name="windowNonPagingHeader" />
+	<window name="windowToolsCampfire"/>
+	<window name="WARwindowOutput"/>
+	<window name="windowNonPagingHeader"/>
 </window_group>
 
 <window_group name="workstation_HD Working Fire" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="windowToolsCampfire" />
-	<window name="WARwindowOutput" />
-	<window name="windowNonPagingHeader" />
+	<window name="windowToolsCampfire"/>
+	<window name="WARwindowOutput"/>
+	<window name="windowNonPagingHeader"/>
 </window_group>
 
 <window_group name="workstation_HD GunBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput" />
-	<window name="windowNonPagingHeader" />
-	<window name="windowToolsHD GunBench" />
+	<window name="WARwindowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHD GunBench"/>
 </window_group>
 	
 <window_group name="workstation_HD WorkBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput" />
-	<window name="windowNonPagingHeader" />
-	<window name="windowToolsHD WorkBench" />
+	<window name="WARwindowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHD WorkBench"/>
 </window_group>
 	
 <window_group name="workstation_HD PicsBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput" />
-	<window name="windowNonPagingHeader" />
+	<window name="WARwindowOutput"/>
+	<window name="windowNonPagingHeader"/>
 </window_group>
 	
 <window_group name="workstation_HD AmmoBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput" />
-	<window name="windowNonPagingHeader" />
-	<window name="windowToolsHD AmmoBench" />
+	<window name="WARwindowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHD AmmoBench"/>
 </window_group>
 	
 <window_group name="workstation_HDCementMixer" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput" />
-	<window name="windowNonPagingHeader" />
+	<window name="WARwindowOutput"/>
+	<window name="windowNonPagingHeader"/>
 	<window name="windowToolsHDCementMixer"/>
 </window_group>
 

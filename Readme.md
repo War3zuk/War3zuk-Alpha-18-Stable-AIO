@@ -13,6 +13,7 @@ Edited HD Repair Kits Recipe 1x Weapon Part Per
 Added Grand Spartan Sword Hires PBR Model
 Added Grand Spartan Coin Icon
 Added FaxFoxs Furr Burger (Campfire + Grill)
+Fixed Random NRE In Weapons (Delete OLD Files)
 
 Updated v2.99 to v3.00
 
