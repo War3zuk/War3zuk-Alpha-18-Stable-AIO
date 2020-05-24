@@ -1585,6 +1585,8 @@
 </block>
 
 <block name="HD Ammo Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="LPHardnessScale" value="8"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -1609,6 +1611,7 @@
 </block>
 
 <block name="HD Ammo Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="cntStorageHealth"/>
 	<property name="Class" value="Loot"/>
@@ -1623,6 +1626,8 @@
 </block>
 		
 <block name="HD Building Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="LPHardnessScale" value="8"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -1647,6 +1652,7 @@
 </block>
 
 <block name="HD Building Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="cntStorageHealth"/>
 	<property name="Class" value="Loot"/>
@@ -1661,6 +1667,8 @@
 </block>
 		
 <block name="HD Forge Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="LPHardnessScale" value="8"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -1685,6 +1693,7 @@
 </block>
 
 <block name="HD Forge Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="cntStorageHealth"/>
 	<property name="Class" value="Loot"/>
@@ -1699,6 +1708,8 @@
 </block>
 		
 <block name="HD Fuel Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="LPHardnessScale" value="8"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -1723,6 +1734,7 @@
 </block>
 
 <block name="HD Fuel Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="cntStorageHealth"/>
 	<property name="Class" value="Loot"/>
@@ -1737,6 +1749,8 @@
 </block>
 		
 <block name="HD Medical Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="LPHardnessScale" value="8"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -1761,6 +1775,7 @@
 </block>
 
 <block name="HD Medical Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="cntStorageHealth"/>
 	<property name="Class" value="Loot"/>
@@ -1775,6 +1790,8 @@
 </block>
 		
 <block name="HD Duke Coin Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="LPHardnessScale" value="8"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -1799,6 +1816,7 @@
 </block>
 
 <block name="HD Duke Coin Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="cntStorageHealth"/>
 	<property name="Class" value="Loot"/>
@@ -1813,6 +1831,8 @@
 </block>
 		
 <block name="HD Grocery Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="LPHardnessScale" value="8"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -1837,6 +1857,7 @@
 </block>
 
 <block name="HD Grocery Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="cntStorageHealth"/>
 	<property name="Class" value="Loot"/>
@@ -1849,7 +1870,48 @@
 	<drop event="Destroy" count="0"/>
 	<property name="FilterTags" value="floot"/>
 </block>
-		
+
+<block name="HD Junk Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="LPHardnessScale" value="8"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Path" value="solid"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Storage Junk"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Junk.Prefab"/>
+	<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="1"/>
+	<property name="Material" value="Msteel"/>
+	<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+	<property name="FuelValue" value="300"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<property name="DowngradeBlock" value="HD Junk Supplies Unlocked"/>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Junk Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="cntStorageHealth"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="1"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Junk U.Prefab"/>
+	<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" count="0"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
 <block name="HD Gas Generator">
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Generator"/>
@@ -4579,7 +4641,7 @@
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterExcludeAndStop" value="true"/>
 	<property name="AllowAllRotations" value="true"/>
-	<property name="Place" value="TowardsPlacer"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Collide" value="movement,melee,rocket"/>
 	<property class="RepairItems">
 		<property name="resourceWood" value="10"/>
@@ -4617,7 +4679,7 @@
 	<property name="Texture" value="446"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterExcludeAndStop" value="true"/>
-	<property name="Place" value="TowardsPlacer"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="Collide" value="movement,melee,rocket"/>
 	<property name="DowngradeBlock" value="HD wood Bars Centered"/>
@@ -4658,7 +4720,7 @@
 	<property name="Texture" value="355,355,356,356,356,356"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterExcludeAndStop" value="true"/>
-	<property name="Place" value="TowardsPlacer"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="Collide" value="movement,melee,rocket"/>
 	<property name="DowngradeBlock" value="HD Iron Bars Centered"/>
@@ -4699,7 +4761,7 @@
 	<property name="Texture" value="191"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterExcludeAndStop" value="true"/>
-	<property name="Place" value="TowardsPlacer"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="Collide" value="movement,melee,rocket"/>
 	<property name="DowngradeBlock" value="HD Steel Bars Centered"/>
@@ -4740,7 +4802,7 @@
 	<property name="Texture" value="307"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterExcludeAndStop" value="true"/>
-	<property name="Place" value="TowardsPlacer"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="Collide" value="movement,melee,rocket"/>
 	<property name="DowngradeBlock" value="HD Stainless Steel Bars Centered"/>

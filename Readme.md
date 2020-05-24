@@ -17,6 +17,9 @@ Fixed Random NRE In Weapons (Delete OLD Files)
 Fixed HD Auger (Unlocked Only By Schematic)
 Fixed HD ChainSaw (Unlocked Only By Schematic)
 
+Added HD Junk Supplies Storage
+Rebuilt All HD Storage Boxes
+
 
 Vanilla CampFire UI Updated
 Vanilla ChemBench UI Updated
