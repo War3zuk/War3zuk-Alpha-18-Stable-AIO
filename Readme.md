@@ -6,6 +6,16 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.01 to v3.02
+
+Enabled Max Seats On Vanilla Vehicles
+Bicycle x2
+Motorbike x2
+Truck 4x4 x2
+Gyrocopter x2
+
+Disabled RagDoll On UMA Zombies (1 Is Causing An Issue)
+
 Updated v3.00 to v3.01
 
 Edited HDGun Oil (x2 Recipe)
