@@ -1323,6 +1323,12 @@
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
+
+<recipe name="HD Junk Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
 		
 <recipe name="HD Penthrox Injection" craft_time="60" craft_area="HD WorkBench" count="1">
 	<ingredient name="HD Poison Vile" count="1"/>
