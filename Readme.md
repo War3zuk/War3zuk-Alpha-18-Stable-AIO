@@ -14,6 +14,9 @@ Added Grand Spartan Sword Hires PBR Model
 Added Grand Spartan Coin Icon
 Added FaxFoxs Furr Burger (Campfire + Grill)
 Fixed Random NRE In Weapons (Delete OLD Files)
+Fixed HD Auger (Unlocked Only By Schematic)
+Fixed HD ChainSaw (Unlocked Only By Schematic)
+
 
 Vanilla CampFire UI Updated
 Vanilla ChemBench UI Updated

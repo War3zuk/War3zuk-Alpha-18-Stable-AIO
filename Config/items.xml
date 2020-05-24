@@ -1,5 +1,6 @@
 <configs>
 	
+<!--  <property name="ItemTypeIcon" value="HD"/>  -->
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 	
 <remove xpath="/items/item[@name='meleeHandMaster']"/>
@@ -64,7 +65,6 @@
 	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='toolAndDieSet']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">25000</set>
-	<set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Weight']/@value">2</set>
@@ -79,13 +79,13 @@
 	<remove xpath="/items/item[@name='drinkJarEmpty']"/>
 	
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='SellableToTrader']/@value">true</set>
-	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='EconomicValue']/@value">6500</set>
+	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='EconomicValue']/@value">8500</set>
 	
-	<set xpath="/items/item/effect_group/passive_effect[@value='-.2,.2']/@value">.1</set>
-	<set xpath="/items/item/effect_group/passive_effect[@value='-.05,.05']/@value">.03</set>
-	<set xpath="/items/item/effect_group/passive_effect[@value='-.122,.122']/@value">.100</set>
-	<set xpath="/items/item/effect_group/passive_effect[@value='-.08,.08']/@value">.05</set>
-	<set xpath="/items/item/effect_group/passive_effect[@value='-.15,.15']/@value">.20</set>
+	<set xpath="/items/item/effect_group/passive_effect[@value='-.2,.2']/@value">.2</set>
+	<set xpath="/items/item/effect_group/passive_effect[@value='-.05,.05']/@value">.05</set>
+	<set xpath="/items/item/effect_group/passive_effect[@value='-.122,.122']/@value">.122</set>
+	<set xpath="/items/item/effect_group/passive_effect[@value='-.08,.08']/@value">.08</set>
+	<set xpath="/items/item/effect_group/passive_effect[@value='-.15,.15']/@value">.15</set>
 	<set xpath="/items/item/effect_group/passive_effect[@value='.1,.5']/@value">.5</set>
 	
 <append xpath="/items">
@@ -5119,9 +5119,8 @@
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="UnlockedBy" value="perkYeahScience"/>
 	<property name="Material" value="MresourceScrapLeadLarge"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="160"/>
 	<property name="EconomicValue" value="120"/>
 	<property name="Group" value="Resources,Chemicals"/>
@@ -5401,7 +5400,7 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
 	<property name="ShowQuality" value="true"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,HD Auger Schematic"/>
+	<property name="UnlockedBy" value="HD Auger Schematic"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -5474,7 +5473,7 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
 	<property name="ShowQuality" value="true"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,HD Chainsaw Schematic"/>
+	<property name="UnlockedBy" value="HD Chainsaw Schematic"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Hitmask_override" value="Melee"/>

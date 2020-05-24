@@ -22,9 +22,5 @@
     <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
         <decoration type="block" blockname="plantedYucca3Harvest" prob="0.001"/>
     </append>
-	
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather/ParticleEffect/@ChunkMargin">90</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather/ParticleEffect/@ChunkMargin">90</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/weather/ParticleEffect/@ChunkMargin">90</set>
 
 </War3zuk>
