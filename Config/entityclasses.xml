@@ -1171,7 +1171,7 @@
 	<property name="ExperienceGain" value="550"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="TimeStayAfterDeath" value="20"/>
+	<property name="TimeStayAfterDeath" value="2"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>

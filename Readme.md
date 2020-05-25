@@ -15,6 +15,7 @@ Truck 4x4 x2
 Gyrocopter x2
 
 Disabled RagDoll On UMA Zombies (1 Is Causing An Issue)
+Corpse Timer Set To 2s
 
 Updated v3.00 to v3.01
 
