@@ -15,7 +15,10 @@ Truck 4x4 x2
 Gyrocopter x2
 
 Disabled RagDoll On UMA Zombies (1 Is Causing An Issue)
+All UMA Zombies Can Now Jump Between 1B & 2B
 Corpse Timer Set To 2s
+
+Added KillJoyJessicas HotWings (Campfire + Grill)
 
 Updated v3.00 to v3.01
 

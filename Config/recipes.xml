@@ -385,6 +385,12 @@
     <ingredient name="BabyChick" count="4"/>
 </recipe>
 
+<recipe name="KillJoyJessicas HotWings" count="2" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="BabyChick" count="6"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
 	<ingredient name="resourceWood" count="40"/>
 	<ingredient name="resourceNail" count="10"/>

@@ -25,6 +25,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+KillJoyHotWingsDesc,items,,,Umm Youve taken 3 Things in the Wild. Mashed them all together And made the juiciest Most succulent Spicy Wings the apocalypse has ever seen. KillJoyJessicas Special Recipe,
+
 FaxFoxsFurrBurgerDesc,items,,,The Burger To End All Burgers. Get your zombie slaying chops around this Furry Burger Of Joy. Just watch out for the Juice Drips,
 
 HDGSBladeDesc,items,,,Spartan Blades crafted with the Finest Metal. Just kidding its probably Blunt,

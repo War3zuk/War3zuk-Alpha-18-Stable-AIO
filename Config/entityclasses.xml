@@ -1109,7 +1109,7 @@
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,40,20,EntityNPC,40,20"/>
 	<property class="FallLandBehavior">
-		<property name="None" data="weightmin=0.5"/>
+		<property name="None" data="weightmin=0.7"/>
 		<property name="Ragdoll" data="heightMin=2;weightMin=.2;weightMax=.4"/>
 	</property>
 	<property name="WalkType" value="7"/>
@@ -1202,7 +1202,7 @@
 	<!-- Gameplay -->
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
 	<property name="HandItem" value="meleeHandZombieCop"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<property name="ExperienceGain" value="1200"/> <!-- XP strong -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
@@ -1244,7 +1244,7 @@
 	<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
 	<property name="ExperienceGain" value="1500"/> <!-- XP strong radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1010"/>
@@ -1277,7 +1277,7 @@
 	<!-- Gameplay -->
 	<property name="MoveSpeed" value="0.06"/>
 	<property name="MoveSpeedAggro" value="0.2, 1.1"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
@@ -1300,7 +1300,7 @@
 
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
@@ -1322,7 +1322,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
@@ -1360,7 +1360,7 @@
 	
 	<!-- <property name="LootListOnDeath" value="45"/> -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<effect_group name="Base Effects">
@@ -1400,7 +1400,7 @@
 	<property name="HandItem" value="meleeHandZombieStrong"/>
 	<!-- <property name="LootListOnDeath" value="45"/> -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="200"/>
@@ -1424,7 +1424,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="380"/>
@@ -1445,7 +1445,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="722"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1488,7 +1488,7 @@
 
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1509,7 +1509,7 @@
 
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1546,7 +1546,7 @@
 	<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
 <!-- <property name="LootListOnDeath" value="45"/> -->
 <property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-<property name="JumpMaxDistance" value="0"/>
+<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
@@ -1570,7 +1570,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP strong feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="475"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1589,7 +1589,7 @@
 	<property name="PainResistPerHit" value=".5"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/> <!-- XP strong radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="902"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1623,7 +1623,7 @@
 	<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
 <!-- <property name="LootListOnDeath" value="45"/> -->
 <property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-<property name="JumpMaxDistance" value="0"/>
+<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1651,7 +1651,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1672,7 +1672,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1691,7 +1691,7 @@
 	<property name="AIPathCostScale" value=".9, 1"/>
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1711,7 +1711,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1732,7 +1732,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1752,7 +1752,7 @@
 	<property name="PainResistPerHit" value=".5"/><!-- Radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="800"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1785,7 +1785,7 @@
 	<property name="HandItem" value="meleeHandZombie01"/>
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="75"/>
@@ -1809,7 +1809,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="142"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1833,7 +1833,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="270"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1864,7 +1864,7 @@
 	<property name="HandItem" value="meleeHandZombie01"/>
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<property name="TintMaterial2" value="32,24,20"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
@@ -1888,7 +1888,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1908,7 +1908,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1940,7 +1940,7 @@
 	<property name="HandItem" value="meleeHandZombie01"/>
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1963,7 +1963,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1983,7 +1983,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2008,7 +2008,7 @@
 	<!-- Gameplay -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2028,7 +2028,7 @@
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
@@ -2051,7 +2051,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2076,7 +2076,7 @@
 	<!-- Gameplay -->
 	<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2099,7 +2099,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
@@ -2120,7 +2120,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
@@ -2145,11 +2145,11 @@
 	<property name="TintMaterial2" value="36,38,45"/>
 
 	<!-- Gameplay -->
-	<property name="CanClimbLadders" value="false"/>
+	<property name="CanClimbLadders" value="true"/>
 	<property name="HandItem" value="meleeHandZombie02"/>
 	<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="80"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2170,7 +2170,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="152"/>
@@ -2194,7 +2194,7 @@
 	<!-- Gameplay -->
 	<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2216,7 +2216,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
@@ -2234,7 +2234,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".5"/><!-- Radiated -->
 	<effect_group name="Base Effects">
@@ -2271,7 +2271,7 @@
 	<property name="HandItem" value="meleeHandZombieStrong"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<property name="ExperienceGain" value="750"/> <!-- XP strong -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="300"/>
@@ -2295,7 +2295,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP strong feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="570"/>
@@ -2347,8 +2347,8 @@
 	<property name="CanClimbVertical" value="false"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
@@ -2372,7 +2372,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2395,7 +2395,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2429,7 +2429,7 @@
 	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/> <!-- override the default replacement of meleeHandZombie02 with a specific hand item -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2465,7 +2465,7 @@
 	<property name="HandItem" value="meleeHandZombieNurse"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2488,7 +2488,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2523,7 +2523,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP strong -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="300"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2546,7 +2546,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP strong feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="570"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2610,7 +2610,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP strong -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2636,7 +2636,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP strong feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="475"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2663,7 +2663,7 @@
 	<property name="ExperienceGain" value="1500"/> <!-- XP strong radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="902"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2687,7 +2687,7 @@
 	<property name="HandItem" value="meleeHandZombieHazMat"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2718,7 +2718,7 @@
 	<property name="HandItem" value="meleeHandZombieWorker"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2742,7 +2742,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2762,7 +2762,7 @@
 	<property name="PainResistPerHit" value=".5"/><!-- Radiated -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="900"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2796,7 +2796,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP strong -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
@@ -2821,7 +2821,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP strong feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2848,7 +2848,7 @@
 	<property name="ExperienceGain" value="1500"/> <!-- XP strong radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2883,7 +2883,7 @@
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieDemolition"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<property name="PainResistPerHit" value=".5"/>
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="0"/>
@@ -2926,7 +2926,7 @@
 	<property name="ExperienceGain" value="413"/> <!-- XP grunt -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2949,7 +2949,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2969,7 +2969,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3002,7 +3002,7 @@
 	<property name="HandItem" value="meleeHandZombie01"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3025,7 +3025,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3045,7 +3045,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3066,7 +3066,7 @@
 	<!-- Gameplay -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3089,7 +3089,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3109,7 +3109,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP grunt radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3133,7 +3133,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP strong -->
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="280"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3157,7 +3157,7 @@
 	<property name="ExperienceGain" value="1200"/> <!-- XP strong feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="532"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3178,7 +3178,7 @@
 	<property name="ExperienceGain" value="1500"/> <!-- XP strong radiated -->
 	<property name="LootDropProb" value="0.10"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1010"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3201,7 +3201,7 @@
 	<property name="HandItem" value="meleeHandZombieStrong"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
@@ -3228,7 +3228,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3246,7 +3246,7 @@
 	<property name="HandItem" value="meleeHandZombieStripper"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="125"/>
@@ -3271,7 +3271,7 @@
 	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
 	<property name="LootDropProb" value="0.10"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-	<property name="JumpMaxDistance" value="0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.0"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -3333,7 +3333,7 @@
 	<property name="MaxTurnSpeed" value="450"/>
 	<property name="MoveSpeed" value="0.7"/>
 	<property name="MoveSpeedPanic" value="2.0"/>
-	<property name="CanClimbLadders" value="false"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<property name="ExperienceGain" value="245"/>
 	<!-- <property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="0"/> -->
@@ -3560,7 +3560,7 @@
 	<property name="MoveSpeedPanic" value="2.0"/>
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.4"/>
-	<property name="CanClimbLadders" value="false"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<property name="HandItem" value="meleeHandAnimalBear"/>
 
@@ -4191,7 +4191,7 @@
 			<property name="HasDeathAnim" value="false"/>
 			<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
 			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieUMA']" >
@@ -4205,133 +4205,133 @@
 			<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
 			<property name="LootDropProb" value="0.10"/> 
 			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieFemaleUMA']" >		  
 		  <entity_class name="badZombieMaleUMA" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieMaleUMA"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMaleUMA']" >		  
 		  <entity_class name="badZombieAiden" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieAiden"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieAiden']" >		  
 		  <entity_class name="badZombieBob" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieBob"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBob']" >		  
 		  <entity_class name="badZombieCaitlin" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieCaitlin"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCaitlin']" >		  
 		  <entity_class name="badZombieCallie" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieCallie"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCallie']" >		  
 		  <entity_class name="badZombieChang" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieChang"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieChang']" >		  
 		  <entity_class name="badZombieCharlotte" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieCharlotte"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCharlotte']" >		  
 		  <entity_class name="badZombieClint" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieClint"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieClint']" >		  
 		  <entity_class name="badZombieEmma" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieEmma"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieEmma']" >		  
 		  <entity_class name="badZombieGabrielle" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieGabrielle"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieGabrielle']" >		  
 		  <entity_class name="badZombieGrace" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieGrace"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieGrace']" >		  
 		  <entity_class name="badZombieHank" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieHank"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieHank']" >		  
 		  <entity_class name="badZombieHelen" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieHelen"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieHelen']" >		  
 		  <entity_class name="badZombieHugh" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieHugh"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieHugh']" >		  
 		  <entity_class name="badZombieJack" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieJack"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJack']" >		  
 		  <entity_class name="badZombieJeff" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieJeff"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJeff']" >		  
 		  <entity_class name="badZombieJimmy" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieJimmy"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJimmy']" >		  
 		  <entity_class name="badZombieJoel" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieJoel"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJoel']" >		  
 		  <entity_class name="badZombieMaria" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieMaria"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMaria']" >		  
 		  <entity_class name="badZombieMercura" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="ZombieMercura"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMercura']" >		  
 		  <entity_class name="badZombieMiguel" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieMiguel"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMiguel']" >		  
@@ -4339,31 +4339,31 @@
 			<property name="Archetype" value="ZombieOfficeGirl"/>
 			<property name="WalkType" value="3"/>
 			<property name="MaxHealth" value="100"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieOfficeGirl']" >		  
 		  <entity_class name="badZombieRayah" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieRayah"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieRayah']" >		  
 		  <entity_class name="badZombieRekt" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieRekt"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieRekt']" >		  
 		  <entity_class name="badZombieVince" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieVince"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieVince']" >		  
 		  <entity_class name="badZombieWillie" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieWillie"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieWillie']" >		  
@@ -4372,7 +4372,7 @@
 			<property name="MaxHealth" value="60"/>
 			<property name="Class" value="EntityZombie"/>
 			<property name="WalkType" value="8"/>
-			<property name="CanClimbLadders" value="false"/>
+			<property name="CanClimbLadders" value="true"/>
 			<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
 			<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
 			<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemalescoutattack"/>
@@ -4383,7 +4383,7 @@
 			<property name="ApproachSpeed" value="0.45"/>
 			<property name="NightWanderSpeed" value="0.08"/>
 			<property name="NightApproachSpeed" value="0.55"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBaby']" >		  
@@ -4396,74 +4396,74 @@
 			<property name="ApproachSpeed" value="0.15"/>
 			<property name="NightWanderSpeed" value="0.08"/>
 			<property name="NightApproachSpeed" value="0.25"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBabyCrawler']" >		  
 		  <entity_class name="valZombieClarice" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="valZombieClarice"/>
 			<property name="WalkType" value="2" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieClarice']" >		  
 		  <entity_class name="valZombieJane" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="valZombieJane"/>
 			<property name="WalkType" value="1" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieJane']" >		  
 		  <entity_class name="valZombieLibrarian" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="valZombieLibrarian"/>
 			<property name="WalkType" value="5" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieLibrarian']" >		  
 		  <entity_class name="valZombieSurvivorFemale" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="valZombieSurvivorFemale"/>
 			<property name="WalkType" value="7" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieSurvivorFemale']" >		  
 		  <entity_class name="valZombieVoodooFemale" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="valZombieVoodooFemale"/>
 			<property name="WalkType" value="2" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieVoodooFemale']" >		  
 		  <entity_class name="valZombieVoodooMale" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieVoodooMale"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieVoodooMale']" >		  
 		  <entity_class name="valZombieDan" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieDan"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieDan']" >		  
 		  <entity_class name="valZombieSurvivorMale" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieSurvivorMale"/>
 			<property name="WalkType" value="1" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieSurvivorMale']" >		  
 		  <entity_class name="valZombieKenny" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieKenny"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieKenny']" >		  
 		  <entity_class name="valZombieRavager" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieRavager"/>
 			<property name="WalkType" value="5" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRavager']" >		  
@@ -4471,41 +4471,41 @@
 			<property name="Archetype" value="valZombieNerd"/>
 			<property name="MaxHealth" value="80" />
 			<property name="WalkType" value="7" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieNerd']" >		  
 		  <entity_class name="valZombieInmate" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieInmate"/>
 			<property name="WalkType" value="6" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieInmate']" >		  
 		  <entity_class name="valZombieInmateBlack" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieInmateBlack"/>
 			<property name="WalkType" value="6" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieInmateBlack']" >		  
 		  <entity_class name="valZombieChildFemale" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="valZombieChildFemale"/>
 			<property name="MaxHealth" value="70" />	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieChildFemale']" >		  
 			<entity_class name="valZombieChildMale" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieChildMale"/>
 			<property name="MaxHealth" value="70" />
-			<property name="JumpMaxDistance" value="0"/>			
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>			
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieChildMale']" >		  
 		  <entity_class name="valZombieRanger" extends="badZombieUMA" >
 			<property name="Archetype" value="valZombieRanger"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRanger']" >		  
@@ -4522,28 +4522,28 @@
 			<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
 			<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
 			<property name="MaxHealth" value="45"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieScorchedRusher']" >		  
 		  <entity_class name="gupZombieMartha" extends="badZombieUMA">
 			<property name="Archetype" value="gupZombieMartha"/>
 			<property name="WalkType" value="1"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieMartha']" >		  
 		  <entity_class name="gupZombieSally" extends="badZombieUMA">
 			<property name="Archetype" value="gupZombieSally"/>
 			<property name="WalkType" value="3"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieSally']" >		  
 		  <entity_class name="gupZombieSunStroked" extends="badZombieUMA">
 			<property name="Archetype" value="gupZombieSunStroked"/>
 			<property name="WalkType" value="5"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieSunStroked']" >		  
@@ -4551,163 +4551,163 @@
 			<property name="Archetype" value="gupZombieSunStroked"/>
 			<property name="Class" value="EntityZombieCrawl"/>
 			<property name="WalkType" value="4"/>
-			<property name="CanClimbLadders" value="false"/>
+			<property name="CanClimbLadders" value="true"/>
 			<property name="RotateToGround" value="true"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieSunStrokedCrawler']" >		  
 		  <entity_class name="sanZombiePunk" extends="badZombieUMA" >
 			<property name="Archetype" value="sanZombiePunk"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombiePunk']" >		  
 		  <entity_class name="sanZombieRioter" extends="badZombieUMA" >
 			<property name="Archetype" value="sanZombieRioter"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieRioter']" >		  
 		  <entity_class name="sanZombieRocker" extends="badZombieUMA" >
 			<property name="Archetype" value="sanZombieRocker"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieRocker']" >		  
 		  <entity_class name="sanZombieFemaleRocker" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="sanZombieFemaleRocker"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFemaleRocker']" >		  
 		  <entity_class name="sanZombieHermit" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieHermit"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieHermit']" >		  
 		  <entity_class name="sanZombieFrank" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieFrank"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFrank']" >		  
 		  <entity_class name="sanZombieBikerChick" extends="badZombieFemaleUMA">
 			<property name="Archetype" value="sanZombieBikerChick"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBikerChick']" >		  
 		  <entity_class name="sanZombieInfectedSurvivor" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieInfectedSurvivor"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieInfectedSurvivor']" >		  
 		  <entity_class name="sanZombieInfectedLady" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieInfectedLady"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieInfectedLady']" >		  
 		  <entity_class name="sanZombieNude" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieNude"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieNude']" >		  
 		  <entity_class name="sanZombiePrisoner" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombiePrisoner"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombiePrisoner']" >		  
 		  <entity_class name="sanZombieDriver" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieDriver"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieDriver']" >		  
 		  <entity_class name="sanZombieFiend" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieFiend"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFiend']" >		  
 		  <entity_class name="sanZombieBanditSharpshooter" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieBanditSharpshooter"/>
 			<property name="WalkType" value="5"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditSharpshooter']" >		  
 		  <entity_class name="sanZombieHunterSven" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieHunterSven"/>
 			<property name="WalkType" value="7"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieHunterSven']" >		  
 		  <entity_class name="sanZombiePsycho" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombiePsycho"/>
 			<property name="WalkType" value="1"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombiePsycho']" >		  
 		  <entity_class name="sanZombieKim" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="sanZombieKim"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieKim']" >		  
 		  <entity_class name="sanZombieVagrant" extends="badZombieUMA" >
 			<property name="Archetype" value="sanZombieVagrant"/>
 			<property name="WalkType" value="1" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieVagrant']" >		  
 		  <entity_class name="sanZombieBanditSavage" extends="badZombieUMA" >
 			<property name="Archetype" value="sanZombieBanditSavage"/>
 			<property name="WalkType" value="1"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditSavage']" >		  
 		  <entity_class name="sanZombieBanditSentry" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="sanZombieBanditSentry"/>
 			<property name="WalkType" value="1"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditSentry']" >		  
 		  <entity_class name="sanZombieMitchHazmat" extends="badZombieUMA" >
 			<property name="Archetype" value="sanZombieMitchHazmat"/>
 			<property name="HandItem" value="meleeHandZombieHazMat" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieMitchHazmat']" >		  
 		  <entity_class name="sanZombieMarkHazmat" extends="badZombieUMA" >
 			<property name="Archetype" value="sanZombieMarkHazmat"/>
 	        <property name="HandItem" value="meleeHandZombieHazMat"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieMarkHazmat']" >		  
 		  <entity_class name="sanZombieClaireHazmat" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="sanZombieClaireHazmat"/>
 			<property name="HandItem" value="meleeHandZombieHazMat" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieClaireHazmat']" >		  
 		  <entity_class name="sanZombieSueHazmat" extends="badZombieFemaleUMA" >
 			<property name="Archetype" value="sanZombieSueHazmat"/>
 			<property name="HandItem" value="meleeHandZombieHazMat" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieSueHazmat']" >		  
@@ -4720,7 +4720,7 @@
 			<property name="NightApproachSpeed" value="0.15" />
 			<property name="PanicSpeed" value="0.2" />
 			<property name="WalkType" value="5" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieOldLady']" >		  
@@ -4732,7 +4732,7 @@
 			<property name="NightWanderSpeed" value="0.02"/>
 			<property name="NightApproachSpeed" value="0.25"/>
 			<property name="WalkType" value="5"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieOldMan']" >		  
@@ -4743,14 +4743,14 @@
 			<property name="ApproachSpeed" value="0.55"/>
 			<property name="NightWanderSpeed" value="0.2"/>
 			<property name="NightApproachSpeed" value="0.55"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieEvilGranny']" >		  
 		  <entity_class name="sanZombieSecurityGuard" extends="badZombieUMA">
 			<property name="Archetype" value="sanZombieSecurityGuard"/>
 			<property name="WalkType" value="7"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieSecurityGuard']" >		  
@@ -4761,7 +4761,7 @@
 			<property name="NightWanderSpeed" value="0.35"/>
 			<property name="NightApproachSpeed" value="0.65"/>
 			<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFrozen']" >		  
@@ -4776,7 +4776,7 @@
 			<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
 			<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
 			<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJethro']" >		  
@@ -4788,7 +4788,7 @@
 			<property name="ApproachSpeed" value="0.45"/>
 			<property name="NightWanderSpeed" value="0.35"/>
 			<property name="NightApproachSpeed" value="1.05"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSeryph']" >		  
@@ -4797,7 +4797,7 @@
 			<property name="WalkType" value="2"/>
 			<property name="MaxHealth" value="250"/>
 			<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSeryphSnow']" >		  
@@ -4806,7 +4806,7 @@
 			<property name="MaxHealth" value="200" />
 			<property name="WalkType" value="1" />
 			<property name="HandItem" value="meleeHandZombieCop" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieBigBitch']" >		  
@@ -4822,7 +4822,7 @@
 			<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath" />
 			<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense" />
 			<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieLumberjack']" >		  
@@ -4831,7 +4831,7 @@
 			<property name="MaxHealth" value="200" />
 			<property name="WalkType" value="1" />
 			<property name="HandItem" value="meleeHandZombieCop" />	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieTrucker']" >		  
@@ -4847,7 +4847,7 @@
 			<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense" />
 			<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 			<property name="MaxHealth" value="130" />	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieCharred']" >		  
@@ -4855,7 +4855,7 @@
 			<property name="Archetype" value="sanZombieCpl"/>
 			<property name="MaxHealth" value="350" />
 			<property name="WalkType" value="5" />	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieCpl']" >		  
@@ -4864,7 +4864,7 @@
 			<property name="HandItem" value="meleeHandZombieCop" />
 			<property name="MaxHealth" value="300" />
 			<property name="WalkType" value="7" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieHunter']" >		  
@@ -4873,7 +4873,7 @@
 			<property name="HandItem" value="meleeHandZombieWorker"/>
 			<property name="MaxHealth" value="350"/>
 			<property name="WalkType" value="2"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditKiller']" >		  
@@ -4884,7 +4884,7 @@
 			<property name="WalkType" value="8"/>
 			<property name="ApproachSpeed" value="1.25"/>
 			<property name="NightApproachSpeed" value="1.25"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBloodmoon']" >		  
@@ -4892,7 +4892,7 @@
 			<property name="Archetype" value="sanZombieCannibalFemale"/>
 			<property name="MaxHealth" value="300"/>
 			<property name="WalkType" value="5"/>		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieCannibalFemale']" >		  
@@ -4900,7 +4900,7 @@
 			<property name="Archetype" value="sanZombieCannibalMale"/>
 			<property name="MaxHealth" value="300"/>
 			<property name="WalkType" value="7"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieCannibalMale']" >		  
@@ -4909,7 +4909,7 @@
 			<property name="HandItem" value="meleeHandZombieCop"/>
 			<property name="MaxHealth" value="350"/>
 			<property name="WalkType" value="1"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFreak']" >		  
@@ -4919,7 +4919,7 @@
 			<property name="MaxHealth" value="500"/>
 			<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
 			<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBolivar']" >		  
@@ -4929,7 +4929,7 @@
 			<property name="AttackTimeoutDay" value="0.5"/>
 			<property name="AttackTimeoutNight" value="0.5"/>
 			<property name="MaxHealth" value="500"/>		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCur']" >		  
@@ -4937,7 +4937,7 @@
 			<property name="Archetype" value="ZombieSWATMale"/>
 			<property name="MaxHealth" value="800"/>
 			<property name="WalkType" value="7"/>		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSWATMale']" >		  
@@ -4949,7 +4949,7 @@
 			<property name="ApproachSpeed" value="0.25"/>
 			<property name="NightWanderSpeed" value="0.1"/>
 			<property name="NightApproachSpeed" value="1.15"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSWATFemale']" >		  
@@ -4962,7 +4962,7 @@
 			<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
 			<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
 			<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieTallman']" >		  
@@ -4980,7 +4980,7 @@
 			<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
 			<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
 			<property name="MaxHealth" value="350"/>			
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 	</insertAfter>	  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRaveReaper']" >		  
@@ -4989,7 +4989,7 @@
 			<property name="HandItem" value="meleeHandZombieStripper"/>
 			<property name="MaxHealth" value="500"/>
 			<property name="WalkType" value="1"/>			
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieStripperMole']" >		  
@@ -5004,7 +5004,7 @@
 			<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
 			<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
 			<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRegen']" >		  
@@ -5012,7 +5012,7 @@
 			<property name="Archetype" value="gupZombieBouncer"/>
 			<property name="MaxHealth" value="800"/>
 			<property name="WalkType" value="2"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieBouncer']" >		  
@@ -5020,10 +5020,10 @@
 			<property name="Archetype" value="gupZombieBouncer"/>
 			<property name="Class" value="EntityZombieCrawl"/>
 			<property name="WalkType" value="4"/>
-			<property name="CanClimbLadders" value="false"/>
+			<property name="CanClimbLadders" value="true"/>
 			<property name="RotateToGround" value="true"/>
 			<property name="MaxHealth" value="800"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieBouncerCrawler']" >		  
@@ -5031,7 +5031,7 @@
 			<property name="Archetype" value="gupZombieSnowQueen"/>
 			<property name="MaxHealth" value="600"/>
 			<property name="WalkType" value="7"/>		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieSnowQueen']" >		  
@@ -5039,7 +5039,7 @@
 			<property name="Archetype" value="sanZombieTrailerPark"/>
 			<property name="HandItem" value="meleeHandZombieWorker" />
 			<property name="MaxHealth" value="400" />
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieTrailerPark']" >		  
@@ -5047,7 +5047,7 @@
 			<property name="Archetype" value="sanZombieBanditRaider"/>
 			<property name="HandItem" value="meleeHandZombieWorker" />
 			<property name="MaxHealth" value="500" />	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditRaider']" >		  
@@ -5056,7 +5056,7 @@
 			<property name="HandItem" value="meleeHandZombieCop" />
 			<property name="MaxHealth" value="750" />
 			<property name="WalkType" value="7" />		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieReaper']" >		  
@@ -5065,7 +5065,7 @@
 			<property name="HandItem" value="meleeHandZombieWorker" />
 			<property name="MaxHealth" value="400" />
 			<property name="WalkType" value="3" />	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditLooter']" >		  
@@ -5082,7 +5082,7 @@
 			<property name="WalkType" value="8"/>
 			<property name="ApproachSpeed" value="1.35"/>
 			<property name="NightApproachSpeed" value="1.35"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieCrazed']" >		  
@@ -5090,7 +5090,7 @@
 			<property name="Archetype" value="bkSanta"/>
 			<property name="HandItem" value="meleeHandZombieCop"/>
 			<property name="MaxHealth" value="500"/>		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='bkSanta']" >		  
@@ -5099,7 +5099,7 @@
 			<property name="HandItem" value="meleeHandZombieCop"/>
 			<property name="MaxHealth" value="500"/>
 			<property name="WalkType" value="2"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBodyBuilder']" >		  
@@ -5112,7 +5112,7 @@
 			<property name="ApproachSpeed" value="0.35"/>
 			<property name="NightWanderSpeed" value="0.1"/>
 			<property name="NightApproachSpeed" value="0.45"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditJuggernaut']" >		  
@@ -5128,7 +5128,7 @@
 			<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
 			<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
 			<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMord']" >		  
@@ -5144,7 +5144,7 @@
 			<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath" />
 			<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense" />
 			<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep" />	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieExperiment']" >		  
@@ -5162,7 +5162,7 @@
 			<property name="ArmsExplosionDamageMultiplier" value="0.05"/>
 			<property name="HeadExplosionDamageMultiplier" value="0.05"/>
 			<property name="ChestExplosionDamageMultiplier" value="0.05"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBabyBoomer']" >		  
@@ -5182,7 +5182,7 @@
 			<property name="UpperLegDismemberThreshold" value="0"/>
 			<property name="LowerArmDismemberThreshold" value="0"/>
 			<property name="UpperArmDismemberThreshold" value="0"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRavagerSpider']" >		  
@@ -5192,7 +5192,7 @@
 			<property name="MaxHealth" value="800"/>
 			<property name="WalkType" value="8"/>
 			<property name="ApproachSpeed" value="1.1"/>
-			<property name="CanClimbLadders" value="false"/>
+			<property name="CanClimbLadders" value="true"/>
 			<property name="CanClimbVertical" value="true"/>
 			<property name="RootMotion" value="false"/>
 			<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
@@ -5201,7 +5201,7 @@
 			<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalescoutpain"/>
 			<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemalescoutdeath"/>
 			<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalescoutsense"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieClimber']" >		  
@@ -5210,7 +5210,7 @@
 			<property name="HandItem" value="meleeHandZombieCop"/>
 			<property name="MaxHealth" value="1500"/>
 			<property name="WalkType" value="1"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieClown']" >		  
@@ -5226,7 +5226,7 @@
 			<property name="Explosion.BlockDamage" value="0"/>
 			<property name="Explosion.EntityDamage" value="70"/>
 			<property name="Explosion.DamageBonus.earth" value="0"/>		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieWarlord']" >		  
@@ -5243,7 +5243,7 @@
 			<property name="Explosion.DamageBonus.earth" value="0"/>
 			<property name="WalkType" value="1"/>
 			<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSuicideMole']" >		  
@@ -5252,7 +5252,7 @@
 			<property name="WalkType" value="2"/>
 			<property name="MaxHealth" value="1200"/>
 			<property name="HandItem" value="meleeHandZombieCop"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieBiff']" >		  
@@ -5261,9 +5261,9 @@
 			<property name="HandItem" value="meleeHandZombieCop" />
 			<property name="MaxHealth" value="1500" />
 			<property name="WalkType" value="8" />
-			<property name="CanClimbLadders" value="false"/>
+			<property name="CanClimbLadders" value="true"/>
 			<property name="SurfaceCategory" value="metal"/>
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieBrute']" >		  
@@ -5272,7 +5272,7 @@
 			<property name="HandItem" value="handZombieBurningFire"/>
 			<property name="MaxHealth" value="3300"/>
 			<property name="WalkType" value="5"/>
-			<property name="CanClimbLadders" value="false"/>
+			<property name="CanClimbLadders" value="true"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="Weight" value="300"/>
 			<property name="PushFactor" value="20"/>
@@ -5289,682 +5289,682 @@
 			<property name="UpperLegDismemberThreshold" value="0"/>
 			<property name="LowerArmDismemberThreshold" value="0"/>
 			<property name="UpperArmDismemberThreshold" value="0"/>	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieBruteBoss']" >		  
 		  <entity_class name="badZombieAiden_Rager" extends="badZombieAiden">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieAiden_Rager']" >		  
 		  <entity_class name="badZombieBob_Rager" extends="badZombieBob">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBob_Rager']" >		  
 		  <entity_class name="badZombieCaitlin_Rager" extends="badZombieCaitlin">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCaitlin_Rager']" >		  
 		  <entity_class name="badZombieCallie_Rager" extends="badZombieCallie">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCallie_Rager']" >	  
 		  <entity_class name="badZombieChang_Rager" extends="badZombieChang">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieChang_Rager']" >		  
 		  <entity_class name="badZombieCharlotte_Rager" extends="badZombieCharlotte">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCharlotte_Rager']" >		  
 		  <entity_class name="badZombieClint_Rager" extends="badZombieClint">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieClint_Rager']" >		  
 		  <entity_class name="badZombieEmma_Rager" extends="badZombieEmma">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieEmma_Rager']" >		  
 		  <entity_class name="badZombieGabrielle_Rager" extends="badZombieGabrielle">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieGabrielle_Rager']" >		  
 		  <entity_class name="badZombieGrace_Rager" extends="badZombieGrace">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieGrace_Rager']" >		  
 		  <entity_class name="badZombieHank_Rager" extends="badZombieHank">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieHank_Rager']" >		  
 		  <entity_class name="badZombieHelen_Rager" extends="badZombieHelen">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieHelen_Rager']" >		  
 		  <entity_class name="badZombieHugh_Rager" extends="badZombieHugh">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieHugh_Rager']" >		  
 		  <entity_class name="badZombieJack_Rager" extends="badZombieJack">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJack_Rager']" >		  
 		  <entity_class name="badZombieJeff_Rager" extends="badZombieJeff">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJeff_Rager']" >		  
 		  <entity_class name="badZombieJimmy_Rager" extends="badZombieJimmy">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJimmy_Rager']" >		  
 		  <entity_class name="badZombieJoel_Rager" extends="badZombieJoel">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJoel_Rager']" >		  
 		  <entity_class name="badZombieMaria_Rager" extends="badZombieMaria">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMaria_Rager']" >		  
 		  <entity_class name="badZombieMercura_Rager" extends="badZombieMercura">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMercura_Rager']" >		  
 		  <entity_class name="badZombieMiguel_Rager" extends="badZombieMiguel">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMiguel_Rager']" >		  
 		  <entity_class name="badZombieOfficeGirl_Rager" extends="badZombieOfficeGirl">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieOfficeGirl_Rager']" >		  
 		  <entity_class name="badZombieRayah_Rager" extends="badZombieRayah">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieRayah_Rager']" >		  
 		  <entity_class name="badZombieRekt_Rager" extends="badZombieRekt">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieRekt_Rager']" >		  
 		  <entity_class name="badZombieVince_Rager" extends="badZombieVince">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieVince_Rager']" >		  
 		  <entity_class name="badZombieWillie_Rager" extends="badZombieWillie">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieWillie_Rager']" >		  
 		  <entity_class name="badZombieBaby_Rager" extends="badZombieBaby">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBaby_Rager']" >		  
 		  <entity_class name="valZombieClarice_Rager" extends="valZombieClarice">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieClarice_Rager']" >		  
 		  <entity_class name="valZombieJane_Rager" extends="valZombieJane">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieJane_Rager']" >		  
 		  <entity_class name="valZombieLibrarian_Rager" extends="valZombieLibrarian">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieLibrarian_Rager']" >		  
 		  <entity_class name="valZombieSurvivorFemale_Rager" extends="valZombieSurvivorFemale">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieSurvivorFemale_Rager']" >		  
 		  <entity_class name="valZombieVoodooFemale_Rager" extends="valZombieVoodooFemale">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieVoodooFemale_Rager']" >		  
 		  <entity_class name="valZombieVoodooMale_Rager" extends="valZombieVoodooMale">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieVoodooMale_Rager']" >		  
 		  <entity_class name="valZombieDan_Rager" extends="valZombieDan">			
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieDan_Rager']" >		  
 		  <entity_class name="valZombieSurvivorMale_Rager" extends="valZombieSurvivorMale">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieSurvivorMale_Rager']" >		  
 		  <entity_class name="valZombieKenny_Rager" extends="valZombieKenny">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieKenny_Rager']" >		  
 		  <entity_class name="valZombieRavager_Rager" extends="valZombieRavager">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRavager_Rager']" >		  
 		  <entity_class name="valZombieNerd_Rager" extends="valZombieNerd">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieNerd_Rager']" >		  
 		  <entity_class name="valZombieInmate_Rager" extends="valZombieInmate">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieInmate_Rager']" >		  
 		  <entity_class name="valZombieInmateBlack_Rager" extends="valZombieInmateBlack">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieInmateBlack_Rager']" >		  
 		  <entity_class name="valZombieChildFemale_Rager" extends="valZombieChildFemale">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieChildFemale_Rager']" >		  
 		  <entity_class name="valZombieChildMale_Rager" extends="valZombieChildMale">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieChildMale_Rager']" >		  
 		  <entity_class name="valZombieRanger_Rager" extends="valZombieRanger">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRanger_Rager']" >		  
 		  <entity_class name="valZombieScorchedRusher_Rager" extends="valZombieScorchedRusher">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieScorchedRusher_Rager']" >		  
 		  <entity_class name="gupZombieMartha_Rager" extends="gupZombieMartha">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieMartha_Rager']" >		  
 		  <entity_class name="gupZombieSally_Rager" extends="gupZombieSally">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieSally_Rager']" >		  
 		  <entity_class name="gupZombieSunStroked_Rager" extends="gupZombieSunStroked">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieSunStroked_Rager']" >		  
 		  <entity_class name="sanZombiePunk_Rager" extends="sanZombiePunk">			
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombiePunk_Rager']" >		  
 		  <entity_class name="sanZombieRioter_Rager" extends="sanZombieRioter">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieRioter_Rager']" >		  
 		  <entity_class name="sanZombieRocker_Rager" extends="sanZombieRocker">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieRocker_Rager']" >		  
 		  <entity_class name="sanZombieFemaleRocker_Rager" extends="sanZombieFemaleRocker">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>	  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFemaleRocker_Rager']" >		  
 		  <entity_class name="sanZombieHermit_Rager" extends="sanZombieHermit">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieHermit_Rager']" >		  
 		  <entity_class name="sanZombieFrank_Rager" extends="sanZombieFrank">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFrank_Rager']" >		  
 		  <entity_class name="sanZombieBikerChick_Rager" extends="sanZombieBikerChick">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBikerChick_Rager']" >		  
 		  <entity_class name="sanZombieInfectedSurvivor_Rager" extends="sanZombieInfectedSurvivor">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieInfectedSurvivor_Rager']" >		  
 		  <entity_class name="sanZombieInfectedLady_Rager" extends="sanZombieInfectedLady">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieInfectedLady_Rager']" >		  
 		  <entity_class name="sanZombieNude_Rager" extends="sanZombieNude">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieNude_Rager']" >		  
 		  <entity_class name="sanZombiePrisoner_Rager" extends="sanZombiePrisoner">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombiePrisoner_Rager']" >		  
 		  <entity_class name="sanZombieDriver_Rager" extends="sanZombieDriver">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieDriver_Rager']" >		  
 		  <entity_class name="sanZombieFiend_Rager" extends="sanZombieFiend">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFiend_Rager']" >		  
 		  <entity_class name="sanZombieBanditSharpshooter_Rager" extends="sanZombieBanditSharpshooter">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditSharpshooter_Rager']" >		  
 		  <entity_class name="sanZombieHunterSven_Rager" extends="sanZombieHunterSven">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieHunterSven_Rager']" >		  
 		  <entity_class name="sanZombiePsycho_Rager" extends="sanZombiePsycho">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombiePsycho_Rager']" >		  
 		  <entity_class name="sanZombieKim_Rager" extends="sanZombieKim">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieKim_Rager']" >	  
 		  <entity_class name="sanZombieVagrant_Rager" extends="sanZombieVagrant">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieVagrant_Rager']" >		  
 		  <entity_class name="sanZombieBanditSavage_Rager" extends="sanZombieBanditSavage">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditSavage_Rager']" >		  
 		  <entity_class name="sanZombieBanditSentry_Rager" extends="sanZombieBanditSentry">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditSentry_Rager']" >		  
 		  <entity_class name="sanZombieMitchHazmat_Rager" extends="sanZombieMitchHazmat">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieMitchHazmat_Rager']" >		  
 		  <entity_class name="sanZombieMarkHazmat_Rager" extends="sanZombieMarkHazmat">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieMarkHazmat_Rager']" >		  
 		  <entity_class name="sanZombieClaireHazmat_Rager" extends="sanZombieClaireHazmat">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieClaireHazmat_Rager']" >		  
 		  <entity_class name="sanZombieSueHazmat_Rager" extends="sanZombieSueHazmat">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieSueHazmat_Rager']" >		  
 		  <entity_class name="sanZombieOldLady_Rager" extends="sanZombieOldLady">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieOldLady_Rager']" >		  
 		  <entity_class name="sanZombieOldMan_Rager" extends="sanZombieOldMan">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieOldMan_Rager']" >		  
 		  <entity_class name="sanZombieEvilGranny_Rager" extends="sanZombieEvilGranny">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieEvilGranny_Rager']" >		  
 		  <entity_class name="sanZombieSecurityGuard_Rager" extends="sanZombieSecurityGuard">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieSecurityGuard_Rager']" >		  
 		  <entity_class name="sanZombieFrozen_Rager" extends="sanZombieFrozen">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFrozen_Rager']" >		  
 		  <entity_class name="badZombieJethro_Rager" extends="badZombieJethro">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJethro_Rager']" >		  
 		  <entity_class name="badZombieSeryph_Rager" extends="badZombieSeryph">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSeryph_Rager']" >		  
 		  <entity_class name="badZombieSeryphSnow_Rager" extends="badZombieSeryphSnow">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSeryphSnow_Rager']" >		  
 		  <entity_class name="valZombieBigBitch_Rager" extends="valZombieBigBitch">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieBigBitch_Rager']" >		  
 		  <entity_class name="valZombieLumberjack_Rager" extends="valZombieLumberjack">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieLumberjack_Rager']" >		  
 		  <entity_class name="valZombieTrucker_Rager" extends="valZombieTrucker">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieTrucker_Rager']" >		  
 		  <entity_class name="valZombieCharred_Rager" extends="valZombieCharred">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieCharred_Rager']" >		  
 		  <entity_class name="sanZombieCpl_Rager" extends="sanZombieCpl">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieCpl_Rager']" >		  
 		  <entity_class name="sanZombieHunter_Rager" extends="sanZombieHunter">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieHunter_Rager']" >		  
 		  <entity_class name="sanZombieBanditKiller_Rager" extends="sanZombieBanditKiller">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditKiller_Rager']" >		  
 		  <entity_class name="sanZombieBloodmoon_Rager" extends="sanZombieBloodmoon">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBloodmoon_Rager']" >		  
 		  <entity_class name="sanZombieCannibalFemale_Rager" extends="sanZombieCannibalFemale">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieCannibalFemale_Rager']" >		  
 		  <entity_class name="sanZombieCannibalMale_Rager" extends="sanZombieCannibalMale">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieCannibalMale_Rager']" >		  
 		  <entity_class name="sanZombieFreak_Rager" extends="sanZombieFreak">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieFreak_Rager']" >		  
 		  <entity_class name="badZombieBolivar_Rager" extends="badZombieBolivar">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBolivar_Rager']" >		  
 		  <entity_class name="badZombieCur_Rager" extends="badZombieCur">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>	  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCur_Rager']" >	  
 		  <entity_class name="badZombieStripperMole_Rager" extends="badZombieStripperMole">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieStripperMole_Rager']" >		  
 		  <entity_class name="badZombieSWATMale_Rager" extends="badZombieSWATMale">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSWATMale_Rager']" >		  
 		  <entity_class name="badZombieSWATFemale_Rager" extends="badZombieSWATFemale">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSWATFemale_Rager']" >		  
 		  <entity_class name="valZombieRaveReaper_Rager" extends="valZombieRaveReaper">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRaveReaper_Rager']" >		  
 		  <entity_class name="valZombieRegen_Rager" extends="valZombieRegen">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRegen_Rager']" >		  
 		  <entity_class name="gupZombieBouncer_Rager" extends="gupZombieBouncer">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieBouncer_Rager']" >		  
 		  <entity_class name="gupZombieSnowQueen_Rager" extends="gupZombieSnowQueen">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieSnowQueen_Rager']" >		  
 		  <entity_class name="sanZombieTrailerPark_Rager" extends="sanZombieTrailerPark">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieTrailerPark_Rager']" >		  
 		  <entity_class name="sanZombieBanditRaider_Rager" extends="sanZombieBanditRaider">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditRaider_Rager']" >		  
 		  <entity_class name="sanZombieReaper_Rager" extends="sanZombieReaper">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieReaper_Rager']" >		  
 		  <entity_class name="sanZombieBanditLooter_Rager" extends="sanZombieBanditLooter">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditLooter_Rager']" >		  
 		  <entity_class name="bkSanta_Rager" extends="bkSanta">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='bkSanta_Rager']" >		  
 		  <entity_class name="sanZombieBodyBuilder_Rager" extends="sanZombieBodyBuilder">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBodyBuilder_Rager']" >		  
 		  <entity_class name="sanZombieBanditJuggernaut_Rager" extends="sanZombieBanditJuggernaut">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieBanditJuggernaut_Rager']" >		  
 		  <entity_class name="sanZombieClown_Rager" extends="sanZombieClown">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='sanZombieClown_Rager']" >		  
 		  <entity_class name="badZombieBabyBoomer_Rager" extends="badZombieBabyBoomer">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBabyBoomer_Rager']" >		  
 		  <entity_class name="valZombieRavagerSpider_Rager" extends="valZombieRavagerSpider">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieRavagerSpider_Rager']" >		  
 		  <entity_class name="gupZombieClimber_Rager" extends="gupZombieClimber">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 	<insertAfter xpath="/entity_classes/entity_class[@name='gupZombieClimber_Rager']" >	  
 		  <entity_class name="badZombieWarlord_Rager" extends="badZombieWarlord">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieWarlord_Rager']" >		  
 		  <entity_class name="badZombieSuicideMole_Rager" extends="badZombieSuicideMole">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSuicideMole_Rager']" >		  
 		  <entity_class name="gupZombieBiff_Rager" extends="gupZombieBiff">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='gupZombieBiff_Rager']" >		  
 		  <entity_class name="valZombieBrute_Rager" extends="valZombieBrute">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieBrute_Rager']" >		  
 		  <entity_class name="valZombieBruteBoss_Rager" extends="valZombieBruteBoss">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='valZombieBruteBoss_Rager']" >		  
 		  <entity_class name="badZombieBoe_Rager" extends="zombieBoe">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBoe_Rager']" >		  
 		  <entity_class name="badZombieJoe_Rager" extends="zombieJoe">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieJoe_Rager']" >		  
 		  <entity_class name="badZombieYo_Rager" extends="zombieYo">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 	</insertAfter>	  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieYo_Rager']" >		  
 		  <entity_class name="badZombieSteve_Rager" extends="zombieSteve">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSteve_Rager']" >		  
 		  <entity_class name="badZombieArlene_Rager" extends="zombieArlene">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 	</insertAfter>	  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieArlene_Rager']" >		  
 		  <entity_class name="badZombieDarlene_Rager" extends="zombieDarlene">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieDarlene_Rager']" >		  
 		  <entity_class name="badZombieMarlene_Rager" extends="zombieMarlene">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMarlene_Rager']" >		  
 		  <entity_class name="badZombieNurse_Rager" extends="zombieNurse">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieNurse_Rager']" >		  
 		  <entity_class name="badZombieMaleHazmat_Rager" extends="zombieMaleHazmat">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMaleHazmat_Rager']" >		  
 		  <entity_class name="badZombieUtilityWorker_Rager" extends="zombieUtilityWorker">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieUtilityWorker_Rager']" >		  
 		  <entity_class name="badZombieSkateboarder_Rager" extends="zombieSkateboarder">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSkateboarder_Rager']" >	  
 		  <entity_class name="badZombieCheerleader_Rager" extends="zombieCheerleader">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieCheerleader_Rager']" >		  
 		  <entity_class name="badZombieOldTimer_Rager" extends="zombieOldTimer">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieOldTimer_Rager']" >		  
 		  <entity_class name="badZombieMoe_Rager" extends="zombieMoe">		
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieMoe_Rager']" >		  
 		  <entity_class name="badZombieSnow_Rager" extends="zombieSnow">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSnow_Rager']" >		  
 		  <entity_class name="badZombieSpider_Rager" extends="zombieSpider">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSpider_Rager']" >		  
 		  <entity_class name="badZombieBurnt_Rager" extends="zombieBurnt">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieBurnt_Rager']" >		  
 		  <entity_class name="badZombieFarmer_Rager" extends="zombieFarmer">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieFarmer_Rager']" >		  
 		  <entity_class name="badZombieStripper_Rager" extends="zombieStripper">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieStripper_Rager']" >		  
 		  <entity_class name="badZombieSoldier_Rager" extends="zombieSoldier">
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>
 </insertAfter>		  
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieSoldier_Rager']" >		  
 		  <entity_class name="badZombieBiker_Rager" extends="zombieBiker">	
-			<property name="JumpMaxDistance" value="0"/>
+			<property name="JumpMaxDistance" value="1.5, 2.0"/>
 		  </entity_class>		  
 </insertAfter>
 
