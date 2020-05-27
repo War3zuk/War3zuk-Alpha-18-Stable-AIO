@@ -20,6 +20,10 @@ Corpse Timer Set To 2s
 
 Added KillJoyJessicas HotWings (Campfire + Grill)
 
+Launcher Edits
+Edited the vanilla rwgmixer.xml file (Tweaked Slightly)
+Added new prefabs to Mixer file
+
 Updated v3.00 to v3.01
 
 Edited HDGun Oil (x2 Recipe)

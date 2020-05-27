@@ -1143,7 +1143,7 @@
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
 	<property name="PainResistPerHit" value=".50"/>
-	<property name="MaxViewAngle" value="180"/>
+	<property name="MaxViewAngle" value="270"/>
 	<property name="SightRange" value="40"/>
 	<property name="SightLightThreshold" value="-2,150"/>
 	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/>
@@ -1162,13 +1162,13 @@
 	<property name="MoveSpeedAggro" value="0.60, 1.35"/>
 	<property name="MoveSpeedPanic" value="0.75"/>
 	<property name="CanClimbLadders" value="true"/>
-	<property name="JumpMaxDistance" value="1.5, 2.0"/>
+	<property name="JumpMaxDistance" value="1.5, 2.5"/>
 	<property name="HandItem" value="meleeHandZombie01"/>
 	<property name="HandItemCrawler" value="meleeHandZombie02"/>
-	<property name="AttackTimeoutDay" value="1.1"/>
-	<property name="AttackTimeoutNight" value="1.0"/>
+	<property name="AttackTimeoutDay" value="1.0"/>
+	<property name="AttackTimeoutNight" value="0.9"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
-	<property name="ExperienceGain" value="550"/>
+	<property name="ExperienceGain" value="500"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
 	<property name="TimeStayAfterDeath" value="2"/>
