@@ -8,21 +8,32 @@ How To Do A Fresh Install Of The Mod...
 
 Updated v3.01 to v3.02
 
+A few people have mentioned getting an Odd NRE (Red Error In Console)
+You CANT use the modified zombies as your Character in game as this
+will cause odd side affects.. Only the Vanilla Characters should be
+used when playing SP or MP Online..
+
 Enabled Max Seats On Vanilla Vehicles
 Bicycle x2
 Motorbike x2
 Truck 4x4 x2
 Gyrocopter x2
 
-Disabled RagDoll On UMA Zombies (1 Is Causing An Issue)
-All UMA Zombies Can Now Jump Between 1B & 2B
-Corpse Timer Set To 2s
+UMA Zombies Now Have Ragdoll Back (Bug Is Choosing Modded Zombie As Character)
 
 Added KillJoyJessicas HotWings (Campfire + Grill)
+Edited HD Forge (Fire Particle)
+Edited HD Working Fire (Fire Particle)
+Edited HD Forge (4k Texture PBR)
 
 Launcher Edits
-Edited the vanilla rwgmixer.xml file (Tweaked Slightly)
-Added new prefabs to Mixer file
+Edited the vanilla rwgmixer.xml file (Tweaked Heavily)
+Completed RWGmixer.xml Edits For Random Gen Worlds
+
+Following Prefabs Have Been Edited
+
+War3zuk Housing Block
+War3zuk Multi Trader (Red Logged One)
 
 Updated v3.00 to v3.01
 

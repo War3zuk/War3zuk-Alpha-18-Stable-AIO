@@ -1080,7 +1080,7 @@
 	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="false"/>
+	<property name="HasRagdoll" value="true"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
@@ -1168,10 +1168,10 @@
 	<property name="AttackTimeoutDay" value="1.0"/>
 	<property name="AttackTimeoutNight" value="0.9"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
-	<property name="ExperienceGain" value="500"/>
+	<property name="ExperienceGain" value="550"/>
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
-	<property name="TimeStayAfterDeath" value="2"/>
+	<property name="TimeStayAfterDeath" value="10"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
@@ -4188,6 +4188,8 @@
 			<property name="ModelType" value="ZombieUMA"/>
 			<property name="AvatarController" value="AvatarZombieUMAController"/>
 			<property name="PhysicsBody" value="zombieUMA"/>
+			<property name="Mass" value="270"/>
+			<property name="Weight" value="175"/>
 			<property name="HasDeathAnim" value="false"/>
 			<property name="LootDropProb" value="0.10"/> <!-- Whether it drops a loot bag on death or not. -->
 			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -4197,6 +4199,8 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='badZombieUMA']" >
 			<entity_class name="badZombieFemaleUMA" extends="badZombieUMA">
 			<property name="Archetype" value="ZombieFemaleUMA"/>
+			<property name="Mass" value="270"/>
+			<property name="Weight" value="175"/>
 			<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
 			<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
 			<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
