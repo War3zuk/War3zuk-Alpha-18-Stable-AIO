@@ -12,7 +12,7 @@ Added Custom BedRoll PBR Model (Paid)
 Added HD Impact Wrench PBR Model (Paid)
 
 Adjusted HD Wrench So It Can Upgrade Fully
-
+Rebuilt The BirdsNest So Its Easier To See If Lootable
 Added Starter Class Descriptions For All 10
 
 Updated v3.01 to v3.02

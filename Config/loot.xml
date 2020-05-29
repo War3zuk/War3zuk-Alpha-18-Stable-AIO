@@ -244,7 +244,7 @@
 
 <append xpath="/lootcontainers">
 <!-- birds nest-->
-<lootcontainer id="25" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="25" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
 	<item name="resourceFeather" count="5,10" prob="1"/>
 	<item name="foodEgg" count="3,6" prob="1"/>
 	<item name="resourceCloth" count="5,10" prob="1"/>
