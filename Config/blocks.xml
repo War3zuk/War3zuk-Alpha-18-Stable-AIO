@@ -22,7 +22,39 @@
 	
 	<append xpath="/blocks/block[@name='pouredRConcreteMaster']"> <property name="MaxDamage" value="3000"/> </append>
 	
+	<remove xpath="/blocks/block[@name='bedroll']"/>
+	
 <append xpath="/blocks">
+	
+<block name="bedroll">
+	<property name="DescriptionKey" value="bedGroupDesc"/>
+	<property name="Class" value="SleepingBag"/>
+	<property name="IndexName" value="brBlock"/>
+	<property name="Material" value="Mplants"/>
+	<property name="MaxDamage" value="100"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/HDBedRoll.unity3d?HDBedRoll.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="ModelOffset" value=".5,.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="2,2,1"/>
+	<property name="FallDamage" value=".8"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="FuelValue" value="20"/>
+	<property name="CanPickup" value="true"/>
+	<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Group" value="Basics,Building,advBuilding"/>
+	<property class="RepairItems"> <property name="resourceYuccaFibers" value="20"/> </property>
+	<drop event="Harvest" name="resourceYuccaFibers" count="12" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="1,3"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="5" prob="1" stick_chance="0"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+</block>
 	
 <block name="HD Tesla Fence">
 	<property name="DescriptionKey" value="HDTeslaCoilDesc"/>
@@ -2962,10 +2994,6 @@
 	
 <append xpath="/blocks/block[@name='treePlantedWinterPine28m']">
 	<property name="FallOver" value="false" />
-</append>
-	
-<append xpath="/blocks/block[@name='bedroll']">
-	<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
 </append>
 	
 <append xpath="/blocks/block[@name='ladderWood']">

@@ -20,6 +20,15 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD Impact Wrench" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "120" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceMechanicalParts" count="75"/>
+	<ingredient name="resourceElectricParts" count="75"/>
+	<ingredient name="resourceScrapPolymers" count="75"/>
+	<ingredient name="HD Cell" count="1"/>
+</recipe>
+	
 <recipe name="Grand Spartans Blade" count="1" craft_time = "120" tags="perkDeepCuts">
 	<ingredient name="resourceForgedIron" count="30"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>

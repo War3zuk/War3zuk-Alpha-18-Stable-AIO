@@ -105,6 +105,7 @@
 		<item name="HD Wrench Schematic" count="1" prob=".70"/>
 		<item name="HD Auger Schematic" count="1" prob=".70"/>
 		<item name="HD Chainsaw Schematic" count="1" prob=".70"/>
+		<item name="HD Impact Wrench Schematic" count="1" prob=".25"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo">

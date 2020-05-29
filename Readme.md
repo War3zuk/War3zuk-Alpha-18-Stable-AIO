@@ -6,6 +6,13 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.02 to v3.03
+
+Added Custom BedRoll PBR Model (Paid)
+Added HD Impact Wrench PBR Model (Paid)
+
+Adjusted HD Wrench So It Can Upgrade Fully
+
 Updated v3.01 to v3.02
 
 A few people have mentioned getting an Odd NRE (Red Error In Console)

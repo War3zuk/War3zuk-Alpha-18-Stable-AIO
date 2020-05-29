@@ -287,6 +287,89 @@
 	</effect_group>
 </item> -->
 	
+<item name="HD Impact Wrench">
+	<property name="Tags" value="melee,light,tool,perkSalvageOperations,selfLoading,canHaveCosmetic"/>
+	<property name="DescriptionKey" value="HDImpactWrenchDesc"/>
+	<property name="CustomIcon" value="HD Impact Wrench"/>
+	<property name="DisplayType" value="meleeRepairTool"/>
+	<property name="HoldType" value="37"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Impact Wrench.unity3d?HD Impact Wrench.prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="MmechanicalParts"/>
+	<property name="Weight" value="45"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	
+	<property name="Stacknumber" value="1"/>
+	<property name="ShowQuality" value="false"/>
+	<property name="UnlockedBy" value="HD Impact Wrench Schematic"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="UseMeleeCrosshair" value="true"/>
+		<property name="Magazine_items" value="ammoGasCan"/>
+		<property name="Bullet_material" value="metal"/>
+		<property name="Reload_time" value="4.1"/>
+		<property name="Single_magazine_usage" value="true"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Sound_start" value="HDIWrench"/>
+		<property name="Sound_repeat" value="HDIWrench"/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+		<property name="DamageBonus.wood" value=".25"/>
+		<property name="DamageBonus.earth" value="-0.99"/>
+		<property name="DamageBonus.cloth" value=".25"/>
+		<property name="DamageBonus.stone" value="-0.99"/>
+		<property name="ToolCategory.Disassemble" value="1" param1="1"/>
+		<property name="SupportHarvesting" value="true"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		</property>
+		<property class="Action1">
+		<property name="Class" value="Repair"/>
+		<property name="Delay" value="0.1"/>
+		<property name="Repair_amount" value="1000"/>
+		<property name="Upgrade_hit_offset" value="-5"/>
+		<property name="Repair_action_sound" value="HDIWrench"/>
+		<property name="Upgrade_action_sound" value="HDIWrench"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
+		</property>
+		<effect_group name="Base Effects">
+			<passive_effect name="MaxRange" operation="base_set" value="2"/>
+			<passive_effect name="BlockRange" operation="base_set" value="4"/>
+			<passive_effect name="EntityDamage" operation="base_set" value="0.5"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+			<passive_effect name="RoundsPerMinute" operation="base_set" value="125"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="950"/>
+			<passive_effect name="AttacksPerMinute" operation="base_set" value="200"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="metal"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+			<passive_effect name="StaminaLoss" operation="base_set" value="5.1" tags="primary"/>
+			<display_value name="dBlockRepairAmount" value="1000"/>
+			<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
+			<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0"/>
+			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0"/>
+			<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
+			<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
+			
+			<passive_effect name="DegradationMax" operation="base_set" value="1000" tags="nailgun"/>
+			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="nailgun"/>
+			<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		
+			<passive_effect name="HarvestCount" operation="base_set" value="2.5" tags="salvageHarvest"/>
+		</effect_group>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="ActionSkillGroup" value="Construction Tools"/>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<property name="RepairExpMultiplier" value="10.8"/>
+			<property name="EconomicValue" value="1450"/>
+</item>
+	
 <item name="Grand Spartans Blade">
 	<property name="DescriptionKey" value="HDGSBladeDesc"/>
 	<property name="CustomIcon" value="Grand Spartans Blade"/>
@@ -4513,7 +4596,7 @@
 		<property name="Upgrade_hit_offset" value="-5"/>
 		<property name="Repair_action_sound" value="nailgun_fire"/>
 		<property name="Upgrade_action_sound" value="nailgun_fire"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
 	</property>
 	<effect_group name="meleeToolWrench">
 		<passive_effect name="EntityDamage" operation="base_set" value="25"/>
@@ -8232,6 +8315,17 @@
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Rocket Launcher" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="HD Impact Wrench Schematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Impact Wrench Schematic"/>
+	<property name="Unlocks" value="HD Impact Wrench"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Impact Wrench" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
 	</effect_group>
 </item>
 
