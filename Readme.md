@@ -13,6 +13,8 @@ Added HD Impact Wrench PBR Model (Paid)
 
 Adjusted HD Wrench So It Can Upgrade Fully
 
+Added Starter Class Descriptions For All 10
+
 Updated v3.01 to v3.02
 
 A few people have mentioned getting an Odd NRE (Red Error In Console)
