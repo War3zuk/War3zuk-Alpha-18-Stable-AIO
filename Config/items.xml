@@ -5236,7 +5236,7 @@
 	<property name="Material" value="MresourceScrapLeadLarge"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="160"/>
-	<property name="EconomicValue" value="120"/>
+	<property name="EconomicValue" value="55"/>
 	<property name="Group" value="Resources,Chemicals"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="ShowQuality" value="false"/>

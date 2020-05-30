@@ -14,6 +14,7 @@ Added HD Impact Wrench PBR Model (Paid)
 Adjusted HD Wrench So It Can Upgrade Fully
 Rebuilt The BirdsNest So Its Easier To See If Lootable
 Added Starter Class Descriptions For All 10
+Eddited HD Electrolyte Sell Price
 
 REMOVED IronToolKit,SteelToolKit,KevlarToolKit,SteelToolsKit,IronToolsKit
 REMOVED 7 Unsed Icons & All Their Code (Item Switching May Happen Just Delete)
@@ -26,6 +27,7 @@ Animal Loot ReBalanced
 Edited HD M3 Auto (Now Uses Proper RepairKit)
 Edited ALL Classes To Include MedicalFirstAidBandages
 
+Zombie Balancing All Mentions Are Going Down Not Up
 ALL Zombies PercAdd Health Additional 1.1 To Health (110%)
 ALL Animals PercAdd Health Additional 0.5 To Health (50%)
 
