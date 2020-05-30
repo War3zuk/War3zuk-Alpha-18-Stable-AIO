@@ -4927,6 +4927,31 @@
 	<property name="DowngradeBlock" value="BooMotherFucker"/>
 </append>
 
+<append xpath="/blocks/block[@name='hospitalBed']">
+	<property name="Model" value="#@modfolder:Resources/bodyBag.unity3d?hospitalBed.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<drop event="Harvest" name="foodRottingFlesh" count="10,30" prob="1" tag="butcherHarvest"/>
+</append>
+
+<append xpath="/blocks/block[@name='bodyBagBlack']">
+	<property name="Model" value="#@modfolder:Resources/bodyBag.unity3d?bodyBagBlack.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+</append>
+
+<append xpath="/blocks/block[@name='bodyBagYellow']">
+	<property name="Model" value="#@modfolder:Resources/bodyBag.unity3d?bodyBagYellow.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+</append>
+
+<append xpath="/blocks/block[@name='bodyBagPile']">
+	<property name="Model" value="#@modfolder:Resources/bodyBag.unity3d?bodyBagPile.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+</append>
+
+<append xpath="/blocks/block[@name='bodyBagPileMix']">
+	<property name="Model" value="#@modfolder:Resources/bodyBag.unity3d?bodyBagPileMix.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+</append>
+
+<append xpath="/blocks/block[@name='bodyBagPairMixed']">
+	<property name="Model" value="#@modfolder:Resources/bodyBag.unity3d?bodyBagPileMix.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+</append>
+
 <!--  <append xpath="/blocks/block[@name='doorFrameWhite1']">
 	<property name="DowngradeBlock" value="BooMotherFucker"/>
 </append>
