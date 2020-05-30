@@ -26,6 +26,9 @@ Animal Loot ReBalanced
 Edited HD M3 Auto (Now Uses Proper RepairKit)
 Edited ALL Classes To Include MedicalFirstAidBandages
 
+ALL Zombies PercAdd Health Additional 1.1 To Health (110%)
+ALL Animals PercAdd Health Additional 0.5 To Health (50%)
+
 Updated v3.01 to v3.02
 
 A few people have mentioned getting an Odd NRE (Red Error In Console)
