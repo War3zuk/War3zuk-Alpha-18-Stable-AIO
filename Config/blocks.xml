@@ -24,6 +24,7 @@
 	
 	<remove xpath="/blocks/block[@name='bedroll']"/>
 	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
+	<remove xpath="/blocks/block[@name='cntCoffin']"/>
 	
 <append xpath="/blocks">
 	
@@ -4915,6 +4916,24 @@
 		
 <block name="storeShelving01TopDoubleEmpty">
 	<property name="Extends" value="storeShelving01TopDouble"/>
+</block>
+
+<block name="cntCoffin">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/bodyBag.unity3d?cntCoffin.Prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
+	<property name="LootList" value="15"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<drop event="Harvest" name="resourceBone" prob=".05" count="1,4" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob=".05" count="1" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".05" count="1" tag="WasteTreasuresCoffinHarvest"/>
 </block>
 
 </append>
