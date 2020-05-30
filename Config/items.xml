@@ -2351,7 +2351,7 @@
 	<property name="HoldType" value="6"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M3 Auto.unity3d?HD M3 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
-	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="RepairTools" value="RepairKitAutomaticRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
@@ -4229,7 +4229,7 @@
 	<property name="HoldType" value="33"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD BR1NXlS Booper.unity3d?HD BR1NXlS Booper.Prefab"/>
 	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
-	<property name="RepairTools" value="RepairKitSteelTools"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
@@ -4569,7 +4569,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Wrench.unity3d?HD Wrench.Prefab"/>
 	<property name="CustomIcon" value="HD Wrench"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="RepairKitSteelTools"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy"/>
@@ -4958,7 +4958,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HDXcalibur.Prefab"/>
 	<property name="CustomIcon" value="HDXcalibur"/>
 	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
-	<property name="RepairTools" value="RepairKitIronTools"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
@@ -5094,7 +5094,7 @@
 <item name="HD Mini Hatchet">
 	<property name="DescriptionKey" value="HDMiniHatchetDesc"/>
 	<property name="Extends" value="meleeToolStoneAxe"/>
-	<property name="RepairTools" value="RepairKitIronTools"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Hatchet.Prefab"/>
@@ -8703,8 +8703,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeClubIron,gunBowCompound,ammoArrowSteelAP,meleeKnucklesSteel,meleeToolSledgehammerIron,armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,meleeToolKnifeMacheteSchematic,meleeClubIronSchematic"/>
-		<property name="Create_item_count" value="1,1,5,5,5,5,1,1,200,1,1,1,1,1,1,1,1,1"/>
+		<property name="Create_item" value="medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeClubIron,gunBowCompound,ammoArrowSteelAP,meleeKnucklesSteel,meleeToolSledgehammerIron,armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,meleeToolKnifeMacheteSchematic,meleeClubIronSchematic"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,200,1,1,1,1,1,1,1,1,1"/>
 	</property>
 </item>
 
@@ -8724,8 +8724,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,resourceNail,woodFrameBlockVariantHelper,gunPistol,ammo9mmBulletBall"/>
-		<property name="Create_item_count" value="1,1,1,1,5,5,5,5,2,2,2,100,200,1,200"/>
+		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,resourceNail,woodFrameBlockVariantHelper,gunPistol,ammo9mmBulletBall"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,2,2,2,100,200,1,200"/>
 	</property>
 </item>
 
@@ -8745,8 +8745,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
-		<property name="Create_item_count" value="1,1,1,1,5,5,5,5,1,200,100,1,1000,25,1,1"/>
+		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,1,200,100,1,1000,25,1,1"/>
 	</property>
 </item>
 
@@ -8766,8 +8766,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,RepairKitSteelArmor,RepairKitIronTools,gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
-		<property name="Create_item_count" value="1,1,1,1,1,200,1,150,10,10,2,2,1,20,1,1,1,1"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeClubIron,RepairKitHandGuns,gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
+		<property name="Create_item_count" value="5,1,1,1,200,1,150,10,10,2,2,1,20,1,1,1,1"/>
 	</property>
 </item>
 
@@ -8787,8 +8787,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitAutomaticRifles,RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitarySetParts,gunSMG5,ammo9mmBulletBall,gunSMG5Schematic"/>
-		<property name="Create_item_count" value="1,1,1,1,5,5,5,5,5,40,1,200,1"/>
+		<property name="Create_item" value="meleeClubIron,RepairKitAutomaticRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitarySetParts,gunSMG5,ammo9mmBulletBall,gunSMG5Schematic"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,5,40,1,200,1"/>
 	</property>
 </item>
 
@@ -8808,8 +8808,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitHuntingRifles,RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
-		<property name="Create_item_count" value="1,1,1,1,5,5,5,5,10,1,1,200,1,1"/>
+		<property name="Create_item" value="meleeClubIron,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,10,1,1,200,1,1"/>
 	</property>
 </item>
 
@@ -8829,8 +8829,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeToolKnifeMacheteSchematic,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
-		<property name="Create_item_count" value="1,1,1,1,5,5,5,5,1,1,20,1,200,1,1,1,1,1,1"/>
+		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeToolKnifeMacheteSchematic,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,1,1,20,1,200,1,1,1,1,1,1"/>
 	</property>
 </item>
 
@@ -8850,8 +8850,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,RepairKitSteelArmor,RepairKitIronTools,medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast"/>
-		<property name="Create_item_count" value="1,1,1,1,5,5,5,5,5,5,5,5,1,1,1,200,5,5"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeClubIron,RepairKitHandGuns,medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast"/>
+		<property name="Create_item_count" value="5,1,1,5,5,5,5,5,5,5,5,1,1,1,200,5,5"/>
 	</property>
 </item>
 
@@ -8871,8 +8871,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitShotGuns,RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,armorMiningHelmet,resourceForgedIron,resourceForgedSteel,forgeSchematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,gunPumpShotgun,ammoShotgunShell,"/>
-		<property name="Create_item_count" value="1,1,1,1,5,5,5,5,1,1,1,1,100,100,1,1,1,1,1,1,200"/>
+		<property name="Create_item" value="meleeClubIron,RepairKitShotGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,armorMiningHelmet,resourceForgedIron,resourceForgedSteel,forgeSchematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,gunPumpShotgun,ammoShotgunShell,"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,1,1,1,1,100,100,1,1,1,1,1,1,200"/>
 	</property>
 </item>
 
@@ -8892,8 +8892,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,RepairKitHuntingRifles,RepairKitSteelArmor,RepairKitIronTools,medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletBall"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,5,5,5,1,1,150,1,1,200"/>
+		<property name="Create_item" value="meleeClubIron,RepairKitHandGuns,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletBall"/>
+		<property name="Create_item_count" value="1,1,1,5,5,5,5,1,1,150,1,1,200"/>
 	</property>
 </item>
 
@@ -8981,74 +8981,6 @@
 	<property name="FilterTags" value="floot"/>
 </item>
 
-<item name="RepairKitSteelArmor">
-	<property name="CustomIcon" value="Repair Kit Steel Armor"/>
-	<property name="HoldType" value="45"/>
-	<property name="Tags" value="junk"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Msteel"/>
-	<property name="Stacknumber" value="25000"/>
-	<property name="EconomicValue" value="186"/>
-	<property name="RepairTime" value="3"/>
-	<property name="RepairAmount" value="32000"/>
-	<property name="Group" value="Resources"/>
-	<property name="DescriptionKey" value="RepairKitSteelArmorDesc"/>
-	<property name="Group" value="Resources"/>
-	<property name="FilterTags" value="floot"/>
-</item>
-
-<item name="RepairKitKevlarArmor">
-	<property name="CustomIcon" value="Repair Kit Kevlar Armor"/>
-	<property name="HoldType" value="45"/>
-	<property name="Tags" value="junk"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Msteel"/>
-	<property name="Stacknumber" value="25000"/>
-	<property name="EconomicValue" value="186"/>
-	<property name="RepairTime" value="3"/>
-	<property name="RepairAmount" value="32000"/>
-	<property name="Group" value="Resources"/>
-	<property name="DescriptionKey" value="RepairKitKevlarArmorDesc"/>
-	<property name="Group" value="Resources"/>
-	<property name="FilterTags" value="floot"/>
-</item>
-
-<item name="RepairKitIronTools">
-	<property name="CustomIcon" value="Repair Kit Iron Tools"/>
-	<property name="HoldType" value="45"/>
-	<property name="Tags" value="junk"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Msteel"/>
-	<property name="Stacknumber" value="25000"/>
-	<property name="EconomicValue" value="186"/>
-	<property name="RepairTime" value="3"/>
-	<property name="RepairAmount" value="32000"/>
-	<property name="Group" value="Resources"/>
-	<property name="DescriptionKey" value="RepairKitIronToolsDesc"/>
-	<property name="Group" value="Resources"/>
-	<property name="FilterTags" value="floot"/>
-</item>
-
-<item name="RepairKitSteelTools">
-	<property name="CustomIcon" value="Repair Kit Steel Tools"/>
-	<property name="HoldType" value="45"/>
-	<property name="Tags" value="junk"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Msteel"/>
-	<property name="Stacknumber" value="25000"/>
-	<property name="EconomicValue" value="186"/>
-	<property name="RepairTime" value="3"/>
-	<property name="RepairAmount" value="32000"/>
-	<property name="Group" value="Resources"/>
-	<property name="DescriptionKey" value="RepairKitSteelToolsDesc"/>
-	<property name="Group" value="Resources"/>
-	<property name="FilterTags" value="floot"/>
-</item>
-
 </append>
 
 <append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mm Bullet INC,9mm Bullet SH</append>
@@ -9068,37 +9000,6 @@
 <set xpath="/items/item[@name='gunMR10']/property[@name='RepairTools']/@value">RepairKitHuntingRifles</set>
 <set xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
 <set xpath="/items/item[@name='gunPumpShotgun']/property[@name='RepairTools']/@value">RepairKitShotGuns</set>
-
-<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">RepairKitSteelArmor</set>
-<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">RepairKitKevlarArmor</set>
-
-<set xpath="/items/item[@name='meleeToolClawHammer']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeToolFireaxeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeToolPickaxeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeToolShovelIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeToolWrench']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeToolKnifeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeClubIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeKnucklesIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-<set xpath="/items/item[@name='meleeToolHoeIron']/property[@name='RepairTools']/@value">RepairKitIronTools</set>
-
-<set xpath="/items/item[@name='meleeToolKnifeMachete']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
-<set xpath="/items/item[@name='meleeToolPickaxeSteel']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
-<set xpath="/items/item[@name='meleeToolShovelSteel']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
-<set xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='RepairTools']/@value">RepairKitSteelTools</set>
-
-<append xpath="/items/item[@name='meleeToolFireaxeSteel']">
-	<property name="RepairTools" value="RepairKitSteelTools"/>
-</append>
-
-<append xpath="/items/item[@name='meleeThrownSpearSteel']">
-	<property name="RepairTools" value="RepairKitSteelTools"/>
-</append>
-
-<append xpath="/items/item[@name='meleeKnucklesSteel']">
-	<property name="RepairTools" value="RepairKitSteelTools"/>
-</append>
 
 <!--  A BIG ThankYou for StompyNZ's Bad Company Zombies Code  Delete Between These Lines To Remove The Extra Z's  -->
 

@@ -15,6 +15,17 @@ Adjusted HD Wrench So It Can Upgrade Fully
 Rebuilt The BirdsNest So Its Easier To See If Lootable
 Added Starter Class Descriptions For All 10
 
+REMOVED IronToolKit,SteelToolKit,KevlarToolKit,SteelToolsKit,IronToolsKit
+REMOVED 7 Unsed Icons & All Their Code (Item Switching May Happen Just Delete)
+
+ALL Armor is now Repairable Via Vanilla RepairKit
+ALL Tools are now Repairable Via Vanilla RepairKit
+
+Animal Loot ReBalanced
+
+Edited HD M3 Auto (Now Uses Proper RepairKit)
+Edited ALL Classes To Include MedicalFirstAidBandages
+
 Updated v3.01 to v3.02
 
 A few people have mentioned getting an Odd NRE (Red Error In Console)
