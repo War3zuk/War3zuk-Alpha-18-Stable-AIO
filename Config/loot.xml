@@ -96,16 +96,16 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDTools">
-		<item name="HD Forge Schematic" count="1" prob=".70"/>
-		<item name="HD Cement Mixer Schematic" count="1" prob=".70"/>
-		<item name="HD Generator Schematic" count="1" prob=".70"/>
-		<item name="HD Gas Generator Schematic" count="1" prob=".70"/>
-		<item name="HDPumpJackE Schematic" count="1" prob=".70"/>
-		<item name="HD Junk Turret Schematic" count="1" prob=".70"/>
-		<item name="HD Wrench Schematic" count="1" prob=".70"/>
-		<item name="HD Auger Schematic" count="1" prob=".70"/>
-		<item name="HD Chainsaw Schematic" count="1" prob=".70"/>
-		<item name="HD Impact Wrench Schematic" count="1" prob=".25"/>
+		<item name="HD Forge Schematic" count="1" prob=".50"/>
+		<item name="HD Cement Mixer Schematic" count="1" prob=".50"/>
+		<item name="HD Generator Schematic" count="1" prob=".50"/>
+		<item name="HD Gas Generator Schematic" count="1" prob=".50"/>
+		<item name="HDPumpJackE Schematic" count="1" prob=".50"/>
+		<item name="HD Junk Turret Schematic" count="1" prob=".50"/>
+		<item name="HD Wrench Schematic" count="1" prob=".50"/>
+		<item name="HD Auger Schematic" count="1" prob=".50"/>
+		<item name="HD Chainsaw Schematic" count="1" prob=".50"/>
+		<item name="HD Impact Wrench Schematic" count="1" prob=".50"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo">

@@ -8,14 +8,18 @@ How To Do A Fresh Install Of The Mod...
 
 Updated v3.02 to v3.03
 
+DELETE OLD FILES PLEASE
+
 Added Custom BedRoll PBR Model (Paid)
 Added HD Impact Wrench PBR Model (Paid)
+Added HD Impact Wrench Recipe
+Added HD Impact Wrench Schematic
+Added HD Impact Wrench Icons 256x256
 
 Adjusted HD Wrench So It Can Upgrade Fully
 Rebuilt The BirdsNest So Its Easier To See If Lootable
 Added Starter Class Descriptions For All 10
 Eddited HD Electrolyte Sell Price
-Fixed HD Impact Wrench Recipe
 
 REMOVED IronToolKit,SteelToolKit,KevlarToolKit,SteelToolsKit,IronToolsKit
 REMOVED 7 Unsed Icons & All Their Code (Item Switching May Happen Just Delete)
@@ -32,8 +36,9 @@ Zombie Balancing All Mentions Are Going Down Not Up
 ALL Zombies PercAdd Health Additional 1.1 To Health (110%)
 ALL Animals PercAdd Health Additional 0.5 To Health (50%)
 
-Replaced Some Of The BodyBags In Game
-Replaced Vanilla Hospital Bed
+Replaced ALL 9 Vanilla Body Bags PBR Model (Paid)
+Replaced HospitalBed Vanilla PBR Model (Paid)
+Replaced HospitalGurney Vanilla PBR Model (Paid)
 
 Updated v3.01 to v3.02
 
