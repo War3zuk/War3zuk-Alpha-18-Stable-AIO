@@ -356,11 +356,9 @@
 			<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
 			<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
 			<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
-			
 			<passive_effect name="DegradationMax" operation="base_set" value="1000" tags="nailgun"/>
 			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="nailgun"/>
 			<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		
 			<passive_effect name="HarvestCount" operation="base_set" value="2.5" tags="salvageHarvest"/>
 		</effect_group>
 			<property name="Group" value="Tools/Traps"/>
@@ -644,7 +642,6 @@
 		<property name="Sound_start" value="player_drinking"/>
 		<property name="Create_item" value="drinkJarEmpty"/>
 	</property>
-
 	<effect_group tiered="false">
 		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="60"/>
@@ -656,7 +653,6 @@
 				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
 	</effect_group>
-
 	<effect_group tiered="false">
 		<requirement name="HasBuff" buff="buffIsOnFire"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
@@ -4649,16 +4645,12 @@
 		<property name="Sound_start" value="player_firstAidKit"/>
 	</property>
 	<effect_group tiered="false">
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffBrainPox"/>
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
-
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
 		<display_value name="foodHealthAmount" value="30"/>
-		
 	</effect_group>
 </item>
 
@@ -4683,16 +4675,12 @@
 		<property name="Sound_start" value="player_firstAidKit"/>
 	</property>
 	<effect_group tiered="false">
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffKrytos"/>
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
-
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
 		<display_value name="foodHealthAmount" value="30"/>
-		
 	</effect_group>
 </item>
 
@@ -4717,16 +4705,12 @@
 		<property name="Sound_start" value="player_firstAidKit"/>
 	</property>
 	<effect_group tiered="false">
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffSpattergroit"/>
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
-
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
 		<display_value name="foodHealthAmount" value="30"/>
-		
 	</effect_group>
 </item>
 
@@ -4751,16 +4735,12 @@
 		<property name="Sound_start" value="player_firstAidKit"/>
 	</property>
 	<effect_group tiered="false">
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffObonjan"/>
-		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
-
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalHealthAmount" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
 		<display_value name="foodHealthAmount" value="30"/>
-		
 	</effect_group>
 </item>
 
@@ -4789,7 +4769,6 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffArmBroken"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffHDFirstAidKit"/>
-		
 	</effect_group>
 </item>
 
@@ -5021,13 +5000,11 @@
 		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="oreWoodHarvest"/>
-		
         <effect_group name="Base Effects" tiered="false">
 				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
 				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffShocked"/>
 				</triggered_effect>
 			</effect_group>
-		
 		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
@@ -5153,11 +5130,9 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3"/>
-
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
@@ -5165,7 +5140,6 @@
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05"/>
 		<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
-
 		<display_value name="dBlockRepairAmount" value="150"/>
 		<passive_effect name="HarvestCount" operation="base_set" value=".6" tags="butcherHarvest"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
