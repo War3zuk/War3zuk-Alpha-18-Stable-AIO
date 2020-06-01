@@ -97,7 +97,7 @@
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="Morganic"/>
-		<property name="Stacknumber" value="24999"/>
+		<property name="Stacknumber" value="25000"/>
 		<property name="EconomicValue" value="1000"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
@@ -635,7 +635,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/StormFall Monster Cola.unity3d?StormFall Monster Cola.prefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="CustomIcon" value="StormFall Monster Cola"/>
-	<property name="Stacknumber" value="2500"/> 
+	<property name="Stacknumber" value="25000"/> 
 	<property name="EconomicValue" value="80"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -1702,7 +1702,7 @@
 	<property name="Material" value="Scrapped Schematics"/>
 	<property name="Weight" value="5"/>
 	<property name="FuelValue" value="5"/>
-	<property name="Stacknumber" value="2500"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Books"/>
 	<property class="Action0">
@@ -4442,7 +4442,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 9mm Barrel Schematic"/>
@@ -4456,7 +4456,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 9mm Parts Schematic"/>
@@ -4470,7 +4470,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 9mm Motor Schematic"/>
@@ -4484,7 +4484,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 7.62mm Barrel Schematic"/>
@@ -4498,7 +4498,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 7.62mm Parts Schematic"/>
@@ -4512,7 +4512,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 7.62mm Motor Schematic"/>
@@ -4526,7 +4526,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 50Bmg Barrel Schematic"/>
@@ -4540,7 +4540,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 50Bmg Parts Schematic"/>
@@ -4554,7 +4554,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD Vulcan 50Bmg Motor Schematic"/>
@@ -4636,7 +4636,7 @@
 	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="Stacknumber" value="2500"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150"/>
@@ -4670,7 +4670,7 @@
 	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="Stacknumber" value="2500"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150"/>
@@ -4704,7 +4704,7 @@
 	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="Stacknumber" value="2500"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150"/>
@@ -4738,7 +4738,7 @@
 	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="Stacknumber" value="2500"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="150"/>
@@ -6019,7 +6019,7 @@
 	<property name="CustomIcon" value="resourceWood"/>
 	<property name="Material" value="MresourceWood"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="10000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="FuelValue" value="1000"/>
 	<property name="EconomicValue" value="25"/>
 	<property name="EconomicBundleSize" value="10000"/>
@@ -6197,7 +6197,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="950"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Group" value="Science"/>
 	<property name="ActionSkillGroup" value="Medicine"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -6231,7 +6231,7 @@
 	<property name="CustomIcon" value="Poison Vile"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Poison Vile.Prefab"/>
 	<property name="Material" value="Mglass"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="CraftingIngredientTime" value="10"/>
@@ -6341,7 +6341,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -6372,7 +6372,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="80"/>
 	<property name="UnlockedBy" value="perkMasterChef"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -6405,7 +6405,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -6442,7 +6442,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -6474,7 +6474,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -6506,7 +6506,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="50"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -6538,7 +6538,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="50"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -6570,7 +6570,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="50"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -6599,7 +6599,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="50"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -7158,7 +7158,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property class="Action0">
@@ -7226,7 +7226,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceForgedBrass"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="60"/>
 	<property name="EconomicValue" value="75"/>
 	<property name="Group" value="Resources"/>
@@ -7243,7 +7243,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceForgedBrass"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="60"/>
 	<property name="EconomicValue" value="75"/>
 	<property name="Group" value="Resources"/>
@@ -7261,7 +7261,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MSteelPolish"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="45"/>
 	<property name="Group" value="Chemicals"/>
 	<property name="DescriptionKey" value="SPDesc"/>
@@ -7274,7 +7274,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="65"/>
 	<property name="Group" value="Chemicals"/>
 	<property name="DescriptionKey" value="TPDesc"/>
@@ -7287,7 +7287,7 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="20000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="55"/>
 	<property name="Group" value="Chemicals"/>
 	<property name="DescriptionKey" value="CMDesc"/>
@@ -7297,7 +7297,7 @@
 	<property name="CustomIcon" value="9mm Bullet SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
+    <property name="Stacknumber" value="25000" /> 
 	  <property name="DescriptionKey" value="BulletSHDesc"/>
 	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
        <effect_group name="Base Effects" tiered="false">
@@ -7317,7 +7317,7 @@
 			 <property name="CustomIcon" value="44Mag Bullet SH" />
 		 <property name="Extends" value="ammo44MagnumBulletBall"/>
 		<property name="EconomicValue" value="50"/>
-		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Stacknumber" value="25000" /> 
 		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 		<property name="DescriptionKey" value="BulletSHDesc"/>
        <effect_group name="Base Effects" tiered="false">
@@ -7337,7 +7337,7 @@
 	<property name="CustomIcon" value="45 Acp SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
+    <property name="Stacknumber" value="25000" /> 
 	  <property name="DescriptionKey" value="BulletSHDesc"/>
 	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
        <effect_group name="Base Effects" tiered="false">
@@ -7357,7 +7357,7 @@
 			 <property name="CustomIcon" value="50Mag Bullet SH" />
 		 <property name="Extends" value="DeagleRound"/>
 		<property name="EconomicValue" value="60"/>
-		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Stacknumber" value="25000" /> 
 		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 		<property name="DescriptionKey" value="BulletSHDesc"/>
        <effect_group name="Base Effects" tiered="false">
@@ -7377,7 +7377,7 @@
 			 <property name="CustomIcon" value="500Mag Bullet SH" />
 		 <property name="Extends" value="DeagleRound"/>
 		<property name="EconomicValue" value="70"/>
-		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Stacknumber" value="25000" /> 
 		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 		<property name="DescriptionKey" value="BulletSHDesc"/>
        <effect_group name="Base Effects" tiered="false">
@@ -7397,7 +7397,7 @@
 		<property name="CustomIcon" value="762Mag Bullet SH" />
 		<property name="Extends" value="ammo762mmBulletBall"/>
 		<property name="EconomicValue" value="80"/>
-		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Stacknumber" value="25000" /> 
 		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 		 <property name="DescriptionKey" value="BulletSHDesc"/>
         <effect_group name="Base Effects" tiered="false">
@@ -7417,7 +7417,7 @@
 	<property name="CustomIcon" value="408 Round SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
+    <property name="Stacknumber" value="25000" /> 
 	  <property name="DescriptionKey" value="BulletSHDesc"/>
 	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
        <effect_group name="Base Effects" tiered="false">
@@ -7437,7 +7437,7 @@
 	<property name="CustomIcon" value="50 BMG Round SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
+    <property name="Stacknumber" value="25000" /> 
 	  <property name="DescriptionKey" value="BulletSHDesc"/>
 	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
        <effect_group name="Base Effects" tiered="false">
@@ -7457,7 +7457,7 @@
 	<property name="CustomIcon" value="9mm Bullet INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
+    <property name="Stacknumber" value="25000" /> 
     <property name="DescriptionKey" value="BulletINCDesc"/>
     <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
     <effect_group name="Base Effects" tiered="false">
@@ -7483,7 +7483,7 @@
 	<property name="CustomIcon" value="44Mag Bullet INC" />
 	<property name="Extends" value="ammo44MagnumBulletBall"/>
 	<property name="EconomicValue" value="50"/>
-	<property name="Stacknumber" value="20000" /> 
+	<property name="Stacknumber" value="25000" /> 
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -7509,7 +7509,7 @@
 	<property name="CustomIcon" value="45 Acp INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-	<property name="Stacknumber" value="20000" /> 
+	<property name="Stacknumber" value="25000" /> 
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -7535,7 +7535,7 @@
 	 <property name="CustomIcon" value="50Mag Bullet INC" />
 	 <property name="Extends" value="DeagleRound"/>
 	<property name="EconomicValue" value="60"/>
-	<property name="Stacknumber" value="20000" /> 
+	<property name="Stacknumber" value="25000" /> 
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -7561,7 +7561,7 @@
 	<property name="CustomIcon" value="500Mag Bullet INC" />
 	<property name="Extends" value="DeagleRound"/>
 	<property name="EconomicValue" value="70"/>
-	<property name="Stacknumber" value="20000" /> 
+	<property name="Stacknumber" value="25000" /> 
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -7587,7 +7587,7 @@
 	<property name="CustomIcon" value="762Mag Bullet INC" />
 	<property name="Extends" value="ammo762mmBulletBall"/>
 	<property name="EconomicValue" value="80"/>
-	<property name="Stacknumber" value="20000" /> 
+	<property name="Stacknumber" value="25000" /> 
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -7613,7 +7613,7 @@
 	<property name="CustomIcon" value="408 Round INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" /> 
+    <property name="Stacknumber" value="25000" /> 
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -7639,7 +7639,7 @@
 	<property name="CustomIcon" value="50 BMG Round INC" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
 	<property name="EconomicValue" value="30"/>
-    <property name="Stacknumber" value="20000" />
+    <property name="Stacknumber" value="25000" />
 	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 	<effect_group name="Base Effects" tiered="false">
@@ -8408,7 +8408,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property class="Action0">
@@ -8695,7 +8695,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8716,7 +8716,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8737,7 +8737,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8758,7 +8758,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8779,7 +8779,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8800,7 +8800,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8821,7 +8821,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8842,7 +8842,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8863,7 +8863,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
@@ -8884,7 +8884,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="30000"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Weight" value="0"/>
 	<property name="Group" value="Special Items"/>
 	<property class="Action0">
