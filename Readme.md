@@ -6,6 +6,13 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.03 to v3.04
+
+Updated HD Cement Mixer (Animated + Sound)
+Removed UMA Zombies From Main Sleeper Group (Nre)
+Balanced Food Loot Slightly
+Edited HospitalBed Animation
+
 Updated v3.02 to v3.03
 
 DELETE OLD FILES PLEASE
