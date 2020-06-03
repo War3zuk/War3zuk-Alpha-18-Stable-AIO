@@ -24,6 +24,9 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDNuke,items,Item,KgNone,HD Nuke,
+HDNukeDesc,items,,,This Is A Nuke. Be Careful With Your Nuke.\n\nBlow Shit Up like a BOSS,
+
 ClassBruiserDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nBruiser Class Weapons are IronClub SledgeHammer And CompoundBow along with ammunition,
 
 ClassBuilderDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nBuilder Class Weapons are 9mm Pistol with Ammo And also Bundles for building,

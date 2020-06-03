@@ -522,7 +522,7 @@
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,0,EntityNPC,0,0"/>
 	<property name="AITarget-5" value=""/>
 	<property name="WalkType" value="7"/>
-	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain1"/>
 	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
 	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
 	<property name="SoundSense" value="Animals/Snake/snakesense"/>
@@ -585,7 +585,7 @@
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,0,EntityNPC,0,0"/>
 	<property name="AITarget-5" value=""/>
 	<property name="WalkType" value="7"/>
-	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain1"/>
 	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
 	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
 	<property name="SoundSense" value="Animals/Snake/snakesense"/>
@@ -651,7 +651,7 @@
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,0,EntityNPC,0,0"/>
 	<property name="AITarget-5" value=""/>
 	<property name="WalkType" value="7"/>
-	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain1"/>
 	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
 	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
 	<property name="SoundSense" value="Animals/Snake/snakesense"/>
@@ -4039,7 +4039,7 @@
 	<property name="AITarget-5" value=""/>
 
 	<property name="WalkType" value="7"/>
-	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain1"/>
 	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
 	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
 	<property name="SoundSense" value="Animals/Snake/snakesense"/>

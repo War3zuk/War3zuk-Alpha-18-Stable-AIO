@@ -53,6 +53,7 @@
 		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".25"/>
 		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".25"/>
 		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".25"/>
+		<item name="HD Nuke Schematic" count="1" prob=".10"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons">

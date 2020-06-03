@@ -12,6 +12,11 @@ Updated HD Cement Mixer (Animated + Sound)
 Removed UMA Zombies From Main Sleeper Group (Nre)
 Balanced Food Loot Slightly
 Edited HospitalBed Animation
+Added HD Nuke PBR Model
+
+
+Launcher Edits
+Added BlackOut To Undertaker 5s
 
 Updated v3.02 to v3.03
 

@@ -287,6 +287,55 @@
 	</effect_group>
 </item> -->
 	
+<item name="HDNuke">
+	<property name="DescriptionKey" value="HDNukeDesc"/>
+	<property name="CustomIcon" value="HD Nuke"/>
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="62"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Nuke.unity3d?HD Nuke.Prefab"/>
+	<property name="DropScale" value="1.5"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="EconomicValue" value="41"/>
+	<property name="Weight" value="0"/>
+	<property name="Explosion.BlockTags" value="door,safes"/>
+	<property name="Explosion.DamageBonus.tags" value="40"/>
+	<property name="Explosion.ParticleIndex" value="13"/>
+	<property name="Explosion.RadiusBlocks" value="20"/>
+	<property name="Explosion.RadiusEntities" value="20"/>
+	<property name="Explosion.BlockDamage" value="0"/>
+	<property name="Explosion.EntityDamage" value="10000"/>
+	<property name="Explosion.DamageBonus.stone" value="-99"/>
+	<property name="Explosion.DamageBonus.metal" value="-99"/>
+	<property name="Explosion.DamageBonus.earth" value="-99"/>
+	<property name="Explosion.DamageBonus.wood" value="-99"/>
+	<property name="Explosion.DamageBonus.water" value="0"/>
+	<property name="Explosion.BlastPower" value="100"/>
+	<property name="FuseStartOnDrop" value="true"/>
+	<property name="FuseTime" value="10"/>
+	<property name="StickPercent" value="1"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="SoundUnholster" value="charge_unholster"/>
+	<property name="SoundStick" value="NukeSound"/>
+	<property name="SoundTick" value="charge_beep,.8"/>
+	<property name="UnlockedBy" value="HD Nuke Schematic"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<property name="Delay" value="1.2"/>
+		<property name="Throw_strength_default" value="15"/>
+		<property name="Max_strain_time" value="0"/>
+		<property name="Sound_start" value="charge_throw"/>
+	</property>
+	<property name="ThrowableDecoy" value="true"/>
+	<effect_group tiered="false">
+		<display_value name="dExRadius" value="20"/>
+		<display_value name="dFuseTime" value="10"/>
+	</effect_group>
+</item>
+	
 <item name="HD Impact Wrench">
 	<property name="Tags" value="melee,light,tool,perkSalvageOperations,selfLoading,canHaveCosmetic"/>
 	<property name="DescriptionKey" value="HDImpactWrenchDesc"/>
@@ -8312,6 +8361,17 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepost" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Tesla Fence" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="HD Nuke Schematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Nuke Schematic"/>
+	<property name="Unlocks" value="HDNuke"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDNuke" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
 	</effect_group>
 </item>
 
