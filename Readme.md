@@ -15,8 +15,12 @@ Edited HospitalBed Animation
 Added HD Nuke PBR Model
 
 
-Launcher Edits
+Launcher Edits (Copy Over Prefabs If On Dedi)
 Added BlackOut To Undertaker 5s
+Added Prefab Carole Baskins Animal Sanctuary
+Added Prefab Underground MultiTrader
+Added Nauti-Angels Night Club
+Edited 2 Old Alpha 16.4 Prefabs
 
 Updated v3.02 to v3.03
 

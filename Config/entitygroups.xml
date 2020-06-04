@@ -104,7 +104,6 @@
 </entitygroup>
 	
 <entitygroup name="ZombiesNight">
-			<entity name="zombieScreamer" prob="0.1"/>
 			<entity name="zombieBoeFeral"/>
 			<entity name="zombieJoeFeral"/>
 			<entity name="zombieArleneFeral"/>
@@ -275,14 +274,12 @@
 			<entity name="zombieSteveCrawler" />
 			<entity name="zombieFatHawaiian" />
 			<entity name="zombieFatHawaiianFeral" />
-			<entity name="zombieDemolition" />
-			<entity name="ZombieDemolisherArson" />
-			<entity name="ZombieDemolisherArsonFire" />
-			<entity name="Giant Zombie Vulture Fire" prob="0.01"/>
-			<entity name="Giant Boar Fire" prob="0.2"/>
-			<entity name="Giant Hound RAD" prob="0.2"/>
-			<entity name="Giant Zombie Vulture RAD" prob="0.01"/>
-			<entity name="Giant Snake RAD" prob="0.2"/>
+			<entity name="zombieDemolition" prob="0.1"/>
+			<entity name="ZombieDemolisherArson" prob="0.1"/>
+			<entity name="ZombieDemolisherArsonFire" prob="0.1"/>
+			<entity name="Giant Boar Fire" prob="0.1"/>
+			<entity name="Giant Hound RAD" prob="0.1"/>
+			<entity name="Giant Snake RAD" prob="0.1"/>
 </entitygroup>
 		
 <entitygroup name="ZombiesWasteland">
@@ -305,15 +302,11 @@
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieFatHawaiian" />
-		<entity name="zombieDemolition" prob="0.05"/>
-		<entity name="ZombieDemolisherArson" prob="0.05"/>
-		<entity name="ZombieDemolisherArsonFire" prob="0.05"/>
-		<entity name="Giant Zombie Vulture" prob="0.05"/>
-		<entity name="Giant Zombie Vulture Fire" prob="0.05"/>
-		<entity name="Giant Hound" prob="0.1"/>
-		<entity name="Giant Hound Fire" prob="0.1"/>
+		<entity name="zombieDemolition" prob="0.1"/>
+		<entity name="ZombieDemolisherArson" prob="0.1"/>
+		<entity name="ZombieDemolisherArsonFire" prob="0.1"/>
+		<entity name="Giant Boar Fire" prob="0.1"/>
 		<entity name="Giant Hound RAD" prob="0.1"/>
-		<entity name="Giant Zombie Vulture RAD" prob="0.05"/>
 		<entity name="Giant Snake RAD" prob="0.1"/>
 </entitygroup>
 		
