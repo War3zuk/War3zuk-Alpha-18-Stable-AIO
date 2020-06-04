@@ -17,10 +17,10 @@ Added HD Nuke PBR Model
 
 Launcher Edits (Copy Over Prefabs If On Dedi)
 Added BlackOut To Undertaker 5s
-Added Prefab Carole Baskins Animal Sanctuary
-Added Prefab Underground MultiTrader
-Added Nauti-Angels Night Club
-Edited 2 Old Alpha 16.4 Prefabs
+Added Prefab Nauti-Angels Carole Baskins Animal Sanctuary
+Added Prefab War3zuk Underground MultiTrader
+Added Prefab Nauti-Angels Night Club Seed Plaza
+Fixed Prefab WaterWorld By NaggaCommunity
 
 Updated v3.02 to v3.03
 
