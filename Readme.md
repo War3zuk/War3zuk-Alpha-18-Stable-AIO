@@ -14,13 +14,21 @@ Balanced Food Loot Slightly
 Edited HospitalBed Animation
 Added HD Nuke PBR Model
 
-
 Launcher Edits (Copy Over Prefabs If On Dedi)
 Added BlackOut To Undertaker 5s
 Added Prefab Nauti-Angels Carole Baskins Animal Sanctuary
 Added Prefab War3zuk Underground MultiTrader
 Added Prefab Nauti-Angels Night Club Seed Plaza
-Fixed Prefab WaterWorld By NaggaCommunity
+Fixed Prefab WaterWorld By NaggCommunity
+Fixed Health Halo Not Applying To All Entities
+Rebalanced All Military Pain Ressists
+Fixed RWGmixer File Issue
+
+(IMPORTANT) Had to re-arrange some of the folder structure
+for splitting the Mod off to Alpha 19 so this Update
+REQUIRES that you delete any Old Mod Files before updating
+There will likely be 1 Final Update after this before I switch
+to Alpha 19 Files..
 
 Updated v3.02 to v3.03
 

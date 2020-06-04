@@ -1172,7 +1172,7 @@
 	<property name="LootDropProb" value="0.10"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
 	<property name="TimeStayAfterDeath" value="10"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="550"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
