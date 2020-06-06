@@ -24,6 +24,50 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HD1911Desc,items,weapons,New,The M1911 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the .45 ACP Rounds,
+
+HD1911ADesc,items,weapons,New,The M1911A1 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the .45 ACP Rounds,
+
+HDDEDesc,items,weapons,New,The Desert Eagle .50cal Rounds is a semi automatic handgun notable for chambering the largest centerfire cartridge of any magazine fed self loading pistol place points into Gunslinger to craft better version,
+
+HDMac10ADesc,items,weapons,New,The Military Armament Corporation Model 10 officially abbreviated as M10 or M-10 and more commonly known as the MAC-10 is a compact blowback operated machine pistol It is chambered in either .45 ACP or 9mm Rounds,
+
+HDM3AutoADesc,items,weapons,New,The M3 is an American 45 Caliber submachine gun adopted for United States Army Service. It uses .45 ACP Rounds,
+
+HDHK33HybridDesc,items,,,The Hybrid HK33 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil,
+
+HDSAK47Desc,items,,,The Hybrid AK47 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil,
+
+HDM4A1CDesc,items,weapons,New,The M4A1 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use place points into MachineGunner to craft better versions And fires 7.62 Rounds
+
+HDTARDesc,items,weapons,New,Manufactured with extensive use of aluminium alloys and synthetic materials. It is a semi-automatic version of the United States military M16 rifle that fires 500 Automax Rounds
+
+HDDBarrelDesc,items,weapons,New,Modern double barreled shotguns often known as doubles are almost universally break open actions with the barrels tilting up at the rear to expose the breech ends of the barrels for unloading, reloading And fires standard shotgun shells along with the Slug variant,
+
+HDS12Desc,items,weapons,New,The Franchi SPAS-12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. The SPAS-12 is a dual-mode shotgun. adjustable for semi-automatic or pump-action operation. The SPAS-12 fires standard shotgun shells along with the Slug variant,
+
+HDM500Desc,items,,,Mossberg 500 is a pump action shotguns manufactured by O.F. Mossberg & Sons. The 500 series comprises widely varying models of hammerless repeaters. all of which share the same basic receiver and action. but differ in bore size. barrel length And choke length. The Mossberg fires standard shotgun shells along with the Slug variant,
+
+HDVulcan9mmDesc,items,,,The HD Vulcan 9mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDVulcan762mmDesc,items,,,The HD Vulcan 7.62mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDVulcan50BmgDesc,items,,,The HD Vulcan 50mm Bmg is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed and manufactured by the British company Accuracy International It uses the 7.62 Rounds And can be improved by adding points into the DeadEye Perk.
+
+HDCheyTacM300Desc,items,,,The CheyTac Intervention is an American bolt action sniper rifle manufactured by CheyTac LLC. Which can also be classified as an anti-material rifle. It is fed by a 7 round detachable single stack magazine that uses the renound 408mm CT Ammo,
+
+HDDSVDDesc,items,weapons,New,The Dragunov is a semi automatic gas operated rifle with a short stroke gas piston system that fires 7.62 Rounds,
+
+HDW1866Desc,items,weapons,New,Winchester 1866 continued the trend towards chambering heavier rounds and had an all new and considerably stronger locking block action than the toggle link Model 1886 was a true American express rifle as it could be chambered in the more powerful black powder cartridges of the day such as the .45 ACP Round,
+
+HDKarabiner98kDesc,items,weapons,New,The Karabiner 98k is a controlled-feed bolt-action rifle based on the Mauser M98 system. Its internal magazine can be loaded with five 7.62 Rounds.
+
+HDLauncherDesc,items,weapons,New,The K9 Dual Launcher will do small damage to Blocks & High damage to Entities,
+
+HDFlameThrowerDesc,items,weapons,New,State Of The Art firey Pew Pew Just ADD Petrol. Add points into Miner69er to improve its Quality,
+
 HDNuke,items,Item,KgNone,HD Nuke,
 HDNukeDesc,items,,,This Is A Nuke. Be Careful With Your Nuke.\n\nBlow Shit Up like a BOSS,
 
@@ -78,8 +122,6 @@ HDGlockAutoDesc,items,,,GlockG5 18 Auto is a fully-automatic pistol. It is a ful
 HDGlockAutoSilencerDesc,items,,,Military Grade Silencer that can be attached to the HD GlockG5 18 Auto,
 HDGlockAutoReflexDesc,items,,,Military Grade Reflex that can be attached to the HD GlockG5 18 Auto,
 
-HDLauncherDesc,items,,,The K9 Dual Launcher will do small damage to Blocks & High damage to Entities.,
-
 HDRocketLauncherRound,items,Item,KgNone,HD Rocket Launcher Round,
 
 HDRocketLauncherRoundDesc,items,,,The K9 Round is used ONLY In the HD Rocket Launcher.,
@@ -104,8 +146,6 @@ HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope,
 HDColtM1911REFLEX,items,Item,KgNone,HD M1911 REFLEX,
 HDColtM1911AREFLEX,items,Item,KgNone,HD Colt M1911A REFLEX,
 HDDEPUNReflex,items,Item,KgNone,HD Desert Eagle Punisher Reflex,
-
-HDKarabiner98kDesc,items,,,The Karabiner 98k is a controlled-feed bolt-action rifle based on the Mauser M98 system. Its internal magazine can be loaded with five 7.62 rounds.
 
 HDGasGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
 HDGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
@@ -140,9 +180,16 @@ CPWaterBottle,items,Item,KgNone,CP Water Bottle,
 CPDvd,items,Item,KgNone,CP Dvd,
 
 HDCarePackageDesc,items,Item,New,OMG A Care Package For All You Rage Quitters.
+
 CPTampaxDesc,items,Item,New,Scrap Me For Resources.
 
-HDCarePackageDesc,items,Item,New,Open Me For Resources.
+HDCarePackageDesc,items,Item,New,Open Me to get some ammo resources,
+
+HDFoodCarePackageDesc,items,Item,New,Open Me to get some Food resources,
+
+HDMedicineCarePackageDesc,items,Item,New,Open Me to get some Medicine resources,
+
+HDResourceCarePackageDesc,items,Item,New,Open Me to get some Mining resources,
 
 medicalBloodDrawKit,items,Item,KgNone,Blood Draw Kit,
 
@@ -306,16 +353,6 @@ DD1GGsShamTunaPieDesc,items,,,DD1GGs Sham And Tuna Pie Will keep you Zombie kill
 
 HDMacheteDesc,items,,,Extra Sharp & Serrated for cleaner Kills.
 
-HDCheyTacM300Desc,items,,,The CheyTac Intervention is an American bolt action sniper rifle manufactured by CheyTac LLC. Which can also be classified as an anti-material rifle. It is fed by a 7 round detachable single stack magazine that uses the renound 408mm CT Ammo,
-
-HDVulcan9mmDesc,items,,,The HD Vulcan 9mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
-
-HDVulcan762mmDesc,items,,,The HD Vulcan 7.62mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
-
-HDVulcan50BmgDesc,items,,,The HD Vulcan 50mm Bmg is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
-
-HDM500Desc,items,,,The Mossberg 500 is a series of pump action shotguns manufactured by Mossberg And Sons.
-
 HDElectrolyteDesc,items,,,HD Electrolyte is made using Batteries & is used in the production of Shock Ammo And is made in the HD WorkBench.
 
 HDGroundMineDesc,blocks,,,Player built Ground Mine for Defensive purposes.
@@ -326,17 +363,11 @@ HDMiniHatchetDesc,items,,,Good Quality Starter Hatchet. Add points into Miner69e
 
 HDTazasHatchetDesc,items,,,Good Quality Taza Hatchet. Add points into Miner69er to improve its Quality,
 
-HDFlameThrowerDesc,items,,,State Of The Art firey Pew Pew Just ADD Petrol. Add points into Miner69er to improve its Quality,
-
 HDFlameFuelDesc,items,,,Advanced Fuel for the HD Flame Thrower.
 
 HDBladeTrapDesc,blocks,,,Titanium Reenforced Blade Trap that requires its Polish to be repaired.
 
 HDDartTrapDesc,blocks,,,Titanium Reenforced Dart Trap that requires its Polish to be repaired.
-
-HDW1866Desc,items,weapons,New,Winchester 1866 continued the trend towards chambering heavier rounds and had an all new and considerably stronger locking block action than the toggle link Model 1886 was a true American express rifle as it could be chambered in the more powerful black powder cartridges of the day such as the .45
-
-HDDSVDDesc,items,weapons,New,The Dragunov is a semi automatic gas operated rifle with a short stroke gas piston system that fires 762 rounds.
 
 HDGunBenchDesc,blocks,,,Build All Weapons And Parts In Here.
 
@@ -345,10 +376,6 @@ HDWorkBenchDesc,blocks,,,Build All Tools And Parts In Here.
 HDPicsBenchDesc,blocks,,,Build All XXX Picture Frames And Parts In Here.
 
 HDAmmoBenchDesc,blocks,,,Build All Ammo Types In Here.
-
-HDDBarrelDesc,items,weapons,New,Modern double barreled shotguns often known as doubles are almost universally break open actions with the barrels tilting up at the rear to expose the breech ends of the barrels for unloading and reloading.
-
-HDM3AutoADesc,items,weapons,New,The M3 is an American 45 Caliber submachine gun adopted for United States Army Service.
 
 HDColtM1911SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Colts.
 HDDesertEagleSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Desert Eagles.
@@ -386,13 +413,7 @@ HDDragunovSVDSilencer,items,Item,KgNone,HD Dragunov SVD Silencer.
 
 HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope.
 
-HD1911Desc,items,weapons,New,The M1911 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
-
-HD1911ADesc,items,weapons,New,The M1911A1 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
-
 HDFuelSDesc,Block,,,A Very Tough Fuel Tanker for storing Fuel.
-
-HDMac10ADesc,items,weapons,New,The Military Armament Corporation Model 10 officially abbreviated as M10 or M-10 and more commonly known as the MAC-10 is a compact blowback operated machine pistol It is chambered in either 45 ACP or 9mm.
 
 HDPumpJackE,items,Block,KgNone,HD Pump Jack,
 
@@ -405,10 +426,6 @@ HDMegaVaultDesc,Block,,,A Very Tough Mega Vault for storing Items.
 HDTEx5Desc,items,,,Truck Lift = 5Widthx1Depthx6Length.\n\nThis Lift Will Go Up 5 Blocks From Ground Level When Placed.\n\nLift Is Also Lockable
 
 HDTEx10Desc,items,,,Truck Lift = 5Widthx1Depthx6Length.\n\nThis Lift Will Go Up 10 Blocks From Ground Level When Placed.\n\nLift Is Also Lockable
-
-HDSAK47Desc,items,,,The Hybrid AK47 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil.
-
-HDHK33HybridDesc,items,,,The Hybrid HK33 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil.
 
 HDDragonDesc,items,,,HD Dragon Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
 
@@ -427,8 +444,6 @@ HDJukeBoxDubStepOFF,items,Item,KgNone,HD JukeBox DubStep OFF,
 HDJukeBoxDubStepON,items,Item,KgNone,HD JukeBox DubStep ON,
 
 HDJukeBoxDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 In My Mind.\n\nTrack 002 Feel Good.\n\nTrack 003 The Girl.\n\nTrack 004 Entropy.\n\nTrack 005 Ghosts N Stuff.
-
-HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed and manufactured by the British company Accuracy International It uses the .50 BGM Rounds And can be improved by adding points into the DeadEye Perk.
 
 HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
@@ -488,14 +503,6 @@ HDChainsawDesc,items,Tools,New,The HD ChainSaw will do 50% more Damage than the 
 HDAugerDesc,items,Tools,New,The HD Auger will do 50% more Damage than the vanilla version Improve it by putting skill points into the perkMiner69r.
 
 HDMASDesc,items,armor,New,The highest quality money can buy so these give less penalties place points into LightArmor to craft better versions.
-
-HDS12Desc,items,weapons,New,kick Ass And Chew Bubble Gum with this Militart Grade Pump Shotgun Place points into Boomstick to craft a better version.
-
-HDDEDesc,items,weapons,New,The Desert Eagle is a semi automatic handgun notable for chambering the largest centerfire cartridge of any magazine fed self loading pistol place points into Gunslinger to craft better version.
-
-HDM4A1CDesc,items,weapons,New,The M4A1 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use place points into MachineGunner to craft better versions.
-
-HDTARDesc,items,weapons,New,Manufactured with extensive use of aluminum alloys and synthetic materials. It is a semi-automatic version of the United States military M16 rifle place points into MachineGunner to craft better versions.
 
 Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax ammo !!
 

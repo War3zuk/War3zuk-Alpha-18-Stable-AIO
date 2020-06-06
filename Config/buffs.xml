@@ -138,7 +138,7 @@
 	</effect_group>
 </buff>
 
-<buff name="BuffBrainPox" name_key="BrainPox" description_key="You Have Contracted BrainPox From An Infected Stripper, You have 60 Minutes To Craft And Use The HD BrainPox Test Kit Or your Infection Evolves into BrainPox Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted BrainPox"  icon="ui_game_symbol_BrainPox" remove_on_death="true">
+<buff name="BuffBrainPox" name_key="BrainPox" description_key="You Have Contracted BrainPox From An Infected Stripper, You have 60 Minutes To Craft And Use The HD BrainPox Test Kit Or your Infection Evolves into BuffBrainPox-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted BrainPox"  icon="ui_game_symbol_BrainPox" remove_on_death="true">
 		<damage_type value="Disease"/>
 		<stack_type value="ignore"/>
 		<duration value="3600"/>

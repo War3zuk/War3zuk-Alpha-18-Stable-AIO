@@ -6,6 +6,15 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.04 to v3.05
+
+Fixed BrainPox Description
+Fixed War3zuks Stoggy Bug
+Updated War3zuks Stoggy Stats Bonus
+Zombie Difficulty Balancing
+All HD Weapons Descriptions Updated With Ammo Type
+Fixed HD Care Packages Localization Description
+
 Updated v3.03 to v3.04
 
 Updated HD Cement Mixer (Animated + Sound)

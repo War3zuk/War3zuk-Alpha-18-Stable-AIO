@@ -655,20 +655,31 @@
 <item name="War3zuks Stoggy">
 	<property name="CustomIcon" value="War3zuks Stoggy"/>
 	<property name="DescriptionKey" value="War3zuksStoggyDesc"/>
-	<property name="Extends" value="apparelShades"/>
+	<property name="Tags" value="head"/>
 	<property name="DisplayType" value="clothingNerdGlasses"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="FuelValue" value="3"/>
+	<property name="EconomicValue" value="50"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Group" value="Clothing"/>
+	<property name="EquipSlot" value="Face"/>
 	<property class="UMA">
 		<property name="Mesh" value="gear_cigar"/>
 		<property name="Overlay0" value="gear_cigar"/>
 		<property name="Layer" value="1"/>
 		<property name="UISlot" value="Face"/>
 	</property>
-	<property name="EconomicValue" value="1000"/>
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="AttributeLevel" operation="base_add" value="1" tags="attIntellect"/>
 		<passive_effect name="CraftingTime" operation="perc_add" value="-.2"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value=".2"/>
 		<display_value name="dCraftingTime" value="-.2"/>
+		<display_value name="dPlayerExpGain" value=".2"/>
 	</effect_group>
 </item>
 
@@ -1022,7 +1033,7 @@
 <item name="HD Food Care Package">
 	<property name="CustomIcon" value="HD Food Care Package"/>
 	<property name="ItemTypeIcon" value="bundle"/>
-	<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+	<property name="DescriptionKey" value="HDFoodCarePackageDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -1044,7 +1055,7 @@
 <item name="HD Medicine Care Package">
 	<property name="CustomIcon" value="HD Medicine Care Package"/>
 	<property name="ItemTypeIcon" value="bundle"/>
-	<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+	<property name="DescriptionKey" value="HDMedicineCarePackageDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -1066,7 +1077,7 @@
 <item name="HD Resource Care Package">
 	<property name="CustomIcon" value="HD Resource Care Package"/>
 	<property name="ItemTypeIcon" value="bundle"/>
-	<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+	<property name="DescriptionKey" value="HDResourceCarePackageDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -2411,7 +2422,6 @@
 	<property name="EconomicValue" value="1000"/>
 	<property name="UnlockedBy" value="HD M3 Auto Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
@@ -2435,7 +2445,6 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0003,-00000,.0000"/>
 	</property>
-
 	<effect_group name="gunSMG5">
 		<passive_effect name="MaxRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
@@ -2818,7 +2827,6 @@
 	<property name="EconomicValue" value="500"/>
 	<property name="UnlockedBy" value="HD Double Barrel Schematic"/>
 	<property name="ShowQuality" value="true"/>
-
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".8"/>
@@ -2843,7 +2851,6 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,-.005,0"/>
 	</property>
-
 	<effect_group name="gunDoubleBarrelShotgun">
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="1000"/>
@@ -3363,7 +3370,6 @@
 	<effect_group name="gunPumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
-
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="70"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
@@ -4022,7 +4028,7 @@
 			<effect_group name="Base Effects">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="15"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="35"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="45"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
@@ -4037,15 +4043,15 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".25"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.45"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".45"/>
-			<display_value name="dRecoil" value="1" />
+		<!--  <display_value name="dRecoil" value="1" /> -->
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="850,1400" tier="1,6"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="850,1400" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,4"/>
 		<passive_effect name="ModSlots" operation="base_set" value="8,12" tier="5,6"/>
-		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		</effect_group>
 </item>
 
