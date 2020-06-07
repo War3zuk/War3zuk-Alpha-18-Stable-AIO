@@ -41,6 +41,12 @@
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceOil" count="2"/>
 </recipe>
+
+<recipe name="Mrs Spartans Blade" count="1" craft_time = "120" tags="perkDeepCuts">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="2"/>
+</recipe>
 	
 <recipe name="HD Tesla Fence" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "20" tags="learnable">
 	<ingredient name="resourceForgedIron" count="30"/>

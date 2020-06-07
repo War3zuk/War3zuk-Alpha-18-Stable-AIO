@@ -15,6 +15,10 @@ Zombie Difficulty Balancing
 All HD Weapons Descriptions Updated With Ammo Type
 Fixed HD Care Packages Localization Description
 
+Added Grand Spartan Sword (Paid)
+Added Mrs Spartans Sword (Paid)
+Added Icons 256x256 (No Schematic Needed)
+
 Updated v3.03 to v3.04
 
 Updated HD Cement Mixer (Animated + Sound)
