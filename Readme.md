@@ -25,6 +25,19 @@ Added Storeshelving Bottom PBR Model (Paid)
 Added Storeshelving DoubleTop PBR Model (Paid)
 Added Storeshelving DoubleBottom PBR Model (Paid)
 
+Edited HD Impact Wrench Recipe
+Edited Bycicle Chassis Recipe
+Edited Minibike Chassis Recipe
+Edited Truck Chassis Recipe
+Edited Gyrocopter Chassis Recipe
+
+Edited HD Cement Mixer Recipe
+Edited HD Motor 125cc Recipe
+Edited HD Motor 250cc Recipe
+Edited HD Motor 500cc Recipe
+
+Edited War3zuks Stoggy Recipe
+
 (Launcher Edits)
 Removed All Custom Worlds Ready For Alpha 19
 All Maps Will Be Random Gen Now The RWGmixer file
