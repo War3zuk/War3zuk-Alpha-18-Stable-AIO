@@ -24,6 +24,14 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+storeShelving01Full,blocks,Block Building,KgNone,HD Store Shelf,
+
+storeShelving01DoubleFull,blocks,Block Building,KgNone,HD Store Shelf,
+
+storeShelving01TopFull,blocks,Block Building,KgNone,HD Store Shelf,
+
+storeShelving01TopDoubleFull,blocks,Block Building,KgNone,HD Store Shelf,
+
 HDGSBladeDesc,items,weapons,New,The xiphos is a double-edged. one-handed Iron Age straight shortsword used by the ancient Greeks. It was a secondary battlefield weapon for the Greek armies after the dory or javelin. The classic blade was generally long. although the Spartans supposedly started to use blades as short as 35 cm around the era of the Greco-Persian Wars. The xiphos sometimes has a midrib. A diamond or lenticular in cross-section. It was generally hung from a baldric under the left arm,
 
 MrsSpBladeDesc,items,weapons,New,Greek Hoplite Sword. one-handed Iron Age straight shortsword used by the ancient Greek Women. It was a primary battlefield weapon for the Greek armies. The classic blade was generally short and light enough to be wielded,

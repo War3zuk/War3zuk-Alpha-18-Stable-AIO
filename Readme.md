@@ -19,6 +19,12 @@ Added Grand Spartan Sword (Paid)
 Added Mrs Spartans Sword (Paid)
 Added Icons 256x256 (No Schematic Needed)
 
+(Lootable Shelves Will Now Show Food)
+Added Storeshelving Top PBR Model (Paid)
+Added Storeshelving Bottom PBR Model (Paid)
+Added Storeshelving DoubleTop PBR Model (Paid)
+Added Storeshelving DoubleBottom PBR Model (Paid)
+
 Updated v3.03 to v3.04
 
 Updated HD Cement Mixer (Animated + Sound)

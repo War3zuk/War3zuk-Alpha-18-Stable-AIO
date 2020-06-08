@@ -4879,43 +4879,75 @@
 </block>
 
 <block name="storeShelving01Full">
-	<property name="Extends" value="storeShelving01"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Mesh" value="models"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Model" value="#@modfolder:Resources/HDShelvesFull.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk --> 
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Path" value="solid"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="526"/>
+	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="18"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
 </block>
-	
+
 <block name="storeShelving01Empty">
-	<property name="Extends" value="storeShelving01"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Mesh" value="models"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Model" value="#@modfolder:Resources/HDShelvesEmpty.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Path" value="solid"/>
+	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="18"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
 </block>
-		
+
 <block name="storeShelving01DoubleFull">
-	<property name="Extends" value="storeShelving01Double"/>
+	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="527"/>
+	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleFull.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
-		
+
 <block name="storeShelving01DoubleEmpty">
-	<property name="Extends" value="storeShelving01Double"/>
+	<property name="Extends" value="storeShelving01Empty"/>
+	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleEmpty.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
-	
+
 <block name="storeShelving01TopFull">
-	<property name="Extends" value="storeShelving01Top"/>
+	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="528"/>
+	<property name="Model" value="#@modfolder:Resources/HDShelvesFull.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
-		
+
 <block name="storeShelving01TopEmpty">
-	<property name="Extends" value="storeShelving01Top"/>
+	<property name="Extends" value="storeShelving01Empty"/>
+	<property name="Model" value="#@modfolder:Resources/HDShelvesEmpty.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
-		
+
 <block name="storeShelving01TopDoubleFull">
-	<property name="Extends" value="storeShelving01TopDouble"/>
+	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="529"/>
+	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleFull.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
-		
+
 <block name="storeShelving01TopDoubleEmpty">
-	<property name="Extends" value="storeShelving01TopDouble"/>
+	<property name="Extends" value="storeShelving01Empty"/>
+	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleEmpty.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="cntCoffin">
@@ -4923,7 +4955,7 @@
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
