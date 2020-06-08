@@ -25,6 +25,11 @@ Added Storeshelving Bottom PBR Model (Paid)
 Added Storeshelving DoubleTop PBR Model (Paid)
 Added Storeshelving DoubleBottom PBR Model (Paid)
 
+(Launcher Edits)
+Removed All Custom Worlds Ready For Alpha 19
+All Maps Will Be Random Gen Now The RWGmixer file
+Is In Place & Works
+
 Updated v3.03 to v3.04
 
 Updated HD Cement Mixer (Animated + Sound)
