@@ -337,20 +337,19 @@
 </item>
 	
 <item name="HD Impact Wrench">
-	<property name="Tags" value="melee,light,tool,perkSalvageOperations,selfLoading,canHaveCosmetic"/>
+	<property name="Tags" value="perkSalvageOperations,tool,nailgun,selfLoading,canHaveCosmetic"/>
 	<property name="DescriptionKey" value="HDImpactWrenchDesc"/>
 	<property name="CustomIcon" value="HD Impact Wrench"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="37"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Impact Wrench.unity3d?HD Impact Wrench.prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD Impact Wrench.unity3d?HD Impact Wrench.prefab"/>
 	<property name="Material" value="MmechanicalParts"/>
 	<property name="Weight" value="45"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
-	
 	<property name="Stacknumber" value="1"/>
-	<property name="ShowQuality" value="false"/>
+	<property name="ShowQuality" value="true"/>
 	<property name="UnlockedBy" value="HD Impact Wrench Schematic"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -382,7 +381,7 @@
 		<property name="Upgrade_action_sound" value="HDIWrench"/>
 		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
 		</property>
-		<effect_group name="Base Effects">
+		<effect_group name="meleeToolWrench">
 			<passive_effect name="MaxRange" operation="base_set" value="2"/>
 			<passive_effect name="BlockRange" operation="base_set" value="4"/>
 			<passive_effect name="EntityDamage" operation="base_set" value="0.5"/>
