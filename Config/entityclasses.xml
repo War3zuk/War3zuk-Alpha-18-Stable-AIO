@@ -53,7 +53,7 @@
 	<property name="HandItem" value="meleeHandAnimalZombieVulture"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
 	<property name="DismemberMultiplierLegs" value="0"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="20"/>
@@ -97,7 +97,7 @@
 	<property name="HandItem" value="meleeHandAnimalZombieVulture"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
 	<property name="DismemberMultiplierLegs" value="0"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="20"/>
@@ -143,7 +143,7 @@
 	<property name="HandItem" value="meleeHandZombieCopRadiated"/>
 	<property name="Immunity" value="sickness;disease;wellness"/>
 	<property name="DismemberMultiplierLegs" value="0"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="20"/>
@@ -280,7 +280,7 @@
 	<property name="AITask-5" value="Wander"/>
 	<property name="MoveSpeedPanic" value="1.3"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -321,7 +321,7 @@
 	<property name="AITask-5" value="Wander"/>
 	<property name="MoveSpeedPanic" value="1.3"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -364,7 +364,7 @@
 	<property name="AITask-5" value="Wander"/>
 	<property name="MoveSpeedPanic" value="1.3"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -400,7 +400,7 @@
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
@@ -437,7 +437,7 @@
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
@@ -476,7 +476,7 @@
 	<property name="LootListOnDeath" value="512"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
@@ -538,7 +538,7 @@
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -601,7 +601,7 @@
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -667,7 +667,7 @@
 	<property name="AttackTimeoutDay" value="1.5"/>
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="ExperienceGain" value="130"/>
-	<property name="DeadBodyHitPoints" value="1000"/>
+	<property name="DeadBodyHitPoints" value="500"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>

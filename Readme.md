@@ -38,6 +38,10 @@ Edited HD Motor 500cc Recipe
 
 Edited War3zuks Stoggy Recipe
 
+Updated Loot Shelf Food Chance
+Fixed HD Impact Wrench Code & Recipe
+Giant Animal DeadBodyHitpoints (500)
+
 (Launcher Edits)
 Removed All Custom Worlds Ready For Alpha 19
 All Maps Will Be Random Gen Now The RWGmixer file
