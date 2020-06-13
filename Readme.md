@@ -21,6 +21,7 @@ Adjusted HD PumpJack Mining Loot
 
 Fixed HD Xcalibur Position In Hand
 Added HD Ethans Bam Hammer PBR Model (Paid)
+Fixed HD Cement Mixer Animation & Sound
 
 Launcher Edits
 Removed 1 Broken Prefab (Causing An NRE)
