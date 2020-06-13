@@ -6,6 +6,15 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.06 to v3.07
+
+Broken HD Arctic Warfare Animation
+Broken HD M4A1 Animation
+Broken Tactical AR Animation
+
+Guns Will Get Some Love Next Update Now That
+The Unity Update Is Done..
+
 Updated v3.05 to v3.06
 
 Converted All Models To Unity 2019.1
