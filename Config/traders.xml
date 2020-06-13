@@ -62,7 +62,6 @@
 	<trader_info id="10" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
 		<trader_items count="all">
 			<item name="resourceWood" count="2500,5000"/>
-			<item name="resourceIronFragment" count="5000,1500"/>
 			<item name="resourceScrapIron" count="2500,5000"/>
 			<item name="resourceForgedIron" count="250,750"/>
 			<item name="resourceForgedSteel" count="200,50"/>

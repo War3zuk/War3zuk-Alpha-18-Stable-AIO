@@ -727,21 +727,21 @@
 </lootcontainer>
 
 <lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
-	<item name="resourceIronFragment" count="5,10" prob="0.1"/>
+	<item name="resourceIronFragment" count="50,100" prob="0.1"/>
 	<item name="resourceBone" count="5,10" prob="0.1"/>
-	<item name="resourceNail" count="5,10" prob="0.1"/>
-	<item name="resourceWood" count="10,20" prob="0.1"/>
+	<item name="resourceNail" count="25,50" prob="0.1"/>
+	<item name="resourceWood" count="10,30" prob="0.1"/>
 	<item name="resourceCloth" count="5,10" prob="0.1"/>
 	<item name="resourceDuctTape" count="2,4" prob="0.1"/>
 	<item name="resourceGlue" count="2,4" prob="0.1"/>
 	<item name="resourceOil" count="1,2" prob="0.1"/>
-	<item name="resourceSpring" count="1,2" prob="0.1"/>
-	<item name="resourceScrapBrass" count="10,20" prob="0.1"/>
-	<item name="resourceCoal" count="10,20" prob="0.1"/>
-	<item name="resourceRockSmall" count="20,80" prob="0.1"/>
-	<item name="resourceClayLump" count="40,120" prob="0.1"/>
-	<item name="resourceOilShale" count="20,120" prob="0.1"/>
-	<item name="resourceCobblestones" count="40,120" prob="0.1"/>
+	<item name="resourceSpring" count="2,4" prob="0.1"/>
+	<item name="resourceScrapBrass" count="50,100" prob="0.1"/>
+	<item name="resourceCoal" count="50,100" prob="0.1"/>
+	<item name="resourceRockSmall" count="100,250" prob="0.1"/>
+	<item name="resourceClayLump" count="50,500" prob="0.1"/>
+	<item name="resourceOilShale" count="50,500" prob="0.1"/>
+	<item name="resourceCobblestones" count="50,500" prob="0.1"/>
 	<item name="resourceRadiator" count="1,2" prob="0.1"/>
 	<item name="resourceRockSmallBundle" count="1" prob="0.006"/>
 	<item name="resourceWoodBundle" count="1" prob="0.006"/>

@@ -867,6 +867,7 @@
 	<ingredient name="meleeToolAuger" count="1"/>
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolChainsawParts" count="4"/>
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
@@ -874,6 +875,7 @@
 	<ingredient name="meleeToolChainsaw" count="1"/>
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolChainsawParts" count="4"/>
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
@@ -1030,6 +1032,13 @@
 	<ingredient name="resourceScrapPolymers" count="5"/>
 	<ingredient name="resourceWood" count="50"/>
 	<ingredient name="meleeStunBaton" count="1"/>
+</recipe>
+
+<recipe name="Ethans Bam Hammer" count="1" craft_time = "30" tags="perkMiner69r">
+	<ingredient name="resourceForgedIron" count="40"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceWood" count="10"/>
 </recipe>
 
 <recipe name="HD BrainPox Test Kit" count="1" craft_time = "60">
@@ -1218,11 +1227,11 @@
 </recipe>
 
 <recipe name="HDPumpJackE" count="1"  craft_time="120" craft_tool="HDWelder" craft_area="HD WorkBench" tags="learnable">
-	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceMetalPipe" count="20"/>
-	<ingredient name="resourceScrapIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="10"/>
-	<ingredient name="resourceElectricParts" count="40"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
 </recipe>
 
 <recipe name="HD GunBench" count="1"  craft_time = "160" tags="learnable">
@@ -1397,6 +1406,7 @@
 		
 <recipe name="HD Penthrox Injection" craft_time="60" craft_area="HD WorkBench" count="1">
 	<ingredient name="HD Poison Vile" count="1"/>
+	<ingredient name="resourceBone" count="10"/>
 	<ingredient name="foodRottingFlesh" count="10"/>
 </recipe>
 

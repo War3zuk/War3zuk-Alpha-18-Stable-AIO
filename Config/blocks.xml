@@ -506,25 +506,34 @@
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 	<property name="SortOrder1" value="70i0"/>
 </block>
-	
+
 <block name="HDPumpJackE">
 	<property name="UnlockedBy" value="HDPumpJackE Schematic"/>
-	<property name="Class" value="UpgradeRated"/>
+	<property name="Class" value="PlantGrowing"/>
 	<property name="CustomIcon" value="HD Pump Jack" />
-	<property name="DescriptionKey" value="HDPJEDesc"/>
-	<property name="Material" value="Mmetal"/>
-	<property name="MaxDamage" value="5000"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Empty.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MaxDamage" value="1000"/>
 	<property name="MultiBlockDim" value="1,3,3"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Empty.Prefab"/>
-	<property name="Collide" value="movement,rockets,sight,melee" />
-		<property class="RepairItems">
+	<property name="PlantGrowing.Next" value="HDPumpJackF"/>
+	<property name="PlantGrowing.GrowthRate" value="10"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+     <drop event="Harvest" name="resourceForgedIron" count="50" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceMetalPipe" count="10" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceMechanicalParts" count="10" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceElectricParts" count="10" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceSpring" count="20" tool_category="Disassemble"/>
+     <drop event="Destroy" count="0" />
+	<property class="RepairItems">
 		<property name="resourceForgedIron" value="10"/>
-		</property>
-	<property name="UpgradeRated.ToBlock" value="HDPumpJackF"/>
-	<property name="UpgradeRated.Rate" value="4"/>
-	<drop event="Destroy" count="0"/>
+	</property>
 </block>
 
 <block name="HDPumpJackF">
@@ -533,7 +542,7 @@
     <property name="Class" value="Loot" />
    	<property name="Material" value="Mmetal"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Full.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Full.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Collide" value="movement,rockets,sight,melee" />
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,3,3"/>
@@ -544,6 +553,7 @@
 </block>
 
 <block name="cntBirdnest">
+	<property name="CustomIcon" value="cntBirdnest" />
 	<property name="Class" value="Loot"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="StabilitySupport" value="false"/>
@@ -562,6 +572,7 @@
 </block>
 
 <block name="cntBirdnestEmpty">
+	<property name="CustomIcon" value="cntBirdnest" />
 	<property name="Class" value="PlantGrowing"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="StabilitySupport" value="false"/>
@@ -2135,7 +2146,7 @@
 </block>
 
 <block name="Wars Building Supply Crate">
-	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+	<property name="CustomIcon" value="Wars Building Supply" />
     <property name="Material" value="Mwood_weak" />
 	<property name="DisplayInfo" value="Name"/>
     <property name="Texture" value="419,419,572,572,572,572" />
@@ -2149,7 +2160,7 @@
 </block>
 
 <block name="Wars Health Supply Crate">
-	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+	<property name="CustomIcon" value="Wars Building Supply" />
     <property name="Material" value="Mwood_weak" />
 	<property name="DisplayInfo" value="Name"/>
     <property name="Texture" value="284,284,572,572,572,572" />
@@ -2164,7 +2175,7 @@
 </block>
 
 <block name="Wars Ammo Supply Crate">
-	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+	<property name="CustomIcon" value="Wars Building Supply" />
     <property name="Material" value="Mwood_weak" />
 	<property name="DisplayInfo" value="Name"/>
     <property name="Texture" value="418,418,572,572,572,572" />
@@ -2179,7 +2190,7 @@
 </block>
 
 <block name="Wars Food Supply Crate">
-	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+	<property name="CustomIcon" value="Wars Building Supply" />
     <property name="Material" value="Mwood_weak" />
 	<property name="DisplayInfo" value="Name"/>
     <property name="Texture" value="421,421,572,572,572,572" />
@@ -4879,6 +4890,7 @@
 </block>
 
 <block name="storeShelving01Full">
+	<property name="CustomIcon" value="storeShelving01"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="Material" value="Mmetal"/>
@@ -4898,6 +4910,7 @@
 </block>
 
 <block name="storeShelving01Empty">
+	<property name="CustomIcon" value="storeShelving01"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="Material" value="Mmetal"/>
@@ -4915,6 +4928,8 @@
 </block>
 
 <block name="storeShelving01DoubleFull">
+	<property name="CustomIcon" value="storeShelving01Double"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="527"/>
@@ -4922,11 +4937,15 @@
 </block>
 
 <block name="storeShelving01DoubleEmpty">
+	<property name="CustomIcon" value="storeShelving01Double"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
 	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleEmpty.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopFull">
+	<property name="CustomIcon" value="storeShelving01Top"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="528"/>
@@ -4934,11 +4953,15 @@
 </block>
 
 <block name="storeShelving01TopEmpty">
+	<property name="CustomIcon" value="storeShelving01Top"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
 	<property name="Model" value="#@modfolder:Resources/HDShelvesEmpty.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopDoubleFull">
+	<property name="CustomIcon" value="storeShelving01TopDouble"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="529"/>
@@ -4946,11 +4969,14 @@
 </block>
 
 <block name="storeShelving01TopDoubleEmpty">
+	<property name="CustomIcon" value="storeShelving01TopDouble"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
 	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleEmpty.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="cntCoffin">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="Loot"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="Mesh" value="models"/>

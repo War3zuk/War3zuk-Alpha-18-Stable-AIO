@@ -6,6 +6,25 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.05 to v3.06
+
+Converted All Models To Unity 2019.1
+2 Models Broke In This Process (Will Fix Next)
+
+Updated HD Auger Recipe
+Updated HD Chainsaw Recipe
+Updated HD Penthrox Injection Recipe
+Tweaked Main Shelf Loot
+
+Added HD PumpJack PBR Model (Paid) ASMR
+Adjusted HD PumpJack Mining Loot
+
+Fixed HD Xcalibur Position In Hand
+Added HD Ethans Bam Hammer PBR Model (Paid)
+
+Launcher Edits
+Removed 1 Broken Prefab (Causing An NRE)
+
 Updated v3.04 to v3.05
 
 Fixed BrainPox Description
