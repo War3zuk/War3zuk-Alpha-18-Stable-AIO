@@ -13,7 +13,12 @@ Broken HD M4A1 Animation
 Broken Tactical AR Animation
 
 Guns Will Get Some Love Next Update Now That
-The Unity Update Is Done..
+The Unity Update Is Done..GGrrr
+
+Fixed M4A1 Model
+Fixed M4A1 Animation
+Fixed HD Arctic Warfare Model
+Fixed HD Arctic Warfare Animation
 
 Updated v3.05 to v3.06
 
