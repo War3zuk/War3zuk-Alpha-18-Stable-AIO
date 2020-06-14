@@ -18,5 +18,22 @@
 		<passive_effect level="4" name="JunkTurretActiveCount" operation="base_set" value="0"/>
 		<passive_effect level="5" name="JunkTurretActiveCount" operation="base_set" value="1"/>
 	</insertAfter>
+	
+<!--  <append xpath="/progression/perks">
+	
+	<perk name="perkAdvanced HD Impact Wrench" parent="skillCraftsmanship" name_key="HD Impact Wrench" desc_key="Unlock The ultimate HD Impact Wrench" icon="ui_game_symbol_Wrench" icon_color="255,0,0">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="HD Impact Wrench"/>
+			</effect_group>
+			<effect_group>
+				<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: The ultimate HD Impact Wrench"/>
+			</effect_group>
+	</perk>
 		
+</append> -->
 </configs>

@@ -6,6 +6,11 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.08 to v3.09
+
+Resized Barrel On The HD PumpJack
+Changed The .OGG File HD Cement Mixer (Default Sound)
+
 Updated v3.07 to v3.08
 
 Fixed 20 Models Unity Decided To Break
