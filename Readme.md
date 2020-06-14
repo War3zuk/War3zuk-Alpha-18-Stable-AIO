@@ -10,6 +10,7 @@ Updated v3.08 to v3.09
 
 Resized Barrel On The HD PumpJack
 Changed The .OGG File HD Cement Mixer (Default Sound)
+Doubled Range Of HD Impact Wrench
 
 Updated v3.07 to v3.08
 

@@ -382,7 +382,7 @@
 		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
 		</property>
 		<effect_group name="meleeToolWrench">
-			<passive_effect name="MaxRange" operation="base_set" value="2"/>
+			<passive_effect name="MaxRange" operation="base_set" value="4"/>
 			<passive_effect name="BlockRange" operation="base_set" value="4"/>
 			<passive_effect name="EntityDamage" operation="base_set" value="0.5"/>
 			<passive_effect name="BlockDamage" operation="base_set" value="45"/>
