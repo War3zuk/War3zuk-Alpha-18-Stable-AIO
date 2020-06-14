@@ -20,6 +20,8 @@ Fixed M4A1 Animation
 Fixed HD Arctic Warfare Model
 Fixed HD Arctic Warfare Animation
 
+Fixed 20 Models Unity Decided To Break
+
 Updated v3.05 to v3.06
 
 Converted All Models To Unity 2019.1
