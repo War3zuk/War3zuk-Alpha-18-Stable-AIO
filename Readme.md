@@ -6,6 +6,11 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.07 to v3.08
+
+Fixed 20 Models Unity Decided To Break
+Fixed 5 Models Unity Decided To Break
+
 Updated v3.06 to v3.07
 
 Broken HD Arctic Warfare Animation
@@ -19,8 +24,6 @@ Fixed M4A1 Model
 Fixed M4A1 Animation
 Fixed HD Arctic Warfare Model
 Fixed HD Arctic Warfare Animation
-
-Fixed 20 Models Unity Decided To Break
 
 Updated v3.05 to v3.06
 
