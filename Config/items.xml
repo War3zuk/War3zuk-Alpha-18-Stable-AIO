@@ -4710,7 +4710,7 @@
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy"/>
 	<property name="EconomicValue" value="550"/>
-	<property name="UnlockedBy" value="perkSalvageOperations,HD Wrench Schematic"/>
+	<property name="UnlockedBy" value="HD Wrench Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
