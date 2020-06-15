@@ -9,8 +9,30 @@ How To Do A Fresh Install Of The Mod...
 Updated v3.08 to v3.09
 
 Resized Barrel On The HD PumpJack
-Changed The .OGG File HD Cement Mixer (Default Sound)
+Fixed The .OGG File HD Cement Mixer
 Doubled Range Of HD Impact Wrench
+
+Added The Follwoing Armor Plates
+HD Armor Reinforced Padding
+HD Armor Plastic Plating
+HD Armor Military Plating
+HD Armor Scrap Plating
+HD Armor Iron Plating
+HD Armor Steel Plating
+Can ONLY Be Looted
+
+Mr Spartans Sword Re-Textured 4k Albedo Map
+Mrs Spartans Sword Re-Textured 4k Albedo Map
+
+Fixed HD Floor Safe Model
+Fixed HD Fuel Storage Model
+
+VEHICLE UPGRADES AND ADDONS
+Added Aero Dynamics Upgrade 50% More Speed
+Added Fuel Saver Upgrade 50% Less Fuel Used
+Added Headlights Upgrade Very Bright lol
+Added Turbo Upgrade 50% More Speed (100%) Total
+Can ONLY Be Looted
 
 Updated v3.07 to v3.08
 

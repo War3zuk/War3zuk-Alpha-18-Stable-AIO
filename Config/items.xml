@@ -89,7 +89,6 @@
 	<set xpath="/items/item/effect_group/passive_effect[@value='.1,.5']/@value">.5</set>
 	
 <append xpath="/items">
-	
 <item name="Golden Coin">
 		<property name="DescriptionKey" value="GoldenCoinDesc"/>
 		<property name="CustomIcon" value="Spartan Coin" />
@@ -4143,7 +4142,7 @@
 <item name="HD Karabiner 98k">
 	<property name="DescriptionKey" value="HDKarabiner98kDesc"/>
 	<property name="CustomIcon" value="HD Karabiner 98k"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Karabiner 98k.unity3d?HD Karabiner 98k.Prefab"/> <!-- Purchased From SketchFab With Donation Money & Licensed To War3zuk -->
@@ -8573,7 +8572,7 @@
 	<property name="Unlocks" value="HDNuke"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDNuke" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
 	</effect_group>
 </item>
 

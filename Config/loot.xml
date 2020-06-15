@@ -26,6 +26,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='59']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='60']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='64']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='66']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='83']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='89']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='90']"></remove>
@@ -132,6 +133,12 @@
 		<item name="HD Military Helmet Schematic" count="1" prob=".75"/>
 		<item name="MREMilitaryRation" count="0,1" prob=".95"/>
 		<item name="Military Purify Tablets" count="2,4" prob=".95"/>
+		<item name="HDArmorReinforcedPadding" count="1" prob=".06"/>
+		<item name="HDArmorPlasticPlating" count="1" prob=".05"/>
+		<item name="HDArmorMilitaryPlating" count="1" prob=".04"/>
+		<item name="HDArmorScrapPlating" count="1" prob=".03"/>
+		<item name="HDArmorIronPlating" count="1" prob=".02"/>
+		<item name="HDArmorSteelPlating" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">
@@ -402,6 +409,17 @@
 <lootcontainer id="64" count="1,2" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
 	<item name="ammoGasCan" count="100,500" prob="1"/>
 	<item name="HD Flame Fuel" count="50,75" prob="1"/>
+</lootcontainer>
+</append>
+
+<append xpath="/lootcontainers">
+<!-- Dumpster loot -->
+<lootcontainer id="66" count="0,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+	<item name="AeroDynamicsUpgrade" prob=".02"/>
+	<item name="FuelSaverUpgrade" prob=".02"/>
+	<item name="HeadlightsUpgrade" prob=".02"/>
+	<item name="TurboUpgrade" prob=".02"/>
 </lootcontainer>
 </append>
 

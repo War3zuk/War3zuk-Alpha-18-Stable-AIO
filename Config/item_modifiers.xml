@@ -1,5 +1,146 @@
 <configs>
 	
+<!--#################################Armor Plating##########################################-->
+<!--########################################################################################-->
+	
+	<append xpath="/item_modifiers" >
+	
+	<item_modifier name="HDArmorReinforcedPadding" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorPlasticPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorMilitaryPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorScrapPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="4"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorIronPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="5"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorSteelPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="6"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="AeroDynamicsUpgrade" installable_tags="vehicle" modifier_tags="speed" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="AeroDynamicsUpgradeDesc"/>
+		<property name="CustomIcon" value="AeroDynamicsUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="2"/>
+			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="2"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="FuelSaverUpgrade" installable_tags="vehicle" modifier_tags="fuel" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="FuelSaverUpgradeDesc"/>
+		<property name="CustomIcon" value="FuelSaverUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleFuelUsePer" operation="perc_set" value=".5"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="HeadlightsUpgrade" installable_tags="vehicle" modifier_tags="light" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="HeadlightsUpgradeDesc"/>
+		<property name="CustomIcon" value="HeadlightsUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="LightIntensity" operation="perc_set" value="2.5"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="TurboUpgrade" installable_tags="vehicle" modifier_tags="test" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="TurboUpgradeDesc"/>
+		<property name="CustomIcon" value="TurboUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="3"/>
+			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="3"/>
+		</effect_group>
+	</item_modifier>
+	
+	</append>
+	
 <!--###############################SuppressorSilencer#######################################-->
 <!--#############Tags=Gun Unity tag Parent: CustomAttachments Child: CustomBarrel###########-->
 	
