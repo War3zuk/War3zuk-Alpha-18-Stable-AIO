@@ -45,37 +45,37 @@
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 
 <lootgroup name="War3zukHDWeaponParts">
-		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".25"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".25"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".10"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".10"/>
 		<item name="HD Nuke Schematic" count="1" prob=".10"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons">
-		<item name="HD Mods Schematic" count="1" prob=".50"/>
-		<item name="HD Desert Eagle Schematic" count="1" prob=".50"/>
-		<item name="HD Mac10 Auto Schematic" count="1" prob=".50"/>
-		<item name="HD M3 Auto Schematic" count="1" prob=".50"/>
-		<item name="HD AK Hybrid ACP Schematic" count="1" prob=".50"/>
-		<item name="HD HK33 Hybrid Schematic" count="1" prob=".50"/>		
-		<item name="HD M4A1 Carbine Schematic" count="1" prob=".50"/>
-		<item name="HD Tactical AR Schematic" count="1" prob=".50"/>
-		<item name="HD Spas 12 Schematic" count="1" prob=".50"/>
-		<item name="HD Mossberg 500 Schematic" count="1" prob=".50"/>
-		<item name="HD Double Barrel Schematic" count="1" prob=".50"/>
-		<item name="HD Winchester 1866 Schematic" count="1" prob=".50"/>
-		<item name="HD Karabiner 98k Schematic" count="1" prob=".50"/>
-		<item name="HD Dragunov SVD Schematic" count="1" prob=".50"/>
-		<item name="HD CheyTac M300 Schematic" count="1" prob=".50"/>
-		<item name="HD Arctic Warfare Schematic" count="1" prob=".50"/>
-		<item name="HD Flame Thrower Schematic" count="1" prob=".50"/>
-		<item name="HD Rocket Launcher Schematic" count="1" prob=".50"/>
+		<item name="HD Mods Schematic" count="1" prob=".20"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob=".20"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob=".20"/>
+		<item name="HD M3 Auto Schematic" count="1" prob=".20"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob=".20"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob=".20"/>		
+		<item name="HD M4A1 Carbine Schematic" count="1" prob=".20"/>
+		<item name="HD Tactical AR Schematic" count="1" prob=".20"/>
+		<item name="HD Spas 12 Schematic" count="1" prob=".20"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob=".20"/>
+		<item name="HD Double Barrel Schematic" count="1" prob=".20"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob=".20"/>
+		<item name="HD Karabiner 98k Schematic" count="1" prob=".20"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob=".20"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob=".20"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob=".20"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob=".20"/>
+		<item name="HD Rocket Launcher Schematic" count="1" prob=".20"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches">
@@ -86,51 +86,51 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons">
-		<item name="HD Tool And Die Set Schematic" count="1" prob=".45"/>
-		<item name="HD Carbon Sewing Kit Schematic" count="1" prob=".45"/>
-		<item name="HD Grinder Schematic" count="1" prob=".45"/>
-		<item name="HD Bullet Tumbler Schematic" count="1" prob=".45"/>
-		<item name="HD Bullet Press Schematic" count="1" prob=".45"/>
-		<item name="HD Welder Schematic" count="1" prob=".45"/>
-		<item name="HD Cnc HandGuns Schematic" count="1" prob=".45"/>
-		<item name="HD Cnc Automatics Schematic" count="1" prob=".45"/>
-		<item name="HD Cnc Rifles Schematic" count="1" prob=".45"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob=".35"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob=".35"/>
+		<item name="HD Grinder Schematic" count="1" prob=".35"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob=".35"/>
+		<item name="HD Bullet Press Schematic" count="1" prob=".35"/>
+		<item name="HD Welder Schematic" count="1" prob=".35"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob=".35"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob=".35"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob=".35"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools">
-		<item name="HD Forge Schematic" count="1" prob=".50"/>
-		<item name="HD Cement Mixer Schematic" count="1" prob=".50"/>
-		<item name="HD Generator Schematic" count="1" prob=".50"/>
-		<item name="HD Gas Generator Schematic" count="1" prob=".50"/>
-		<item name="HDPumpJackE Schematic" count="1" prob=".50"/>
-		<item name="HD Junk Turret Schematic" count="1" prob=".50"/>
-		<item name="HD Wrench Schematic" count="1" prob=".50"/>
-		<item name="HD Auger Schematic" count="1" prob=".50"/>
-		<item name="HD Chainsaw Schematic" count="1" prob=".50"/>
-		<item name="HD Impact Wrench Schematic" count="1" prob=".50"/>
+		<item name="HD Forge Schematic" count="1" prob=".30"/>
+		<item name="HD Cement Mixer Schematic" count="1" prob=".30"/>
+		<item name="HD Generator Schematic" count="1" prob=".30"/>
+		<item name="HD Gas Generator Schematic" count="1" prob=".30"/>
+		<item name="HDPumpJackE Schematic" count="1" prob=".30"/>
+		<item name="HD Junk Turret Schematic" count="1" prob=".30"/>
+		<item name="HD Wrench Schematic" count="1" prob=".30"/>
+		<item name="HD Auger Schematic" count="1" prob=".30"/>
+		<item name="HD Chainsaw Schematic" count="1" prob=".30"/>
+		<item name="HD Impact Wrench Schematic" count="1" prob=".30"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo">
-		<item name="Ammo Supply Shredder" count="1,2" prob=".90"/>
-		<item name="Ammo Supply 9mm" count="1,2" prob=".90"/>
-		<item name="Ammo Supply 44Mag" count="1,2" prob=".90"/>
-		<item name="Ammo Supply 45 ACP" count="1,2" prob=".90"/>
-		<item name="Ammo Supply DE50" count="1,2" prob=".90"/>
-		<item name="Ammo Supply 500 Auto Max" count="1,2" prob=".90"/>
-		<item name="Ammo Supply 762mm" count="1,2" prob=".85"/>
-		<item name="Ammo Supply Shotgun" count="1,2" prob=".85"/>
-		<item name="Ammo Supply ShotgunSlug" count="1,2" prob=".80"/>
-		<item name="Ammo Supply Breach Slug" count="1,2" prob=".80"/>
-		<item name="Ammo Supply 408 Round" count="1,2" prob=".80"/>
-		<item name="Ammo Supply 50 BMG Round" count="1,2" prob=".80"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob=".70"/>
+		<item name="Ammo Supply 9mm" count="1,2" prob=".60"/>
+		<item name="Ammo Supply 44Mag" count="1,2" prob=".60"/>
+		<item name="Ammo Supply 45 ACP" count="1,2" prob=".50"/>
+		<item name="Ammo Supply DE50" count="1,2" prob=".50"/>
+		<item name="Ammo Supply 500 Auto Max" count="1,2" prob=".40"/>
+		<item name="Ammo Supply 762mm" count="1,2" prob=".45"/>
+		<item name="Ammo Supply Shotgun" count="1,2" prob=".45"/>
+		<item name="Ammo Supply ShotgunSlug" count="1,2" prob=".30"/>
+		<item name="Ammo Supply Breach Slug" count="1,2" prob=".30"/>
+		<item name="Ammo Supply 408 Round" count="1,2" prob=".30"/>
+		<item name="Ammo Supply 50 BMG Round" count="1,2" prob=".20"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary">
-		<item name="HD Military Gloves Schematic" count="1" prob=".75"/>
-		<item name="HD Military Boots Schematic" count="1" prob=".75"/>
-		<item name="HD Military Legs Schematic" count="1" prob=".75"/>
-		<item name="HD Military Vest Schematic" count="1" prob=".75"/>
-		<item name="HD Military Helmet Schematic" count="1" prob=".75"/>
+		<item name="HD Military Gloves Schematic" count="1" prob=".30"/>
+		<item name="HD Military Boots Schematic" count="1" prob=".30"/>
+		<item name="HD Military Legs Schematic" count="1" prob=".30"/>
+		<item name="HD Military Vest Schematic" count="1" prob=".30"/>
+		<item name="HD Military Helmet Schematic" count="1" prob=".30"/>
 		<item name="MREMilitaryRation" count="0,1" prob=".95"/>
 		<item name="Military Purify Tablets" count="2,4" prob=".95"/>
 		<item name="HDArmorReinforcedPadding" count="1" prob=".06"/>
@@ -142,40 +142,40 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">
-		<item name="HD First Aid Kit Schematic" count="1" prob=".20"/>
+		<item name="HD First Aid Kit Schematic" count="1" prob=".10"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares">
-		<item name="Food Supply Flare" count="1" prob=".85"/>
-		<item name="Ammo Supply Flare" count="1" prob=".85"/>
-		<item name="Building Supply Flare" count="1" prob=".85"/>
-		<item name="Health Supply Flare" count="1" prob=".85"/>
+		<item name="Food Supply Flare" count="1" prob=".20"/>
+		<item name="Ammo Supply Flare" count="1" prob=".20"/>
+		<item name="Building Supply Flare" count="1" prob=".20"/>
+		<item name="Health Supply Flare" count="1" prob=".20"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages">
-		<item name="HD Food Care Package" count="1" prob=".85"/>
-		<item name="HD Ammo Care Package" count="1" prob=".85"/>
-		<item name="HD Resource Care Package" count="1" prob=".85"/>
-		<item name="HD Medicine Care Package" count="1" prob=".85"/>
+		<item name="HD Food Care Package" count="1" prob=".20"/>
+		<item name="HD Ammo Care Package" count="1" prob=".20"/>
+		<item name="HD Resource Care Package" count="1" prob=".20"/>
+		<item name="HD Medicine Care Package" count="1" prob=".20"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods">
-		<item name="Warm Chunky Honey" count="1" prob=".30"/>
-		<item name="Warm Chunky Beef" count="1" prob=".30"/>
-		<item name="Warm Chunky Chicken" count="1" prob=".30"/>
-		<item name="Warm Chunky Lamb" count="1" prob=".30"/>
-		<item name="Warm Chunky Surprise" count="1" prob=".30"/>
-		<item name="Warm Chunky Chili" count="1" prob=".30"/>
-		<item name="Warm Chunky Pasta" count="1" prob=".30"/>
-		<item name="Warm Chunky Salmon" count="1" prob=".30"/>
-		<item name="Warm Chunky Sirloin" count="1" prob=".30"/>
-		<item name="Warm Chunky Vegetable Stew" count="1" prob=".30"/>
-		<item name="Warm Chunky Meat Stew" count="1" prob=".30"/>
-		<item name="Warm Chunky Sham Chowder" count="1" prob=".30"/>
-		<item name="Warm Chunky Hobo Stew" count="1" prob=".30"/>
-		<item name="Warm Chunky Steak And Potato" count="1" prob=".30"/>
-		<item name="Warm Chunky ChiliDog" count="1" prob=".30"/>
-		<item name="Warm Chunky Fish Taco" count="1" prob=".30"/>
+		<item name="Warm Chunky Honey" count="1" prob=".10"/>
+		<item name="Warm Chunky Beef" count="1" prob=".10"/>
+		<item name="Warm Chunky Chicken" count="1" prob=".10"/>
+		<item name="Warm Chunky Lamb" count="1" prob=".10"/>
+		<item name="Warm Chunky Surprise" count="1" prob=".10"/>
+		<item name="Warm Chunky Chili" count="1" prob=".10"/>
+		<item name="Warm Chunky Pasta" count="1" prob=".10"/>
+		<item name="Warm Chunky Salmon" count="1" prob=".10"/>
+		<item name="Warm Chunky Sirloin" count="1" prob=".10"/>
+		<item name="Warm Chunky Vegetable Stew" count="1" prob=".10"/>
+		<item name="Warm Chunky Meat Stew" count="1" prob=".10"/>
+		<item name="Warm Chunky Sham Chowder" count="1" prob=".10"/>
+		<item name="Warm Chunky Hobo Stew" count="1" prob=".10"/>
+		<item name="Warm Chunky Steak And Potato" count="1" prob=".10"/>
+		<item name="Warm Chunky ChiliDog" count="1" prob=".10"/>
+		<item name="Warm Chunky Fish Taco" count="1" prob=".10"/>
 </lootgroup>
 	
 </insertAfter>	
@@ -213,8 +213,8 @@
 <append xpath="/lootcontainers">
 <!-- medicine cabinets -->
 <lootcontainer id="7" count="2,3" size="6,4" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="qualBaseTemplate">
-	<item group="War3zukHDCarePackages"/>
-	<item group="War3zukHDMedical"/>
+	<item group="War3zukHDCarePackages" prob="0.3"/>
+	<item group="War3zukHDMedical" prob="0.3"/>
 	<item group="medicine"/>
 </lootcontainer>
 </append>
@@ -222,10 +222,10 @@
 <append xpath="/lootcontainers">
 <!-- wallSafe / deskSafe -->
 <lootcontainer id="11" count="2,4" size="6,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
-	<item group="War3zukHDMilitary"/>
-	<item group="War3zukHDAmmo"/>
-	<item group="War3zukHDWeapons"/>
-	<item group="War3zukHDWeaponParts"/>
+	<item group="War3zukHDMilitary" prob="0.3"/>
+	<item group="War3zukHDAmmo" prob="0.3"/>
+	<item group="War3zukHDWeapons" prob="0.3"/>
+	<item group="War3zukHDWeaponParts" prob="0.3"/>
 	<item group="groupSafeLoot"/>
 </lootcontainer>
 </append>
@@ -237,15 +237,15 @@
 	<item group="groupAmmoRegular"/>
 	<item group="books" prob="0.1"/>
 	<item group="dyes" prob="0.1"/>
-	<item group="War3zukHDFlares"/>
-	<item group="War3zukHDAmmo"/>
+	<item group="War3zukHDFlares" prob="0.3"/>
+	<item group="War3zukHDAmmo" prob="0.3"/>
 </lootcontainer>
 </append>
 
 <append xpath="/lootcontainers">
 <!-- microwave oven loot -->
 <lootcontainer id="21" count="2,3" size="6,4" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
-	<item group="War3zukHDFoods"/>
+	<item group="War3zukHDFoods" prob="0.3"/>
 	<item group="rottenFood"/>
 </lootcontainer>
 </append>
@@ -276,10 +276,10 @@
 <append xpath="/lootcontainers">
 <!-- military munitions ammo box -->
 <lootcontainer id="40" count="2,3" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="8" loot_quality_template="qualBaseTemplate">
-	<item group="groupAmmoRegular" prob="0.3"/>
-	<item group="groupWeaponsScaled" prob="0.3"/>
-	<item group="groupModAllScaled" prob="0.3"/>
-	<item group="groupArmorT3_Light" prob="0.3"/>
+	<item group="groupAmmoRegular"/>
+	<item group="groupWeaponsScaled"/>
+	<item group="groupModAllScaled"/>
+	<item group="groupArmorT3_Light"/>
 	<item group="War3zukHDFlares" prob="0.1"/>
 	<item group="War3zukHDMilitary" prob="0.1"/>
 	<item group="War3zukHDAmmo" prob="0.1"/>
@@ -290,7 +290,7 @@
 
 <append xpath="/lootcontainers">
 <lootcontainer id="42" count="2,6" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
-	<item group="groupSafeLoot" prob="0.3"/>
+	<item group="groupSafeLoot"/>
 	<item group="War3zukHDFlares" prob="0.1"/>
 	<item group="War3zukHDMilitary" prob="0.1"/>
 	<item group="War3zukHDAmmo" prob="0.1"/>
@@ -302,18 +302,18 @@
 <append xpath="/lootcontainers">
 <!-- lockers -->
 <lootcontainer id="43" count="2,4" size="6,2" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="qualBaseTemplate">
-	<item group="groupApparelClothes" prob="1"/>
-	<item group="groupApparelHats" prob="1"/>
-	<item group="groupArmorScaled" prob="1"/>
-	<item group="groupAmmoRegular" prob="1"/>
-	<item group="books" count="1,2"/>
+	<item group="groupApparelClothes"/>
+	<item group="groupApparelHats"/>
+	<item group="groupArmorScaled"/>
+	<item group="groupAmmoRegular"/>
+	<item group="books"/>
 	<item name="resourcePaper" count="5,10" prob="0.7"/>
 	<item name="oldCash" count="20,40" prob="0.3"/>
-	<item group="medicine" prob="0.05"/>
+	<item group="medicine"/>
 	<item group="trophyGroup"/>
 	<item name="resourceGunPowder" count="10,50"/>
-	<item group="War3zukHDCarePackages" count="1" prob="0.1"/>
-	<item group="War3zukHDMilitary" count="1" prob="0.1"/>
+	<item group="War3zukHDCarePackages" count="1" prob="0.3"/>
+	<item group="War3zukHDMilitary" count="1" prob="0.3"/>
 </lootcontainer>
 </append>
 
@@ -338,21 +338,21 @@
 	<item group="War3zukHDBenches" prob="0.1"/>
 	<item group="War3zukHDWeapons" prob="0.1"/>
 	<item group="War3zukHDWeaponParts" prob="0.1"/>
-	<item group="books" prob="0.5"/>
+	<item group="books"/>
 </lootcontainer>
 </append>
 
 <append xpath="/lootcontainers">
 <!-- shotgun Messiah -->
 <lootcontainer id="50" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
-	<item group="groupAmmoRegular" prob="0.2"/>
-	<item group="groupWeaponsScaled" prob="0.2"/>
-	<item group="groupModAllScaled" prob="0.2"/>
-	<item group="weaponParts" count="1,5" prob="0.2"/>
-	<item group="groupArmorScaled" prob="0.2"/>
-	<item name="resourceRepairKit" count="2,4" prob="0.3"/>
-	<item group="War3zukHDWeapons" prob="0.1"/>
-	<item group="War3zukHDWeaponParts" prob="0.1"/>
+	<item group="groupAmmoRegular"/>
+	<item group="groupWeaponsScaled"/>
+	<item group="groupModAllScaled"/>
+	<item group="weaponParts" count="1,5"/>
+	<item group="groupArmorScaled"/>
+	<item name="resourceRepairKit" count="2,4"/>
+	<item group="War3zukHDWeapons" prob="0.3"/>
+	<item group="War3zukHDWeaponParts" prob="0.3"/>
 </lootcontainer>
 </append>
 
@@ -592,29 +592,29 @@
 	
 <!-- Animal Bear -->
 <lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob=".20"/>
-<item name="bookHuntingJournalBears" count="1" prob=".20"/>
-<item name="bookUrbanCombatAdrenalineRush" count="1" prob=".20"/>
-<item name="bookWasteTreasuresHoney" count="1" prob=".20"/>
-<item name="gunPumpShotgun" count="1" prob=".20"/>
+<item name="medicalFirstAidKit" count="0,1" prob=".05"/>
+<item name="bookHuntingJournalBears" count="1" prob=".05"/>
+<item name="bookUrbanCombatAdrenalineRush" count="1" prob=".05"/>
+<item name="bookWasteTreasuresHoney" count="1" prob=".05"/>
+<item name="gunPumpShotgun" count="1" prob=".05"/>
 <item name="ammoShotgunShell" count="10,30" prob="0.1"/>
-<item name="meleeToolChainsaw" count="1" prob=".20"/>
+<item name="meleeToolChainsaw" count="1" prob=".05"/>
 <item name="foodRawMeat" count="2,4" prob="1"/>
 <item name="resourceAnimalFat" count="2,4" prob="1"/>
 </lootcontainer>
 
 <!-- Animal ZombieBear -->
 <lootcontainer id="501" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="medicalFirstAidKit" count="0,1" prob=".20"/>
-<item name="bookHuntingJournalBears" count="1" prob=".20"/>
-<item name="bookUrbanCombatControlledBreathing" count="1" prob=".20"/>
-<item name="bookWasteTreasuresDoors" count="1" prob=".20"/>
-<item name="gunDoubleBarrelShotgun" count="1" prob=".20"/>
-<item name="ammoShotgunSlug" count="10,30" prob=".20"/>
-<item name="meleeToolAuger" count="1" prob=".20"/>
+<item name="medicalFirstAidKit" count="0,1" prob=".05"/>
+<item name="bookHuntingJournalBears" count="1" prob=".05"/>
+<item name="bookUrbanCombatControlledBreathing" count="1" prob=".05"/>
+<item name="bookWasteTreasuresDoors" count="1" prob=".05"/>
+<item name="gunDoubleBarrelShotgun" count="1" prob=".05"/>
+<item name="ammoShotgunSlug" count="10,30" prob=".05"/>
+<item name="meleeToolAuger" count="1" prob=".05"/>
 <item name="foodRawMeat" count="2,4" prob="1"/>
 <item name="resourceAnimalFat" count="2,4" prob="1"/>
-<item name="HD Double Barrel" count="1" value="1" prob=".20"/>
+<item name="HD Double Barrel" count="1" value="1" prob=".05"/>
 </lootcontainer>
 
 <!-- Animal Wolf -->
