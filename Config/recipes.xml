@@ -25,6 +25,11 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="OrigamiGurus Pain Meds" count="1" craft_time="30">
+	<ingredient name="drugPainkillers" count="5"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+	
 <recipe name="vehicleBicycleChassis" count="1" craft_time="30" craft_area="workbench" tags="perkGreaseMonkey,learnable">
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceMechanicalParts" count="2"/>

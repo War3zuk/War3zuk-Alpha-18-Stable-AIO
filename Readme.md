@@ -6,6 +6,10 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+Updated v3.09 to v3.10
+
+Added OrigamiGurus Pain Meds
+
 Updated v3.08 to v3.09
 
 Resized Barrel On The HD PumpJack

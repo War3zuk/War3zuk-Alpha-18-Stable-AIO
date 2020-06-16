@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+OrigamiGurusDesc,items,weapons,New,The OrigamiGurus Pain Meds. When You Cant Fight This Feeling Any Longer And you need to keep Zombie Slayin,
+
 AeroDynamicsUpgrade,items,Item,KgNone,Aero Dynamics Upgrade,
 FuelSaverUpgrade,items,Item,KgNone,Fuel Saver Upgrade,
 HeadlightsUpgrade,items,Item,KgNone,Headlights Upgrade,
