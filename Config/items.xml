@@ -2032,7 +2032,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0,-.001,0"/>
+		<property name="ScopeCameraOffset" value="0,0.018,0"/>
 	</property>
 	<effect_group name="gunPistol">
 		<passive_effect name="MaxRange" operation="base_set" value="65"/>
@@ -2248,9 +2248,99 @@
 	</effect_group>
 </item>
 
+<item name="HD Desert Eagle">
+	<property name="DescriptionKey" value="HDDEDesc"/>
+	<property name="Tags" value="HDDESilencer,HDDEReflex,HDDEScope,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="1"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HD Desert Eagle.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="CustomIcon" value="Desert Eagle 50"/>
+	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
+	<property name="RepairTools" value="RepairKitHandGuns"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="revolver_sight_in"/>
+	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value=".45"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="UnlockedBy" value="HD Desert Eagle Schematic"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".34"/>
+		<property name="Magazine_items" value="DeagleRound,50MagBulletINC,50MagBulletSH"/>
+		<property name="Reload_time" value="4"/>
+		<property name="Sound_start" value="DEFire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="44magnum_reload"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>
+		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
+		<property name="ScopeOffset" value="-.00062,.1408,.02"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="-.0005,-.000,-.0010"/>
+	</property>
+	<effect_group name="gun44Magnum">
+		<passive_effect name="MaxRange" operation="base_set" value="55"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="125"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".35"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".5"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.0"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.0"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.1"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="400,700" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkGunslinger"/>
+
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
+		
+	</effect_group>
+</item>
+
 <item name="HD Desert Eagle Punisher">
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="DesertEagle,HDDEAA,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="HDDEPunisherSilencer,HDDEPUNReflex,HDDEPunScope,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HD Desert Eagle Punisher.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2332,96 +2422,6 @@
 		<passive_effect name="DegradationMax" operation="base_set" value="400,700" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkGunslinger"/>
 		
-
-        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
-        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
-		
-	</effect_group>
-</item>
-
-<item name="HD Desert Eagle">
-	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="DesertEagle,HDDEA,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
-	<property name="DisplayType" value="rangedGun"/>
-	<property name="HoldType" value="1"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HD Desert Eagle.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="CustomIcon" value="Desert Eagle 50"/>
-	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
-	<property name="RepairTools" value="RepairKitHandGuns"/>
-	<property name="DegradationBreaksAfter" value="false"/>
-	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/>
-	<property name="CrosshairUpAfterShot" value="true"/>
-	<property name="Sound_Sight_In" value="revolver_sight_in"/>
-	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
-	<property name="LightSource" value="lightSource"/>
-	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
-	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
-	<property name="Group" value="Ammo/Weapons"/>
-	<property name="RepairExpMultiplier" value="10.8"/>
-	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="1000"/>
-	<property name="ShowQuality" value="true"/>
-	<property name="UnlockedBy" value="HD Desert Eagle Schematic"/>
-	<property class="Action0">
-		<property name="Class" value="Ranged"/>
-		<property name="Delay" value=".34"/>
-		<property name="Magazine_items" value="DeagleRound,50MagBulletINC,50MagBulletSH"/>
-		<property name="Reload_time" value="4"/>
-		<property name="Sound_start" value="DEFire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
-		<property name="Sound_reload" value="44magnum_reload"/>
-		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
-		<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>
-		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
-		<property name="ScopeOffset" value="-.00062,.1408,.02"/>
-		<property name="SideOffset" value="0,0,0"/>
-		<property name="BarrelOffset" value="0,0,0"/>
-		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
-	</property>
-	<property class="Action1">
-		<property name="Class" value="Zoom"/>
-		<property name="Zoom_max_out" value="55"/>
-		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0005,-.000,-.0010"/>
-	</property>
-	<effect_group name="gun44Magnum">
-		<passive_effect name="MaxRange" operation="base_set" value="55"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="125"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
-		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".35"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".5"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.0"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.0"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.1"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value=".6"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="400,700" tier="1,6" tags="perkGunslinger"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkGunslinger"/>
 
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -8264,7 +8264,8 @@
 	<property name="Unlocks" value="HDColtM1911Silencer"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDColtM1911Silencer" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDesertEagleSilencer" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDEPunisherSilencer" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDESilencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMac10AutoSilencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMossberg500Silencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDArcticWarfareSilencer" operation="set" value="1"/>
@@ -8278,6 +8279,8 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGlockAutoSilencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGlockAutoReflex" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDSpas12Reflex" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDEScope" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDEPunScope" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
 	</effect_group>
 </item>

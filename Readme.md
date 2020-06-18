@@ -9,6 +9,13 @@ How To Do A Fresh Install Of The Mod...
 Updated v3.09 to v3.10
 
 Added OrigamiGurus Pain Meds
+Rebuilt HD Colt M1911 PBR Model (Paid)
+Rebuilt HD Colt M1911A PBR Model (Paid)
+Rebuilt HD GlockG5 18 Auto PBR Model (Paid)
+Rebuilt HD Desert Eagle PBR Model (Paid)
+Rebuilt HD Desert Eagle Punisher PBR Model (Paid)
+Added Desert Eagle Scope PBR Model (Paid)
+Added Desert Eagle Punisher Scope PBR Model (Paid)
 
 Updated v3.08 to v3.09
 

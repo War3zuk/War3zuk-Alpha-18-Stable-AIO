@@ -12,7 +12,7 @@ expression permission of myself, War3zuk. You MUST seek permission from myself b
 shared other than on your PC or on a Dedicated server for private use.
 
 4) Users are NOT allowed to take the code from this mod to add to another mod in any way without first asking Me, War3zuk For explicit permission. This applies 
-too taking (parts of) the code, XML or assets as well as altered versions of these. War3zuk is intended to be use as is and not to be broken down or redistributed
+too taking (parts of) the code, XML or assets as well as altered versions of these. War3zuk is intended to be used as is and not to be broken down or redistributed
 in an altered form unless you have explplicit permission. This includes adding any part of War3zuk into any kind of overhaul mod or mod collection pack.
 
 All Rights Reserved, 2018,2019,2020..
