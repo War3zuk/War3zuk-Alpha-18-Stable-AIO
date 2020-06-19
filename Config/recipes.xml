@@ -1063,11 +1063,11 @@
 	<ingredient name="meleeStunBaton" count="1"/>
 </recipe>
 
-<recipe name="Ethans Bam Hammer" count="1" craft_time = "30" tags="perkMiner69r">
-	<ingredient name="resourceForgedIron" count="40"/>
-	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="resourceScrapPolymers" count="5"/>
-	<ingredient name="resourceWood" count="10"/>
+<recipe name="Ethans Bam Hammer" count="1" craft_time = "30" tags="perkSkullCrusher">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceWood" count="20"/>
 </recipe>
 
 <recipe name="HD BrainPox Test Kit" count="1" craft_time = "60">
