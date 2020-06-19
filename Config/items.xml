@@ -5264,7 +5264,7 @@
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,perkElectrocutioner,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="33"/>
-	<property name="Meshfile" value="#@modfolder:Resources/Ethans Bam Hammer.unity3d?Ethans Bam Hammer.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Ethans Bam Hammer.unity3d?Ethans Bam Hammer.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="CustomIcon" value="Ethans Bam Hammer"/>
 	<property name="Material" value="MmeleeToolSledgehammerSteel"/> <property name="Weight" value="10"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
