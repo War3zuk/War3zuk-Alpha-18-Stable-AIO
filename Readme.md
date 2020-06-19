@@ -16,6 +16,8 @@ Rebuilt HD Desert Eagle PBR Model (Paid)
 Rebuilt HD Desert Eagle Punisher PBR Model (Paid)
 Added Desert Eagle Scope PBR Model (Paid)
 Added Desert Eagle Punisher Scope PBR Model (Paid)
+Updated Ethans Bam Hammer (Position,Scale & Reflections)
+Fixed HospitalBed Colider
 
 Updated v3.08 to v3.09
 
