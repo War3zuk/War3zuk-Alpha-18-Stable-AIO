@@ -6,6 +6,13 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
+***Updated v3.10 to v3.11***
+Final Version For Alpha 18.4
+All 9 BodyBags Updated And Resized
+
+Updated BedRoll Size
+Fixed 4 Models Colider
+
 Updated v3.09 to v3.10
 
 Added OrigamiGurus Pain Meds
