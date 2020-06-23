@@ -1180,7 +1180,7 @@
 		<passive_effect name="StaminaMax" operation="base_set" value="100"/>
 	</effect_group>		
 </entity_class>
-</insertAfter> 
+</insertAfter>
 
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieTemplateMale']" >
 <entity_class name="zombieWightFeral" extends="zombieTemplateMale">
