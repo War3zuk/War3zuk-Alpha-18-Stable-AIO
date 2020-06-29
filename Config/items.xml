@@ -8944,15 +8944,16 @@
 </item>
 
 <item name="Starter Class">
+	<property name="DescriptionKey"   value="StarterClassDesc"/>
 	<property name="CreativeMode"     value="None"/>
-	<property name="DisplayInfo" value="Name" />
+	<property name="DisplayInfo" 	  value="Name" />
 	<property name="HoldType"         value="21"/>
-	<property name="Meshfile"         value="Items/Misc/bookPrefab"/>
-	<property name="DropMeshfile"     value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Meshfile" 		  value="#@modfolder:Resources/HD Clip Board.unity3d?HD Clip Board.Prefab"/>
+	<property name="DropMeshfile" 	  value="#@modfolder:Resources/HD Clip Board.unity3d?HD Clip Board.Prefab"/>
 	<property name="Material"         value="Mpaper"/>
 	<property name="CustomIcon"       value="Starter Class"/>
 	<property name="Stacknumber"      value="1"/> 
-	<property name="EconomicValue"    value="600"/>
+	<property name="EconomicValue"    value="60"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="Group"            value="Special Items"/>
 </item>
