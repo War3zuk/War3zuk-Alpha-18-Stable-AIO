@@ -10,12 +10,6 @@
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 
-<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowOutput']/@name">WARwindowOutput1</set>
-<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']/window[@name='windowOutput']/@name">WARwindowOutput</set>
-<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowOutput']/@name">WARwindowOutput</set>
-<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowOutput']/@name">WARwindowOutput1</set>
-<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowOutput']/@name">WARwindowOutput1</set>
-
 <append xpath="/xui/ruleset[@name='default']" >
 
 <window_group name="workstation_HD Forge" controller="XUiC_WorkstationWindowGroup">
@@ -25,7 +19,7 @@
 	<window name="windowToolsForge"/>
 	<window name="windowFuel"/>
 	<window name="WARwindowForgeInput"/>
-	<window name="WARwindowOutput1"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 </window_group>
 
@@ -34,7 +28,7 @@
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
 	<window name="windowToolsCampfire"/>
-	<window name="WARwindowOutput1"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 </window_group>
 
@@ -43,7 +37,7 @@
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
 	<window name="windowToolsCampfire"/>
-	<window name="WARwindowOutput1"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 </window_group>
 
@@ -51,7 +45,7 @@
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 	<window name="windowToolsHD GunBench"/>
 </window_group>
@@ -60,7 +54,7 @@
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 	<window name="windowToolsHD WorkBench"/>
 </window_group>
@@ -69,7 +63,7 @@
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 </window_group>
 	
@@ -77,7 +71,7 @@
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 	<window name="windowToolsHD AmmoBench"/>
 </window_group>
@@ -86,7 +80,7 @@
 	<window name="windowCraftingList"/>
 	<window name="craftingInfoPanel"/>
 	<window name="WARwindowCraftingQueue"/>
-	<window name="WARwindowOutput"/>
+	<window name="windowOutput"/>
 	<window name="windowNonPagingHeader"/>
 	<window name="windowToolsHDCementMixer"/>
 </window_group>

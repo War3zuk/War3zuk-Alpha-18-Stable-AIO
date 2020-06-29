@@ -13,6 +13,7 @@ All 9 BodyBags Updated And Resized
 Updated BedRoll Size
 Fixed 4 Models Colider
 Added CntCoffin PBR Model (Paid)
+Fixed HardCoded Duping Bug (Thanks For Pointing It Out (P0yzin)
 
 Updated v3.09 to v3.10
 
