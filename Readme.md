@@ -6,7 +6,7 @@ How To Do A Fresh Install Of The Mod...
 3) Delete the war3zuk folder
 & then click Presync Mod
 
-***Updated v3.10 to v3.11***
+**Updated v3.10 to v3.11**
 Final Version For Alpha 18.4
 All 9 BodyBags Updated And Resized
 
@@ -14,6 +14,8 @@ Updated BedRoll Size
 Fixed 4 Models Colider
 Added CntCoffin PBR Model (Paid)
 Fixed HardCoded Duping Bug (Thanks For Pointing It Out (P0yzin)
+Added Starter Class ClipBoard Model For Viewing
+Updated 10 More Models To Unity 2019.1 All Done Now
 
 Updated v3.09 to v3.10
 
